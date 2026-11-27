@@ -1,0 +1,446 @@
+                                                         International Journal of Mineral Processing 102–103 (2012) 13–18
+
+
+
+                                                            Contents lists available at SciVerse ScienceDirect
+
+
+                                           International Journal of Mineral Processing
+                                                 journal homepage: www.elsevier.com/locate/ijminpro
+
+
+
+
+Dissolution of copper and iron from sulﬁde concentrates in cupric chloride solution
+Mari Lundström a,⁎, Jussi Liipo b, Jari Aromaa c
+a
+  Outotec, P.O. Box 86, 02201 Espoo, Finland
+b
+  Outotec, P.O. Box 69, 28101 Pori, Finland
+c
+  Aalto University, Department of Materials Science and Engineering, P.O. Box 16200, 00076 Aalto, Helsinki, Finland
+
+
+
+
+a r t i c l e         i n f o                             a b s t r a c t
+
+Article history:                                          In this study the leaching behavior of copper and iron in cupric chloride solution was studied. These metals
+Received 27 April 2011                                    were present in minerals of sulﬁde concentrates, such as chalcopyrite, bornite, covellite, pyrite, hematite and
+Received in revised form 28 October 2011                  magnetite. Chemical and mineralogical composition of the concentrates was determined. Sulﬁde concen-
+Accepted 1 November 2011
+                                                          trates were leached for 2 h under non-oxidative conditions, similar to those used in the ﬁrst leaching stage
+Available online 7 November 2011
+                                                          of HydroCopper® process. It was shown that copper in bornite was the most active to dissolve in the studied
+Keywords:
+                                                          environment. Over 85% of copper in chalcopyrite could be leached when present with other secondary
+Cu leaching                                               copper sulﬁdes. When copper was carried by chalcopyrite–pyrite type concentrate, 64% of copper could be
+Sulﬁde concentrates                                       leached. Iron in the solution originated from secondary copper minerals, since pyrite, hematite and magnetite
+Cupric chloride solution                                  were shown not to dissolve in the studied environment.
+HydroCopper®                                                                                                                   © 2011 Elsevier B.V. All rights reserved.
+
+
+
+Contents
+
+    1.   Introduction . . . . . . . . . . . . . . . .           .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .    .   .   .   .   .       .   .   .   .   .   .   .   13
+    2.   Material and methods . . . . . . . . . . .             .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .    .   .   .   .   .       .   .   .   .   .   .   .   14
+         2.1.   Mineral characterization . . . . . . .          .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .    .   .   .   .   .       .   .   .   .   .   .   .   14
+         2.2.   Leaching test setup . . . . . . . . .           .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .    .   .   .   .   .       .   .   .   .   .   .   .   14
+    3.   Results . . . . . . . . . . . . . . . . . .            .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .    .   .   .   .   .       .   .   .   .   .   .   .   14
+         3.1.   Mineralogy of concentrates. . . . . .           .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .    .   .   .   .   .       .   .   .   .   .   .   .   14
+         3.2.   Leaching results . . . . . . . . . . .          .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .    .   .   .   .   .       .   .   .   .   .   .   .   15
+    4.   Discussion . . . . . . . . . . . . . . . . .           .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .    .   .   .   .   .       .   .   .   .   .   .   .   16
+         4.1.   Dissolution of Cu . . . . . . . . . .           .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .    .   .   .   .   .       .   .   .   .   .   .   .   16
+         4.2.   Dissolution of Fe. . . . . . . . . . .          .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .    .   .   .   .   .       .   .   .   .   .   .   .   17
+         4.3.   Dissolution rates of the concentrates .         .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .    .   .   .   .   .       .   .   .   .   .   .   .   17
+    5.   Conclusions . . . . . . . . . . . . . . . .            .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .    .   .   .   .   .       .   .   .   .   .   .   .   18
+    References . . . . . . . . . . . . . . . . . . .            .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .    .   .   .   .   .       .   .   .   .   .   .   .   18
+
+
+
+
+1. Introduction                                                                                                     1978; Burkin, 2001; Havlik, 2008). HydroCopper® technology is an ef-
+                                                                                                                    ﬁcient process, based on leaching of sulﬁde minerals in cupric chloride
+   There is a great environmental incentive to develop alternative,                                                 solution. The countercurrent leaching process is operated in several
+economically beneﬁcial processes to produce valuable metals such                                                    stages, at atmospheric pressure in stirred tank reactors, near the boil-
+as copper, zinc, cobalt, nickel, gold, silver, cadmium, indium etc.                                                 ing point of water and the pH is kept between 1.5 and 2.5. In the pro-
+from refractory high- and low-grade ores. Hydrometallurgical process                                                cess, too high a pH causes atacamite precipitation whereas too low a
+routes may offer the possibility to economically utilize small ore                                                  pH favors the formation of unwanted jarosite.
+bodies and concentrates with low metal contents. Leaching of copper                                                     Generally, several sulﬁde minerals readily dissolve into concen-
+sulﬁdes in chloride media is of increasing interest because of higher                                               trated cupric chloride solutions near the boiling point of the solution,
+reaction rates for copper dissolution and iron precipitation (Habashi,                                              (Lundström et al., 2007). Chalcopyrite can be oxidized in a chloride
+                                                                                                                    solution with the help of Cu 2 + ions according to Reaction (1)
+                                                                                                                    (Havlik, 2008):
+    ⁎ Corresponding author. Tel.: + 358 404873434.                                                                                                  2þ                          þ                       2þ                       0
+      E-mail address: Mari.Lundstrom@outotec.com (M. Lundström).                                                    CuFeS2 ðsÞ þ 3Cu                     ðaqÞ → 4Cu ðaqÞ þ Fe                                ðaqÞ þ 2S ðsÞ:                                      ð1Þ
+
+0301-7516/$ – see front matter © 2011 Elsevier B.V. All rights reserved.
+doi:10.1016/j.minpro.2011.11.005
+14                                              M. Lundström et al. / International Journal of Mineral Processing 102–103 (2012) 13–18
+
+
+    The other base metal sulﬁdes present in the concentrate (Zn, Pb,                         being leached in four different media: water, sulfuric acid, bromine–
+Ni, Ag) are dissolved into the solution e.g. by Reaction (2):                                methanol and nitric acid leaching. By using this method, the copper
+                                                                                             sulfates, copper oxides and silicates, secondary copper sulﬁdes, like
+                  2þ           2þ                þ          0
+ZnSðsÞ þ 2Cu           ðaqÞ → Zn    ðaqÞ þ 2Cu ðaqÞ þ S ðsÞ:                        ð2Þ      covellite and bornite and primary chalcopyrite can be chemically
+                                                                                             distinguished. The error of this method is in the range of error in
+    Cupric ions can also oxidize ferrous ions forming cuprous and                            chemical analysis methods. The mineral composition of concentrate
+ferric ions (3). Ferric ions again can precipitate as FeOOH (4), which                       was calculated based on chemical composition of main minerals and
+is advantageous for the process.                                                             concentrate assay by using HSC Geo-software.
+
+     2þ           2þ               3þ           þ
+Fe        ðaqÞ þ Cu    ðaqÞ → Fe        ðaqÞ þ Cu ðaqÞ                              ð3Þ
+                                                                                             2.2. Leaching test setup
+     3þ                                          þ
+Fe        ðaqÞ þ 2H2 OðlÞ → FeOOHðsÞ þ 3H ðaqÞ                                      ð4Þ
+                                                                                                 The concentrate samples were dried in an oven at 110 °C for 2 h
+                                                                                             prior to leaching. 2.1 g of concentrate (100%–105 μm) was leached
+    In the ﬁrst leaching stage of HydroCopper® the minerals are                              into 150 ml of leaching solution. The solution had [NaCl] = 280 g/L
+dissolved using cupric ion as oxidant. There is no gas feed in the                           (4.8 M), [Cu 2 +] = 19.5 g/L, T = 95 °C and pH was adjusted to 2 in
+ﬁrst stage. In the ﬁrst stage the purpose is also to reduce cupric ion                       the beginning of the experiment. In the HydroCopper® process, pH
+concentration in the solution for the recovery stages. The leaching of                       above 3 causes atacamite precipitation whereas pH below 1.5 favors
+minerals is completed in the second leaching stage using higher redox                        the formation of unwanted jarosite. At pH 1.5–2.5 the dissolved iron
+potential produced by oxygen purging. In the ﬁnal leaching stage                             precipitates as goethite or hematite. In the leaching environment
+oxygen purging increases the redox potential even more enabling for                          used there is no gas purging, the environment being close to that in
+example gold leaching as chloro-complexes (Haavanlammi et al.,                               the ﬁrst stage of HydroCopper® process. The solution was stirred
+2007; Hyvärinen et al., 2004; Sinisalo et al., 2008).                                        with a magnetic stirrer for 500 rpm. A standard three-electrode elec-
+    Sulﬁde minerals are complex in nature and it is quite a challenge                        trochemical cell with a thermostated water jacket was employed.
+to determine precisely their exact dissolution behavior in cupric chlo-                          Prior to concentrate leaching, the solution was treated electro-
+ride solution. This study aims to characterize concentrate samples in                        chemically in order to increase the amount of cuprous copper using
+detail, revealing chemical and mineralogical composition, including                          EG&G PAR 273 Potentiostat/Galvanostat controlled by Model 352
+distribution of copper and iron in minerals. The information gained                          Corrosion Analysis Software 1.00. This was done by cathodically
+is used to study and determine the dissolution behavior of copper                            polarizing an inert working electrode (Glassy Carbon) for 2 h at
+and iron from sulﬁde concentrates.                                                           380 mV vs. Ag/AgCl (REF201, Radiometer Analytical). No copper
+                                                                                             deposition was detected on the inert electrode. Redox potential of
+                                                                                             the solution was originally ca. 700 mV vs. Ag/AgCl, which agrees
+2. Material and methods
+                                                                                             well with the earlier data (Lundström et al., 2009). The high redox
+                                                                                             potential is a result of equilibrium between copper and copper
+2.1. Mineral characterization
+                                                                                             chloride complexes, for example Cu 2 +/[CuCl] 0 with E o = 0.563 V vs.
+                                                                                             SHE. During the 2 hour potentiostatic pretreatment, the redox poten-
+    Four copper concentrates and one sulfur concentrate were select-
+                                                                                             tial in the solution decreased ca. 50 mV, simulating the ﬁrst leaching
+ed to determine the leaching behavior of main sulﬁde and accessory
+                                                                                             stage in HydroCopper® process.
+minerals commonly forming the sulﬁdic copper concentrates. The
+                                                                                                 After 2 h of potentiostatic treatment 2.1 g of concentrate was
+copper concentrates were selected based on their chemical and min-
+                                                                                             added to the cell. The leaching time for concentrate was 2 h, being
+eral composition to represent different ratios of chalcopyrite to sec-
+                                                                                             close to the retention time used in the 1st leaching stage of Hydro-
+ondary copper sulﬁdes with different amounts of pyrite. Sulfur
+                                                                                             Copper® process. The progress of concentrate dissolution was moni-
+concentrate was tested to ﬁnd out the leaching behavior of pyrite,
+                                                                                             tored by decrease of redox potential. Redox potential was logged
+as it is a common accessory minerals and impurities in copper con-
+                                                                                             using 120 s interval but no solution samples were taken. After con-
+centrates. The copper concentrate samples originated from Gibraltar
+                                                                                             centrate leaching was ﬁnished, the solution was ﬁltered and analyzed
+Mines in Canada, Erdenet in Mongolia and Vale Salobo in Brazil. A
+                                                                                             for S, Fe and Cu concentrations by ICP at Outotec Research, Pori.
+chalcopyrite–bornite rich concentrate was used as a reference as it
+has a more complex composition. Pyrite concentrate originated
+from Inmet Pyhäsalmi in Finland.                                                             3. Results
+    The mineralogical characterization of concentrates, based on
+detailed optical and scanning electron optical microscopy, mineral                           3.1. Mineralogy of concentrates
+analyses by electron probe micro analyzer and chemical assays of
+concentrates, was carried out at the laboratories of Outotec Research                            The chemical and mineralogical compositions of ﬁve concentrates
+Center, Pori.                                                                                are presented in Table 1. The copper grade of four copper concentrates
+    The chemical composition of minerals was analyzed by Cameca                              ranges between 21.1% Cu to 39.5% Cu with varying iron contents.
+SX50 microprobe and by JEOL 7000F ﬁeld emission scanning electron                            The Gibraltar concentrate is typical chalcopyrite (CuFeS2)–pyrite
+microscope equipped with both energy dispersive spectrometry                                 (FeS2) concentrate with accessory covellite (CuS), copper oxides and
+(EDS) and wavelength dispersive spectrometry (WDS) analyzers by                              sphalerite (ZnS) and chalcopyrite is the main carrier (96.5%) of
+Oxford Instruments. The minerals were analyzed under routine con-                            copper. The reference concentrate and Erdenet concentrate are typical
+ditions using 20 kV acceleration voltage and 20 nA probe current.                            concentrates from porphyric copper deposits and most of the copper
+Pure metals and minerals were used as standards.                                             is carried by secondary copper sulﬁdes, like covellite and bornite
+    The main element content of concentrate was analyzed after total                         (Cu5FeS4). In these two concentrates chalcopyrite carries about 32%
+leaching by inductively coupled plasma (ICP) and combustion ana-                             of the total copper contents. Additional carriers of copper in Erdenet
+lyses. The copper contents were analyzed also by using sequential                            concentrate are enargite (Cu3AsS4) and tennantite (Cu12As4S13).
+phase analyses, based on Young (1974) and Penttinen et al. (1977),                           The Salobo copper concentrate comes from hydrothermal iron oxide–
+and further developed at Outotec Research Center. The copper                                 copper–gold deposit, and most of the concentrate copper is carried by
+phase assay consists of sequential copper analyses after concentrate                         bornite with accessory copper oxides and chalcopyrite.
+                                                   M. Lundström et al. / International Journal of Mineral Processing 102–103 (2012) 13–18                               15
+
+
+Table 1
+Chemical and mineral composition of test concentrates.
+
+ No:                        1            2               3          4         5
+
+ Concentrate                Gibraltar    Reference       Erdenet    Salobo    Pyhäsalmi
+
+ Cu      P1          %       0.69        b 0.01           0.06       0.03
+         P2          %       0.24          1.23           2.04       1.23
+         P3          %       0.67        24.60           12.21      20.80
+         P4          %      24.90        13.50            7.00       0.25
+         Sum         %      26.50        39.33           21.31      22.31
+ Cu      TOT         %      26.50        39.50           21.08      23.50          0.02
+ Fe      TOT         %      28.30        17.20           23.84      25.60         45.10
+ Zn      TOT         %       0.06          5.90           0.31       0.004         0.02
+ S       Leco        %      32.90        28.70           32.30       7.40         56.60
+
+ Mineral composition
+ Chalcopyrite      %        72.0         40.1            20.5        0.7           0.1
+ Bornite           %                     29.5             2.2       32.9
+ Covellite         %         1.0          8.9            15.7
+                                                                                                                    Fig. 2. Distribution of iron in the concentrates.
+ Cu-oxides         %         0.4          3.4             5.9           2.2
+ Sphalerite        %         0.1          9.3             0.4                      0.0
+ Tennantite        %                      3.6             0.1
+ Enargite          %                                      1.0
+ Pyrite            %        13.4                         36.1                     99.9          iron in chalcopyrite and rest in bornite and sphalerite. Erdenet
+ Iron oxides       %                                                22.5                        concentrate has most of the iron in pyrite and some in chalcopyrite.
+ Others            %        13.1             5.2         18.1       41.7           0.0          Salobo concentrate has most of the iron in iron oxides and the rest
+                                                                                                in bornite and chalcopyrite. Pyhäsalmi concentrate has most of the
+ Distribution of copper
+                                                                                                iron in pyrite.
+ Chalcopyrite       %       96.5         32.7            32.0        1.1      100
+ Bornite            %                    45.4             5.7       93.4
+ Covellite          %        2.6         14.3            50.7                                   3.2. Leaching results
+ Cu-oxides          %        0.9          3.0             9.4           5.5
+ Enargite           %                                     1.9
+                                                                                                    After leaching the solution was analyzed for S, Fe and Cu. Table 2
+ Tennantite         %                        4.6          0.2
+                                                                                                presents the analyzed S, Fe and Cu concentrations. Originally, the
+ Distribution of iron                                                                           solution had a total copper concentration of 19.5 g/L. It can be seen
+ Chalcopyrite        %      77.8         76.6            27.6        1.1           0.04         that the copper concentration increased by 0.7 to 2.5 g/L with copper
+ Bornite             %                   20.6             1.7       18.4                        rich concentrates (Gibraltar, Reference, Erdenet, Salobo). Iron from
+ Sphalerite          %                    2.9                                      0.01
+                                                                                                pyrite concentrate did not dissolve remarkably.
+ Enargite            %                                    0.1
+ Pyrite              %      22.2                         70.6                     99.9              The redox potential of the solution depends on the concentration
+ Iron oxides         %                                              80.5                        of Cu 2 + that acts as oxidant. The concentrate dissolution consumes
+TOT = total dissolution, P1 = H2O soluble, P2 = acid soluble, P3 = bromine–methanol             Cu 2 +, Eqs. (1)–(3). This will decrease the redox potential of the solu-
+dissolution, P4 = nitric acid dissolution.                                                      tion according to Nernst Eq. (5). The redox potential value depends
+                                                                                                on the standard electrode potential of the redox reaction E o and on
+                                                                                                the concentrations of oxidized and reduced species [OX] and [RED].
+    Pyhäsalmi pyrite concentrate consists almost completely of pyrite                           As the reduction of the oxidant proceeds, the concentration of the
+with traces of chalcopyrite and sphalerite.                                                     oxidant will decrease with time by factor Xt whereas the concentra-
+    To make the observation easier, the amount of copper in concen-                             tion of the reduced form will increase by the same factor. The factor
+trate and the distribution of phases are also presented graphically                             Xt cannot be zero in the beginning of the experiment, as Eq. (5)
+in Fig. 1. It can be seen that Gibraltar concentrate had practically all                        could not be calculated. The factor Xt can be written as Xt = Xt = 0 +
+copper in chalcopyrite, whereas copper was divided in several phases                            f(t), where f(t) describes the kinetics of reduction reaction. This
+in other concentrates. Fig. 2 shows corresponding distribution for                              approach is valid if no secondary reactions of redox pair compounds
+iron. In the Gibraltar concentrate most of the iron is in chalcopyrite                          happen.
+and the rest in pyrite. The Reference concentrate has most of the
+                                                                                                                                        
+                                                                                                            0    RT       ½RED⋅ð1 þ Xt Þ
+                                                                                                Eredox ¼ E −          ln                                                ð5Þ
+                                                                                                                 zF ⋅      ½OX⋅ð1−Xt Þ
+
+
+                                                                                                    Due to several redox pairs in the solution, e.g. Cu 2 +/Cu +, Cu 2 +/
+                                                                                                CuCl32 −, Fe 3 +/Fe 2 +, it is not possible to calculate the exact dissolu-
+                                                                                                tion rate of the minerals from redox potential changes. The decrease
+                                                                                                of redox potential will, however, give an estimate how fast the
+                                                                                                concentrate dissolves and how long it takes to reach a steady state.
+                                                                                                The reduction of the oxidant and oxidation of the sulﬁde are kineti-
+                                                                                                cally connected (Nicol and Lazaro, 2002; Robertson et al., 2005).
+                                                                                                Therefore decrease in redox potential and increase in metal concen-
+                                                                                                tration should coincide.
+                                                                                                    Fig. 3 shows changes in redox potential with time. The change
+                                                                                                in redox potential indicates how the oxidant in the solution is
+                                                                                                consumed. At ﬁrst the redox potential decreases slowly during the
+                                                                                                potentiostatic pretreatment. A sharp drop followed by exponential
+                Fig. 1. Distribution of copper in the copper concentrates.                      decrease is caused by concentrate dissolution consuming the oxidant
+16                                             M. Lundström et al. / International Journal of Mineral Processing 102–103 (2012) 13–18
+
+
+Table 2
+Solution compositions after 2 h of leaching in cupric chloride solution.
+
+  Concentrate                S (mg/L)              Fe (mg/L)               Cu (mg/L)
+
+  1. Gibraltar               187                   1980                    20,200
+  2. Reference               285                   2030                    21,900
+  3. Erdenet                  62                    840                    20,400
+  4. Salobo                   21                     62                    22,000
+  5. Pyhäsalmi                88                     94                    N/A
+
+
+
+
+in solution. When the redox potential has achieved a steady state no
+further oxidant reduction or mineral dissolution happens.
+
+
+4. Discussion                                                                               Fig. 4. The percentage of Cu and Fe leached in to the solution from copper sulﬁde
+                                                                                            concentrates.
+
+4.1. Dissolution of Cu
+
+    Fig. 4 presents the amount (%) of copper and iron leached to the                        from solution. It is suggested that leaching of copper from chalcopy-
+solution from copper concentrates. Since copper can form precipi-                           rite–bornite type concentrate (Reference) is more favorable than
+tates, such as CuS, in certain leaching conditions, the amount of                           from chalcopyrite–pyrite type concentrate (Gibraltar).
+leached iron is used to observe copper dissolution from chalcopyrite.                           In Erdenet pyrite–chalcopyrite–covellite concentrate, 51% of cop-
+    Gibraltar concentrate consisted mainly of chalcopyrite and pyrite                       per is in covellite, 32% in chalcopyrite, 9% in copper oxides and 6%
+(Table 1). In the studied environment it was assumed that pyrite                            in bornite (Table 1). In this concentrate chalcopyrite carried 28% of
+will not dissolve, since almost no Fe was leached in the solution                           concentrate total iron, the rest was carried by pyrite. Based on
+from the very pure pyrite Pyhäsalmi concentrate (Table 2). The                              solution analysis, 30% of copper and 25% of iron was leached. As
+amount of dissolved iron from Gibraltar chalcopyrite–pyrite concen-                         both copper and iron are present in several minerals it is difﬁcult
+trate is quite high (Table 2). Approximately 19% Cu and 50% Fe from                         to estimate their preferential dissolution. Assuming that all iron is
+the concentrate had dissolved. The copper comes mainly from chalco-                         from chalcopyrite dissolution, nearly all the chalcopyrite present
+pyrite dissolution. Assuming that chalcopyrite dissolution reaction is                      (91%) was dissolved.
+Reaction (1) then 15% of chalcopyrite would have dissolved, if other                            Bornite carried almost all the copper in Salobo concentrate
+copper minerals had dissolved before chalcopyrite. Assuming that                            (Fig. 1). Fig. 4 shows that over 80% of copper was leached in the stud-
+all copper comes from chalcopyrite dissolution only, then 19% of chal-                      ied environment but there was very little iron, less than 2%. This
+copyrite would have dissolved. The excess iron cannot be explained                          shows that copper from bornite was eager to dissolve in cupric chlo-
+by pyrite dissolution, since the soluble Fe amount is 70% higher                            ride solution. However, the high level of copper from bornite should
+than the total amount of iron in pyrite. Thus, the leaching behavior                        result in seven times higher iron concentration than what was ana-
+of chalcopyrite concentrate must be explained by selective leaching                         lyzed. The dissolution of bornite concentrate was very selective to
+of iron from chalcopyrite or back precipitation of copper from                              copper, possibly due to iron precipitation.
+solution.                                                                                       The Cu/Fe ratio of the Gibraltar, Reference, Erdenet and Salobo
+    In the Reference chalcopyrite–bornite concentrate, 45% of copper                        concentrates was 0.94, 2.3, 0.88 and 0.92, respectively. The Cu/Fe
+is in bornite, 33% in chalcopyrite and 14% in covellite. In this concen-                    ratio of the dissolved metals in solution after dissolution was 0.35,
+trate 77% of iron is carried by chalcopyrite and 21% by bornite                             1.18, 2.26 and 40, respectively. This suggests that the easiest concen-
+(Table 1). The analysis results show that 43% of copper and 84% of                          trate to dissolve was Salobo, where almost all copper was present in
+iron had been dissolved into the solution. Also in this case, the leach-                    bornite. Also chalcopyrite–bornite–covellite (Reference) concentrate
+ing behavior of chalcopyrite concentrate must be explained by selec-                        could be easily leached. The most difﬁcult concentrate to dissolve
+tive leaching of iron from chalcopyrite or back precipitation of copper                     was Gibraltar, where almost all copper was in chalcopyrite, present
+                                                                                            with pyrite.
+                                                                                                It has been suggested that based on equilibrium potentials the
+                                                                                            most active mineral is bornite and the noblest minerals are pyrite
+                                                                                            and chalcopyrite (Mehta and Murr, 1983; Nowak et al., 1984;
+                                                                                            Chmielewski and Kaleta, 2011). The nobler sulﬁdes can increase
+                                                                                            the dissolution rates of less noble ones by galvanic interaction. Ki-
+                                                                                            netic factors can be more important for the galvanic effect than
+                                                                                            the potential difference (Holmes and Crundwell, 1995). In the
+                                                                                            case of CuFeS2:FeS2 pair dissolution rate increases with increasing
+                                                                                            amount of the nobler pyrite. However, if the amount of pyrite is
+                                                                                            less than that of chalcopyrite the increase is small, and signiﬁcant
+                                                                                            increase is seen only at equal amounts (Mehta and Murr, 1983).
+                                                                                            The potential difference between chalcopyrite and pyrite is small
+                                                                                            and does not cause much galvanic effect (Nowak et al., 1984).
+                                                                                            The pyrite has been measured to increase dissolution rate of born-
+                                                                                            ite ten times more than that of chalcopyrite (Chmielewski and
+                                                                                            Kaleta, 2011), and as the chalcopyrite and pyrite are almost equal-
+                                                                                            ly noble, chalcopyrite can also be expected to increase dissolution
+     Fig. 3. Change of redox potential with time when using different concentrates.         rate of bornite.
+                                              M. Lundström et al. / International Journal of Mineral Processing 102–103 (2012) 13–18                                            17
+
+
+4.2. Dissolution of Fe
+
+    The leaching experiments showed that in the studied cupric chlo-
+ride environment iron did not dissolve from pyrite (Fig. 5). Pyrite
+concentrate from Pyhäsalmi was very pure (99.8% pyrite) having
+45% of iron (Table 1). As shown in Table 2, after the dissolution
+tests the solution had 94 mg/L iron, which means that only 1.5% of
+iron from pyrite concentrate dissolved.
+    Also iron in hematite and magnetite were shown to be resistant
+for leaching in cupric chloride solution. Salobo concentrate had ca.
+20% iron, which was mostly included in magnetite and hematite
+(Fig. 2). After 2 h of leaching there was 62 mg/L iron in the solution
+indicating that only 1.8% of iron from the Salobo concentrate dis-
+solved (Fig. 5). As the weight ratio of copper and iron in bornite is
+5.68 the low amount of iron in the solution indicates precipitation
+of iron.
+                                                                                                                 Fig. 6. Change of redox potential with time.
+    In the studied environment, only a minor amount of iron was
+dissolved from pyrite, magnetite or hematite. Soluble iron analyzed in
+the solution originated from copper sulﬁdes, such as chalcopyrite and
+bornite. The dissolution of Gibraltar concentrate produced more iron
+that would theoretically come from chalcopyrite dissolution. This
+indicates partial dissolution of iron or back precipitation of copper.
+
+4.3. Dissolution rates of the concentrates
+
+    By using the mixed potential theory it is possible to compare the
+dissolution rates of the concentrates. According to the mixed poten-
+tial theory the charge consumed in reduction of the oxidant must be
+balanced by oxidation of the concentrate. The reduction of the oxi-
+dant can be estimated from the Nernst Eq. (5) as the decrease in
+redox potential. The faster is the redox potential decrease during
+the experiment the faster is the oxidation. From the redox potential
+measurements it is possible to estimate two factors: the change of
+redox potential that describes how far the concentrate dissolution
+has proceeded, and the rate of redox potential change that describes                                        Fig. 7. Linear estimates of redox potential change rate.
+dissolution rate.
+    The change of redox potential vs. time starting from the moment
+concentrate was added to the cell is shown in Fig. 6. The curves in                            From the results in Table 3 the following analysis was done. The
+Fig. 6 follow approximately exponential decay law. Fig. 7 shows the                        Gibraltar and Reference concentrates had stronger redox potential
+change of redox potential as function of logarithm of time. Using                          change and steeper ΔE/Δlog(t) in the beginning compared to that of
+the data in Fig. 7 the ΔE/Δlog(t) values were determined by running                        Erdenet and Salobo concentrates. This indicates faster dissolution
+ﬁve-point linear regression and setting constant to 0. The ΔE/Δlog                         kinetics in the beginning of the leaching experiment. However, the
+(t) was found to change ﬁrst to more negative values and then                              dissolution of Gibraltar concentrate ends ﬁrst then Salobo and Erde-
+reach a steady value. The ΔE/Δlog(t) values in Table 3 are average                         net concentrates and dissolution of Reference concentrate continues
+values taken after the initial change. From the data in Fig. 7 it is also                  much longer. The dissolution can end because all soluble materials
+possible to estimate how long the system takes to reach a steady                           have been oxidized or a nobler reaction product layer hinders disso-
+state. This time tsteady was taken as the time the ΔE/Δlog(t) reaches                      lution and for that reason fast dissolution kinetics in the early leach-
+a steady value.                                                                            ing times is not directly related to high metal recoveries.
+                                                                                               Correlation between dissolved metal and redox potential decrease
+                                                                                           is very good for iron (−0.98) but not for copper (0.24). The potential
+                                                                                           change rate ΔE/Δlog(t) correlates with dissolved iron (0.98) but not
+                                                                                           with copper (0.28). The dissolution time has positive correlation
+                                                                                           with dissolved iron (0.44) and copper (0.55). These results support
+                                                                                           the result found in dissolved metal balance calculations that from
+                                                                                           copper–iron sulﬁdes iron is preferentially dissolved.
+
+
+
+                                                                                           Table 3
+                                                                                           Change of redox potential, its rate and time to reach a steady state after concentrate
+                                                                                           was added to the cell.
+
+                                                                                             Concentrate                ΔEredox, mV              ΔE/Δlog(t)            tsteady, s
+
+                                                                                             1. Gibraltar               − 190                    − 49.1                1440
+                                                                                             2. Reference               − 191                    − 48.1                6360
+                                                                                             3. Erdenet                 − 159                    − 40.9                2640
+                                                                                             4. Salobo                  − 146                    − 38.3                2040
+        Fig. 5. Fe concentration (mg/L) in the solution after 2 h of leaching.
+18                                    M. Lundström et al. / International Journal of Mineral Processing 102–103 (2012) 13–18
+
+
+5. Conclusions                                                                     References
+                                                                                   Burkin, A.R., 2001. Chemical Hydrometallurgy: Theory and Principles. Imperial College
+    In this study, sulﬁde concentrate samples were characterized and                   Press. 414 pp.
+chemical and mineralogical compositions were revealed in detail.                   Chmielewski, T., Kaleta, R., 2011. Galvanic interactions of sulﬁde minerals in leaching of
+Four different types of copper sulﬁde concentrates (Gibraltar, Refer-                  ﬂotation concentrate from Lubin concentrator. Physicochem. Probl. Miner. Process.
+                                                                                       46, 21–34.
+ence, Erdenet, Salobo) were analyzed as well as one pyrite concen-                 Haavanlammi, L., Hietala, K., Karonen, J., 2007. HydroCopper® for treating variable
+trate (Pyhäsalmi). The detailed characterization made it possible to                   copper concentrates. In: Riveros, P.A., Dixon, D.G., Dreisinger, D., Collins, M.D.
+observe Cu and Fe dissolution from different minerals in concen-                       (Eds.), The John E. Dutrizac International Symposium on Copper Hydrometallurgy,
+                                                                                       August 25–30, 2007, Toronto, Canada, pp. 369–377.
+trates. The leaching experiments in this study demonstrated the                    Habashi, F., 1978. Chalcopyrite, Its Chemistry and Metallurgy. McGraw-Hill. 165 pp.
+leaching behavior of Cu and Fe in cupric chloride solution, similar to             Havlik, T., 2008. Hydrometallurgy: Principles and Applications. Woodhead Publishing.
+the environment used in the ﬁrst leaching stage of HydroCopper®                        536 pp.
+                                                                                   Holmes, P.R., Crundwell, F.K., 1995. Kinetic aspects of galvanic interactions between
+process.
+                                                                                       minerals during dissolution. Hydrometallurgy 39 (1–3), 353–375.
+    Copper dissolution was high from bornite concentrate. Copper                   Hyvärinen, O., Hämäläinen, M., Lamberg, P., Liipo, J., 2004. Recovering gold from copper
+was readily leached from those chalcopyrite concentrates in which                      concentrate via the HydroCopper® process. JOM 56 (8), 57–59.
+it was present with secondary copper sulﬁdes. When present with                    Lundström, M., Aromaa, J., Forsén, O., Haavanlammi, L., 2007. Concentrated cupric
+                                                                                       chloride solutions: possibilities offered in copper production. Acta Metall. Slovaca
+pyrite only (Gibraltar), less chalcopyrite was dissolved. Chalcopyrite                 13 (3), 447–459.
+and pyrite have equilibrium potentials close to each other, and so                 Lundström, M., Aromaa, J., Forsén, O., 2009. Redox potential characteristics of cupric
+there is no signiﬁcant galvanic effect. Pyrite has been shown to in-                   chloride solutions. Hydrometallurgy 95 (3–4), 285–289.
+                                                                                   Mehta, A.P., Murr, L.E., 1983. Fundamental studies of the contribution of galvanic inter-
+crease dissolution rate of bornite and the same can be expected                        action to acid-bacterial leaching of mixed metal sulﬁdes. Hydrometallurgy 9 (3),
+from chalcopyrite.                                                                     235–256.
+    Iron in pyrite, hematite and magnetite did not dissolve in the stud-           Nicol, M.J., Lazaro, I., 2002. The role of EH measurements in the interpretation of the
+                                                                                       kinetics and mechanisms of the oxidation and leaching of sulphide minerals.
+ied environment. This is advantageous for solution puriﬁcation of the                  Hydrometallurgy 63 (1), 15–22.
+process and decreases the investment costs. Iron can remain in the                 Nowak, P., Krauss, E., Pomianowski, A., 1984. The electrochemical characteristics of the
+solid phase, which allows also the use of lower grade concentrates.                    galvanic corrosion of sulphide minerals in short-circuited model galvanic cells.
+                                                                                       Hydrometallurgy 12 (1), 95–110.
+Major part of the iron analyzed in the solution originated from
+                                                                                   Penttinen, U., Palosaari, V., Siura, T., 1977. Selective dissolution and determination
+secondary copper sulﬁdes.                                                              of sulﬁdes in nickel ores by the bromine–methanol method. Bull. Geol. Soc. Finl.
+    Redox potential monitoring was used to compare dissolution                         49 (2), 79–84.
+                                                                                   Robertson, S., Jeffrey, M., Zhang, H., Ho, E., 2005. An introductory electrochemical
+rates, as no metal analyses were available. Copper dissolved fast
+                                                                                       approach to studying hydrometallurgical reactions. Metall. Mater. Trans. B 36 (3),
+from bornite type concentrate. Dissolution of copper from chalcopy-                    313–325.
+rite–bornite–covellite concentrate produced a high copper dissolution              Sinisalo, P., Tiihonen, M., Hietala, K., 2008. Gold recovery from chalcopyrite concen-
+but was slower than bornite. Chalcopyrite–pyrite and chalcopyrite–                     trates in the HydroCopper® process. ALTA 2008 Conference, June 19–20, 2008,
+                                                                                       Perth, Australia, pp. 1–8.
+covellite–pyrite concentrates dissolved quite fast but produced more               Young, R.S., 1974. Chemical Phase Analysis. Charles Grifﬁn & Co. 138 pp.
+iron than copper.
+    The imbalance of iron and copper ratios in solution compared with
+the analysis of the concentrates indicated that either selective disso-
+lution of iron or back precipitation of copper happens.
+

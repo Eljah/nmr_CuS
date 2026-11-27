@@ -1,0 +1,7 @@
+# Numerical and symbolic calculations; tested with Python 3.12.
+numpy==2.3.5
+scipy==1.17.0
+matplotlib==3.10.8
+sympy==1.14.0
+# Rebuilding the earlier Russian Word draft only:
+python-docx==1.2.0

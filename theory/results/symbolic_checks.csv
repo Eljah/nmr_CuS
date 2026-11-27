@@ -1,0 +1,20 @@
+check,passed,residual
+coulomb_hessian_equals_tensor_kernel,True,"Matrix([[0, 0, 0], [0, 0, 0], [0, 0, 0]])"
+coulomb_kernel_is_traceless_away_from_source,True,0
+screened_A_matches_radial_derivatives,True,0
+screened_B_matches_radial_derivatives,True,0
+screened_trace_equals_gaussian_source,True,0
+self_hessian_coefficient,True,0
+reciprocal_hessian_sign,True,"Matrix([[0, 0, 0], [0, 0, 0], [0, 0, 0]])"
+principal_values_trace,True,0
+principal_values_asymmetry,True,0
+mirror_allowed_tensor,True,"Matrix([[0, 0, 0], [0, 0, 0], [0, 0, 0]])"
+ideal_tetrahedron_EFG_vanishes,True,"Matrix([[0, 0, 0], [0, 0, 0], [0, 0, 0]])"
+spin_commutator_XY,True,"Matrix([[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]])"
+quadrupole_H_squared,True,"Matrix([[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]])"
+quadrupole_characteristic_polynomial,True,0
+CT_first_order_zero,True,0
+CT_second_order_formula,True,0
+CT_minimum,True,0
+CT_maximum,True,0
+common_scale_stationary_point,True,0

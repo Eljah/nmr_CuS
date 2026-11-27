@@ -1,0 +1,78 @@
+{
+  "raw_full_integrated_500_over_20": 5.898082222301548,
+  "raw_normalized_L1_distance": 0.20817621953832338,
+  "raw_normalized_total_variation": 0.10408810976916169,
+  "peak_locations": {
+    "low": {
+      "20_peak_MHz": 75.9,
+      "500_peak_MHz": 75.9
+    },
+    "high": {
+      "20_peak_MHz": 81.34999999999998,
+      "500_peak_MHz": 81.34999999999998
+    }
+  },
+  "left broad plateau": {
+    "freq_range": [
+      75.2,
+      75.7
+    ],
+    "n": 11,
+    "raw_500_over_20": 5.727966272156621,
+    "baseline_corrected_500_over_20": 5.907508892906715
+  },
+  "right broad plateau": {
+    "freq_range": [
+      76.1,
+      76.4
+    ],
+    "n": 7,
+    "raw_500_over_20": 4.708207930704076,
+    "baseline_corrected_500_over_20": 4.758965909362744
+  },
+  "low central peak": {
+    "freq_range": [
+      75.85,
+      75.95
+    ],
+    "n": 3,
+    "raw_500_over_20": 8.611901823574508,
+    "baseline_corrected_500_over_20": 8.72596242340121
+  },
+  "right low tail": {
+    "freq_range": [
+      76.7,
+      77.3
+    ],
+    "n": 13,
+    "raw_500_over_20": 7.070605293972366,
+    "baseline_corrected_500_over_20": 8.675441308726672
+  },
+  "lower feature": {
+    "freq_range": [
+      74.9,
+      75.1
+    ],
+    "n": 5,
+    "raw_500_over_20": 5.037021139006031,
+    "baseline_corrected_500_over_20": 5.115033800119817
+  },
+  "upper feature": {
+    "freq_range": [
+      76.4,
+      76.5
+    ],
+    "n": 3,
+    "raw_500_over_20": 4.116990701631208,
+    "baseline_corrected_500_over_20": 4.106700244511934
+  },
+  "high central peak": {
+    "freq_range": [
+      81.25,
+      81.35
+    ],
+    "n": 3,
+    "raw_500_over_20": 8.931726289526312,
+    "baseline_corrected_500_over_20": 9.271243448361355
+  }
+}

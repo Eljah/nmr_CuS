@@ -1,0 +1,323 @@
+{
+  "purpose": "Recommended compact portable LaTeX and supporting-analysis inventory; no files are packaged by this script.",
+  "root": "main.tex",
+  "original_attachments": "Available separately in the full research package; omitted here.",
+  "note": "File sizes reflect the inventory moment; root may recompile or revise sources before packaging.",
+  "files": [
+    {
+      "source_relative_to_workspace": "latex_article/main.tex",
+      "archive_path": "main.tex",
+      "bytes": 30670
+    },
+    {
+      "source_relative_to_workspace": "latex_article/structure_priors.tex",
+      "archive_path": "structure_priors.tex",
+      "bytes": 6565
+    },
+    {
+      "source_relative_to_workspace": "latex_article/references.bib",
+      "archive_path": "references.bib",
+      "bytes": 3527
+    },
+    {
+      "source_relative_to_workspace": "latex_article/README_EN.txt",
+      "archive_path": "README_EN.txt",
+      "bytes": 8628
+    },
+    {
+      "source_relative_to_workspace": "latex_article/figures/powder_model_comparison.pdf",
+      "archive_path": "figures/powder_model_comparison.pdf",
+      "bytes": 26691
+    },
+    {
+      "source_relative_to_workspace": "latex_article/figures/figure_t2_reanalysis.pdf",
+      "archive_path": "figures/figure_t2_reanalysis.pdf",
+      "bytes": 25723
+    },
+    {
+      "source_relative_to_workspace": "latex_article/build/main.pdf",
+      "archive_path": "Anilite_NMR_article_en.pdf",
+      "bytes": 410068
+    },
+    {
+      "source_relative_to_workspace": "data_analysis/summarize_manuscript.py",
+      "archive_path": "supporting_materials/data_analysis/summarize_manuscript.py",
+      "bytes": 6353
+    },
+    {
+      "source_relative_to_workspace": "data_analysis/export/opj_Spec05122016.csv",
+      "archive_path": "supporting_materials/data_analysis/export/opj_Spec05122016.csv",
+      "bytes": 19368
+    },
+    {
+      "source_relative_to_workspace": "data_analysis/export/opj_Spec05122016_audit.csv",
+      "archive_path": "supporting_materials/data_analysis/export/opj_Spec05122016_audit.csv",
+      "bytes": 15282
+    },
+    {
+      "source_relative_to_workspace": "data_analysis/export/opj_T2a.csv",
+      "archive_path": "supporting_materials/data_analysis/export/opj_T2a.csv",
+      "bytes": 2334
+    },
+    {
+      "source_relative_to_workspace": "data_analysis/export/opj_spec20ms.csv",
+      "archive_path": "supporting_materials/data_analysis/export/opj_spec20ms.csv",
+      "bytes": 508998
+    },
+    {
+      "source_relative_to_workspace": "data_analysis/export/opj_spec500ms.csv",
+      "archive_path": "supporting_materials/data_analysis/export/opj_spec500ms.csv",
+      "bytes": 512027
+    },
+    {
+      "source_relative_to_workspace": "data_analysis/export/opj_graph_metadata.json",
+      "archive_path": "supporting_materials/data_analysis/export/opj_graph_metadata.json",
+      "bytes": 6813
+    },
+    {
+      "source_relative_to_workspace": "data_analysis/export/manuscript_numeric_summary.json",
+      "archive_path": "supporting_materials/data_analysis/export/manuscript_numeric_summary.json",
+      "bytes": 4796
+    },
+    {
+      "source_relative_to_workspace": "data_analysis/export/manuscript_window_ratios.csv",
+      "archive_path": "supporting_materials/data_analysis/export/manuscript_window_ratios.csv",
+      "bytes": 403
+    },
+    {
+      "source_relative_to_workspace": "data_analysis/export/manuscript_window_points.csv",
+      "archive_path": "supporting_materials/data_analysis/export/manuscript_window_points.csv",
+      "bytes": 1811
+    },
+    {
+      "source_relative_to_workspace": "data_analysis/export/manuscript_peak_summary.csv",
+      "archive_path": "supporting_materials/data_analysis/export/manuscript_peak_summary.csv",
+      "bytes": 529
+    },
+    {
+      "source_relative_to_workspace": "data_analysis/export/manuscript_nqr_bounds.csv",
+      "archive_path": "supporting_materials/data_analysis/export/manuscript_nqr_bounds.csv",
+      "bytes": 277
+    },
+    {
+      "source_relative_to_workspace": "powder_model/powder_fit.py",
+      "archive_path": "supporting_materials/powder_model/powder_fit.py",
+      "bytes": 8894
+    },
+    {
+      "source_relative_to_workspace": "powder_model/joint_fit.py",
+      "archive_path": "supporting_materials/powder_model/joint_fit.py",
+      "bytes": 1117
+    },
+    {
+      "source_relative_to_workspace": "powder_model/refine_exact_joint.py",
+      "archive_path": "supporting_materials/powder_model/refine_exact_joint.py",
+      "bytes": 3073
+    },
+    {
+      "source_relative_to_workspace": "powder_model/central_control.py",
+      "archive_path": "supporting_materials/powder_model/central_control.py",
+      "bytes": 2969
+    },
+    {
+      "source_relative_to_workspace": "powder_model/joint_literature_sensitivity.py",
+      "archive_path": "supporting_materials/powder_model/joint_literature_sensitivity.py",
+      "bytes": 1194
+    },
+    {
+      "source_relative_to_workspace": "powder_model/finalize_controls.py",
+      "archive_path": "supporting_materials/powder_model/finalize_controls.py",
+      "bytes": 4544
+    },
+    {
+      "source_relative_to_workspace": "powder_model/extent_examples.py",
+      "archive_path": "supporting_materials/powder_model/extent_examples.py",
+      "bytes": 1131
+    },
+    {
+      "source_relative_to_workspace": "powder_model/MODEL_ANALYSIS_RU.txt",
+      "archive_path": "supporting_materials/powder_model/MODEL_ANALYSIS_RU.txt",
+      "bytes": 21545
+    },
+    {
+      "source_relative_to_workspace": "powder_model/FINAL_MODEL_COMPARISON.csv",
+      "archive_path": "supporting_materials/powder_model/FINAL_MODEL_COMPARISON.csv",
+      "bytes": 2776
+    },
+    {
+      "source_relative_to_workspace": "powder_model/central_exact_validation.json",
+      "archive_path": "supporting_materials/powder_model/central_exact_validation.json",
+      "bytes": 1325
+    },
+    {
+      "source_relative_to_workspace": "powder_model/central_control_results.json",
+      "archive_path": "supporting_materials/powder_model/central_control_results.json",
+      "bytes": 3418
+    },
+    {
+      "source_relative_to_workspace": "powder_model/exact_joint_refinements.json",
+      "archive_path": "supporting_materials/powder_model/exact_joint_refinements.json",
+      "bytes": 3366
+    },
+    {
+      "source_relative_to_workspace": "powder_model/joint_literature_sensitivity.json",
+      "archive_path": "supporting_materials/powder_model/joint_literature_sensitivity.json",
+      "bytes": 7208
+    },
+    {
+      "source_relative_to_workspace": "powder_model/joint_results.json",
+      "archive_path": "supporting_materials/powder_model/joint_results.json",
+      "bytes": 10731
+    },
+    {
+      "source_relative_to_workspace": "powder_model/central_extent_examples.json",
+      "archive_path": "supporting_materials/powder_model/central_extent_examples.json",
+      "bytes": 2970
+    },
+    {
+      "source_relative_to_workspace": "powder_model/central_exact_seed29_20ms.csv",
+      "archive_path": "supporting_materials/powder_model/central_exact_seed29_20ms.csv",
+      "bytes": 25445
+    },
+    {
+      "source_relative_to_workspace": "powder_model/central_exact_seed29_500ms.csv",
+      "archive_path": "supporting_materials/powder_model/central_exact_seed29_500ms.csv",
+      "bytes": 25445
+    },
+    {
+      "source_relative_to_workspace": "powder_model/central_exact_seed67_20ms.csv",
+      "archive_path": "supporting_materials/powder_model/central_exact_seed67_20ms.csv",
+      "bytes": 25445
+    },
+    {
+      "source_relative_to_workspace": "powder_model/central_exact_seed67_500ms.csv",
+      "archive_path": "supporting_materials/powder_model/central_exact_seed67_500ms.csv",
+      "bytes": 25445
+    },
+    {
+      "source_relative_to_workspace": "relaxation_analysis/analyze_t2.py",
+      "archive_path": "supporting_materials/relaxation_analysis/analyze_t2.py",
+      "bytes": 6740
+    },
+    {
+      "source_relative_to_workspace": "research_literature/anilite_amcsd0009376_transcribed.cif",
+      "archive_path": "supporting_materials/research_literature/anilite_amcsd0009376_transcribed.cif",
+      "bytes": 1499
+    },
+    {
+      "source_relative_to_workspace": "research_literature/reproduce_anilite_sites.py",
+      "archive_path": "supporting_materials/research_literature/reproduce_anilite_sites.py",
+      "bytes": 3296
+    },
+    {
+      "source_relative_to_workspace": "research_literature/anilite_site_multiplicities.csv",
+      "archive_path": "supporting_materials/research_literature/anilite_site_multiplicities.csv",
+      "bytes": 444
+    },
+    {
+      "source_relative_to_workspace": "research_literature/anilite_site_multiplicities.json",
+      "archive_path": "supporting_materials/research_literature/anilite_site_multiplicities.json",
+      "bytes": 2591
+    },
+    {
+      "source_relative_to_workspace": "new_evidence/structure/STRUCTURE_PRIMARY_SOURCES_RU.txt",
+      "archive_path": "supporting_materials/new_evidence/structure/STRUCTURE_PRIMARY_SOURCES_RU.txt",
+      "bytes": 17779
+    },
+    {
+      "source_relative_to_workspace": "new_evidence/thesis/THESIS_EVIDENCE_RU.txt",
+      "archive_path": "supporting_materials/new_evidence/thesis/THESIS_EVIDENCE_RU.txt",
+      "bytes": 18107
+    },
+    {
+      "source_relative_to_workspace": "relaxation_analysis/export/figure_t2_reanalysis.pdf",
+      "archive_path": "supporting_materials/relaxation_analysis/export/figure_t2_reanalysis.pdf",
+      "bytes": 25723
+    },
+    {
+      "source_relative_to_workspace": "relaxation_analysis/export/figure_t2_reanalysis.png",
+      "archive_path": "supporting_materials/relaxation_analysis/export/figure_t2_reanalysis.png",
+      "bytes": 138351
+    },
+    {
+      "source_relative_to_workspace": "relaxation_analysis/export/t2_envelope_points.csv",
+      "archive_path": "supporting_materials/relaxation_analysis/export/t2_envelope_points.csv",
+      "bytes": 2873
+    },
+    {
+      "source_relative_to_workspace": "relaxation_analysis/export/t2_fit_sensitivity.csv",
+      "archive_path": "supporting_materials/relaxation_analysis/export/t2_fit_sensitivity.csv",
+      "bytes": 4512
+    },
+    {
+      "source_relative_to_workspace": "relaxation_analysis/export/t2_summary.json",
+      "archive_path": "supporting_materials/relaxation_analysis/export/t2_summary.json",
+      "bytes": 1839
+    },
+    {
+      "source_relative_to_workspace": "new_evidence/structure_model/STRUCTURE_MODEL_RU.txt",
+      "archive_path": "supporting_materials/new_evidence/structure_model/STRUCTURE_MODEL_RU.txt",
+      "bytes": 19864
+    },
+    {
+      "source_relative_to_workspace": "new_evidence/structure_model/geometry_efg_proxy.json",
+      "archive_path": "supporting_materials/new_evidence/structure_model/geometry_efg_proxy.json",
+      "bytes": 445431
+    },
+    {
+      "source_relative_to_workspace": "new_evidence/structure_model/geometry_efg_proxy.py",
+      "archive_path": "supporting_materials/new_evidence/structure_model/geometry_efg_proxy.py",
+      "bytes": 9776
+    },
+    {
+      "source_relative_to_workspace": "new_evidence/structure_model/geometry_efg_proxy_convergence.csv",
+      "archive_path": "supporting_materials/new_evidence/structure_model/geometry_efg_proxy_convergence.csv",
+      "bytes": 14666
+    },
+    {
+      "source_relative_to_workspace": "new_evidence/structure_model/geometry_efg_proxy_summary.csv",
+      "archive_path": "supporting_materials/new_evidence/structure_model/geometry_efg_proxy_summary.csv",
+      "bytes": 5472
+    },
+    {
+      "source_relative_to_workspace": "new_evidence/structure_model/structural_priors_summary.json",
+      "archive_path": "supporting_materials/new_evidence/structure_model/structural_priors_summary.json",
+      "bytes": 4102
+    },
+    {
+      "source_relative_to_workspace": "new_evidence/structure_model/structural_priors_table.csv",
+      "archive_path": "supporting_materials/new_evidence/structure_model/structural_priors_table.csv",
+      "bytes": 1078
+    },
+    {
+      "source_relative_to_workspace": "new_evidence/structure_model/summarize_geometry_proxy.py",
+      "archive_path": "supporting_materials/new_evidence/structure_model/summarize_geometry_proxy.py",
+      "bytes": 2564
+    },
+    {
+      "source_relative_to_workspace": "new_evidence/eta_explanation/eta_shape_demo.csv",
+      "archive_path": "supporting_materials/new_evidence/eta_explanation/eta_shape_demo.csv",
+      "bytes": 201169
+    },
+    {
+      "source_relative_to_workspace": "new_evidence/eta_explanation/eta_shape_demo.json",
+      "archive_path": "supporting_materials/new_evidence/eta_explanation/eta_shape_demo.json",
+      "bytes": 921
+    },
+    {
+      "source_relative_to_workspace": "new_evidence/eta_explanation/eta_shape_demo.pdf",
+      "archive_path": "supporting_materials/new_evidence/eta_explanation/eta_shape_demo.pdf",
+      "bytes": 35579
+    },
+    {
+      "source_relative_to_workspace": "new_evidence/eta_explanation/eta_shape_demo.png",
+      "archive_path": "supporting_materials/new_evidence/eta_explanation/eta_shape_demo.png",
+      "bytes": 178693
+    },
+    {
+      "source_relative_to_workspace": "new_evidence/eta_explanation/eta_shape_demo.py",
+      "archive_path": "supporting_materials/new_evidence/eta_explanation/eta_shape_demo.py",
+      "bytes": 3625
+    }
+  ]
+}

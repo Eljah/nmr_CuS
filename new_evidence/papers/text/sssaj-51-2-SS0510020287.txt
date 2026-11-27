@@ -1,0 +1,248 @@
+      Pulsed Nuclear Magnetic Resonance Instrument for Soil-water Content Measurement:
+                                   Sensor Configurations1
+                                R. F. PAETZOLD, A. DE Los SANTOS, AND G. A. MATZKANiN2
+                          ABSTRACT                                        techniques is the ability to measure and exploit sam-
+   Two sensor configurations of a prototype soil-water content mea-       ple relaxation times (Farrar and Becker, 1971). Im-
+suring instrument were examined. The prototype instrument, based          provements in electronics technology, magnet design,
+on pulsed nuclear magnetic resonance technology, is designed for          and materials have allowed the development of de-
+field use and is capable of determining volumetric soil-water content     pendable, rugged PNMR instruments that are capable
+at depths of 38, 51, and 63 mm. The magnet component of the sensor        of withstanding the rigors of field operation (Matz-
+is modified by the use of pole pieces so that the sensor is capable       kanin et al., 1983; Rollwitz et al., 1983).
+of operating in two configurations, flat and extended. In the flat           The theory, design, and preliminary testing results
+configuration, the sensor rides or floats directly on the soil surface,   of a tractor-mounted prototype PNMR instrument for
+whereas in the extended configuration, two furrows about 10-cm deep       measuring surface soil-water content in the field have
+are created in the soil to accommodate the extended pole pieces.          been reported (Matzkanin and Paetzold, 1982; Paet-
+Test results show that the instrument is more sensitive to volumetric     zold et al., 1982; Paetzold et al., 1985). The prototype
+soil-water content with the sensor in the extended configuration as       is capable of determining volumetric soil-water con-
+opposed to the flat configuration. Furthermore, sensitivity decreases     tent at three depths: 38, 51, and 63 mm below the soil
+with increasing measurement depth. Sensitivity differences are ex-        surface. The sensing unit of the prototype has magnet
+plained in terms of magnetic field and radio-frequency signal char-       coil extensions, called "pole pieces," which extend
+acteristics.                                                              some 10 cm below the soil surface during measure-
+ Additional Index Words: soil moisture, soil surface, field instru-       ment. These pole pieces, designed to improve the
+mentation.                                                                homogeneity of the magnetic field, are an obvious dis-
+                                                                          advantage in many situations, particularly where soil
+Paetzold, R.F., A. De Los Santos, and G.A. Matzkanin. 1987. Pulsed        disturbance is unwanted. The sensing unit has been
+nuclear magnetic resonance instrument for soil-water content mea-         modified so that now it is capable of operating in a
+surement: Sensor configurations. Soil Sci. Soc. Am. J. 51:287-290.
+                                                                          true one-sided or "flat" configuration in addition to
+                                                                          the original "extended" configuration (Paetzold and
+                                                                          Matzkanin, 1984). The objective of this report is to
+                                                                          compare the measurement of volumetric soil-water
+N    UCLEAR MAGNETIC RESONANCE (NMR) is a ver-
+      satile tool with many practical applications. The
+nature of NMR makes it particularly attractive for
+                                                                          content by the PNMR instrument in the two sensor
+                                                                          configurations.
+water content measurement in a variety of materials.                                  MATERIALS AND METHODS
+Pulsed techniques (PNMR) offer many advantages
+over the older, continuous wave (CW) NMR. The same                           In order for magnetic resonance of a particular nuclear
+sample information can be obtained using pulsed                           species to occur, the sample must be subjected to both a
+techniques as with CW NMR. Pulsed methods are                             static and an oscillating magnetic field at right angles to each
+                                                                          other, satisfying the following relationship
+more efficient because they require less time and gen-
+erally produce an improvement in signal-to-noise ra-                                              v = (y/2r)B0                          [1]
+tio. Perhaps the most significant advantage of pulsed                     where v is the frequency of the oscillating magnetic field in
+  1                                                                       Hz (v is also the resonance frequency of the nuclear species),
+    Contribution from USDA-ARS, Hydrology Lab., Agric. Systems            B0 is the magnetic flux density of the static magnetic field
+Res.
+  2
+     Inst., Beltsville, MD 20705. Received 30 Dec. 1985.                  in T, and 7 is the gyromagnetic ratio of the particular nuclear
+    Soil Scientist, USDA-SCS, Hydrology Lab., Beltsville, MD, and
+Senior Research Scientists, Southwest Res. Inst., San Antonio, TX.        species under investigation. For hydrogen, 7 is 2.675 X 108s~'
+Senior author is now located at USDA-SCS, P.O. Box 2890, Wash-            T-'.
+ington, DC. 20013.                                                          The prototype PNMR instrument supplies a 3 MHz pulsed
+288                                            SOIL SCI. SOC. AM. J., VOL. 51, 1987
+
+                                                                                                                        2-11/2
+ oscillating magnetic field in the form of electromagnetic ra-                        A0     M80         Bn+
+                                                                                                        -DO      BISO
+diation. This is often referred to as a "radio-frequency" or               R=                                                    [2]
+"RF signal". A static magnetic field of 70.6 mT must be
+ supplied to the measurement region for NMR of hydrogen            where R is the resultant, A and B refer to the two channels,
+to occur. Approximately 300 W of electrical power are re-          and the subscripts refer to the phase of the second RF pulse
+quired to provide a magnetic flux density of 70.6 mT, at a         in the pulse sequence. For the purposes of this report, only
+measurement depth of 51 mm, with the sensor in the ex-             the short resultants are examined.
+tended configuration; 500 W are required when the sensor              Preliminary tests (Matzkanin and Paetzold, 1982; Paet-
+is in the flat configuration.                                      zold, et al., 1985) led to the assumptions that the magnitude
+   The sensor used in the prototype PNMR instrument con-           of the PNMR short resultant is a linear function of volu-
+sists of a tuning capacitor, a RF pulse generation/signal de-      metric soil-water content and that signal intensity is a func-
+tection coil, and an electromagnet and associated pole pieces      tion of measurement depth. The different magnetic field
+(Paetzold et al., 1985). The magnet has a mass of approxi-         characteristics associated with the sensor configurations led
+mately 320 kg and a pole piece separation of 23 cm. Each           to the assumption that signal intensity is affected by sensor
+electromagnet coil is fabricated from 512 turns of 0.16-mm         configuration.
+thick Al ribbon and is bonded to a low C steel core. Each             Preliminary statistical analyses of the data were made us-
+coil is encased in 1.6-mm thick, nonmagnetic stainless steel       ing the SAS least squares linear regression program REG
+for environmental protection. The steel pole piece exten-          (SAS Institute, Inc., 1985). A linear multiple regression model
+sions are Cu plated and overplated with hard chrome to             was posited to examine the effects of volumetric soil-water
+provide a wear surface. The dimensions of the extended pole        content, sensor configuration, measurement depth, sample
+pieces are 17.8-cm high by 5.7-cm thick by 61-cm long with         type, and sample orientation on the magnitude of the PNMR
+a mass of approximately 45 kg each. They extend 10 cm              short resultant. Although the model2 was significant (F =
+below the bottom of the detector. The short pole pieces are        286.88, P <0.0001), the adjusted R was only 0.58. Tests
+identical, except they are only 7.8-cm high with a mass of         indicated that the coefficients of the parameters for sample
+approximately 20 kg and when mounted, are flush with the           type and sample orientation were not significantly different
+bottom of the detector. The pole pieces are held in place by       from zero. This indicates there was no apparent influence
+a total of 12 bolts and can easily be changed in a few minutes     of organic matter content, clay mineralogy, or texture on the
+by one person.                                                     PNMR signal. Coefficients of the other parameters, volu-
+   The magnetic fields of the sensor in both configurations        metric soil-water content, sensor configuration, and mea-
+were mapped with a digital gaussmeter and a custom made            surement depth, were found to be significantly different from
+positioning device. Measurements were made at regular in-          zero.
+tervals of 2.54 cm on a rectangular grid parallel to the bot-         On the basis of the preliminary statistical analysis and the
+tom surface of the detector and repeated in vertical incre-        assumptions stated above, a linear interactive multiple
+ments of 0.63 cm.                                                  regression model was posited to describe the results. The
+   Prepared samples of soil at various water contents were         model accounts for the interactions between sensor config-
+used to test the PNMR response under the six sensor con-           uration and measurement depth in describing the effect of
+figuration-measurement depth combinations. Samples used            volumetric soil-water content on the magnitude of the PNMR
+were three clays (montmorillonite, kaolinite, and illite), and     short resultant. The model is
+a sandy loam with five levels of organic matter content,
+ranging from 2 to 20% by weight. The sandy loam samples             Y =          01*1                         04*1*2
+were taken from research plots where added compost has                                                          r
+been used for several years to maintain elevated organic
+                                                                                                                  Y3 4-
+                                                                                                                .2A  -r te       m
+                                                                                                                                 [jj
+matter levels. Samples were placed in rectangular plastic          where Y is the magnitude of the PNMR short resultant, X{
+containers (21.6 by 11.4 by 30.5 cm) and sealed with caulk-        is the volumetric soil-water content, Xi is the sensor config-
+ing compound and tape. Volumetric soil-water contents of           uration (1 for extended, 0 for flat), X3 is the measurement
+the samples were determined gravimetrically by oven drying         depth, e is the error term, and the /3's are coefficients. The
+and using the known volume of the containers. Water con-3          model was examined using the SAS least squares linear
+tent3 of the prepared samples ranged from 0.04 to 0.62 m           regression program REG (SAS Institute, Inc., 1985). The
+m~ . Bulk    density of the samples ranged from 0.38 to 1.27       model appeared to provide a good fit since the test for over-
+Mg m~3. A glycerol sample was used as a reference standard         all fit was highly  significant (F = 7712.1, P <0.0001) and
+for the PNMR measurements. Water could not be used as              the adjusted R2 value (R2 = 0.96) was relatively large, even
+a reference standard because of its long NMR relaxation            though the ranges of the independent variables were rela-
+times compared to soil water. Measurements were made with          tively small. Plots of the residuals did not reveal any major
+the sample placed directly under the detection coil. At least      departures from the underlying regression assumptions. A
+ 10 PNMR measurements were made on each sample; five               simultaneous test of the four coefficients of the interactive
+with the sample in the upright position and five with it in        terms (B4, B5, B6, and B7) was conducted to examine whether
+the inverted position.                                             any of these coefficients was different from zero. Since the
+                                                                   observed F value (F = 5379.2) was highly significant (P
+                                                                   <0.0001), it could be concluded that at least one coefficient
+           RESULTS AND DISCUSSION                                  differed from zero and that interactive effects were present.
+                                                                      To determine whether there was any effect for sensor con-
+   Output of the PNMR instrument consists of eight                 figuration, a simultaneous test of the four coefficients of these
+signals: Channels A and B, each at phases of the sec-              variables (B2, B4, B5, and B7) was conducted. The observed
+ond pulse in the two-pulse sequence of 0 and 180° to               F value (F = 6897.7) was highly significant (P rSO.OOOl)
+reduce coherent magneto-acoustic noise, and two pulse              indicating that at least one coefficient differed from zero, and
+                                                                   sensor configuration did affect the relationship between
+spacings denoted short and long. The instrument mi-                PNMR signal and volumetric soil-water content and mea-
+crocomputer processes these signals and prints, in ad-             surement depth.
+dition to the raw signals, a short and a long resultant,              Next, the sensor configuration effect was examined to de-
+calculated for each pulse separation by the following              termine if the interactive model could be simplified to an
+equation                                                           additive one. A simultaneous test of the coefficients of the
+                  PAETZOLD ET AL.: PULSED NMR INSTRUMENT FOR SOIL-WATER CONTENT MEASUREMENT                                                                289
+
+sensor configuration interactive terms (B4, B5, and B7) re-             Table 1. Summary of the reduced equation parameters
+vealed that there was some significant interactive effect (F            relating PNMR signal to volumetric soil-water content
+= 5375.0, (P ±=0.0001), and individual tests on these coef-                by sensor configuration and measurement depth.
+ficients indicated that configuration did, in fact, interact with      Sensor                   Measurement                                 Sample regression
+both measurement depth and volumetric soil-water content.           configuration!               depth, mm                Intercept            coefficient
+Although B5—the coefficient of the sensor configuration-
+measurement depth interaction term was marginal (F =                         1                          38                 -0.01                    7.81
+                                                                             1                          51                   0.00                   4.25
+3.418, P ±=0.06)—the term was retained because of the sig-                   1                          63                   0.00                   0.68
+nificance of B7, the coefficient of the three-way interaction                0                          38                   0.01                   1.18
+term (F = 3438.5, P ±=0.0001).                                               0                          51                   0.04                   0.67
+   The interactive model, therefore, was selected. With the                  0                          63                   0.07                   0.17
+exception of B5, as noted above, each coefficient in the model      11 = extended; 0 = flat.
+was highly significant (P ±=0.0001), indicating that each in-
+dependent variable contributed to the explanation or fitting
+of the PNMR resultant, beyond that contributed by the other         is typical for the flat configuration), the sensitive region (a
+variables in the model.                                             region in space where the static and RF magnetic fields pro-
+   The fitted equation is                                           vide the correct conditions for NMR to occur) is a slice
+ Y = -0.073 + 2.685*, + 0.059*2 + 0.002*3                           whose thickness is directly proportional to the level of HI
+                                                                    and inversely proportional to the static magnetic field gra-
++ 15.826*,*2 - 0.002*2*3 - 0.040*,*3                                dient. Typical H,'s in the instrument are 1.6-, 1.2-, and 0.8-
+                                                                    mT peak for inspection depths of 38, 51, and 63 mm, re-
+               - 0.241*!*2*3.                                [4]    spectively. The slice thickness is approximately equal to the
+By substituting the appropriate values for sensor configu-          peak /f, divided by the magnetic field gradient. In a 0.12
+ration and measurement depth, the fitted equation can be            mT mm~' static magnetic field gradient with a peak Ht of
+reduced to six individual equations relating the magnitude           1.6 mT, the slice thickness is approximately 13 mm (1.6
+of the PNMR shp.rt resultant to volumetric soil-water con-          divided by 0.12). This causes the sensitive slice thickness to
+tent for the six sensor configuration-measurement depth             be larger at shallower inspection depths (higher H,). Since
+combinations. The values of the coefficients in these equa-         the NMR signal-to-noise ratio is directly proportional to the
+tions are given in Table 1. It is readily apparent from these       filling factor (volume of the sample divided by the effective
+values that, for a given depth, the PNMR measurement is             volume of the RF coil), a thicker slice provides better sen-
+more sensitive to soil-water content with the sensor in the         sitivity. In addition, the received NMR signal amplitude
+extended configuration than with it in the flat configuration.      produced by the protons in the sensitive region also de-
+The regression coefficient for the extended configuration is        creases with increasing distance from the loop RF coil, which
+at least four times that for the flat configuration at all mea-     is utilized in the instrument. Since the RF coil is closer to
+surement depths. In both configurations, however, sensitiv-         the sensitive region for shallower measurement depths, the
+ity to soil-water content decreases as measurement depth            received signal is higher.
+increases.                                                             The sensitivity difference between the extended and flat
+   The sensitivity differences can be attributed to the char-       sensor configurations is explained by the volumes of the
+acteristics of the magnetic and RF fields. The NMR pulse            sensitive regions. Figure 1 provides a comparison of the
+sequence utilized by the instrument to measure moisture is          magnetic fields of both sensor configurations. These graphs
+called a Hahn spin-echo sequence. The sequence includes a           represent magnetic field cross sections taken directly be-
+ir/2 pulse, a delay time r, and a ir pulse. The describers ir/
+2 and ir refer to the angle of rotation of a magnetization                                                           R F COIL
+vector. The magnetization vector is first aligned with the                         Magnetic
+static magnetic field direction (from pole to pole). The ap-                       Flux        o in p in
+
+plication of an intense RF field whose direction is orthog-
+onal to the static magnetic field direction will cause an an-
+                                                                     i»            Density SfclS ff
+                                                                                   (mT)
+
+gular velocity (jH^ of the magnetization vector where 7 is
+a constant for the resonance element (in this case H) and           aa so
+H, is the transmitted RF field intensity. It is desirable that
+the Ht field be turned on for times r2 and 2r2 such that the          75
+products (angles of rotation) yH{r2 = 90° or v/2 and 7//i(2T2)
+ = 180° or ir. These angles of rotation of the magnetization
+vector correspond to the ir/2 pulse and ir pulse indicated                                25       50        75     100     125       150    175    200    225
+above in the Hahn spin-echo sequence. The NMR echo sig-                                                           DISTANCE (mm)                                  S|
+nal, which is a measure of the H in soil water, occurs at a              Short.
+                                                                          Pole
+time r, after the ir pulse. For maximum signal amplitude,               .Piece                                       R F COIL                                Ip'
+the pulses in the sequence must provide rotation angles very                  Magnetic
+close to ir/2 and ir.                                                         Flux
+                                                                              Density
+   The sensitivity decrease as the distance from the sensor                      (mT)
+is increased is explained by the fact that the RF field inten-                   70.0-:
+                                                                                 75.0"
+sity, Ht, decreases with increasing distance from the sensor.        ISO-        80.<S
+The static magnetic field also decreases with increasing dis-
+tance from the sensor but the gradient remains relatively
+constant throughout the range of inspection depths for each            75'
+pole piece configuration utilized in the instrument. The de-
+creasing HI with increasing distance causes the need to in-
+crease T2 to keep the product fH, r2 constant. The optimum                        0       25       50        75      100  125   150           175    200    225
+yH,T2 product for a ir/2 pulse for H (protons) is 12 mT^                                                          DISTANCE (mm)
+ms. In a high gradient static magnetic field (0.12 m~' is           Fig. 1. Magnetic field maps for sensor in extended and flat config-
+typical for the extended sensor configuration and 0.47 T m~'          urations.
+290                                            SOIL SCI. SOC. AM. J., VOL. 51, 1987
+
+ neath the center of the RF coil, perpendicular to the axis of     plained in terms of magnetic field and RF signal char-
+the magnet. With a gradient of 0.47 T m~' (flat configura-         acteristics.
+tion) and a peak 7/, of 1.6 mT, the sensitive region slice is
+approximately 3-mm thick. With a gradient of 0.12 T m~'                             ACKNOWLEDGMENT
+(extended configuration) and the same peak Hlt the slice
+thickness is approximately four times greater.                        The authors thank Dr. R.L. Trader, Univ. of Maryland,
+   The slice in each case is centered at the selected depth        for assistance in statistical analysis of the data.
+(i.e., the slice at the measurement depth of 38 mm is 13-
+mm thick with the extended poles pieces, where the top and
+bottom of the slice are located at approximately 31- and 44-
+mm depths, respectively). The shape of the slice follows the
+shape of the static magnetic flux density lines. The outer
+perimeter of the slice is roughly circular in shape and is
+controlled by the diameter and distance from the loop RF
+coil. The diameters of the slices are approximately 10 to 13
+cm in this instrument. No other factors substantially affect
+the shape of the sensitive region.
+
+                   CONCLUSIONS
+   The relationship between PNMR signal and volu-
+metric soil-water content, sensor configuration and
+measurement depth can be described by a linear mul-
+tiple regression model with interaction terms. The
+PNMR signal is a linear function of volumetric soil-
+water content and is not affected by clay mineralogy,
+soil organic matter content or texture within the ranges
+studied. Sensitivity of the measurement to volumetric
+soil-water content decreases with increasing measure-
+ment depth in both configurations. For any given
+measurement depth, the measurement is more sensi-
+tive to water content with the sensor in the extended
+configuration. The differences in sensitivity due to
+measurement depth and sensor configuration are ex-
+

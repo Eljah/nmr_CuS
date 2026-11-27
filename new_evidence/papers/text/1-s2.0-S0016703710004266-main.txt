@@ -1,0 +1,973 @@
+                                        Available online at www.sciencedirect.com
+
+
+
+
+                                     Geochimica et Cosmochimica Acta 74 (2010) 6157–6173
+                                                                                                                 www.elsevier.com/locate/gca
+
+
+
+
+         “Invisible” silver and gold in supergene digenite (Cu1.8S)
+     Martin Reich a,⇑, Stephen L. Chryssoulis b, Artur Deditius c, Carlos Palacios a,
+             Alejandro Zúñiga d, Magdalena Weldt a, Macarena Alvear a
+              a
+                Departamento de Geologı́a, Facultad de Ciencias Fı́sicas y Matemáticas, Universidad de Chile, Santiago, Chile
+                            b
+                              Advanced Mineral Technology Laboratory (AMTEL), London, Ontario, Canada
+                              c
+                                Institute of Applied Geosciences, Graz University of Technology, Graz, Austria
+         d
+           Departamento de Ingenierı́a Mecánica, Facultad de Ciencias Fı́sicas y Matemáticas, Universidad de Chile, Santiago, Chile
+
+                      Received 12 April 2010; accepted in revised form 27 July 2010; available online 4 August 2010
+
+
+
+
+Abstract
+
+   Despite its potential economic and environmental importance, the study of trace metals in supergene (secondary) Cu-sul-
+ﬁdes has been seriously overlooked in the past decades. In this study, the concentration and mineralogical form of “invisible”
+precious metals (Ag, Au) and metalloids (As, Sb, Se, Te) in supergene digenite (Cu1.8S) from various Cu deposits in the
+Atacama Desert of northern Chile, the world’s premier Cu province, were determined in detail using a combination of micro-
+analytical techniques. Secondary ion mass spectrometry (SIMS) and electron microprobe analyzer (EMPA) measurements
+reveal that, apart from hosting up to 11,000 ppm Ag, supergene digenite can incorporate up to part-per-million contents
+of Au (6 ppm) and associated metalloids such as As (300 ppm), Sb (60 ppm), Se (96 ppm) and Te (18 ppm). SIMS
+analyses of trace metals show that Ag and Au concentrations strongly correlate with As in supergene digenite, deﬁning wedge-
+shaped zones in Ag–As and Au–As log–log spaces. SIMS depth proﬁling and high-resolution transmission electron micros-
+copy (HRTEM) observations reveal that samples with anomalously high Ag/As (>30) and Au/As (>0.03) ratios plot
+above the wedge zones and contain nanoparticles of metallic Ag and Au, while samples with lower ratios contain Ag and
+Au that is structurally bound to the Cu-sulﬁde matrix. The Ag–Au–As relations reported in this study strongly suggest that
+the incorporation of precious metals in Cu-sulﬁdes formed under supergene, low-temperature conditions respond to the incor-
+poration of a minor component, in this case As. Therefore, As might play a signiﬁcant role by increasing the solubility of Ag
+and Au in supergene digenite and controlling the formation and occurrence of Ag and Au nanoparticles. Considering the fact
+that processes of supergene enrichment in Cu deposits can be active from tens of millions of years (e.g. Atacama Desert), we
+conclude that supergene digenite may play a previously unforeseen role in scavenging precious metals from undersaturated (or
+locally slightly supersaturated) solutions in near-surface environments.
+Ó 2010 Elsevier Ltd. All rights reserved.
+
+
+
+                     1. INTRODUCTION                                       2008; Reich et al., 2009a). In addition to the economic
+                                                                           upgrading of copper, resulting from weathering and re-pre-
+   Supergene copper ores have received signiﬁcant atten-                   cipitation of copper minerals, supergene enrichment
+tion due to their global economic importance and the dra-                  processes have also been identiﬁed to cause strong enrich-
+matic extent to which copper and sulfur are remobilized                    ment in trace metals contents, most importantly nickel, co-
+and fractionated during oxidative weathering (Brimhall                     balt, gold, silver and platinum-group elements. This (Ni,
+et al., 1985; Ague and Brimhall, 1989; Lichtner and Biino,                 Co) has been reported in laterite deposits, while silver and
+1992; Mathur et al., 2005; Sillitoe, 2005; Belogub et al.,                 gold are known to accumulate in supergene proﬁles from
+                                                                           arid regions (Golightly, 1981; Bowles, 1986; Freyssinet
+                                                                           et al., 1989; Boyle, 1997; Colin et al., 1997; Hough et al.,
+ ⇑ Corresponding author. Tel.: +56 2 9784986
+                                                                           2008; Reich et al., 2009b). In addition, supergene processes
+   E-mail address: mreich@ing.uchile.cl (M. Reich).
+
+0016-7037/$ - see front matter Ó 2010 Elsevier Ltd. All rights reserved.
+doi:10.1016/j.gca.2010.07.026
+6158                              M. Reich et al. / Geochimica et Cosmochimica Acta 74 (2010) 6157–6173
+
+in sulﬁdic ore systems can also contribute acid rock drain-            et al., 2007), signiﬁcant amounts of “invisible” precious
+age and heavy metal leaching from the sulﬁdes, resulting in            trace metals (Ag, Au) have been documented in Cu-sulﬁdes
+natural contamination of the local environment and their               from Cu deposits (Vivallo and Henriquez, 1998; Kojima
+adjacent surroundings (Martycak et al., 1994; Kimball                  et al., 2003; Reich et al., 2009b). For example, the high-
+et al., 1995; Hochella et al., 1999; Matlock et al., 2002).            grade, low-tonnage “Manto-type” Cu deposits of northern
+    Copper sulﬁdes are widespread in both hypogene and                 Chile host 8–25 g of Ag per ton (e.g. Mantos de la Luna,
+supergene Cu deposits worldwide and are considered proﬁt-              Susana/Lince and Buena Vista deposits, Kojima et al.,
+able Cu ores because of their high Cu-content at 67–80 wt%            2003), and more than one million ounces of Ag have been
+Cu (Vaughan and Craig, 1978). Anilite (Cu1.76S), digenite              produced as a by-product of the main Cu-sulﬁde minerali-
+(Cu1.8S), djurleite (Cu1.97S) and chalcocite (Cu2S) are the            zation at the Mantos Blancos deposit (Orrego et al., 2006).
+Cu-rich members of a group of minerals that range in compo-            Weathering of the primary (hypogene) sulﬁde mineraliza-
+sition from CuS (covellite) to Cu2S (chalcocite) (Skinner,             tion in these deposits produced several hundred meters of
+1966; Morimoto and Koto, 1970; Morimoto and Gyobu,                     higher grade caps of secondary Cu-sulﬁdes, oxides, hydrox-
+1971; Will et al., 2002; Fleet, 2006). Despite their simple com-       ides, carbonates, sulfates and chlorides. This supergene
+positions, these Cu-sulﬁdes are structurally complex and               mineralization is a reﬂection of the history of groundwater
+commonly can consist of multi-mineral mixtures at the                  ﬂow, tectonics, landscape, and climate of the Atacama Des-
+micro and nanoscales (Posfai and Buseck, 1994; Makovicky,              ert (Alpers and Brimhall, 1988; Sillitoe and McKee, 1996;
+2006).                                                                 Clarke, 2006; Reich et al., 2009a).
+    Unlike hypogene Cu-sulﬁdes, formed under magmato-                      Despite this evidence, the study of precious metal con-
+hydrothermal conditions or during breakdown of high-tem-               tents in supergene (secondary) Cu minerals has been largely
+perature bornite (Cu5FeS4), secondary or supergene Cu-sul-             overlooked in the past decades in Chile and elsewhere. In
+ﬁdes form when the Cu ore system is exposed at or near the             addition to the lack of trace-element data, thermodynamic
+surface and acidic and oxidizing solutions dissolve primary            and experimental studies of precious metal solubility (Ag,
+Cu-sulﬁdes such as chalcopyrite and bornite. The break-                Au) in Cu-sulﬁdes are available only at high temperatures,
+down of chalcopyrite, CuFeS2 (Eq. (1)) produces soluble                i.e. 120–600 °C (Skinner, 1966; Ghosal and Sack, 1995;
+Cu ions that percolate downwards in the soil/regolith pro-             Sack, 2000; Fleet, 2006; Sack and Ebel, 2006). Under these
+ﬁle and precipitate below the water table or redox front to            magmato-hydrothermal temperature conditions, extensive
+form, e.g. chalcocite, Cu2S, under reducing conditions in              solid solution has been documented in the Cu–Ag–S and
+the presence of bacteria (Sillitoe et al., 1996; Southam               Cu–Ag–Sb–As systems and results are only applicable to
+and Saunders, 2005; Enders et al., 2006; Kimball et al.,               hydrothermal ore deposits where Ag is “visible” and form
+2009) (Eq. (2)):                                                       Ag sulﬁdes and sulfosalts. Therefore, the solubility, specia-
+                                                                       tion and mineralogical form of “invisible” precious metals
+CuFeS2 þ 16Fe3þ þ 8H2 O ¼ Cu2þ þ 17Fe2þ
+                                                                       in Cu-sulﬁdes formed under non-equilibrium, low
+                                  þ 2SO4 2 þ 16Hþ            ð1Þ      (<100 °C) temperature conditions in supergene environ-
+      2þ                     þ                                        ments remain unconstrained.
+2Cu        þ HS ¼ Cu2 S þ H                                   ð2Þ
+                                                                           In this study, we used secondary ion mass spectrometry
+    Among supergene Cu-sulﬁdes, the Cu-rich members of                 (SIMS) and electron microprobe analyzer (EMPA) to fully
+this group (i.e. anilite, digenite, djurleite and chalcocite)          characterize the trace metal content of Ag-bearing super-
+are the most abundant and widely distributed secondary                 gene digenite from four Cu deposits in the Atacama Desert
+Cu-sulﬁdes in ore systems, including porphyry Cu, strat-               of northern Chile. When coupled with high-resolution
+abound “Manto-type” Cu, red-bed “Kupferschiefer” Cu                    transmission electron microcopy (HRTEM) observations,
+and volcanic hosted massive sulﬁde (VHMS) Cu deposits                  the trace-element data show that the solubility of Ag and
+(Large et al., 1995; Maksaev et al., 2007; Belogub et al.,             Au in supergene digenite is strongly dependent of the As
+2008; Reich et al., 2009b), and are also found as a second-            content, as previously reported for Au in As-rich pyrite
+ary product of hypogene sulﬁde alteration in submarine                 (Cook and Chryssoulis, 1990; Reich et al., 2005, and refer-
+magmatic–hydrothermal systems in mid-ocean ridges (Han-                ences therein). We then explored how this information can
+nington et al., 1988; De Ronde et al., 2005).                          be used to better understand the role of supergene Cu-
+    Despite its economic and environmental importance,                 sulﬁdes as potential sinks of signiﬁcant amounts of precious
+very few studies have documented the trace element content             metals in supergene proﬁles.
+of supergene Cu-sulﬁdes and Cu-sulﬁdes in general. Among
+those studies, Hannington et al. (1988) reported secondary                            2. SAMPLES AND METHODS
+enrichment of Au and Ag in recent submarine sulﬁdes in
+the TAG hydrothermal ﬁeld in the Mid-Atlantic Ridge,                   2.1. Samples
+containing up to 16 ppm Au as free native Au and
+116 ppm Ag in Cu-sulﬁdes. In a more recent study, Mozg-                   Supergene Cu-sulﬁde samples were obtained from strat-
+ova et al. (2008) documented up to 1200 ppm Ag and                     abound (Mantos de la Luna, Michilla), porphyry-type
+1000 ppm Au in Cu-sulﬁdes from the Ashadze hydrother-                  (Mantos Blancos) and giant porphyry Cu (Spence) deposits
+mal ﬁeld in the Mid-Atlantic.                                          in the Atacama Desert of northern Chile. All the deposits
+    In the Atacama Desert of northern Chile, which holds               sampled have well-developed supergene enrichment proﬁles
+bout 40% of the known Cu resources in the world (Maksaev               overlying the hypogene Cu-sulﬁde zones. Recent and
+                                                   “Invisible” Ag–Au in digenite                                             6159
+
+detailed descriptions of the geology of these deposits are          1990; Arehart et al., 1993; Larocque et al., 1995a,b; Reich
+found in Kojima et al. (2003), Reich et al. (2009b) (Mantos         et al., 2005). Along with other modern microanalytical tech-
+de la Luna), Trista-Aguilera et al. (2006) (Michilla), Ramir-       niques such as laser-ablation inductively coupled plasma
+ez et al. (2006) (Mantos Blancos), and Cameron et al.               mass spectrometry (LA-ICP-MS) and proton induced
+(2007) (Spence). For details about the age and relation be-         X-ray emission (PIXE) spectrometry, SIMS techniques
+tween supergene enrichment and climate in the hyper-arid            provide a combination of sub-ppm detection limits with
+Atacama of northern Chile, the reader is referred to Sillitoe       sub-micron scale mineral inclusion detection capabilities.
+et al. (1996), Arancibia et al. (2006), Cameron et al. (2008)           Multi-element (Ag, Au, As, Sb, Se, Te) SIMS analyses
+and Reich et al. (2008, 2009a).                                     of supergene digenite from Mantos de la Luna, Michilla,
+    In these deposits, supergene Cu-sulﬁdes (digenite, djurle-      Mantos Blancos and Spence were performed at Advanced
+ite and covellite) occur as disseminated ﬁne-grained aggre-         Mineral Technology Laboratories (AMTEL) in London,
+gates and in veinlets replacing the hypogene assemblage             Ontario, using a Cameca IMS-3f ion microprobe. A
+(bornite and chalcopyrite), and are locally altered to the          10 kV and 8 nA primary Cs+ beam source was used for
+oxide alteration assemblage of atacamite and chrysocolla.           measurements, with a 4.5 kV accelerating voltage for the
+No Ag-minerals occur in these deposits, with the exception          negative secondary ions. The analytical spot of the primary
+of small amounts of native Ag at Susana–Lince and                   beam was 15 lm at 8–10 nA and the depth of analysis was
+Mantos Blancos deposits (Kojima et al., 2003).                      between 0.8 and 2 lm. The ions (isotopes) analyzed were
+    Considering its dominant modal abundance in the stud-           107,109
+                                                                            Ag, 197Au, 75As, 121,123Sb, 128,130Te and 78,80Se.
+ied material (21 samples), supergene digenites were ana-            In addition, the following major constituent ions were mon-
+lyzed using a combination of electron microprobe analysis           itored: 63Cu, 34S and 56Fe. Molecular interferences were
+(EMPA), secondary ion mass spectrometry (SIMS) and                  eliminated by 180 eV oﬀset with the energy slit fully open.
+high-resolution      transmission     electron   microscopy         The minimum detection limits at 2r of the background level
+(HRTEM). In these samples, only discrete, homogeneous               were 1.4 ppm (Ag), 0.07 ppm (Au), 0.5 ppm (As), 0.88 ppm
+digenite mineral grains with no visible exsolutions and/or          (Sb), 0.05 ppm (Se) and 0.07 ppm (Te). The mineral stan-
+zonations were analyzed. The integration of EMPA, SIMS              dards used were produced by implanting a known dosage
+and HRTEM techniques allowed a full characterization of             of the element of interest into the same mineral matrix (dig-
+digenites in term of their major components stoichiometry,          enite) using the Tandetron accelerator at the University of
+trace element contents and crystal structure (see Section 3).       Western Ontario, Canada. The implant dosage varies from
+                                                                    5  1013 atoms/cm2 for Au up to 5  1014 atoms/cm2 for
+2.2. Electron microprobe analysis (EMPA)                            Ag, with a typical implantation energy of 1 MeV. In depth
+                                                                    proﬁles, the minimum detectable size of sub-micron mineral
+    Major and trace element compositions of supergene dig-          inclusions was 100 nm at 5 s counting time.
+enite grains were obtained by wavelength-dispersive spec-
+trometry (WDS) using a Cameca SX-100 electron                       2.4. High-resolution transmission electron microscopy
+microprobe analyzer at the University of Michigan Elec-             (HRTEM)
+tron Microbeam Analysis Laboratory (EMAL). Digenites
+were measured for Cu (Ka), S (Ka), Fe (Ka), Ag (La),                    Unlike EMPA or SIMS, TEM techniques allow near-
+Au (Ma), As (La), Sb (Lb), Se (La), Te (La), V (Ka), Co             atomic scale imaging capabilities, along with in-situ deter-
+(Ka), Ni (Ka), Zn (Ka), Cd (La), Sn (La), Bi (Ma) and               mination of crystal structure by using selected area electron
+Hg (Ma) using a 2 lm beam, at 20 kV accelerating voltage            diﬀraction (SAED) and/or by fast Fourier transformation
+and 10–40 nA beam current, with 30 s peak counting times            (FFT) of high-resolution images, and a qualitative determi-
+for Cu, Fe and S. Higher counting times of 50–60 s (As, Sb,         nation of major elemental distribution by means of energy
+Se), 80 s (Te) and 80–100 s (Ag, Au) were used to increase          dispersive X-ray spectrometry (EDS). Therefore, TEM
+counting rates for the aforementioned elements (V, Co,              observations can be used as a complementary tool to obtain
+Ni, Zn, Cd, Sn, Bi and Hg were not detected during the              highly magniﬁed images and structural/chemical informa-
+analyses). Detection limits were 100 ppm (Se), 150 ppm              tion of both the sulﬁde matrix and the contained mineral
+(V, Ni), 200 ppm (Fe, S, As, Sb, Te, Co, Zn), 300 ppm               nanoparticles.
+(Ag, Au), 400 ppm (Cu), 450 ppm (Sn), 600 ppm (Bi) and                  The observation of selected digenite samples was carried
+700 ppm (Cd, Hg). The following mineral and synthetic me-           out using a FEI Tecnai F20 FEG TEM operated at 200 kV,
+tal standards used were Cu2S (Cu), FeS2 (Fe, S), FeAsS              equipped with an EDS detector (0.5–1 wt% detection lim-
+(As), Sb2S3 (Sb), Se0 (Se), SbTe (Te), Ag0 (Ag), and Au0            it), at the Laboratorio de Microscopı́a Electrónica de
+(Au). No beam-induced damage was observed during dige-              Transmisión (LabMET), Universidad de Chile, Santiago,
+nite analysis.                                                      Chile. Digenite grains with anomalously Ag contents and
+                                                                    evidence of nanoparticulate Ag as measured by EMPA
+2.3. Secondary ion mass spectrometry (SIMS)                         and SIMS depth proﬁling were cut from epoxy polished
+                                                                    mounts and mounted into 3 mm diameter copper TEM
+   SIMS is currently one of the most sensitive microbeam            grids. Final thinning of the samples was performed by ion
+techniques available for detecting trace concentrations of          milling with a 4.0 keV Ar beam in a Gatan ion-milling sys-
+Ag and Au (and other traces metals) in sulﬁde minerals              tem. Radiation damage or phase transformations were not
+(Chryssoulis et al., 1987, 2004; Cook and Chryssoulis,              observed during ion milling and TEM observation. Image
+6160                           M. Reich et al. / Geochimica et Cosmochimica Acta 74 (2010) 6157–6173
+
+analysis, including Fast Fourier Transformation (FFT),                  only measured in a few grain samples, with contents rang-
+was completed using Gatan Digital Micrograph 3.4.                       ing from 200 ppm to 0.49 wt%. Cu-deﬁciency is observed
+                                                                        in all Cu-sulﬁde point analyses (n = 88), with a mean of
+                         3. RESULTS                                     1.82 atoms per formula unit of Cu per each S, Cu1.82S, with
+                                                                        a small standard deviation (0.02) (Fig. 1A). This homoge-
+3.1. Major and trace element contents of supergene digenite:            neous compositional range of Cu is typical of the dige-
+EMPA and SIMS results                                                   nite-type solid solution (Cu1.8S) (Will et al., 2002).
+                                                                           EMPA analyses show that Ag contents range from a
+   Representative electron microprobe analyses of super-                maximum of 1.16 wt% (11,600 ppm) to below the minimum
+gene digenite from Cu deposits are reported in Table 1.                 detection limit values of 300 ppm (Table 1). Apart from Ag,
+Cu and S contents of digenite vary from 76.35 to                        only traces of Se (100 ppm) and Te (200 ppm) were de-
+79.01 wt%, and 20.77 to 21.97 wt%, respectively. Iron was               tected by EMPA in some samples, while Au, Sb and As are
+
+
+Table 1
+Representative electron microprobe analyzer (EMPA) data (wt%) of argentiferous supergene digenite. b.d. = below detection. Detection
+limits (wt%) are shown below each element analyzed.
+Sample          Cu           Fe          S           As          Sb            Se          Te          Ag        Au          Total
+                (0.04)       (0.02)      (0.02)      (0.02)      (0.02)        (0.01)      (0.02)      (0.03)    (0.03)
+cc ML-4         77.61        b.d.        21.59       b.d.        b.d.          b.d.        b.d.        b.d.      b.d.         99.32
+cc ML-4         78.03        b.d.        21.37       b.d.        b.d.          b.d.        b.d.        b.d.      b.d.         99.52
+cc ML-4         78.08        b.d.        21.64       b.d.        b.d.          b.d.        b.d.        b.d.      b.d.         99.80
+cc ML-4         78.17        b.d.        21.29       b.d.        b.d.          b.d.        b.d.        b.d.      b.d.         99.59
+cc ML-4         77.97        b.d.        21.58       b.d.        b.d.          b.d.        b.d.        b.d.      b.d.         99.64
+cc ML-4         77.96        b.d.        21.55       b.d.        b.d.          b.d.        b.d.        b.d.      b.d.         99.63
+cc ML-4         77.78        b.d.        21.39       b.d.        b.d.          b.d.        b.d.        b.d.      b.d.         99.31
+cc ML-4         77.51        b.d.        21.48       b.d.        b.d.          b.d.        b.d.        b.d.      b.d.         99.09
+cc ML-4         77.97        b.d.        21.63       b.d.        b.d.          b.d.        b.d.        b.d.      b.d.         99.76
+cc SS-1         77.65        b.d.        21.40       b.d.        b.d.          b.d.        b.d.        b.d.      b.d.         99.13
+cc SS-1         77.78        b.d.        21.15       b.d.        b.d.          b.d.        b.d.        b.d.      b.d.         99.02
+cc SS-1         77.75        b.d.        21.10       b.d.        b.d.          b.d.        b.d.        b.d.      b.d.         98.99
+cc SS-1         77.91        b.d.        21.24       b.d.        b.d.          b.d.        b.d.        b.d.      b.d.         99.25
+cc SS-1         77.87        b.d.        21.32       b.d.        b.d.          0.01        b.d.        0.04      b.d.         99.30
+cc SS-1         77.53        b.d.        21.07       b.d.        b.d.          b.d.        b.d.        b.d.      b.d.         98.71
+cc SS-1         77.80        b.d.        21.28       b.d.        b.d.          b.d.        b.d.        b.d.      b.d.         99.17
+cc SS-1         77.88        b.d.        21.08       b.d.        b.d.          0.01        b.d.        b.d.      b.d.         99.09
+cc SS-1         77.55        b.d.        21.33       b.d.        b.d.          b.d.        0.02        b.d.      b.d.         98.96
+cc MB-14        79.01        b.d.        21.43       b.d.        b.d.          b.d.        b.d.        b.d.      b.d.        100.46
+cc MB-14        78.94        b.d.        21.21       b.d.        b.d.          b.d.        b.d.        b.d.      b.d.        100.17
+cc MB-14        78.60        b.d.        21.36       b.d.        b.d.          b.d.        b.d.        b.d.      b.d.        100.00
+cc MB-14        77.43        0.02        21.46       b.d.        b.d.          b.d.        b.d.        b.d.      b.d.         98.94
+cc MB-14        78.37        b.d.        21.33       b.d.        b.d.          b.d.        b.d.        b.d.      b.d.         99.72
+cc MB-14        78.80        b.d.        21.35       b.d.        b.d.          b.d.        b.d.        b.d.      b.d.        100.19
+cc MB-14        77.60        b.d.        21.50       b.d.        b.d.          b.d.        b.d.        b.d.      b.d.         99.11
+cc MB-14        77.61        b.d.        21.79       b.d.        b.d.          b.d.        b.d.        b.d.      b.d.         99.43
+cc MB-14        77.62        b.d.        21.64       b.d.        b.d.          b.d.        b.d.        0.03      b.d.         99.30
+cc MB-14        77.46        b.d.        21.59       b.d.        b.d.          b.d.        b.d.        b.d.      b.d.         99.11
+cc MB-14        77.72        b.d.        21.85       b.d.        b.d.          b.d.        b.d.        0.03      b.d.         99.62
+cc MB-14        77.56        b.d.        21.73       b.d.        b.d.          b.d.        b.d.        b.d.      b.d.         99.32
+cc ML-1         77.00        b.d.        20.77       b.d.        b.d.          b.d.        b.d.        0.86      b.d.         98.64
+cc ML-1         77.09        b.d.        20.99       b.d.        b.d.          b.d.        b.d.        1.05      b.d.         99.13
+cc ML-1         77.74        b.d.        21.67       b.d.        b.d.          b.d.        b.d.        0.43      b.d.         99.85
+cc ML-1         78.33        b.d.        21.74       b.d.        b.d.          b.d.        b.d.        0.15      b.d.        100.23
+cc ML-1         76.35        b.d.        21.16       b.d.        b.d.          b.d.        b.d.        0.60      b.d.         98.11
+cc ML-1         77.44        b.d.        21.72       b.d.        b.d.          b.d.        b.d.        0.21      b.d.         99.37
+cc ML-1         78.47        b.d.        21.94       b.d.        b.d.          0.01        b.d.        0.04      b.d.        100.47
+cc ML-1         77.60        b.d.        21.80       b.d.        b.d.          b.d.        b.d.        1.16      b.d.        100.57
+cc ML-1         76.94        0.49        21.80       b.d.        b.d.          0.01        b.d.        0.21      b.d.         99.45
+cc ML-1         78.35        0.06        21.75       b.d.        b.d.          b.d.        b.d.        b.d.      b.d.        100.18
+cc ML-1         78.22        0.05        21.87       b.d.        b.d.          b.d.        b.d.        b.d.      b.d.        100.18
+cc ML-1         78.53        0.04        21.97       b.d.        b.d.          b.d.        b.d.        b.d.      b.d.        100.55
+cc ML-1         78.36        b.d.        21.67       b.d.        b.d.          b.d.        b.d.        0.05      b.d.        100.09
+cc ML-1         77.36        b.d.        21.57       b.d.        b.d.          b.d.        b.d.        0.08      b.d.         99.03
+cc ML-4         77.61        b.d.        21.59       b.d.        b.d.          b.d.        b.d.        b.d.      b.d.         99.32
+                                                          “Invisible” Ag–Au in digenite                                                          6161
+
+
+
+
+Fig. 1. Composition and structure of supergene Cu-sulﬁde samples analyzed in this study. (A) Histogram showing the compositional range of
+digenite, as measured by EMPA. The average formulae of 88 representative point analyses (Cu1.82 ± 0.02S) fall within the range of digenite-
+type solid solution series (horizontal line, Will et al., 2002). Also, the chemical formulae of anilite, djurleite and chalcocite, with respect to Cu-
+content, are shown above the upper scale (arrows). (B) TEM selected area electron diﬀraction (SAED) pattern of a representative digenite
+sample. Indexing of the two-dimensional lattice fringes reveals a cubic structure with space group Fd3m and a = 5.57 Å (low-digenite
+structure, Will et al., 2002).
+
+
+below detection in most analyses (<200–300 ppm). No ex-                       tions of 259 SIMS analyses is presented in Table 2. Individual
+solved phases, chemical heterogeneities, zonations and/or                     spot analyses are presented in Appendix A. Concentrations
+growth zones were detected during EMPA (backscattered                         of Ag range from a maximum of 3000 ppm to a minimum
+electron imaging mode, BSE) observation of digenite.                          detected of 1.5 ppm, and Au ranges between a maximum of
+   Because of its high accuracy and sub-ppm sensitivity, the                  6 ppm and a minimum of 0.07 ppm (70 ppb). Arsenic and
+SIMS method allowed the detection of trace elements (Ag,                      antimony were detected in most samples, with maximum
+Au, As, Sb, Se, Te) that are present in digenite samples,                     concentrations of 300 and 60 ppm, respectively, and mini-
+and that are rarely reported in any microanalytical dataset.                  mum contents of 0.5 and 1 ppm, respectively. Concentra-
+A summary of maximum, minimum and average concentra-                          tions of Se range between 96 and 2 ppm, whereas Te
+
+
+Table 2
+Summary statistics of secondary ion mass spectrometry (SIMS) analyses (see Appendix A) of argentiferous digenite from various deposits in
+northern Chile. Mean concentrations (hXi) are reported along with standard errors (r).
+Deposit                 Datapoints                  Ag [ppm]            Au [ppm]       As [ppm]          Sb [ppm]       Se [ppm]         Te [ppm]
+Mantos de la Luna       96              max.        2977.00             5.98           277.00            51.40          91.30            17.90
+                                        min.        1.77                0.07           0.5               0.95           1.82             0.63
+                                        hXi ± r     118.22 ± 36.36      0.65 ± 0.09    20.23 ± 4.40      6.93 ± 0.94    24.74 ± 2.42     6.90 ± 0.52
+Michilla                101             max.        1346.00             3.12           189.00            59.50          96.00            16.70
+                                        min.        1.77                0.07           0.5               1.17           2.53             0.58
+                                        hXi ± r     88.60 ± 18.59       0.51 ± 0.05    13.45 ± 3.07      8.37 ± 1.08    23.10 ± 2.13     6.58 ± 0.48
+Mantos Blancos          37              max.        369.00              1.92           55.30             6.20           17.60            6.41
+                                        min.        1.45                0.07           0.5               1.09           2.79             0.63
+                                        hXi ± r     54.13 ± 12.30       0.32 ± 0.08    5.75 ± 1.86       0.70 ± 0.26    10.02 ± 0.52     2.10 ± 0.17
+Spence                  25              max.        21.90               1.49           37.50             5.36           16.60            7.59
+                                        min.        1.70                0.07           0.78              1.02           5.15             1.66
+                                        hXi ± r     8.03 ± 1.05         0.47 ± 0.07    6.76 ± 2.08       0.75 ± 0.27    7.88 ± 0.60      2.51 ± 0.25
+6162                              M. Reich et al. / Geochimica et Cosmochimica Acta 74 (2010) 6157–6173
+
+concentrations vary from a maximum of 18 ppm to a min-                     Au) vs. As, and that plot within the “wedge” (Fig. 2A),
+imum of 0.6 ppm.                                                           and (ii) individual samples with no visible correlation be-
+    Elemental correlation plots for SIMS analyses of trace                  tween Ag (and Au) vs. As that plot above the “wedge”.
+metals in supergene digenite are shown in Fig. 2. When                          The dynamic mode of the SIMS analysis, whereby suc-
+plotted in log–log space, Ag and Au show well-deﬁned po-                    cessively deeper layers of the mineral are analyzed with
+sitive correlation trends with As (Fig. 2A and B, respec-                   time, enables the distinction between solid-solution incor-
+tively), and with each other (Fig. 2C). In both cases (Ag                   poration (homogeneous signal as a function of depth) and
+vs. As and Au vs. As), the datapoints fall within wedge-                    the occurrence of sub-micron, nanoscale inclusions from
+shaped zones similar to the one reported for Au vs. As in                   the sudden change in the element signal intensity between
+arsenian pyrite by Reich et al. (2005). Insets in Fig. 2A–C                 layers (Chryssoulis, 1990). The SIMS proﬁles for trace met-
+show that Ag and Au also correlate with As, and with each                   als in selected digenite samples are presented in Fig. 3A–F.
+other, in individual grains from representative samples. An-                Depth-concentration proﬁles (time vs. intensity in counts
+other element that appears to positively correlate with Ag                  per second) are presented for the digenite matrix isotopes
+and Au is Sb, although the trends are more scattered                        (63Cu, 34S) and the contained trace elements (107,109Ag,
+                                                                            75
+(Fig. 2D and E). Antimony and As do not show an evident                        As, 197Au, 78,80Se, 121,123Sb and 128,130Te). Along with
+trend of correlation (Fig. 2F), although in some individual                 Cu and S, the distribution of As, Se and Te is constant with
+samples a positive correlation was observed (inset, Fig. 2F).               depth, indicating that these elements are incorporated in so-
+Silver and Au do not correlate with Se or Te (not shown).                   lid solution in the digenite structure (Fig. 3C, D and F,
+                                                                            respectively). Silver shows two mineralogical forms in dige-
+3.2. Mineralogical form of trace metals: SIMS depth proﬁles                 nite: nanoparticulate (Fig. 3A) and solid solution (Fig. 3B).
+and TEM observations                                                        The well-deﬁned Ag spike in Fig. 3A suggest the presence of
+                                                                            a Ag inclusion 200 nm wide or a cluster of Ag nanoparti-
+   The submicroscopic occurrence of “invisible” Ag (and                     cles smaller than 100 nm each. Gold and Sb proﬁles are spi-
+Au) and associated trace metals in digenite was studied                     ky due to their low concentrations (Fig. 3D and E,
+by using a combination of SIMS depth proﬁling and                           respectively), and solid-solution incorporation is assumed.
+TEM observations. Two types of samples were selected                            The SIMS depth proﬁles do not provide information
+based on the SIMS compositional data: (i) individual grain                  about the texture and crystal structure of the detected Ag
+samples that show a positive correlation between Ag (and                    sub-micron particles, and do not allow resolving individual
+
+
+
+
+Fig. 2. Correlation plots of (A) Ag vs. As, (B) Au vs. As, (C) Ag vs. Au, (D) Ag vs. Sb, (E) Au vs. Sb, and (F) Sb vs. As. Insets show individual
+correlations of representative samples. Full SIMS data in Appendix A.
+                                                       “Invisible” Ag–Au in digenite                                                    6163
+
+
+
+
+Fig. 3. SIMS depth-concentration proﬁles (times vs. intensity) of trace elements in selected digenite samples: (A) 107,109Ag, sample SP-13
+(Spence); (B) 107,109Ag, sample ML-5 (Mantos de la Luna); (C) 75As, sample SS-4 (Michilla); (D) 78,80Se and 197Au, sample SP-11 (Spence); (E)
+121,123
+       Sb, sample ML-7 (Mantos de la Luna); (F) 130Te, sample ML-3 (Mantos de la Luna). For each proﬁle, 63Cu and 34S (Cu-sulﬁde matrix)
+are shown. Intensity scale in counts per seconds (cps) and depth in nanometers (nm).
+
+
+
+nanoparticles smaller than 50–100 nm. Therefore, TEM                     the TEM images reveals a FCC structure with interplanar
+observations were performed in representative samples with                spacing consistent with the native silver (Ag0) structure (in-
+high Ag/As ratios (>30). TEM selected area electron dif-                 set, Fig. 4C).
+fraction (SAED) patterns of the Cu-sulﬁde matrix are con-
+sistent with the low-digenite structure (cubic, space group                                      4. DISCUSSION
+Fd3m, a = 5.57 Å) (Fig. 1B). Fig. 4A–D shows high-resolu-
+tion TEM images of a selected digenite sample from the                    4.1. Mineralogical form of Ag and Au: solid solution vs.
+Mantos Blancos deposit (MB-14) that plot above the wedge                  nanoparticulate
+in a Ag vs. As plot (369 ppm Ag and 2 ppm As, Figs. 2 and
+5, Appendix Table). The conventional TEM images of this                       The ﬁrst database on trace metals (Ag, Au, As, Sb, Se, Te)
+anomalous, high-Ag low-As sample (Fig. 4A and B), re-                     in supergene Cu-sulﬁdes from various Cu deposits, presented
+veals the presence of discrete, sub-micron sized particles                here, reveals that trace-to-minor amounts of Ag and Au are
+that are disseminated in the digenite matrix. High-magniﬁ-                incorporated in digenite as a function of the As content.
+cation TEM images (4  106 times) show that the nanopar-                  When the SIMS, EMPA and TEM compositional and
+ticles are rounded in shape and range in size between 5 and               mineralogical data for Ag and As are plotted together in a
+10 nm (Fig. 4C and D). Indexing of the two-dimensional                    log(Au)–log(As) diagram, it is observed that the datapoints
+lattice fringes of the fast Fourier transformation (FFT) of               form a wedge-shaped zone with an upper limit that separates
+6164                            M. Reich et al. / Geochimica et Cosmochimica Acta 74 (2010) 6157–6173
+
+
+
+
+Fig. 4. TEM images of digenite sample MB-14. The selected sample has a high Ag/As ratio and plots above the upper limit in a log(Ag)–
+log(Au) plot (Fig. 5A). Conventional TEM images (A and B) show the presence of discrete, sub-micron sized particles in the digenite matrix.
+High-resolution TEM images (C and D) show that the nanoparticles are rounded in shape and range in size between 5 and 10 nm. Inset in (C)
+is the fast Fourier transformation (FFT) image of a single nanoparticle, suggesting metallic silver (Ag0) structure.
+
+
+samples with high and low Ag/As ratios (>30, and <30,                 Au0 nanoparticles, Palenik et al., 2004; Reich et al., 2005,
+respectively) (Fig. 5A). The high Ag/As samples plotting                2006) could not be conﬁrmed (nor discarded) for high
+above the “wedge” zone (Fig. 5A), contain Ag particles as               Au/As samples plotting above the “wedge”. Therefore, it
+detected by SIMS depth proﬁling and TEM observations                    is assumed that most of the Au in digenite is contained in
+(samples SP-13 and MB-14, Figs. 3A and 4A–D, respec-                    solid solution.
+tively). These anomalous, high Ag/As samples show vertical                  Hannington et al. (1988) reported secondary enrichment
+patterns (e.g. ML-1, EMPA/SIMS data) and escape the                     of Ag and Au in recent submarine sulﬁdes in the TAG
+general correlation trend. In contrast, samples with lower              hydrothermal ﬁeld in the rift valley of the Mid-Atlantic
+Ag/As ratios plot within the “wedge” zone in the Ag–As plot             Ridge. In these deposits, digenite is the principal secondary
+and show well-deﬁned positive Ag–As correlations (Figs. 5A              Cu-sulﬁde and replaces chalcopyrite along fractures within
+and 2A, inset). In these samples, SIMS depth proﬁling reveal            grains and around the margins of the Cu–Fe sulﬁdes. Sec-
+that Ag is contained in solid solution (sample ML-5, Fig. 3B).          ondary digenites contain an average of 80.6 ppm Ag,
+Therefore, the data suggest that Ag occurs in two mineralog-            11.2 ppm Au and 54 ppm As. Two mineralogical forms of
+ical forms in digenite (nanoparticulate and/or solid solution)          incorporation of Ag and Au in digenite samples were re-
+and that their occurrence is strongly dependent on the                  ported: solid solution and free micro-particles of native
+contained amount of As (Fig. 5A).                                       Au (<15 lm) (Hannington et al., 1988). When plotted to-
+    A similar wedge-shaped zone is observed for Au and As               gether with the Ag–Au–As data presented in this study, se-
+in digenite (Figs. 2B and 5B). Low Au/As (<0.03) samples               lected TAG digenite samples from Hannington et al. (1988)
+show positive correlations between the two elements (e.g.               follow the same behavior reported for digenites in this
+Fig. 2B, inset) and SIMS depth proﬁling suggest that Au                 study. TAG digenite samples containing Ag in solid solu-
+is present in solid solution inside the wedge zone (sample              tion plot inside the wedge zone in the Ag–As plot
+SP-11, Fig. 3D). Due to the low concentrations of Au in                 (Fig. 5A), while samples containing free Au particles plot
+the samples, the presence of nanoparticulate phases (e.g.               above the wedge zone in the Au–As plot (Fig. 5B).
+                                                      “Invisible” Ag–Au in digenite                                                   6165
+
+4.2. Solubility of Ag and Au in supergene digenite                      where CAg, CAu and CAs represent the concentrations of the
+                                                                        trace elements in parts per million weight (ppm). These
+    It is remarkable that the correlations between “invisible”          upper limits represent the empirical maximum contents of
+precious metals (Ag, Au) and As in supergene digenite from              Ag and Au in supergene digenite as a function of As, and
+Cu deposits are comparable with those reported for “invisi-             control the occurrence of nanoparticulate vs. solid solution
+ble” Au in As-rich pyrites from Carlin-type, epithermal                 (structurally bound) Ag and Au. Based on the available
+and orogenic Au deposits (Wells and Mullens, 1973; Cook                 data, we predict that supergene digenite can host three or-
+and Chryssoulis, 1990; Fleet and Mumin, 1997; Reich                     ders of magnitude more Ag (3000 ppm) than Au
+et al., 2005; Sung et al., 2009). Gold and As contents in pyrite        (3 ppm) for the same amount of As (e.g. 100 ppm).
+plot in a wedge-shaped zone bounded by a line that deﬁnes                   Experimental studies of the solubility of Ag in Au in Cu-
+the relation between concentrations of Au and As in arsenian            sulﬁdes are not currently available at low-temperature,
+pyrite (Reich et al., 2005). Microanalytical results reported           near-surface conditions (i.e. T < 100 °C). Above 119 °C,
+by Reich et al. (2005) (SIMS, TEM, XANES–EXAFS) con-                    the system Ag2S–Cu2S is comprised principally by three
+ﬁrmed that arsenian pyrite compositions plotting above the              (Ag, Cu)2S complete solid solutions: body-centered cubic
+solubility limit contain nanoparticles of native gold (Au0),            (bcc), face-centered cubic (fcc) and hexagonally closed
+whereas compositions plotting below the limit contain Au                packed (hcp) (Skinner, 1966; Harlov and Sack, 1995).
+in solid solution (Au1+). Ciobanu et al. (2009) noted a similar         Although direct determination of the solubilities of Ag
+wedge-shaped correlation between Au and Ag in bismuth                   and Au in low-temperature Cu-sulﬁdes must be addressed
+chalcogenides, and Au concentrations above 100 ppm were                 experimentally in future studies, the analytical data pre-
+reported to be all associated with higher Ag contents.                  sented here allows a ﬁrst-order approximation of the limit-
+    We propose that the incorporation of Ag and Au in                   ing solubility of Ag and Au in supergene digenite.
+supergene digenite is strongly dependent on the As content,                 Our results are in agreement with the very few studies
+and that the upper limit of the wedge-shaped zones in                   that have reported trace element contents of chalcocite
+Fig. 5A and B represent chemical limits of incorporation                and digenite. Kesler et al. (2002) used SIMS to measure
+of precious metals as a function of As. For Ag and Au,                  the Au content of Cu–Fe–S and Cu–S sulﬁdes from the
+the upper limits can be approximated by the lines                       Au-rich Batu Hijau, Kingking and Skouries porphyry Cu
+                                                                        deposits. Results show that supergene chalcocite (Cu2S)
+C Ag ¼ 29:3  C As þ 6:80;    and
+                                                                        contain more Au than the Cu–Fe sulﬁdes, with an average
+C Au ¼ 0:03  C As þ 0:69                                     ð3Þ       of 4.24 ppm Au at Batu Hijau (21 analyses). Although As
+
+
+
+
+Fig. 5. Ag–As and Au–As plots showing all microanalytical data (SIMS, EMPA, TEM) for supergene digenite. (A) Within the wedge-shaped
+zone in Ag–As log–log space (shaded), Ag is contained in solid solution as conﬁrmed by SIMS depth proﬁling. This zone is limited by a line,
+above which Ag occurs as nanoparticles of metallic Ag (HRTEM, SIMS) and micro- to nano sized particles of Ag iodide (iodargyrite, Reich
+et al., 2009b). The Ag–As analyses of supergene digenites from massive sulﬁdes (TAG) plot in the solid solution ﬁeld (Hannington et al.,
+1988). Horizontal error bars show the compositional range of As in sample ML-1, as measured by SIMS. (B) The Au–As plot (log–log space)
+shows the solid solution ﬁeld (shaded, SIMS depth proﬁling) with a sharp upper limit separating Au in solid solution from Au NPs. Analyses
+from TAG digenites containing micron-sized native Au particles plot above this limit (Hannington et al., 1988).
+6166                          M. Reich et al. / Geochimica et Cosmochimica Acta 74 (2010) 6157–6173
+
+nor Ag were reported, nine chalcocite grains contained             based on previously published structural data available
+small (<20 lm) inclusions of native Au. In view of the             for Cu-sulﬁdes, including digenite.
+supergene origin of these chalcocites, the Au is not likely            Cubic digenite (Cu1.8S) exists with a mobile Cu array as in
+to have exsolved from the sulﬁdes. Instead, it might have          chalcocite, and Cu atoms are coordinated either tetrahedral
+been deposited as Au colloid particles during supergene            (CuIV) and trigonal (CuIII), or all tetrahedral (Pattrick et al.,
+enrichment (Kesler et al., 2002). Clark et al. (2001) used         1997). Harlov and Sack (1995) documented that Ag–Cu sub-
+LA-ICP-MS to measure the trace element composition of              stitutions in Ag-poor (Cu, Ag)2S solid solutions require the
+sulﬁdes at the Mammoth copper deposit in Queensland,               involvement of vacancies, due to the fact that these solutions
+Australia, with the aim to distinguish between hypogene            behave as ionic conductors and that Ag1+ and Cu1+ have dif-
+and supergene chalcocite. Average concentrations of 32             ferent eﬀective ionic radii (0.1 and 0.06 nm, respectively,
+analyses of supergene chalcocite report Ag and As concen-          Shannon, 1976) and stereochemistry. In addition, As (and
+trations of 23 and 7 ppm, respectively, and no Ag inclusions       Sb), Ag and Cu substitutional exchanges are common in sul-
+were detected in the analyses (samples plot in the solid solu-     fosalt fahlores (Ghosal and Sack, 1995; Sack et al., 2005).
+tion ﬁeld of Ag–As plot in Fig. 5A). Recently, Cook et al.         Therefore, for a predominantly tetrahedral coordination
+(2010) reported LA-ICP-MS analyses of minor elements               environment for Cu1+ in digenite, the coupled substitution
+in primary (hypogene) bornite, chalcocite and digenite from        ðAg1þ ; Au1þ Þ þ As3þ () 4Cu1þ is possible as the combined
+Late Proterozoic vein-type deposits in Scandinavia and             ionic radii of As3+ and Ag1+ (0.158 nm), and As3+ and Au1+
+from skarn, porphyry and epithermal deposits from the              (0.195 nm) are in the range of the four Cu ions replaced
+Late Cretaceous Banatitic Magmatic and Metallogenetic              (0.24 nm).
+Belt of SE of Europe. Results show that Ag and Au are                  The same mechanism can be described as ðAg1þ ; Au1þ Þþ
+preferentially partitioned into Cu-sulﬁdes (digenite), with        As3þ () ð4  xÞCu1þ þ x, if Cu vacancies () are consid-
+Au contents measured up to 24 ppm, supporting the notion           ered. The latter mechanism may be more realistic consider-
+that Ag (and probably Ag) concentrates in Cu-sulﬁdes               ing the non-stoichiometric, Cu-deﬁcient nature of
+(chalcocite, covellite) rather than bornite.                       supergene digenite. An alternative mechanism may involve
+                                                                   the coupled substitution of trivalent Au along with trivalent
+4.3. Incorporation of trace metals into supergene digenite         (or penta-valent) As, with or without Cu vacancies:
+                                                                   Au3þ þ As3þ () ð6  xÞCu1þ þ x; Au3þ þ As5þ () ð8  xÞ
+    Despite its simple composition, the crystal structures of      Cu1þ þ x.
+Cu2xS minerals are very complex. Structure analyses exist             As previously suggested by Reich et al. (2005) and Cio-
+for chalcocite, djurleite and anilite (Koto and Morimoto,          banu et al. (2009) for pyrite and Bi-chalcogenides, respec-
+1970; Evans, 1979), and recent studies have been published         tively, the incorporation of trace metals in Cu-sulﬁdes
+on high and low-digenite and bornite–digenite solid solu-          might be related to a similar “tuning in” phenomenon
+tions (Grguric and Putnis, 1999; Grguric et al., 2000; Will        allowing the incorporation of a Ag and Au via the incorpo-
+et al., 2002). Although the phase relations of the Cu-sulﬁdes      ration of a minor component, in this case As. Arsenic may
+have been studied extensively at high temperatures, consid-        play a signiﬁcant role increasing the solubility of Ag and Au
+erable uncertainty exists on the precise temperatures of           in the non-stoichiometric, supergene digenite structure, and
+phase transitions in the very-low-temperature region               at the same time controlling the occurrence of Ag and Au
+(T < 100 °C). According to Morimoto and Koto (1970)                nanoparticles above the solubility limits.
+and Morimoto and Gyobu (1971), digenite (Cu1.8S) is sta-               It has been suggested that As coatings in the mineral sur-
+ble at room temperature only if it contains a small amount         face of Fe-sulﬁde minerals may facilitate the adsorption of
+of Fe. Digenite can occur as a low-temperature form (“low-         Ag and Au complexes by locally causing p-type semicon-
+digenite”, cubic, a = 5.57 Å and space group Fd3m), stable        ducting properties, giving them a stronger electrochemical
+under 91 °C, and a high temperature form, “high-digenite”          interaction with negatively charged ions (Maddox et al.,
+(cubic, a = 5.57–5.64 Å, space group Fm3m, stable                 1998). Recent scanning tunneling microscopy (STM) and
+T > 91 °C). Both phases are related by a metastable transi-        synchrotron X-ray photoelectron spectroscopy (SR-XPS)
+tional phase which exists between high- and low-digenite           studies have conﬁrmed surface electrochemical potential
+around 90 °C (Morimoto and Gyobu, 1971; Will et al.,               eﬀects for the accumulation of “invisible” Au and Ag in
+2002). The EMPA and TEM results presented here are con-            Cu–Fe–As–S sulﬁdes under hydrothermal conditions
+sistent, therefore, with near-ambient formation (T < 90 °C)        (Mikhlin and Romanchenko, 2007). Ab-initio calculations
+of low-digenite, and support its supergene origin.                 by Reich et al. (2003, 2004) suggested that the defect energy
+    The Cu atoms in chalcocite (Cu2S) structure are highly         of replacing an Fe atom by a Au atom in pyrite is lowered
+mobile and are found primarily in triangular coordinations         by 1 eV if two or more As atoms are in the vicinity. These
+of a disordered cationic substructure (CuS3 triangles)             predictions are conﬁrmed by X-ray absorption near edge
+(Makovicky, 2006; Vaughan and Rosso, 2006). In the ab-             structure (XANES) measurements and TEM observations
+sence of spectroscopic information (XPS and XANES/EX-              revealing clustering of As atoms in the nearby vicinity of
+AFS analyses usually require thousands of ppm to wt%               Au nanoparticles and Au-rich zones in sulﬁdic matrices
+levels to obtain interpretable spectra) for the studied sam-       (Savage et al., 2000; McClenaghan et al., 2004; Palenik
+ples, the substitutional mechanisms of Au, Ag and As in            et al., 2004). Barzyk et al. (2002) investigated the products
+supergene digenite cannot be fully constrained. However,           of aqueous Ag and Au cementation on non-stoichiometric
+some insights about possible substitutions can be made             sulﬁde grains (Cu2xS). Scanning electron and atomic force
+                                                     “Invisible” Ag–Au in digenite                                                  6167
+
+microscopy (SEM/AFM) observations reveal diﬀerent sur-                at active enrichment fronts between hypogene Cu-sulﬁdes
+face products including mixed Cu–Ag sulﬁdes, Au sulﬁdes               and secondary Cu-sulﬁdes may be a critical factor control-
+and metallic Au crystallites depending on the nature of               ling the kinetics of supergene enrichment (Sillitoe et al.,
+the noble metal ad the solution composition (e.g. Barzyk              1996; Southam and Saunders, 2005). Therefore, As-coated,
+et al., 2002). Although no spectroscopic or theoretical infor-        non-stoichiometric digenite mineral surfaces might eﬀec-
+mation are available for As in Cu-sulﬁdes, precious metals            tively incorporate Ag and Au into solid solution, and in
+incorporation may be enhanced and/or catalyzed in the                 some cases, scavenge metal clusters and/or metal nanopar-
+presence of As due to electrochemical eﬀects induced in               ticles from locally saturated colloidal suspensions during
+the non-stoichiometric, structurally defectuous Cu1.8S dige-          supergene reworking and redox cycling.
+nite surface.
+                                                                                           5. CONCLUSIONS
+4.4. Geologic implications
+                                                                          The ﬁrst comprehensive database of SIMS, EMPA and
+    It is well known that strong enrichment in trace metals,          TEM analyses of trace metals (Ag, Au, As, Sb, Se, Te) in
+most importantly nickel, cobalt, gold, silver, and platinum-          supergene Cu-sulﬁdes from various Cu deposits reveals that
+group elements occurs during the formation of laterite                trace-to-minor amounts of Ag and Au are incorporated in
+deposits (Freyssinet et al., 2005). The degree of enrichment          supergene digenite as a function of the As content. When
+will depend on geomorphology, climatic conditions, weath-             the microanalytical data for Ag, Au and As are plotted in
+ering rate, physical-chemistry of runoﬀ and groundwater,              log–log diagrams, it is observed that the datapoints form
+permeability of the gangue rocks, and the mineralogical               wedge-shaped zones with upper limits that separates sam-
+composition of the primary source of metals (e.g. sulﬁdes             ples with high and low Ag/As (>30 and <30, respec-
+vs. oxides).                                                          tively) and Au/As (>0.03 and <0.03, respectively)
+    Meteoric supergene enrichment in northern Chile cov-              ratios. Samples plotting above the “wedge” zones contain
+ered a long period of time extending from 44 Ma, and                  nanoparticles of metallic Ag and Au as detected by SIMS
+ended near 14–9 Ma with a step-wise onset of the hyper-               depth proﬁling and TEM observations, while samples with
+arid climate conditions in the region, followed by further            lower Ag/As and Au/As contain structurally-bound Ag and
+enrichment/oxidation dominated by highly saline brines                Au.
+under hyper-arid conditions (Alpers and Brimhall, 1988;                   The Ag–Au–As relations in supergene digenite are
+Sillitoe and McKee, 1996; Arancibia et al., 2006; Cameron             remarkably similar with those reported for “invisible” Au
+et al., 2008, 2010; Reich et al., 2008, 2009a). After bacteri-        in As-rich pyrites from Carlin-type, epithermal and oro-
+ally mediated dissolution of hypogene sulﬁdes (e.g. chalco-           genic Au deposits. This strongly suggests that the incorpo-
+pyrite) in the studied deposits, Ag and Au might have                 ration of precious metals in sulﬁde minerals respond to the
+transported predominantly as chloride complexes (AgCl2               incorporation of a minor “tuning in” component, in this
+and AuCl4, pH <4 and Cl >35,000 mg/L) under highly                   case As. Arsenic may play a signiﬁcant role increasing the
+acidic and oxidizing conditions, or as metastable thiosulfate         solubility of Ag and Au in the non-stoichiometric supergene
+complexes (Ag(S2O3)23, Au(S2O3)23) under less oxidizing             digenite (Cu1.8S) structure, controlling, at the same time,
+and near-neutral conditions (Seward, 1976; Welham et al.,             the occurrence of Ag and Au nanoparticles above the chem-
+1993; Freyssinet et al., 2005; Pal’yanova, 2008). Although            ical limits of solid-solution incorporation.
+chloride complexes will dominate Ag–Au transport, the                     Considering the fact that supergene copper enrichment
+high I/Cl and Br/Cl ligand ratios reported for groundwaters           processes can be active from tens of millions of years (e.g.
+from Cu deposits in the Atacama Desert (Leybourne and                 Atacama Desert) through progressive weathering of enrich-
+Cameron, 2006) indicate that mixed chloride–iodide–                   ment blankets and multiple stages of Cu recycling (Mathur
+bromide complexes of Ag and Au (e.g. (Ag, Au)Xn1n, with              et al., 2009), we conclude that As-bearing supergene dige-
+X = I, Br) may be involved in supergene enrichment and                nite may play a previously unforeseen role in scavenging
+that AgI(s) and AgBr(s) may be important solubility-                  precious metals from undersaturated (or locally slightly
+limiting phases (Gammons and Yu, 1997; Reich et al.,                  supersaturated) solutions in arid to hyper-arid areas.
+2009b). Another potentially important means of Ag and
+Au mobilization are via colloidal and nanoparticulate                                     ACKNOWLEDGMENTS
+processes (Willam-Jones et al., 2009). In the southern areas
+of Western Australia, where the groundwaters are highly                   This study was funded by the Chilean Science and Technology
+                                                                      Fund (CONICYT), FONDECYT Grant #11070088 to Martin
+saline and acidic, Hough et al. (2008) documented the
+                                                                      Reich. We thank Jorge Pizarro (Compañı́a Minera Mantos de
+occurrence of exceptionally pure <200 nm diameter, 6 nm
+                                                                      la Luna), Martin Williams and Mario Sáez (Spence, BHP-Billi-
+thick nanoparticulate gold plates in supergene proﬁles                ton) for providing access to the deposits and logistical assistance
+developed above Au-quartz veins, indicating nanoscale                 during open pit and core sampling. We also thank Anglo Amer-
+mobility of Au during weathering.                                     ican and Antofagasta Minerals for providing us with samples
+    It is likely that rapid, kinetically controlled precipitation     from the Mantos Blancos and Michilla deposits, respectively.
+of digenite (Cu1.8S) at the redox front may have played a             We are grateful to Carl Henderson at University of Michigan
+critical role in eﬀective scavenging Ag and associated trace          for his valuable help with EMPA measurements and Christian
+metals from highly saline solutions in the near-surface envi-         Nievas at LabTEM, Universidad de Chile for his help with sam-
+ronment. Studies have shown that microbial ﬁxation of Cu              ple preparation and TEM observations. The transmission electron
+6168                               M. Reich et al. / Geochimica et Cosmochimica Acta 74 (2010) 6157–6173
+
+microscope used in this work was acquired under the Mecesup             Appendix A (continued)
+grant UCH-0205. Finally, we acknowledge Associate Editor
+D.J. Vaughan and reviewers N.J. Cook, R.M. Hough and C.J.               Deposit/ Mineral/    Ag    Au    As         Sb    Se    Te
+Stanley for their insightful comments and suggestions which             sample texture       [ppm] [ppm] [ppm]      [ppm] [ppm] [ppm]
+greatly improved the manuscript.                                                             b.d.    n.d.   1.04    n.d.   12.8   1.23
+                                                                                             37.10   0.52   58.90   b.d.   12.2   2.16
+                                                                                             14.80   n.d.   b.d.    n.d.   11.1   1.91
+                       APPENDIX A                                                            5.25    n.d.   b.d.    n.d.   12.6   0.67
+                                                                                             3.33    n.d.   b.d.    n.d.   11.8   0.93
+                                                                                             5.89    n.d.   0.62    n.d.   9.33   2.27
+   Secondary ion mass spectrometry (SIMS) analyses                               Digenite/   19.50   0.66   27.90   b.d.   12.2   2.84
+of Ag, Au, As, Sb, Se and Te in digenites from vari-                             FG
+ous Cu–(Ag) deposits. Textures: coarse-grained                                               87.70 1.66     40.10   2.81   4.19   2.93
+(CG), >50 lm; ﬁne-grained (FG), <50 lm. Stars in                                             5.63 n.d.      0.70    b.d.   9.48   1.05
+parenthesis (*) indicate samples (and elements) that                    ML-5     Digenite/   385     0.71   23.00   22.2   52.6   9.59
+were depth-proﬁled with SIMS.                                                    CG
+                                                                                             34.30   0.62   3.45    20.5   85.4   8.79
+Deposit/ Mineral/   Ag    Au    As            Sb    Se    Te                                 17.20   0.44   3.87    4.84   58.2   12.4
+sample texture      [ppm] [ppm] [ppm]         [ppm] [ppm] [ppm]                              4.93    0.40   3.47    10.9   32.9   11.3
+Mantos de la Luna                                                                            17.00   0.49   4.11    13.1   58.2   9.37
+ML-1    Digenite/   8.29    n.d.      b.d.    n.d.   10.3   1.2                              21.40   0.44   4.89    11.7   35.3   12.8
+        CG                                                                                   4.71    0.62   3.20    3.6    35.8   9.24
+                    2.30    n.d.      b.d.    n.d.   10.3   0.63                             51.00   0.44   8.82    6.79   28.8   11.2
+                    36.50   n.d.      b.d.    n.d.   11     1.69                 Digenite/   66.1    0.67   45.5    14.2   79.5   10
+                    1.77    n.d.      b.d.    n.d.   11.8   2.1                  FG
+                    2.04    n.d.      0.64    b.d.   11.9   2.01                             233     0.80   59.3    19.8   26.3   9.1
+                    17.20   n.d.      0.67    b.d.   9.28   1.6                              988     0.75   33.9    16.7   24.4   10.7
+        Digenite/   50      1.39      20      10.3   4.53   2.7                              (*)
+        FG                                                                                   2977    0.62   32.9    27     41.5   9.1
+                    202     0.56      20      3.45   8.98   2.7                              355     0.71   83      20.4   81.8   10.8
+                    56      0.44      22      0.95   7.83   2.33                             314     1.07   277     51.4   30.3   17.9
+                    143     1.03      24      2.03   9.89   3.41
+                                                                        ML-6     Digenite/   50.1    0.16   0.65    b.d.   4.83   2.86
+                    464     5.98      134     10.2   3.59   13
+                                                                                 CG
+                    143     1.71      32      2.89   8.85   3.68
+                                                                                             29.6    0.34   1.13    1.38   6.91   2.45
+                    82      1.71      36      3.46   9.15   3.45
+                                                                                             116     0.34   2.52    2.15   3.98   2.78
+ML-3    Digenite/   28.00 0.49        b.d.    7.86   57.1   17.8                             3.63    n.d.   0.50    b.d.   4.07   0.91
+        CG                                                                                   15.3    0.77   10.24   3.73   4.38   2.06
+                    14.80 0.44        3.93    4.84   50.9   16.6                             4.67    0.23   0.66    n.d.   4.53   2.56
+                                                            (*)                              8.58    n.d.   b.d.    b.d.   4.8    3.24
+                    91.10   0.80      123     34     44.6   14.7                             b.d.    0.12   b.d.    n.d.   1.82   2.83
+                    33.30   0.53      2.22    5.59   54.7   10.5                             4.56    0.34   3.27    n.d.   5.33   2.6
+                    2.60    0.49      2.98    5.91   77     16.1                             13.4    0.47   4.70    b.d.   2.95   2.6
+                    15.60   0.71      3.91    11.3   66     9.2
+                                                                        ML-7     Digenite/   9.37    0.53   2.96    3.24   22.5   8.48
+                    43.30   0.58      4.07    5.64   34.1   14.1
+                                                                                 CG
+                    15.40   0.49      2.45    5.95   64.7   12.1
+                                                                                             10.10 0.40     2.82    7.95   7.73   9.72
+                    13.90   0.44      3.05    7.95   39.6   14.8
+                                                                                             54.00 0.80     5.95    17.1   77.9   8.92
+                    43.00   0.53      2.38    6.63   51.7   14.9
+                                                                                                                    (*)
+                    36.80   0.44      5.24    4.66   91.3   15.8
+                                                                                             32.00   0.53   5.89    6.62   16.6   13.36
+                    19.20   0.53      6.78    b.d.   40.7   17.5
+                                                                                             66.40   0.58   4.00    6.53   14.6   9.5
+                    1417    0.93      46.8    15     29.5   12.8
+                                                                                             17.10   1.02   5.93    15.4   21.3   8.48
+                    19.20   0.53      2.65    6.66   47.8   13.6
+                                                                                             13.10   0.62   5.49    9.32   13.8   7.64
+                    639     0.89      16.77   13.4   24.6   9.5
+                                                                                             23.90   0.71   7.84    8.84   16.6   9.32
+                    16.30   0.89      0.60    13.    50.7   5.06
+                                                                                             65.00   0.89   7.13    7.59   19.5   7.24
+                    119     5.42      33.90   6.93   76.6   9.32
+                                                                                             25.40   0.58   5.27    6.04   13.6   8.52
+        Digenite/   164     0.67      161     20.3   36.7   14.7
+                                                                                             19.60   0.58   5.35    11.9   11.5   9.19
+        FG
+                                                                                             62.20   0.75   8       17.7   33.5   7.15
+                    388     1.73      195     41.4   11.3   15.8
+                                                                                             38.60   0.67   5.13    10.7   17.3   9.24
+                    343     0.75      16.90   9.95   31.6   8.88
+                    122     0.93      45.30   14     70.3   8.92        ML-8     Digenite/   3.85    n.d.   b.d.    n.d.   2.7    2.11
+                                                                                 CG
+ML-4    Digenite/   9.67    n.d.      0.74    n.d.   15.9   1
+                                                                                             4.51    0.08   b.d.    n.d.   3.67   2.41
+        CG
+                                                                                             10      n.d.   b.d.    n.d.   2.88   1.89
+                    3.60 n.d.         b.d.    n.d.   10.8   0.7
+                                                                                             8.6     n.d.   b.d.    n.d.   5.75   0.73
+                    11.90 n.d.        b.d.    n.d.   9.89   2.06
+                                                                                             2.12    0.16   0.62    n.d.   6.38   2.23
+                                                      “Invisible” Ag–Au in digenite                                                    6169
+
+
+Appendix A (continued)                                                 Appendix A (continued)
+Deposit/ Mineral/    Ag    Au    As          Sb    Se    Te            Deposit/ Mineral/     Ag    Au    As           Sb    Se    Te
+sample texture       [ppm] [ppm] [ppm]       [ppm] [ppm] [ppm]         sample texture        [ppm] [ppm] [ppm]        [ppm] [ppm] [ppm]
+                     64.7     b.d.   1.96    n.d.   3.55   1.09                              63.30   0.98   10.50     59.5    52.1    6.22
+         Digenite/   36.5     3.54   90.8    6.79   4.16   6.58                              54      0.62   2.31      4.13    26.6    8.17
+         FG                                                                                  39.30   0.67   2.89      8.13    48.3    9.19
+                     8.09     1.12   42.7    b.d.   5.39   3.58                              43.30   0.80   2.74      12.6    77.6    5.06
+                     11.30    n.d.   1.58    b.d.   9.38   3.3                   Digenite/   50.00   0.75   31.30     12      37.4    9.68
+                     13.80    0.36   6.06    b.d.   5.44   2.5                   FG
+                     23.40    0.34   5.60    n.d.   6.8    1.87                              6.15    0.53   2.14      5.46    47.1    9.63
+                     10.30    1.44   5.90    1.8    11.3   4.61                              500     0.84   51.20     16.4    41.8    7.24
+                     3.76     0.07   7.32    n.d.   5.6    2.38                                             (*)
+                                                                                             83.7    1.07   35.90     21.2    34.9    7.55
+Michilla (Lince–Estefanı́a)
+                                                                                             47.8    0.44   16.50     5.24    47.2    12.8
+SS-1     Digenite/ 4.24       0.08   0.46    n.d.   12.3   2.77
+                                                                                             108     0.62   116       41.9    96      12.5
+         CG
+                                                                                             60.3    0.58   22.9      33.5    29.3    8.97
+                     8.88     n.d.   0.78    n.d.   8.96   1.92
+                                                                                             1346    1.51   27.7      34.2    43.9    7.46
+                     17.5     n.d.   b.d.    b.d.   14.8   0.75
+                     2.22     n.d.   b.d.    n.d.   9.7    2.12        SS-5      Digenite/   53.5    b.d.   0.13      n.d.    18.9    1.49
+                     48.50    3.12   71.60   11.9   5.39   4.41                  CG
+                     3.32     n.d.   1.43    n.d.   10.2   0.95                              3.46    1.82   173       b.d.    15.6    6.69
+                     1.77     n.d.   0.82    n.d.   12.4   2.91                              n.d.    n.d.   b.d.      n.d.    10.4    0.83
+         Digenite/ 27.50      0.32   4.85    n.d.   3.79   2.35                              16.40   n.d.   0.21      n.d.    11.7    1.84
+         FG                                                                                  2.42    0.31   1.62      n.d.    11.88   3.87
+                     11.60    0.26   9.33    n.d.   9.72   1.67                              b.d.    0.07   1.94      n.d.    8.64    2.45
+                     32.40    0.29   4.27    b.d.   10.1   2.36                  Digenite/   128     2.6    48.3      3.5     10.3    5
+                     34.40    n.d.   3.79    n.d.   7.43   1.92                  FG
+                     66.70    0.15   4.17    b.d.   9.1    1.21                              42.7    0.31   5.61      n.d.    10.4    2.47
+                                                                                             101     0.28   3.23      b.d.    6.93    1.89
+SS-2     Digenite/   160      0.89   116     29.7   60.6   13.4
+                                                                                             11.5    b.d.   0.9       n.d.    7.11    0.99
+         CG
+                                                                                             140     0.45   11.2      b.d.    9.42    2.55
+                     22.50    0.49   3.78    4.93   90.9   15.3
+                                                                                             21.6    n.d.   3.93      n.d.    14.1    0.73
+                     25.90    0.71   5.47    13.2   94.3   7.33
+                     31.60    0.58   5.290   19.7   65.4   7.24        SS-6      Digenite/   30.2    0.75   1.98      15.6    9.24    8.21
+                     78.80    0.44   4.51    7.59   34.4   14.1                  CG
+                     17.20    0.80   2.38    12.2   86     10                                22.1    0.62   5         17      17.4    12.5
+                     35.60    0.44   3.71    8.52   50.5   15.1                              1025    1.11   11.3      29.5    28      8.7
+                     14.60    0.67   3.27    10.1   53.1   5.77                              76.6    0.62   4.87      19.9    21.5    14.5
+         Digenite/   387      0.62   23.20   13.3   41.4   9.63                              123     0.93   7.37      27.2    19.1    9.28
+         FG                                                                                  25.9    0.8    3.22      17.6    19.9    12.3
+                     280      0.71   189     26.5   26.8   13.3                              26.1    0.62   3.36      19      13.6    10.1
+                     49.10    0.58   28.40   6.93   35.8   8.84                              145     0.89   11.4      35.5    23.4    7.95
+                     397      0.67   22.50   10.3   22.2   11.9                              168     0.62   7.18      11.3    17.4    8.7
+                     128      0.75   24.60   11.7   44     10                                188     0.62   8.37      16.8    7.8     8.3
+                     475      1.07   24.40   7.28   69.9   8.04                              86.4    0.53   6.69      10.2    17.6    13.8
+                                                                                             54.4    0.53   4.31      11.7    11      16.1
+SS-3     Digenite/   2.21     0.15   n.d.    n.d.   7.63   2.65
+         CG                                                            SS-8      Digenite/   246     0.53   4.11      13.4    12.4    10.5
+                     8.88     n.d.   0.59    1.17   10.2   1.64                  CG
+                     b.d.     n.d.   2.43    n.d.   12     1.96                              165     0.58   3.45      18.7    16      13
+                     5.2      n.d.   b.d.    n.d.   9.72   2.78                              45.4    0.58   3.62      12.2    12.5    9.81
+                     b.d.     n.d.   b.d.    n.d.   10.7   2.41                              36.1    0.53   3.05      7.55    20.8    13.9
+                     3.23     n.d.   0.58    n.d.   9.93   2.11                              381     0.71   3.05      7.02    15.8    16.7
+                     2.09     n.d.   0.14    n.d.   10.8   2.19                              31      0.31   4.98      11.5    11.3    14.3
+         Digenite/   13.3     0.16   2.26    b.d.   16.9   1.98                              107     1.24   8.11      16.7    25.4    9.41
+         FG                                                                                  69.8    0.75   3.51      12.5    18.9    7.86
+                     20.90    0.48   11.7    2.07   19.9   1.77                              124     0.53   4.56      11.1    19.8    15.4
+                     47.80    1.66   43.6    5.86   12.8   4.12                              52.2    0.67   4.98      10.4    14.2    11.3
+                     61.50    0.24   11.8    1.45   12.1   2.49                              40.7    0.44   6.13      10.3    23.1    15.1
+                     6.04     n.d.   0.68    b.d.   8.97   0.84                              15.3    0.62   5.4       5.3     20.6    14.8
+                     49.60    0.53   13.40   b.d.   6.46   2.37
+                                                                       SS-9      Digenite/   20      0.32   b.d.      n.d.    4.76    1.13
+SS-4     Digenite/   12.50 0.49      1.5     6.7    31.7   8.3                   CG
+         CG                                                                                  2.66    n.d.   b.d.       n.d.   3.83 2.12
+                     44.60 0.40      2.36    4.17   35.7   9.81                              4.83    0.08   1.18       b.d.   4.05 1.67
+                     7.37 0.53       2.85    4.66   45.7   8.75                                                     (continued on next page)
+6170                               M. Reich et al. / Geochimica et Cosmochimica Acta 74 (2010) 6157–6173
+
+
+Appendix A (continued)                                                  Appendix A (continued)
+Deposit/ Mineral/    Ag    Au    As           Sb    Se    Te            Deposit/ Mineral/      Ag    Au    As           Sb    Se    Te
+sample texture       [ppm] [ppm] [ppm]        [ppm] [ppm] [ppm]         sample texture         [ppm] [ppm] [ppm]        [ppm] [ppm] [ppm]
+                     8.54   0.44      0.66    n.d.   4.09   1.83                               4.22    0.39    3.03     1.02    16.6    1.66
+                     29.5   0.2       0.74    b.d.   5.68   1.75                                       (*)                      (*)
+                     b.d.   0.18      0.45    n.d.   2.53   1.39                               3.22    0.08    b.d.     n.d.    5.88    1.72
+                     3.73   0.28      0.58    n.d.   4.37   0.58                               17.4    0.71    37.5     5.36    6.55    7.59
+                     4.44   n.d.      0.5     n.d.   7.56   2.06                               13.4    0.67    17.6     1.98    10.7    4.93
+                     9.61   0.07      0.75    n.d.   2.61   0.7                                4.53    0.75    14.9     b.d.    8.65    2.38
+                     10.1   0.1       b.d.    n.d.   4.42   0.81                               5.59    0.12    0.78     b.d.    11.4    1.71
+                     2.38   0.05      b.d.    n.d.   4.05   0.92                               16.1    1.3     32.7     1.6     6.02    3.41
+                                                                                               11.6    0.9     12.8     1.87    5.15    2.51
+Mantos Blancos                                                                                 2.93    0.2     0.92     n.d.    6.68    1.78
+MB-14 Digenite/      b.d.   n.d.      b.d.    n.d.   13.3   0.75
+        CG                                                              SP-13     Digenite/    4.87    0.20    b.d.     n.d.    5.88    2.2
+                     13.6   n.d.      b.d.    n.d.   9.15   1.81                  CG
+                     7.16   n.d.      b.d.    n.d.   17.6   1.98                               5.87    0.15    b.d.     n.d.    8.04    2.03
+                     29.8   0.2       0.45    n.d.   12.7   0.99                               7.29    0.36    b.d.     n.d.    5.73    2.67
+                     5.1    n.d.      1.78    n.d.   14.8   2.08                               7.60    0.50    6.09     n.d.    5.82    2.46
+                     1.97   n.d.      b.d.    n.d.   13.5   0.82                               8.10    0.32    b.d.     n.d.    6.16    1.68
+         Digenite/   26.1   0.42      5.91    b.d.   9.26   1.93                               8.13    0.45    b.d.     n.d.    6.76    1.67
+         FG                                                                                    6.23    0.31    0.93     b.d.    5.89    2.470
+                     80.6   0.98      13.7    2.72   7.29   2.61                  Digenite/    10.70   0.37    4.56     n.d.    5.97    1.83
+                     34.3   n.d.      0.95    n.d.   9.63   1.75                  FG
+                     51.4   n.d.      3.5     n.d.   9.62   1.97                               8.22    0.28    4.72     n.d.    15.5    1.91
+                     369    n.d.      2.09    b.d.   7.35   1.67                               21.90   1.49    20.70    3.57    10.7    2.42
+                     139    1.92      55.3    6.2    6.51   6.41                               34.0    1.1     0.95     b.d.    7.83    2.65
+                     165    1.36      21.8    1.16   3.55   3.17                               (*)
+                     207    0.1       2.76    b.d.   11.9   2.3                                5.88    0.40    5.82     1.15    7.36    2.11
+
+MB-16    Digenite/   17.5   0.07      b.d.    n.d.   8.46   3.14
+                                                                                                   REFERENCES
+         CG
+                     13.1   0.07      b.d.    n.d.   8.39   2.65
+                                                                        Ague J. J. and Brimhall G. H. (1989) Geochemical modeling of
+                     9.13   n.d.      b.d.    b.d.   9.01   2.2
+                                                                           steady state ﬂuid ﬂow and chemical reaction during supergene
+                     6.95   n.d.      b.d.    n.d.   10     3.26
+                                                                           enrichment of porphyry copper deposits. Econ. Geol. 84, 506–
+                     104    n.d.      b.d.    n.d.   14.7   0.97
+                                                                           528.
+                     7.78   n.d.      b.d.    n.d.   17.3   0.75
+                                                                        Alpers C. N. and Brimhall G. H. (1988) Middle Miocene climatic
+                     13.4   n.d.      0.65    n.d.   7.45   1.78
+                                                                           change in the Atacama Desert, northern Chile: evidence from
+         Digenite/   34.8   0.93      3.81    3.7    8.63   2.07
+                                                                           supergene mineralization at La Escondida. Geol. Soc. Am. Bull.
+         FG
+                                                                           100, 1640–1656.
+                     31.3   0.21      2       b.d.   12.7   1.84
+                                                                        Arancibia G., Matthews S. J. and De Arce C. P. (2006) K–Ar and
+                     47.3   0.63      2.03    b.d.   2.79   2.66
+                                                                           Ar-40/Ar-39 geochronology of supergene processes in the
+                     51.7   0.98      12.6    5.07   9.47   2.15
+                                                                           Atacama Desert, Northern Chile: tectonic and climatic rela-
+MB-22    Digenite/   b.d.   n.d.      b.d.    n.d.   9.78   0.63           tions. J. Geol. Soc. Lond. 163, 107–118.
+         CG                                                             Arehart G. B., Chryssoulis S. L. and Kesler S. E. (1993) Gold and
+                     14.1   b.d.      b.d.    b.d.   11.6   1.65           arsenic in iron sulﬁdes from sediment-hosted disseminated gold
+                     22.8   n.d.      b.d.    n.d.   9.04   2.18           deposits: implications for depositional processes. Econ. Geol.
+                     42.5   n.d.      0.75    n.d.   11     1.5            88, 171–185.
+                     1.45   n.d.      0.47    n.d.   8.06   1.49        Barzyk W., Kowal A. and Pomianowski A. (2002) Noble metal
+                     b.d.   n.d.      b.d.    n.d.   11     2.61           (Ag, Au) cementation on non-stoichiometric cuprous sulphide
+                     34     0.99      28.1    4.6    10.3   2.74           grains. Colloids Surf. 208, 321–335.
+                     172    0.55      6.85    1.54   7.76   1.71        Belogub E. V., Novoselov K. A., Yakovleva V. A. and Spiro B.
+         Digenite/   23     0.13      3.34    b.d.   9.6    2.62           (2008) Supergene sulphides and related minerals in supergene
+         FG                                                                proﬁles of VHMS deposits from the South Urals. Ore Geol.
+                     117    0.87      11      b.d.   7.26   2.17           Rev. 33, 239–254.
+                     62     0.26      3.21    b.d.   8.35   1.82        Bowles J. F. W. (1986) The development of platinum-group
+                     47     1.14      29.6    1.09   11.9   3              minerals in laterites. Econ. Geol. 81, 1276–1285.
+                                                                        Boyle D. R. (1997) Iodargyrite as an indicator of arid climatic
+Spence                                                                     conditions and its association with gold-bearing glacial tills of the
+SP-11    Digenite/   3.82   0.82      4.5     2.1    6.8    2.63           Chibougamau–Chapais area, Quebec. Can. Mineral. 35, 23–34.
+         CG                                                             Brimhall G. H., Alpers C. N. and Cunningham A. B. (1985)
+                     3.73   0.36      b.d.    b.d.   5.98   2.09           Analysis of supergene ore-forming processes and ground-water
+                     1.7    0.07      b.d.    n.d.   5.62   1.91           solute transport using mass balance principles. Econ. Geol. 80,
+                     2.22   b.d.      b.d.    b.d.   9.45   2.27           1227–1256.
+                                                         “Invisible” Ag–Au in digenite                                                   6171
+
+Cameron E. M., Leybourne M. I. and Palacios C. (2007) Atacamite           Freyssinet P., Butt C. R. M., Morris R. C., and Piantone P. (2005)
+   in the oxide zone of copper deposits in northern Chile:                   Ore-forming processes related to lateritic weathering. In Eco-
+   involvement of deep formation waters? Miner. Deposita 42,                 nomic Geology 100th Anniversary Volume (eds. J. W. Heden-
+   205–218.                                                                  quist, J. F. H. Thompson, R. J. Goldfarb and J. P. Richards).
+Cameron E. M., Leybourne M. I., Palacios C. and Reich M. (2008)              Society of Economic Geologists, pp. 681–722.
+   Geochemical exploration and metallogenic studies, Northern             Gammons C. H. and Yu Y. (1997) The stability of aqueous silver
+   Chile. Geosci. Can. 35, 97–107.                                           bromide and iodide complexes at 25–300 °C: experiments,
+Cameron E. M., Leybourne M. I., Reich M. and Palacios C. (2010)              theory and geologic applications. Chem. Geol. 137, 155–173.
+   Geochemical anomalies in northern Chile as a surface expres-           Ghosal S. and Sack R. O. (1995) As–Sb energetics in argentian
+   sion of the extended supergene metallogenesis of buried copper            sulfosalts. Geochim. Cosmochim. Acta 59, 3573–3579.
+   deposits. Geochem. Explor. Environ. Anal. 10, 1–14.                    Golightly J. P. (1981) Nickeliferous laterite deposits. Econ. Geol.
+Chryssoulis S. (1990) Detection and quantiﬁcation of “invis-                 75th Anniv., 710–735.
+   ible” gold by microprobe techniques. In Proc. Symp. Gold               Grguric B. A. and Putnis A. (1999) Rapid exsolution behavior in
+   90’, Soc. for Mining, Metall., and Explor. (eds. D. M. Hausen,            the bornite–digenite series, and implications for natural ore
+   D. N. Halbe, E. U. Petersen and W. J. Tafuri). Littleton, pp.             assemblages. Miner. Mag. 63, 1–12.
+   323–331.                                                               Grguric B. A., Harrison R. J. and Putnis A. (2000) Revised phase
+Chryssoulis S. L., Cabri L. J. and Salter R. S. (1987) Direct                diagram for the bornite–digenite join from in situ neutron
+   determination of invisible gold in refractory sulphide ores. In           diﬀraction and DSC experiments. Miner. Mag. 64, 213–231.
+   Proc. Internat. Symp. On Gold Metallurgy-Refract. Gold (eds.           Hannington M. D., Thompson G., Rona P. A. and Scott S. D.
+   R. S. Salter, D. M. Wyslouzil and G. W. McDonald).                        (1988) Gold and native copper in supergene sulﬁdes from the
+   Pergamon Press, pp. 235–244.                                              Mid-Atlantic Ridge. Nature 333, 64–66.
+Chryssoulis S. L., Dunne R. and Coetzee A. (2004) Diagnostic              Harlov D. D. and Sack S. O. (1995) Thermochemistry of Ag2S–
+   microbeam technology in gold ore processing. J. Miner. Met.               Cu2S sulﬁde solutions: constraints derived from coexisting
+   Mater. Soc. 56, 53–57.                                                    Sb2S3-bearing sulfosalts. Geochim. Cosmochim. Acta 59, 4351–
+Ciobanu C. L., Cook N. J., Pring A., Brugger J., Danyushevsky L.             4365.
+   V. and Shimizu M. (2009) “Invisible gold” in bismuth chalc-            Hochella M. F., Moore J. N., Golla U. and Putnis A. (1999) TEM
+   ogenides. Geochim. Cosmochim. Acta 73, 1970–1999.                         study of samples from acid mine drainage systems: metal–
+Clark D. J., Gemmell J. B., Norman M., and Hespe A. M.                       mineral association with implications for transport. Geochim.
+   (2001) Textural and geochemical distinction between super-                Cosmochim. Acta 63, 3395–3406.
+   gene and hypogene Cu sulﬁde phases at the Mammoth                      Hough R. M., Noble R. R. P., Hitchen G. J., Hart R., Reddy S.
+   copper deposit, Queensland, Australia. Mineral Deposits at                M., Saunders M., Clode P., Vaughan D., Lowe J., Gray D. J.,
+   the Beginning of the 21st Century. In Proceedings of the                  Anand R. R., Butt C. R. M. and Verral M. (2008) Naturally
+   6th Biennal SGA-SEG Meeting, (eds. Piestrzyñski et al.),                 occurring gold nanoparticles and nanoplates. Geology 36, 571–
+   Warsaw, Poland, pp. 219–222.                                              574.
+Clarke J. D. A. (2006) Antiquity of aridity in the Chilean Atacama        Kesler S. E., Chryssoulis S. L. and Simon G. (2002) Gold in
+   Desert. Geomorphology 73, 101–114.                                        porphyry copper deposits: its abundance and fate. Ore Geol.
+Colin F., Sanfo Z., Brown E., Bourles D. and Minko A. E. (1997)              Rev. 21, 103–124.
+   Gold: a tracer of the dynamics of tropical laterites. Geology 25,      Kimball B. A., Callender E. and Axtmann E. V. (1995) Eﬀects of
+   81–84.                                                                    colloids on metal transport in a river receiving acid-mine
+Cook N. J. and Chryssoulis S. L. (1990) Concentrations of invisible          drainage, upper Arkansas river, Colorado, USA. Appl. Geo-
+   gold in the common sulﬁdes. Can. Mineral. 28, 1–16.                       chem. 10, 285–306.
+Cook N. J., Ciobanu C. L., Danyushevsky L. V., and Gilbert S.             Kimball B. E., Mathur R., Dohnalkova A. C., Wall A. J., Runkel
+   (2010) LA-ICP-MS analysis of minor elements in bornite,                   R. L. and Brantley S. L. (2009) Copper isotope fractionation in
+   chalcocite and digenite. In Proceedings, 13th IAGOD Sympo-                acid mine drainage. Geochim. Cosmochim. Acta 73, 1247–1263.
+   sium, Adelaide, Australia, 9–12 April 2010, pp. 199–200.               Kojima S., Astudillo J., Rojo J., Trista D. and Hayashi K. (2003)
+De Ronde C. E. J., Hannington M. D., Stoﬀers P., Wright I. C.,               Ore mineralogy, ﬂuid inclusion, and stable isotopic character-
+   Ditchburn R. G., Reyes A. G., Baker E. T., Massoth G. J.,                 istics of stratiform copper deposits in the coastal Cordillera of
+   Lupton J. E., Walker S. L., Greene R. R., Soong C. W. R.,                 northern Chile. Miner. Deposita 38, 208–216.
+   Ishibashi J., Lebon G. T., Bray C. J. and Resing J. A. (2005)          Koto K. and Morimoto N. (1970) The crystal structure of anilite.
+   Evolution of a submarine magmatic–hydrothermal system:                    Acta Crystallogr. 26, 915–924.
+   brothers volcano, southern Karmadec arc, New Zealand. Econ.            Large D. J., MacQuaker J., Vaughan D. J., Sawlowicz Z. and Gize
+   Geol. 100, 1097–1133.                                                     A. P. (1995) Evidence for low-temperature alteration of sulﬁdes
+Enders M. S., Knickerbockr C., Titley S. R. and Southam G.                   in the Kupferschiefer copper deposits of southwestern Poland.
+   (2006) The role of bacteria in the supergene environment of the           Econ. Geol. 90, 2143–2155.
+   Morenci porphyry copper deposit, Greenlee County, Arizona.             Larocque A. C. L., Hodgson C. J., Cabri L. J. and Jackman J. A.
+   Econ. Geol. 101, 59–70.                                                   (1995a) Ion-microprobe analysis of pyrite, chalcopyrite and
+Evans, Jr., H. T. (1979) The crystal structures of low chalcocite and        pyrrhotite from the Mobrun VMS deposit in northwestern
+   djurleite. Z. Kristallogr. 150, 299–320.                                  Quebec: evidence for metamorphic remobilization of gold. Can.
+Fleet M. E. (2006) Phase equilibria at high temperatures. Rev.               Mineral. 33, 373–388.
+   Mineral. Geochem. 61, 365–419.                                         Larocque A. C. L., Jackman J. A., Cabri L. J. and Hodgson C. J.
+Fleet M. E. and Mumin A. H. (1997) Gold-bearing arsenian pyrite              (1995b) Calibration of the ion microprobe for the determina-
+   and marcasite and arsenopyrite from Carlin Trend gold                     tion of silver in pyrite and chalcopyrite from the Mobrun VMS
+   deposits and laboratory synthesis. Am. Mineral. 82, 182–193.              deposit, Rouyn-Noranda, Quebec. Can. Mineral. 33, 361–372.
+Freyssinet P., Zeegers H. and Tardy Y. (1989) Morphology and              Leybourne M. I. and Cameron E. M. (2006) Composition of
+   geochemistry of gold grains in lateritic proﬁles of southern              groundwaters associated with porphyry-Cu deposits, Atacama
+   Mali. J. Geochem. Explor. 32, 17–31.                                      Desert, Chile: elemental and isotopic constraints on water
+6172                              M. Reich et al. / Geochimica et Cosmochimica Acta 74 (2010) 6157–6173
+
+   sources and water-rock reactions. Geochim. Cosmochim. Acta           Ramirez L. E., Palacios C., Townley B., Parada M. A., Sial A. N.,
+   70, 1616–1635.                                                            Fernandez-Turiel J. L., Gimeno D., Garcia-Valles M. and
+Lichtner P. C. and Biino G. G. (1992) A ﬁrst principles approach to          Lehmann B. (2006) The Mantos Blancos copper deposit: an
+   supergene enrichment of a porphyry copper protore: I. Cu–Fe–              upper Jurassic breccia-style hydrothermal system in the coastal
+   S subsystem. Geochim. Cosmochim. Acta 56, 3987–4013.                      range of northern Chile. Miner. Deposita 41, 246–258.
+Maddox L. M., Bancroft G. M., Scaini M. J. and Lorimer J. W.            Reich M., Palenik C. S., Utsunomiya S., Becker U., Stixrude L.,
+   (1998) Invisible gold; comparison of Au deposition on pyrite              Kesler S. E. and Ewing R. C. (2003) Solubility limit of gold in
+   and arsenopyrite. Am. Mineral. 83, 1240–1245.                             arsenian pyrite from Carlin-type and epithermal deposits:
+Makovicky E. (2006) Crystal structures of sulﬁdes and other                  EMPA, SIMS, HRTEM and quantum mechanical constraints.
+   chalcogenides. Rev. Miner. Geochem. 61, 7–125.                            Proc. Geol. Soc. Am. Abstr. Prog. 35, 358.
+Maksaev V., Townley B., Palacios C. and Camus F. (2007) Metallic        Reich M., Becker U., and Kesler S. E. (2004) Quantum-mechanical
+   ore deposits. In The Geology of Chile (eds. T. Moreno and W.              and Monte Carlo simulations of Fe–As–S solid solution
+   Gibbons). The Geological Society, London, pp. 179–199.                    properties and the energetics of Au incorporation into arsenian
+Martycak K., Zeman J. and Vacekvesely M. (1994) Supergene                    pyrite. Geochim. Cosmochim. Acta 68 (11). In 14th Annual
+   processes on ore-deposits – a source of heavy metals. Environ.            Goldschmidt Conference, Copenhagen, Denmark, June 5–11, pp.
+   Geol. 23, 156–165.                                                        A81.
+Mathur R., Ruiz J., Titley S., Liermann L., Buss H. and Brantley S.     Reich M., Kesler S. E., Utsunomiya S., Palenik C. S., Chryssoulis
+   (2005) Cu isotopic fractionation in the supergene environment             S. L. and Ewing R. C. (2005) Solubility of gold in arsenian
+   with and without bacteria. Geochim. Cosmochim. Acta 69,                   pyrite. Geochim. Cosmochim. Acta 69, 2781–2796.
+   5233–5246.                                                           Reich M., Utsunomiya S., Kesler S. E., Wang L. M., Ewing R. C.
+Mathur R., Titley S., Barra F., Brantley S., Wilson M., Phillips A.,         and Becker U. (2006) Thermal behavior of metal nanoparticles
+   Munizaga F., Maksaev V., Vervoort J. and Hart G. (2009)                   in geologic materials. Geology 34, 1033–1036.
+   Exploration potential of Cu isotope fractionation in Porphyry        Reich M., Palacios C., Parada M. A., Fehn U., Cameron E. M.,
+   Copper deposits. J. Geochem. Explor. 102, 1–6.                            Leybourne M. I. and Zúñiga A. (2008) Atacamite formation by
+Matlock M. M., Howerton B. S. and Atwood D. A. (2002)                        deep saline waters in copper deposits from the Atacama Desert,
+   Chemical precipitation of heavy metals from acid mine drain-              Chile: evidence from ﬂuid inclusions, groundwater geochemis-
+   age. Water Res. 36, 4757–4764.                                            try, TEM, and 36Cl data. Miner. Deposita 43, 663–675.
+McClenaghan S. H., Lentz D. R. and Cabri L. J. (2004)                   Reich M., Palacios C., Vargas G., Luo . S., Cameron E. M.,
+   Abundance and speciation of gold in massive sulﬁde of the                 Leybourne M. I., Parada M. A., Zúñiga A. and You C. F.
+   Bathrust mining camp, New Brunswick, Canada. Can. Mineral.                (2009a) Supergene enrichment of copper deposits since the
+   42, 851–871.                                                              onset of modern hyperaridity in the Atacama Desert, Chile.
+Mikhlin Y. L. and Romanchenko A. S. (2007) Gold deposition on                Miner. Deposita 44, 497–504.
+   pyrite and the common sulﬁde minerals: an STM/STS and SR-            Reich M., Palacios C., Alvear M., Cameron E. M., Leybourne M.
+   XPS study of surface reactions and Au nanoparticles. Geochim.             I. and Deditius A. (2009b) Iodine-rich waters involved in
+   Cosmochim. Acta 71, 5985–6001.                                            supergene enrichment of the Mantos de la Luna argentiferous
+Morimoto N. and Gyobu A. (1971) Composition and stability of                 copper deposit, Atacama Desert, Chile. Miner. Deposita 44,
+   digenite. Am. Mineral. 56, 1889–1909.                                     719–722.
+Morimoto N. and Koto K. (1970) Phase relations of the Cu–S              Sack R. O. (2000) Internally consistent database for sulﬁdes and
+   system at low temperatures: stability of anilite. Am. Mineral. 55,        sulfosalts in the system Ag2S–Cu2S–ZnS–Sb2S3–As2S3. Geo-
+   106–117.                                                                  chim. Cosmochim. Acta 64, 3803–3812.
+Mozgova N. N., Trubkin N. V., Borodaev Y. S., Cherkashev G.             Sack R. O. and Ebel D. S. (2006) Thermochemistry of sulﬁde
+   A., Stepanova T. V., Semkova T. A. and Upenskaya T. Y.                    mineral solutions. Rev. Miner. Geochem. 61, 265–364.
+   (2008) Mineralogy of massive sulﬁdes from the Ashadze                Sack R. O., Frederick R., Hardy L. S. and Ebel D. S. (2005) Origin
+   hydrothermal ﬁeld, 13°N, Mid-Atlantic Ridge. Can. Mineral.                of high-Ag fahlores from the Galena Mine, Wallace, Idaho,
+   46, 545–567.                                                              USA. Am. Mineral. 90, 1000–1007.
+Orrego M., Urrutia J., Sanhueza A., Boric R., and Cornejo P.            Savage K. S., Tingle T. N., O’Day P. A., Waychunas G. A. and
+   (2006) Mineralización tipo Ox Fe–Cu–Au (IOCG) en el Distrito             Bird D. K. (2000) Arsenic speciation in pyrite and secondary
+   Mantos Blancos (Cu–Ag), Antofagasta, Norte de Chile. In                   weathering phases, Mother Lode gold district, Tuolumne
+   Proceedings of the XI Congreso Geológico Chileno, vol. 2, pp.            County, California. Appl. Geochem. 15, 1219–1244.
+   331–334.                                                             Seward T. M. (1976) The stability of chloride complexes of silver in
+Palenik C. S., Utsunomiya S., Reich M., Kesler S. E. and Ewing R.            hydrothermal solutions up to 350 °C. Geochim. Cosmochim.
+   C. (2004) “Invisible” gold revealed: direct imaging of gold               Acta 40, 1329–1341.
+   nanoparticles in a Carlin-type deposit. Am. Mineral. 89, 1359–       Shannon R. D. (1976) Revised eﬀective ionic radii and systematic
+   1366.                                                                     studies of interatomic distances in halides and chalcogenides.
+Pal’yanova G. (2008) Physicochemical modeling of the coupled                 Acta Crystallogr. A32, 751–767.
+   behavior of gold and silver in hydrothermal processes: gold          Sillitoe R. H. (2005) Supergene oxidized and enriched porphyry
+   ﬁneness, Au/Ag ratios and their possible implications. Chem.              copper and related deposits. Econ. Geol. 100th Anniv., 723–768.
+   Geol. 255, 399–413.                                                  Sillitoe R. H. and McKee E. H. (1996) Age of supergene oxidation
+Pattrick R. A. D., Mosselmans J. F. W., Charnock J. M., England              and enrichment in the Chilean porphyry copper province. Econ.
+   K. E. R., Helz G. R., Garner C. D. and Vaughan D. J. (1997)               Geol. 91, 164–179.
+   The structure of amorphous copper sulﬁde precipitates: an X-         Sillitoe R. H., Folk R. L. and Saric N. (1996) Bacteria as mediators
+   ray absorption study. Geochim. Cosmochim. Acta 61, 2023–                  of copper sulﬁde enrichment during weathering. Science 272,
+   2036.                                                                     1153–1155.
+Posfai M. and Buseck P. R. (1994) Djurleite, digenite and               Skinner B. J. (1966) The system Cu–Ag–S. Econ. Geol. 61, 1–26.
+   chalcocite: intergrowths and transformations. Am. Mineral.           Southam G. and Saunders J. A. (2005) The geomicrobiology of ore
+   79, 308–315.                                                              deposits. Econ. Geol. 100, 1067–1084.
+                                                      “Invisible” Ag–Au in digenite                                                6173
+
+Sung Y. H., Brugger J., Ciobanu A., Pring A., Skinner W. and              Medio a Superior en la Cordillera de la Costa, region de
+   Nugus M. (2009) Invisible gold in arsenian pyrite and arseno-          Antofagasta, Chile. Rev. Geol. Chile 25, 199–228.
+   pyrite from a multistage Archean gold deposit: sunrise Dam,         Welham N. J., Kelsall G. H. and Diaz M. A. (1993) Thermody-
+   Eastern Goldﬁelds Province, Western Australia. Miner. Depo-            namics of Ag–Cl–H2O, Ag–Br–H2O, and Ag–I–H2O systems at
+   sita 44, 765–791.                                                      298 K. J. Electroanal. Chem. 361, 39–47.
+Trista-Aguilera D., Barra F., Ruiz J., Morata D., Talavera-            Wells J. D. and Mullens T. E. (1973) Gold-bearing arsenian pyrite
+   Mendoza O., Kojima S. and Ferraris F. (2006) Re–Os isotope             determined by microprobe analysis, Cortez and Carlin Gold
+   systematics for the Lince–Estefania deposit: constraints on the        mines, Nevada. Econ. Geol. 68, 187–201.
+   timing and source of copper mineralization in a stratabound         Will G., Hinze E. and Abdelrahman A. R. M. (2002) Crystal
+   copperdeposit, Coastal Cordillera of Northern Chile. Miner.            structure analysis and reﬁnement of digenite, Cu1.8S, in the
+   Deposita 41, 99–105.                                                   temperature range 20 to 500 °C under controlled sulfur partial
+Vaughan D. J. and Craig J. R. (1978) Mineral Chemistry of Metal           pressure. Eur. J. Mineral. 14, 591–598.
+   Sulﬁdes. Cambridge University Press, Cambridge, London.             Willam-Jones A. E., Bowell R. J. and Migdisov A. A. (2009) Gold
+Vaughan D. J. and Rosso K. M. (2006) Chemical bonding in                  in solution. Elements 5, 281–287.
+   sulﬁde minerals. Rev. Miner. Geochem. 61, 231–264.
+Vivallo W. and Henriquez F. (1998) Genesis comun de los
+                                                                                                     Associate editor: David J. Vaughan
+   yacimientos estratoligados y vetiformes de cobre del Jurasico
+

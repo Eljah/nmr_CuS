@@ -1,0 +1,97 @@
+ПУБЛИКАЦИИ ЯКР И УЧЕТ СИГНАЛА МЕДНОЙ КАТУШКИ
+Проверка для статьи об анилите Cu7S4. 26 ноября 2026 г.
+
+1. ЧТО НАХОДИТСЯ В papers_20.zip
+
+Архив содержит 14 файлов: 11 PDF, один HTML, один DOCX и один RTF. Проверены имена членов архива и контрольные суммы; состав записан в manifest.json. В PDF представлены следующие работы:
+
+emrstm1192.pdf — Magill A. W., Gruetter R. Nested Surface Coils for Multinuclear NMR. Методика многорезонансных поверхностных катушек; не измерения ЯКР анилита.
+
+j.1365-246X.2012.05618.x.pdf — Dalgaard E., Auken E., Larsen J. J. Adaptive noise cancelling of multichannel magnetic resonance sounding signals. Geophysical Journal International 191 (2012), 88–100. DOI 10.1111/j.1365-246X.2012.05618.x. Рассматривает магнитно-резонансное зондирование; приведенные T2* около 200 мс относятся к соответствующему модельному сигналу, а не к ядрам Cu в сульфиде.
+
+1-s2.0-0021863488901758-main.pdf — Stafford J. V. Remote, Non-contact and in-situ Measurement of Soil Moisture Content: a Review. Journal of Agricultural Engineering Research 41 (1988), 151–172. Измерения влажности почвы.
+
+sssaj-51-2-SS0510020287.pdf — Paetzold R. F., De Los Santos A., Matzkanin G. A. Pulsed Nuclear Magnetic Resonance Instrument for Soil-water Content Measurement: Sensor Configurations. Протонный ЯМР влажности почв.
+
+1-s2.0-S0375674203001316-main.pdf и S0375674203001316.htm — Haggan T., Parnell J., Cisternas M. E. Fluid history of andesite-hosted CuS-bitumen mineralization, Copiapó district, North Central Chile. Journal of Geochemical Exploration 78–79 (2003), 631–635.
+
+1-s2.0-S0892687505003018-main.pdf — Goh S. W., Buckley A. N., Lamb R. N. Copper(II) sulfide? Minerals Engineering 19 (2006), 204–208. Обсуждение электронной структуры ковеллина по XPS/NEXAFS.
+
+1-s2.0-S0304386X10000617-main.pdf — Velásquez Yévenes L., Miki H., Nicol M. The dissolution of chalcopyrite in chloride solutions. Part 2: Effect of various parameters on the rate. Hydrometallurgy 103 (2010), 80–85.
+
+1-s2.0-S0304386X10000587-main.pdf — Velásquez-Yévenes L., Nicol M., Miki H. The dissolution of chalcopyrite in chloride solutions. Part 1. The effect of solution potential. Hydrometallurgy 103 (2010), 108–113.
+
+1-s2.0-S0301751611001712-main.pdf — Lundström M., Liipo J., Aromaa J. Dissolution of copper and iron from sulfide concentrates in cupric chloride solution. International Journal of Mineral Processing 102–103 (2012), 13–18.
+
+1-s2.0-S0304386X10002987-main.pdf — Miki H., Nicol M., Velásquez-Yévenes L. The kinetics of dissolution of synthetic covellite, chalcocite and digenite in dilute chloride solutions at ambient temperatures. Hydrometallurgy 105 (2011), 321–327.
+
+1-s2.0-S0016703710004266-main.pdf — Reich M. et al. “Invisible” silver and gold in supergene digenite (Cu1.8S). Geochimica et Cosmochimica Acta 74 (2010), 6157–6173.
+
+Дополнительные файлы: geerite to digenite.docx и diploma_magister_geerite_2009_10.rtf. Последний представляет другую редакцию диплома по сравнению с отдельно приложенным diploma_magister_geerite_2009_5.doc. Релевантные данные T2 находятся в материалах диплома/рукописи, а не в перечисленных 11 PDF.
+
+2. КАКИЕ ВРЕМЕНА РЕЛАКСАЦИИ ОПУБЛИКОВАНЫ В ПРОВЕРЕННЫХ РАБОТАХ
+
+Gainov et al., European Journal of Mineralogy 25 (2013), 569–578: раздел III.1, с. 572–573, рис. 2–3. Рис.3 относится к скорости спин-решеточной релаксации 1/T1; он не является кривой 1/T2. Обсуждаемая позже в статье поперечная релаксация связана с ядрами Sb в бурноните, а не с Cu рассматриваемой бинарной фазы. Численную кривую T2 «дигенита» из этой статьи получить нельзя.
+
+Gainov et al., глава 17 в Superconductor (2010), с.327–344: раздел о CuS/Cu1.6S содержит спектры, частоты и температурные зависимости частот. В проверенном тексте не найдено отдельной количественной кривой T2 геерита. Значения асимметрии, обсуждаемые в других разделах главы, относятся к иным соединениям и ядрам; переносить их на Cu7S4 нельзя.
+
+Gainov et al., Physical Review B 79, 075115 (2009), DOI 10.1103/PhysRevB.79.075115: основная релаксационная часть посвящена T1 ковеллина. Авторская версия arXiv:0809.0560, раздел V.1, PDF-с. 6, прямо откладывает отдельное обсуждение релаксации Cu1.6S на будущую публикацию. В PDF нет количественной кривой T2 рассматриваемого образца. В разделе IV (PDF-с.5) прямо указан метод определения Vzz и η моделированием ЯМР неориентированного порошка.
+
+Диплом и рукопись geerite to digenite.docx следует использовать как самостоятельные первичные материалы с собственными обозначениями, единицами и статусом публикации. Подтвержденные значения T2, рисунки и номера страниц необходимо брать из их отдельного разбора. Масштаб микросекундных задержек и миллисекундного времени затухания в этих материалах применим для проверки единиц, но равенство T2 в нулевом поле и в полевом ЯМР не следует автоматически.
+
+3. РАЗЛИЧИЕ НАБОРОВ ЧАСТОТ ЯКР
+
+При подгонке нельзя смешивать близкие численные наборы без указания источника. Для 4.2 K:
+
+Источник                                  63Cu, МГц                         65Cu, МГц
+Статья 2013, с. 572                          11.90;15.21;16.26;16.81            11.02;14.10;15.05;15.55
+PRB 2009/arXiv, раздел V.1, PDF-с. 6           11.95;15.25;16.20;16.95            11.06;14.11;14.98;15.67
+Глава 2010, раздел II.2, с. 334                11.95;15.25;16.20;16.95            11.06;14.11;14.98;15.67
+
+Текст статьи 2013 действительно представляет первый набор как наблюдаемые дополнительные линии показанного образца. Поэтому таблица первой редакции новой статьи воспроизводила опубликованный источник правильно. Однако новые авторские материалы содержат иной набор собственных измерений и иной контекст цитирования старых значений. Для модели нынешнего образца следует выбрать документированно связанный с ним набор и проверить устойчивость результатов к этому различию, вместо молчаливой замены частот.
+
+Отдельная пара ковеллина CuS в статье 2013: 14.89/13.78 МГц; в статье 2009: 14.88/13.77 МГц. Ее нельзя включать в четыре пары уточняемой фазы.
+
+4. СИГНАЛ МЕДНОЙ КАТУШКИ — ИЗВЕСТНАЯ ЭКСПЕРИМЕНТАЛЬНАЯ КОМПОНЕНТА
+
+Наличие резонанса меди в медной приемо-передающей катушке хорошо известно и должно учитываться как обычный аппаратный вклад. Takeda et al. (2012), рис. 3 и текст раздела эксперимента, непосредственно регистрируют 63Cu и 65Cu катушки; эти сигналы исчезают при замене провода серебряным. Работа Ferrari et al. (2022), раздел Calibration of RF frequency и табл. 2, использует сигнал 63Cu самой катушки для калибровки частоты/поля без образца. Следовательно, сама наблюдаемость медной линии не делает анализ порошкового спектра невозможным.
+
+Для имеющихся данных допустимы два явно описанных вычислительных варианта: отдельная узкая компонента металлической Cu в суммарной модели либо исключение заранее заданных узких частотных окон из функционала подгонки широкого спектра. Если выбрано исключение окон, это нужно назвать исключением, а не измеренным вычитанием фона. При разложении узкой и широкой составляющих полезно показать устойчивость параметров к разумному изменению маски или формы узкой компоненты. Спектр пустой катушки служит независимой проверкой, но его отсутствие не препятствует условной подгонке остальной части спектра.
+
+Слово «всегда» относится к конкретному медному датчику: существуют серебряные катушки, специально применяемые для подавления такого Cu-фона. В текущей статье достаточно написать, что узкие сигналы металлической меди датчика учитывались отдельно; основным объектом расчета является порошковый отклик образца.
+
+5. ПУБЛИЧНЫЕ ИСТОЧНИКИ
+
+[1] Gainov R. R. et al. NQR/NMR and Mössbauer spectroscopy of sulfides: potential and versatility. European Journal of Mineralogy 25 (2013), 569–578.
+https://doi.org/10.1127/0935-1221/2013/0025-2325
+
+[2] Gainov R. R. et al. Determination of the Local Crystal-Chemical Features of Complex Chalcogenides by Copper, Antimony, and Arsenic NQR. In: Superconductor, ch. 17 (2010), 327–344.
+https://www.intechopen.com/chapters/11877
+https://cdn.intechopen.com/pdfs/11877.pdf
+
+[3] Gainov R. R. et al. Phase transition and anomalous electronic behavior in the layered superconductor CuS probed by NQR. Physical Review B 79 (2009), 075115.
+https://doi.org/10.1103/PhysRevB.79.075115
+Авторская версия: https://arxiv.org/pdf/0809.0560
+
+[4] Takeda K., Ichijo N., Noda Y., Takegoshi K. Elemental analysis by NMR. Journal of Magnetic Resonance 224 (2012), 48–52.
+https://doi.org/10.1016/j.jmr.2012.09.004
+https://pubmed.ncbi.nlm.nih.gov/23036840/
+Авторская версия в репозитории: http://hdl.handle.net/2433/189440
+Проверенная копия авторского текста: https://www.academia.edu/106876886/Elemental_analysis_by_NMR
+
+[5] Ferrari A. et al. Performance and reproducibility of 13C and 15N hyperpolarization using a cryogen-free DNP polarizer. Scientific Reports 12 (2022), 11694.
+https://doi.org/10.1038/s41598-022-15380-7
+https://pmc.ncbi.nlm.nih.gov/articles/PMC9270333/
+
+6. ДОПОЛНИТЕЛЬНЫЕ КОНФЕРЕНЦИОННЫЕ РАБОТЫ: ПОДТВЕРЖДЕНА БИБЛИОГРАФИЯ, НЕ ПОЛНЫЙ ТЕКСТ
+
+Evlampiev I. A., Gainov R. R., Dooglav A. V., Pen'kov I. N. Copper NQR studies of copper sulfide Cu1.6S (geerite). Actual Problems of Magnetic Resonance and its Applications. XII International Youth Scientific School, Kazan, 5–9 October 2009. Proceedings, p. 192–195.
+https://repository.kpfu.ru/?p_id=28973
+
+Евлампиев И.А., Гайнов Р.Р., Дуглав А.В., Пеньков И.Н. Самодиффузия ионов меди в сульфидах меди CuS и Cu1,6S по данным ЯКР Cu63,65. XVIII Всероссийская конференция «Структура и динамика молекулярных систем» (Яльчик-2011), 4–9 июля 2011. Тезисы, с. 46.
+https://repository.kpfu.ru/?p_id=30358
+
+Евлампиев И.А., Гайнов Р.Р., Дуглав А.В., Пеньков И.Н. Самодиффузия меди в CuS и Cu1.6S по данным ЯКР 63,65Cu. 8-я Зимняя молодежная школа-конференция «Магнитный резонанс и его приложения», Санкт-Петербург, 27 ноября – 3 декабря 2011, с. 147–148.
+https://repository.kpfu.ru/?p_id=30327
+
+В открытых карточках не найден доступный полный текст этих трех сообщений. Их существование подтверждено, но значения T2 по одним названиям или библиографическим записям не восстанавливались.

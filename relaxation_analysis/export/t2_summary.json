@@ -1,0 +1,50 @@
+{
+  "source": "data_analysis/export/opj_T2a.csv; Anilite.OPJ, sheet T2a",
+  "temperature_K": 5,
+  "frequency_MHz": 51,
+  "nominal_field_kOe": 45.7,
+  "time_definition": "t = TwoTau = 2*tau; microseconds used in this analysis",
+  "unit_evidence": "Author 2009 thesis: pulse timing in microseconds and NQR inverse T2 in ms^-1, Fig. 11, p.29 of version _5.",
+  "original_graph_unit_label": "mS (inconsistent with the adopted scale)",
+  "echo_amplitude_definition": "sqrt(IntRe**2 + IntIm**2); this differs from stored IntQ",
+  "main_model": "A * exp(-(t/T2e)**beta), zero offset, unweighted amplitude residuals",
+  "main_fit": {
+    "channel": "complex_magnitude",
+    "subset": "all_35",
+    "model": "generalized_exponential",
+    "n_points": 35,
+    "amplitude": 1339.7398212037674,
+    "effective_time_us": 954.6632616799384,
+    "beta": 1.255227232797601,
+    "rms_residual_arbitrary_units": 7.887415786644102,
+    "success": true
+  },
+  "single_exponential_fit": {
+    "channel": "complex_magnitude",
+    "subset": "all_35",
+    "model": "single_exponential",
+    "n_points": 35,
+    "amplitude": 1419.8745262321233,
+    "effective_time_us": 945.0200647829453,
+    "beta": 1.0,
+    "rms_residual_arbitrary_units": 25.92914314342308,
+    "success": true
+  },
+  "phase_range_degrees": [
+    49.94888492474684,
+    66.85601765945721
+  ],
+  "interpretation": "T2e is the effective 1/e envelope time. beta is descriptive. Sensitivity runs are not confidence intervals. No microscopic relaxation mechanism is inferred.",
+  "nqr_comparison": {
+    "source": "Evlampiev thesis 2009, Fig.11, p.29 (_5)",
+    "approx_inverse_T2_ms_minus1_lowT": [
+      6,
+      9
+    ],
+    "approx_T2_us_lowT": [
+      111.11111111111111,
+      166.66666666666666
+    ],
+    "numeric_precision": "Read as a scale from a figure, not tabulated measurements"
+  }
+}

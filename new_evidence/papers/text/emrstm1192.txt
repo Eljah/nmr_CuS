@@ -1,0 +1,1119 @@
+Nested Surface Coils for                                                    or as transmit-receive coils; the latter being more common in
+                                                                            multinuclear applications.
+Multinuclear NMR                                                               Surface coils are regularly used for proton studies, but
+                                                                            their main application is for non-proton acquisitions, especially
+                                                                            spectroscopy, where it is often not possible to achieve the
+                                                                            required SNR with a volume coil. Indeed, the first reported
+Arthur W. Magill and Rolf Gruetter                                          use of a surface coil was to study 31 P, where the increased
+Laboratory of Functional and Metabolic Imaging, Ecole Polytechnique         SNR allowed phosphorus to be investigated in vivo for the
+Federale de Lausanne, Switzerland                                           first time.2
+Department of Radiology, University of Lausanne, Switzerland
+Department of Radiology, University of Geneva, Switzerland
+                                                                            2   MULTINUCLEAR MRI AND MRS
+
+                                                                               The vast majority of in vivo magnetic resonance experi-
+1   Introduction                                                      1     ments are performed using protons (1 H). Protons have a high
+2   Multinuclear MRI and MRS                                          1     gyromagnetic ratio (giving high NMR sensitivity), and are
+3   Basic Surface Coils                                               2     present in large quantities in the body, mostly in the form
+4   Quadrature                                                        4     of water. However, other nuclei can be studied in vivo, poten-
+5   Multinuclear Surface Coils                                        6     tially giving access to information not available from proton
+6   Filters                                                           8     imaging or spectroscopy.
+7   Summary                                                           9        After protons, the most commonly investigated nuclei
+8   Related Articles                                                  9     are phosphorus (31 P), carbon (13 C), and sodium (23 Na).3 A
+9   References                                                        9     comparison of the NMR properties of these nuclei is given
+                                                                            in Table 1. Phosphorus magnetic resonance spectroscopy
+                                                                            (MRS) is used to investigate tissue energy metabolism.
+1   INTRODUCTION                                                            Phosphorous-31 has a relatively large gyromagnetic ratio, and
+                                                                            100% natural abundance, so produces a reasonably large NMR
+   A surface coil is any radiofrequency (RF) coil placed                    signal. Carbon-13 is a more challenging nucleus, as it has a
+directly on the surface of the subject. Surface coils represent             lower natural abundance (1.1%) and a lower gyromagnetic
+some of the simplest coil designs used in magnetic resonance,               ratio. However, it can be used to investigate almost every
+but are commonly used in experiments requiring the highest                  metabolic pathway in the body. While phosphorus and carbon
+possible sensitivity.                                                       are commonly investigated via spectroscopy, sodium (23 Na)
+   In contrast to volume coils, which are designed to pro-                  is usually imaged. Sodium-23 has 100% natural abundance,
+vide homogeneous sensitivity over the whole field-of-view,                  but is present in relatively low concentration in the body;
+surface coils sacrifice field homogeneity to maximize the                   however, its distribution is very inhomogeneous. Sodium is
+signal-to-noise ratio (SNR) over a limited region. Figure 1                 used to investigate tissue damage, such as that caused by stroke
+shows an image of a mouse head, acquired with a volume and                  or cancer (see Sodium-23 Magnetic Resonance of Human
+a surface coil. The volume coil gives a uniform image of the                Subjects).
+whole head—note that the brain occupies a relatively small                     It is often useful to “double tune” a non-proton probe,
+part of that volume. While the NMR signal can be localized                  enabling it to excite and detect an NMR signal at two (or
+using field gradients, thermal noise cannot; coils are therefore            more) frequencies—commonly that of the nucleus we wish
+sensitive to noise generated over their entire field-of-view. By            to investigate and of proton. There are several reasons for
+designing a coil with a reduced field-of-view, for example                  wanting to add a proton channel to a non-proton coil. First, as
+covering only the brain, the noise level is immediately re-                 the proton signal is always stronger than that from other nuclei,
+duced without affecting the signal level. This is the principle             a proton channel is useful for quickly acquiring a scout image.
+by which a surface coil increases the SNR.                                  The scout can then be used to plan the non-proton acquisition,
+   The image shown in Figure 1(b) is typical for a surface                  based on the actual anatomy of the animal or volunteer. A
+coil. It is bright close to the coil, but the intensity falls off           proton channel is also useful for shimming the main field (see
+rapidly with increasing depth into the sample. This is the main             Shimming of Superconducting Magnets). A well-shimmed B0
+difficulty when using a surface coil—the RF transmit power                  field is critical when attempting to detect a weak NMR signal,
+that produces a 180◦ nutation at one location in the sample                 but it is difficult to set up the shim using a weak signal. As the
+will give a much larger nutation closer to the coil and a lower             shim is independent of the nucleus, adding a proton channel
+nutation further from it, making it difficult to, for example,              allows the magnet to be shimmed using the stronger proton
+produce a spin echo. To overcome this problem, adiabatic RF                 signal, before switching to the non-proton channel (without
+pulses are routinely used with surface coils, which, above a                moving the sample) to perform the actual experiment.
+certain B1 threshold, produce the same nutation independent                    A second RF field, at the proton frequency, may also
+of B1 amplitude.1                                                           be used to enhance the signal on the X-channel, via
+   Surface coils are usually designed for a specific application,           nuclear Overhauser effect (NOE), polarization transfer, and/or
+restricting the field-of-view to cover only the anatomy of                  J-decoupling (usually simply called decoupling, causing much
+interest (a particular brain region, liver, heart, etc.) to minimize        confusion for the coil designer!). In heteronuclear spin
+the noise sensitivity. Surface coils can be used in receive-only            systems, such as 13 C– 1 H, the polarization of the observed
+mode, in combination with a suitable volume transmit coil,                  nuclei can be significantly enhanced by saturating the higher
+
+Encyclopedia of Magnetic Resonance, Online  2007–2011 John Wiley & Sons, Ltd.
+This article is  2011 John Wiley & Sons, Ltd.
+This article was published in the Encyclopedia of Magnetic Resonance in 2011 by John Wiley & Sons, Ltd.
+DOI: 10.1002/9780470034590.emrstm1192
+2 NESTED SURFACE COILS FOR MULTINUCLEAR NMR
+
+                                                                                               RF pulses
+
+
+
+
+                                                                                  X-channel
+                                                                                                                      Acquisition
+
+
+                                                                                                                                     Time
+
+          (a)                         (b)
+
+
+
+
+                                                                                  1H-channel
+Figure 1 Images of a mouse brain, acquired with (a) a volume coil
+and (b) a surface coil
+                                                                                                                      Decoupling
+
+Table 1 Properties of some biologically interesting NMR active                                 NOE or PT
+nuclei3                                                                                                                              Time
+Nucleus         Spin      Gyromagnetic         γX /γ1H        Relative      Figure 2 A typical multinuclear pulse sequence requires transmission
+                          ratio MHz/T                        sensitivity    on a second RF channel—for NOE or polarization transfer during
+1
+    H           1/2           42.58             1.00            100         transmission and J-decoupling during the acquisition
+13 C            1/2           10.71             0.25            1.6
+23
+     Na         3/2           11.27             0.26            1.8         is typically seven or more orders of magnitude larger than
+31 P            1/2           17.25             0.41            6.9         the detected NMR signal. Accurately recording this signal
+                                                                            without interference from the decoupling is clearly an RF
+                                                                            design challenge, requiring careful coil and system design.
+γ nuclei, giving rise to the NOE.1 The maximum enhancement
+available due to NOE for a particular pair of spin systems is
+1 + γI /(2γS ), where γI and γS are the respective gyromagnetic             3 BASIC SURFACE COILS
+ratios. For 13 C– 1 H, for example, the potential enhancement
+is almost a factor of three. Alternatively, polarization of the                The simplest, and probably the most common, of all surface
+observed nuclei can be enhanced via J-coupling methods,                     coils is a planar loop. The actual shape of a planar loop makes
+such as INEPT, which transfer polarization from the coupled                 relatively little difference to the field it generates—circular
+to the observed nuclei by simultaneously exciting both.1 In                 and rectangular-shaped loops are both common. The magnetic
+this case, the maximum enhancement factor is γI /γS , giving                field generated by a circular loop, oriented perpendicular to the
+almost a factor of four for 13 C– 1 H (see Double Resonance).               y-axis, is shown as a map in the transverse plane in Figure 3(a).
+Heteronuclear spin systems couple (in a manner analogous                    Surface coils are commonly curved to fit the surface of the
+to resonant circuits) producing a splitting of the resonance                sample, which helps to extend the magnetic field further into
+peaks into multiplets whose type depends on spin multiplicity.              the sample. The circular loop in Figure 3(a) has been curved
+This complicates the spectrum and reduces the peak height of                onto the surface of a z-oriented cylinder of twice the radius
+already small resonances, making them harder to detect. The                 of the loop. All subsequent coil arrangements modeled in this
+manifestation of J-coupling can be reduced or even eliminated               article have been curved onto the same surface.
+by saturating the coupled spin partner during the acquisition                  An alternative arrangement to a planar loop is a butterfly,
+with a second RF field B2  2πJ /γ , where J is the coupling                or figure-of-eight, coil as shown in Figure 4(a). The generated
+between the two spin systems. The decoupling signal can                     field is concentrated closer to the coil than for a circular loop,
+be either continuous wave or, to increase the decoupling                    and thus falls off more rapidly with increasing distance from
+bandwidth, a series of composite pulses such as WALTZ or                    the coil (Figure 3b). This can be useful if a very shallow
+MLEV1 (see Decoupling Methods).                                             field-of-view is required, for example, to avoid coupling to
+   When the proton channel is used only to acquire a                        another nearby RF coil.
+scout image or shim the magnet, the RF coil can be                             When designing a loop coil, the coil dimensions should be
+switched between proton and non-proton mode, e.g., using                    chosen to maximize the SNR of the signal detected from a
+PIN diodes, either to detune the inactive coil or to switch the             given position, rather than the raw signal level. Consider a
+resonance frequency of a single coil. NOE and polarization                  planar loop placed directly onto a semi-infinite conductive
+transfer, however, require simultaneous transmission on both                load, which is a good approximation when the load is much
+the detected and decoupling channels; J-decoupling requires                 larger than the coil. The magnetic field on the loop axis,
+transmission on the decoupling channel while simultaneously                 generated by the loop, is
+acquiring the detected signal (Figure 2). These techniques                                                   µ0 I     R2
+place special requirements on the scanner hardware and                                                B1 =                                  (1)
+the RF coil design. A scanner equipped for multinuclear                                                       2 (y 2 + R 2 )3/2
+studies is fitted with a complete second RF transmit and                    where R is the loop radius, and y is the distance into the
+receive chain, often called the X-channel. Unlike the proton                sample. The signal voltage detected by the loop is
+channel, which usually has a very narrow bandwidth, the
+                                                                                                           ξ = ω0 B1 M0 ∆V                  (2)
+X-channel is broadband, allowing it to be used for a range
+of different nuclei. The toughest demands on the RF system                  where M0 is the sample magnetization, and ∆V is the voxel
+are from J-decoupling, where the decoupling transmit voltage                volume. The thermal noise voltage detected by the probe,
+
+Encyclopedia of Magnetic Resonance, Online  2007–2011 John Wiley & Sons, Ltd.
+This article is  2011 John Wiley & Sons, Ltd.
+This article was published in the Encyclopedia of Magnetic Resonance in 2011 by John Wiley & Sons, Ltd.
+DOI: 10.1002/9780470034590.emrstm1192
+                                                                                                   NESTED SURFACE COILS FOR MULTINUCLEAR NMR                                                                   3
+
+                              3                                                                     3
+
+
+
+                              2                                      0.1                            2
+                                                                                                                                                                    0.1
+                                                                                                                              0.1
+                                    0.1
+
+                                                               0.3
+                                                                                                                                      0.3
+                      y /R
+
+
+
+
+                                                                                            y /R
+                                                                                                                                                                          0.3
+                              1                                                                     1
+                                                      0.5                                                                                   0.09.7           0.5
+                                               0.7                    0.
+                                                                           9
+
+
+
+
+                                                                                                                                                                               .9
+                                                                                                                                                                            00.7
+                                                                                                                     0.3
+                                      0.5.3
+
+
+
+
+                              0                                                                     0
+
+
+
+                                                                           0.7
+                                              0.9                                                                             0.
+                                        0
+
+
+
+
+                                                                              5                                                   5         0.9
+                                                                           0.                                                               0.7
+                                                                                                                                                                     0.5
+
+
+
+
+                                                                                  0.1
+                                                                      0.3                                                                                     0.3
+                             −1                                                                    −1
+                              −2              −1              0        1                2           −2                                 −1               0           1               2
+                      (a)                                   x /R                            (b)                                                       x /R
+
+Figure 3 Transverse magnetic field B1xy produced by (a) a circular loop and (b) a butterfly loop. Axes are normalized to the circular loop radius,
+and contour levels are relative to the field at the center of the circular loop. The butterfly loop was scaled to enclose the same area as the circular
+loop. The magnetic field in this and subsequent figures was numerically modeled using the Biot–Savart law4
+
+
+                                                                                                                             1
+                                                                                                    Normalized to maximum
+
+
+
+
+                                                                                                                            0.8
+
+
+      (a)                                           (b)                                                                     0.6                                                         SNR equation (5)
+                                                                                                                                                                                        B1 equation (1)
+
+                                                                                                                            0.4
+
+
+                                                                                                                            0.2
+
+
+      (c)                                          (d)                                                                       0
+                                                                                                                                   0            0.5          1       1.5        2               2.5        3
+Figure 4 Coil designs: (a) a butterfly coil, (b) an optimally overlapped                                                                                      Coil radius (a.u.)
+pair, (c) a quadrature butterfly, and (d) an Adriany–Gruetter coil
+                                                                                            Figure 5 Variation in SNR and signal intensity, at unit depth, versus
+                                                                                            radius for a circular loop coil with a semi-infinite load
+which also depends on the field-of-view of the coil, is given by
+                                                                                           coil to maximize B1 intensity at a particular depth is not
+                         N=         4kB Ts rs ∆f                                  (3)       the same as optimizing the SNR at that depth (Figure 5). To
+where kB is Boltzmann’s constant, Ts is the sample temper-                                  stay within 90% of the optimum SNR, a loop coil should be
+ature, and ∆f is the bandwidth of the measurement. The                                      designed such that 0.25 ≤ R/y ≤ 0.70, where R is the coil
+effective resistance of the sample rs , as seen by the loop, is                             radius and y is the depth of the target region.
+                                                                                               The above analysis assumes that noise is generated only by
+                             rs = 13 µ20 ω02 σ R 3                                (4)       the sample, and that the RF wavelength is large compared
+where σ is the sample conductivity.5 Finally, the SNR is                                    to the sample size. The proportion of noise generated by
+given by                                                                                    the sample, relative to that produced by the coil, may
+                                                                                           be determined by measuring the unloaded and loaded Q
+                    ξ           R                                                           factors. For large coils, such as those used in human studies,
+               ψ=      ∝            3              (5)                                    sample noise in dominant (typically QU /QL > 5, indicating
+                    N      y + R2
+                             2
+                                                                                            that more than 80% of the total noise comes from the
+   By differentiating equation (5) with respect
+                                           √ to R, the depth                                sample). With smaller coils, such as those used in small
+of maximum SNR is found to be R0 = y/ 5. Equation (5) is                                    animal experiments, noise from the coil, due to losses in
+the main design equation when planning a loop coil. A loop                                  the conductor, capacitors and solder joints becomes more
+with a radius smaller than R0 has insufficient sensitivity at the                           significant.5 In this case, optimum SNR is achieved with a
+required depth, while a loop larger than R0 is too sensitive to                             loop radius slightly larger than that predicted by equation (5).6
+sample noise.                                                                               At short wavelength, relative to the sample size, the sample
+   Plotting coil sensitivity and SNR (equations (1) and (5))                                has a significant influence on the B1 field distribution, and
+against loop radius clearly demonstrates that optimizing a loop                             full-wave electromagnetic simulations may be necessary to
+
+Encyclopedia of Magnetic Resonance, Online  2007–2011 John Wiley & Sons, Ltd.
+This article is  2011 John Wiley & Sons, Ltd.
+This article was published in the Encyclopedia of Magnetic Resonance in 2011 by John Wiley & Sons, Ltd.
+DOI: 10.1002/9780470034590.emrstm1192
+4 NESTED SURFACE COILS FOR MULTINUCLEAR NMR
+
+optimize the coil dimensions (see Practical Electromagnetic                                             detected signal—it rotates in only one direction. When a single
+Modeling Methods).                                                                                      loop coil is used to detect the NMR signal, it operates in
+   For lower frequency coils, it is sometimes necessary to add                                          the linear mode. That is, it is sensitive to magnetic fields
+multiple turns to a coil, but it is important to realize that this                                      rotating in either direction about the static field. The main
+does not improve the SNR. Consider, for example, adding a                                               noise contribution comes in the form of thermal noise from
+second turn to a circular loop to form a two-turn solenoid.                                             the sample. Unlike the signal, the noise is not polarized,
+The coil now “sees” twice as much signal from the sample.                                               and is equally distributed between positive and negative
+However, the noise level will also increase. There are two                                              rotating components. By making a coil insensitive to the
+major sources of noise in an NMR experiment: thermal noise                                              counter-rotating field component, the noise power detected by
+from the sample, and thermal noise from the coil. As the                                                the coil is halved without affecting the signal power. Because
+coil cannot distinguish between the NMR signal and thermal                                              the measured NMR
+noise from the sample, increasing sensitivity to the signal also                                                        √ signal is a voltage, this increases the SNR
+                                                                                                        by a factor of 2.5,8
+increases sensitivity to the noise by the same factor. At the
+                                                                                                           Transmitting with a quadrature coil also offers significant
+same time, the coil now uses twice the length of wire as a
+                                                                                                        benefit. Only the field component rotating in the same sense
+single loop, doubling its resistance, and hence doubling its
+                                                                                                        as spin precession produces a nutation. However, both the
+thermal noise contribution. The signal detected by the coil
+                                                                                                        positive and negative rotating field components induce RF
+increases, but the noise increases by the same factor, and the
+SNR remains the same. Instead, the number of turns should                                               eddy currents in the sample, which cause Ohmic heating. An
+be chosen to give a reasonable impedance at the resonance                                               ideal quadrature coil generates no negative rotating field, and
+frequency, so that the loop can be resonated and matched to                                             so halves the heating of the sample, while producing exactly
+50 Ω using achievable capacitor values.7                                                                the same spin nutation.
+   The opposite problem occurs at high frequency, as the RF                                                Production of a quadrature field requires two, ideally
+wavelength approaches the conductor length of a single-turn                                             orthogonal, independently controllable magnetic fields. With
+loop. A significant phase shift is increasingly present along                                           surface coils, this is most commonly achieved by combining a
+the length of the conductor, and the loop approaches                                                    pair of loop coils. When the loops are positioned perpendicular
+transmission-line, rather than lumped-element, behavior. The                                            to one another, the magnetic fields they generate are also
+current phase progression can be reduced by splitting the                                               approximately perpendicular, and the coupling between the
+loop into two or more sections, separated by capacitors,                                                loops is low. Figure 6 shows the positive and negative rotating
+such that each section is shorter than approximately a                                                  fields generated by this arrangement. The pair generate a
+tenth of a wavelength. An added advantage of splitting the                                              stronger positive than negative rotating field, but the efficiency
+tuning capacitance in this manner is that it increases the                                              is low, largely because the most sensitive region of one loop
+required lumped capacitor values, which are otherwise often                                             is in the periphery of the other.
+comparable to parasitic capacitances present around the loop,                                              To place the higher sensitivity regions closer together, the
+thus making the loop resonant frequency less sensitive to                                               loops may be overlapped (Figure 4b). The loop fields are no
+coil positioning with respect to the patient and other nearby                                           longer perpendicular, causing the loops to inductively couple;
+conducting structures.                                                                                  the degree to which they couple depends on the size of the
+                                                                                                        overlap. Outside the overlapped region, flux linkage between
+                                                                                                        the loops creates a positive mutual inductance. Inside the
+4   QUADRATURE                                                                                          overlapped region, the magnetic flux points in the opposite
+                                                                                                        direction, and creates a negative mutual inductance. By
+  The NMR signal is generated by spins precessing about                                                 carefully adjusting the overlap, the net mutual inductance can
+a magnetic field. This has an important consequence for the                                             be minimized, at which point the loops are well decoupled.9
+
+                             3                                                                                  3
+
+
+                                      0.1                                                                             0.1
+                             2                                            0.1                                   2
+                                                                                                                                                               1
+                                                                                                                                                               0.
+
+
+
+
+                                       0.
+                                         3
+                                                                                                                                                                      0.5 0.3
+                                                                                        0.3
+
+
+
+
+                                                                                                                     10.9
+
+
+
+
+                                                                                                                                                                        1.1
+                                   00.9
+
+
+
+
+                                                                                                                                                                          79
+                                                                                      0.5
+                                    0.5
+
+
+
+
+                                                                                     0.7
+
+
+
+
+                                                                                                                      0.7
+                                                                                                                       .1
+                                     .7
+
+
+
+
+                                                                                                                       0.5
+
+
+
+
+                                                                                                                                                                       0.
+                                                                                                                                                                       0.
+                                                                                           10. .9
+                                   1
+
+
+
+
+                                                                                                                                          0.
+                                 1.
+
+
+
+
+                                                                                              1
+
+
+
+
+                                                                                                                               0.3
+                      y /R
+
+
+
+
+                                                                                                        y /R
+
+
+
+
+                                                                                                                                            1
+
+
+
+
+                             1                                                                                  1
+                                                    0.3 .5
+
+
+
+
+                                                                                                                                                 0.3
+
+
+
+
+                                                                                                                                                           5
+                                                                       00.5.3
+
+
+
+
+                                                                                                                                                       0.
+                                                                                                                                     0.
+                                                       0
+
+
+
+
+                                                                                                                                     5 1.1
+                                             0.5
+
+
+
+
+                                                                             9
+                                                                          0.
+                                                                                     0.5
+
+
+
+
+                                                                                                                             0.5
+
+
+
+                                                                                                                                      00.9
+
+
+
+
+                                                                                                                                                                0.5
+                                                         1.1
+                                                                0.1
+
+
+
+
+                                                                                                                                        .7
+                                                                                                                                      0.3
+                                                          0.9
+
+
+
+
+                                                                                                                     0.3
+
+
+
+
+                                                                         1.1                                                                          0.91.1
+                                                                       0.7
+
+
+
+
+                             0                                                                                  0
+                                                         0.7
+
+
+
+
+                                                                                                                                                     0.7
+
+
+
+                                                                                                                                                                    3
+
+
+
+
+                                                                                       3
+                                                                                     0.
+                                                                                                                                                                   0.
+                                                                                                                                                0.
+
+
+
+
+                                                   0.3
+                                                                                                                                                1
+
+
+
+
+                                   0.1                                 0.1                                                                                                  1
+                                                                                                                        0.1                                               0.
+                             −1                                                                                −1
+                              −2               −1                 0              1                  2           −2            −1               0               1                2
+                     (a)                                        x /R                                      (b)                                x /R
+
+Figure 6 Transverse magnetic field B1xy produced by a pair of perpendicular circular loops, rotating in the (a) positive and (b) negative direction.
+Field strength is relative to the field at the center of a single circular loop, and distances are given relative to the circular loop radius
+
+Encyclopedia of Magnetic Resonance, Online  2007–2011 John Wiley & Sons, Ltd.
+This article is  2011 John Wiley & Sons, Ltd.
+This article was published in the Encyclopedia of Magnetic Resonance in 2011 by John Wiley & Sons, Ltd.
+DOI: 10.1002/9780470034590.emrstm1192
+                                                                                                                                      NESTED SURFACE COILS FOR MULTINUCLEAR NMR                                     5
+
+                                                                                                                               the angle between them. When the angle is small, i.e., close
+                                                                                                                               to a complete overlap, the coupling is very large. As the angle
+                         0.4
+                                                                                                                               increases, the coupling reduces through zero to a negative
+                                                                                                                               minimum, and then increases back toward zero as the angle
+                                                                                                                               approaches 90◦ ; in this particular case, the critical overlap is
+                                                                                                                               at approximately 43◦ . In practice, this overlap is best found by
+    Magnetic coupling
+
+
+
+
+                         0.2
+                                                                                                                               adjusting the loops at the bench, and monitoring the coupling
+                                                                                                                               between them with, e.g., a network analyzer. Figure 8 shows
+                                                                                                                               the positive and negative rotating fields generated by a pair
+                          0                                                                                                    of critically overlapped loops. In comparison to Figure 6,
+                                                                                                                               the intensity of the positive rotating field close to the loops
+                                                                                                                               is significantly increased, while the negative rotating field is
+                                                                                                                               decreased.
+                        −0.2                                                                                                      A quadrature pair can also be formed by combining a
+                               0   15            30       45     60                            75              90              butterfly coil with a circular loop (Figure 4c). On one side of
+                                                Angle between loops /°                                                         the pair, current flows in the same direction in the circular loop
+                                                                                                                               and the butterfly; on the opposite side, current in the butterfly
+Figure 7 Inductive coupling between a pair of circular loops vs the                                                            opposes current flowing in the circular loop. Therefore, this
+angle between them. At approximately 43◦ overlap, the coupling is zero                                                         arrangement is decoupled by symmetry, for any butterfly coil
+                                                                                                                               dimensions relative to the diameter of the circular loop.
+  Figure 7 shows the mutual coupling between a pair of                                                                            It is clear from Figures 8 and 9 that surface coils do not
+loops, wrapped onto a cylindrical surface, as a function of                                                                    produce a purely positive rotating B1 field. The degree of
+
+                                           3                                                                                           3
+
+
+
+                                           2                                 0.1                                                       2
+
+                                                                                                                                                       0.1                                            0.1
+                                                                                                                0.1
+                                               0.1
+
+
+
+
+                                                      0.3                                      0.3
+                                   y /R
+
+
+
+
+                                                                                                                               y /R
+
+
+
+
+                                           1                                                                                           1                                                             .5
+                                                                                                                                            0.3
+                                                    5
+
+
+
+
+                                                                                                                                                                                                    00.7
+                                                                                                                                                      0.0.9
+
+
+
+
+                                                                                                                                                                                 0.1
+
+                                                                                                                                                                                         0.3
+                                                  0.
+
+
+
+
+                                                                                    0.5
+                                                 1.1
+
+
+
+
+                                                                                                                                                        5
+
+
+
+
+                                                                                                                                                                                                    1.1
+                                                                                                                                            0.7 0.5
+                                                                                                     0.7 0.9
+
+
+
+
+                                                                                                                                                                           0.1
+
+
+
+
+                                                                                 0.7                                                                                                                0.
+                                                                                                                                                      1.1
+                                                   00.5 0
+
+
+
+
+                                                                                                           1.1
+                                                                                                                   0.3.5
+
+
+
+
+                                                       0.9                                                                                                                                            9
+
+                                                                                                                                                                                                           0.3
+                                                                               9
+                                                      .7 .3
+
+
+
+
+                                                                                                                                                                  0.3 00.7
+
+
+
+
+                                                                             0. 1.1
+                                                                                                                    0
+
+
+
+
+                                                                                                                                                                                                          0.5
+                                                                                                                                                                          0.9 0.7
+                                                                                                                                                                      0.5
+
+
+
+
+                                           0                                                                                           0
+                                                                           00.7
+                                                                             .9
+
+
+
+
+                                                                                  0.5 0.3
+                                                                                                                                                                              1.1
+                                                                                                                                                                         .9
+
+
+
+
+                                                                                                                                                                                       0. 0.5
+                                                                                         0.1
+                                                                           0.1
+                                            0.1
+
+
+
+
+                                                                                                                                                            0.
+                                                                                                                   0.1
+
+
+
+
+                                                                                                                                                              3
+
+
+
+
+                                                                                                                                                                                         3
+                                                                                                                                            0.1
+
+
+
+
+                                                                                                                                                                                                          0.1
+
+
+
+
+                                           −1                                                                                         −1
+                                            −2                −1                   0                 1                   2             −2                   −1                  0               1               2
+                                   (a)                                            x /R                                         (b)                                            x /R
+
+Figure 8 Transverse magnetic field B1xy produced by a pair of optimally overlapped circular loops, rotating in the (a) positive and (b) negative
+direction. Field strength is relative to the field at the center of a single circular loop, and distances are given relative to the circular loop radius
+
+
+                                            3                                                                                          3
+
+
+
+                                            2                                                                                          2
+                                                                                               0.1
+
+                                                                                                                                                                  0.1                               0.1
+                                    y /R
+
+
+
+
+                                                                                                                               y /R
+
+
+
+
+                                                                     0.3
+                                                 0.1
+
+
+
+
+                                            1                                                                                          1
+                                                                  0.5
+                                                               0.7
+                                                                                                                                                            0.3
+
+
+
+
+                                                                0.9
+                                                                                                                                                                                            0.3
+
+
+
+
+                                                                   1.1
+                                                                                                                                                                                                    0.
+                                                                                                             .7
+                                                                                                           00.5 0.3
+                                                                                                           0.9
+
+
+
+
+                                                                                                                                                                                                     9
+
+
+
+
+                                                              10.                                         1.1                                                        0.5
+                                                                                                                                                              0.91 0.7
+                                                                                                                                                                                                     0..75
+
+
+
+
+                                                                 1.9                                                                                              .1
+                                                                                                                                                                                                     0
+
+
+
+
+                                                                  0.                                                                                                                 1.1
+                                            0                       07.5                                                               0
+                                                                                                                                             0.3
+
+
+
+
+                                                                                                                                                                                           1.1
+                                                                                                                                                              0.70.9
+                                                                           0.3                                 0.1                                              0.5
+                                                                   0.1                                                                                                                   0.3
+                                           −1                                                                                         −1
+                                            −2                −1                   0                 1                     2           −2                   −1                 0                1               2
+                                   (a)                                            x /R                                         (b)                                            x /R
+
+Figure 9 Transverse magnetic field B1xy produced by a quadrature butterfly coil, rotating in the (a) positive and (b) negative direction. Field
+strength is relative to the field at the center of a single circular loop, and distances are given relative to the circular loop radius
+
+Encyclopedia of Magnetic Resonance, Online  2007–2011 John Wiley & Sons, Ltd.
+This article is  2011 John Wiley & Sons, Ltd.
+This article was published in the Encyclopedia of Magnetic Resonance in 2011 by John Wiley & Sons, Ltd.
+DOI: 10.1002/9780470034590.emrstm1192
+6 NESTED SURFACE COILS FOR MULTINUCLEAR NMR
+
+                            3                                                3
+                                                                                                                         0.9
+                                                                                                                         0.8
+
+
+
+
+                                                                                                                               Quadrature efficiency b
+                            2                                                2
+                                                                                                                         0.7
+                                                                                                                         0.6
+                     y /R
+
+
+
+
+                                                                      y /R
+                            1                                                1                                           0.5
+                                                                                                                         0.4
+                                                                                                                         0.3
+                            0                                                0
+                                                                                                                         0.2
+                                                                                                                         0.1
+                            −1                                           −1
+                             −2       −1        0     1        2          −2           −1       0         1       2
+                    (a)                        x /R                   (b)                      x /R
+                                                          +  −
+Figure 10   Maps showing the quadrature efficiency β = B+     
+                                                         1 / B1 + B1 of (a) an optimally overlapped pair, and (b) a quadrature butterfly
+coil
+
+polarization of the field may be characterized using                             designed to operate at two frequencies, to enable the use of
+                                +                                              NOE and J-decoupling.
+                               B 
+                       β = + 1  −
+                                                                   (6)             The key to a good multinuclear coil arrangement is high
+                           B  + B                                            sensitivity on the X-channel, and good isolation between
+                                  1        1
+                                                                                 the different frequencies. There are essentially two ways
+where B+           −
+          1 and B1 are the positive and negative rotating field                  to achieve this. The first is to tune a single coil to two
+components. A value of β = 1 indicates perfect quadrature,
+              10
+                                                                                 frequencies.11 A drawback of this type of design is the lack
+β = 0 is perfect antiquadrature (i.e., the field rotates in the                  of freedom to individually optimize the RF fields at the two
+wrong direction), and β = 0.5 indicates a linearly polarized                     frequencies; the coil has the same field-of-view at both (this
+field, with equal positive and negative rotating components.                     is no longer strictly true at high static field strength, as
+Over the region of optimum sensitivity, a surface coil should                    the wavelength at the 1 H frequency approaches the sample
+produce 0.5 ≤ β ≤ 1. Figure 10 shows simulated β-maps for                        size; however, although the sensitivity profiles are different at
+a pair of optimally overlapped loops, and for a quadrature                       the high and low frequencies, they still cannot be optimized
+butterfly coil. The butterfly pair produce a larger region of                    separately). The second approach is to place two separate coils
+highly polarized field (β > 0.7) than the overlapped loops.                      around the sample, tuned to different frequencies but having
+However, Figure 10 has to be seen in combination with                            approximately the same field-of-view. This is the method
+Figures 8 and 9. A highly polarized field offers little benefit if               examined in this article.
+it is so weak that noise from other regions of the sample will                      A straightforward dual-coil design uses a large proton loop
+dominate, as is increasingly the case with increasing distance                   positioned concentrically around a smaller X-band loop, an
+from the butterfly pair.                                                         arrangement which gives the proton coil a larger field-of-view
+   Experimentally, the quality of a quadrature field may be                      than the X-coil.12 This is often useful, as it is easier to plan
+assessed by reversing the connections to the RF coil, allowing                   the acquisition volume when more anatomy is visible, and
+us to detect the normally invisible counter-rotating field. An                   the shimmed region should ideally be slightly larger than the
+ideal quadrature coil will produce a bright image with the                       acquired volume. It also ensures that the decoupling B2 field
+coil connected correctly, and no image with the connections                      completely covers the acquired volume. At the same time,
+reversed. In practice, there is usually some antiquadrature                      the smaller size of the X-coil maximizes its sensitivity. The
+sensitivity toward the edge of the field-of-view, but there                      problem with this design becomes clear on examining the
+should be none at the center. The sensitivity profile of a coil                  magnetic flux generated by the two loops (Figure 11); the flux
+can be assessed by acquiring images of a uniform phantom.                        lines are almost parallel, producing strong coupling between
+This method works well for proton coils, but less well for                       the coils. To decouple the coils, the flux lines generated by
+coils tuned to a low-sensitivity nucleus where there is not                      one coil should ideally be perpendicular to those generated by
+enough signal to produce an image. One solution is to heavily                    the other coil.
+dope the phantom, giving enough signal to produce an image.                         The butterfly coil, described in “Quadrature” section
+Alternatively, the coil can sometimes be retuned to another                      (Figure 4c) as a single-frequency quadrature coil, can also
+more sensitive nucleus with a similar gyromagnetic ratio. For                    be used as a dual-resonant linear coil.13 Rather than using a
+example, a 13 C coil can often be retuned to 23 Na to perform                    symmetry argument, decoupling between a circular loop and a
+this test, as γ13C /γ23Na = 0.91.                                                butterfly can be understood by considering the flux generated
+                                                                                 by the two loops (Figure 12). Flux generated by the butterfly
+                                                                                 is perpendicular to the flux generated by the circular loop,
+                                                                                 producing very low flux linkage between the pair, giving this
+5   MULTINUCLEAR SURFACE COILS                                                   coil design good separation between the two channels. Its
+                                                                                 disadvantages are a shallow sensitive volume, and that in terms
+   The coils discussed so far are all designed to operate at a                   of sensitivity and specific absorption rate (SAR), the benefit
+single frequency. This section introduces a selection of coils                   from operating the coil in quadrature mode is lost.
+
+Encyclopedia of Magnetic Resonance, Online  2007–2011 John Wiley & Sons, Ltd.
+This article is  2011 John Wiley & Sons, Ltd.
+This article was published in the Encyclopedia of Magnetic Resonance in 2011 by John Wiley & Sons, Ltd.
+DOI: 10.1002/9780470034590.emrstm1192
+                                                                                  NESTED SURFACE COILS FOR MULTINUCLEAR NMR                       7
+
+                  3                                                                            3
+
+
+
+                  2                                                                            2
+           y /R
+
+
+
+
+                                                                                        y /R
+                  1                                                                            1
+
+
+
+                  0                                                                            0
+
+
+
+                  −1                                                                           −1
+                   −2              −1     0      1         2                                    −2    −1          0          1          2
+                                        x /R
+                                                                                                                x /R
+Figure 11 Flux line generated by a large loop (solid) placed                Figure 12 Magnetic flux lines between the butterfly (solid) and
+concentrically around a smaller loop (dashed). The flux lines are almost    circular loop (dashed) are largely perpendicular
+parallel, producing high coupling between the loops
+
+                                                                            frequency than the X-frequency, for the reasons described
+   The Adriany–Gruetter design (Figure 4d) addresses this                   previously. The original design, built for human spectroscopy
+shortcoming by adding a third coil to the probe.14 The                      at 4 T, used 120 mm and 70 mm diameter loops, respectively.
+design principle is similar to the double-resonant butterfly,               For small animal studies, where SAR is less of a concern,
+but exchanges the butterfly loop for an optimally overlapped                the overlapped pair can be tuned       √ to the X-frequency, to
+quadrature pair. Flux lines generated by the single loop, and               attempt to take advantage of the 2 improvement in SNR,
+each loop of the quadrature pair, are shown in Figure 13.                   although the smaller field-of-view of the proton channel will
+In the center of the field-of-view, where the B1 intensity is               give suboptimal J-decoupling.
+strongest (Figures 3a and 8a), flux lines generated by each                    Geometric decoupling of coils is very effective, but
+loop of the quadrature pair are largely perpendicular to those              constrains the relative positions of the coils. An alternative
+generated by the central loop (Figure 13), resulting in low                 approach to decoupling uses the fact that, in a multinuclear
+coupling between quadrature pair and the single loop. The                   coil, different coil elements are tuned to different frequencies.
+quadrature pair remain mutually decoupled as discussed in the               Coupling is strongest at the higher frequency because,
+“Quadrature” section.                                                       while the high frequency coil does not resonate below
+   The overlapped pair are usually tuned to the proton                      its fundamental frequency, the low-frequency coil can also
+frequency, with the smaller linear loop used for the X-band.                resonate at higher harmonics. The problem is particularly acute
+This is important for human studies, as it halves the SAR                   for 13 C– 1 H coils, as the proton frequency is almost exactly the
+deposited by the decoupler channel, which is the main SAR                   forth harmonic of the 13 C coil.
+constraint in e.g. 13 C detection experiments. The loops of                    Adding a parallel-resonant inductor–capacitor (LC) trap
+the quadrature pair are generally made slightly larger than                 circuit to a coil splits the loop resonance into two peaks,
+the linear loop, to give a larger field-of-view at the proton               an effect previously used to produce double-resonant coils.11
+
+                               3                                                  3
+
+
+
+                               2                                                  2
+                        y /R
+
+
+
+
+                                                                           y /R
+
+
+
+
+                               1                                                  1
+
+
+
+                               0                                                  0
+
+
+
+                               −1                                                 −1
+                                −2      −1       0          1          2           −2          −1       0          1          2
+                        (a)                    x /R                        (b)                        x /R
+
+Figure 13 Magnetic flux lines generated by an Adriany–Gruetter coil. Flux lines generated by the (a) left and (b) right loops of the quadrature
+pair (solid) are almost perpendicular to the flux lines generated by the linear loop (dashed), resulting in low coupling between the 1 H and X coils
+
+Encyclopedia of Magnetic Resonance, Online  2007–2011 John Wiley & Sons, Ltd.
+This article is  2011 John Wiley & Sons, Ltd.
+This article was published in the Encyclopedia of Magnetic Resonance in 2011 by John Wiley & Sons, Ltd.
+DOI: 10.1002/9780470034590.emrstm1192
+8 NESTED SURFACE COILS FOR MULTINUCLEAR NMR
+
+                                                                            X-only surface coil combined with a 1 H volume coil,17 or
+                                                                            dual-frequency array coil design.
+
+
+                                                                            6 FILTERS
+
+Figure 14 The lower frequency loop (inner) can be decoupled from               Although careful coil design can reduce interaction between
+the higher frequency loop (outer) by the addition of parallel-resonant      the X- and 1 H-channels, further filtering is usually necessary to
+trap circuit, tuned to the higher frequency. The loops are shown in a       prevent significant noise injection from the decoupling channel
+concentric arrangement, but as the decoupling does not depend upon          into the observed channel.
+geometry, any arrangement may be used                                          RF power amplifiers are inherently noisy devices, typically
+                                                                            having a noise figure above 10 dB, often generating noise over
+                                                                            a far wider bandwidth than the amplifier’s nominal operating
+More recently, the same circuit has been applied in a                       range. In a homonuclear NMR experiment, the power amplifier
+different manner, to prevent coupling at the higher frequency               output is usually gated off (disabled) during acquisition, to
+between a pair of loops tuned to two different frequencies                  prevent noise from the amplifier entering the receiver. In a
+(Figure 14).15,16 The trap is tuned to the higher frequency, but            multinuclear experiment using J-decoupling, the decoupling
+inserted into the lower frequency loop. It blocks current flow              power amplifier must be active during the acquisition. Placing
+at the higher frequency, preventing coupling between the two                a filter directly after the decoupling power amplifier, designed
+loops. At the low frequency, the trap presents a low inductive              to block signal outside the transmit bandwidth, can reduce
+impedance, producing a slight shift in the loop resonance                   the noise level reaching the receive path. A bandpass filter
+frequency, which can be corrected using the tuning capacitor.               is placed on the proton channel, while a low pass filter,
+It is unfortunate that the trap must be added to the X-coil.                which usually has a lower insertion loss, is preferred for the
+While some sensitivity may be sacrificed on the 1 H channel,                X-channel.
+where the signal is stronger, the sensitivity of the X-channel                 A second lower power filtering stage is often added between
+is critical; care must be taken that the introduction of the trap           the receive coil and the preamplifier. Although the decoupling
+circuit does not significantly reduce the performance at the                signal is generally outside the preamplifier bandwidth, a
+X-frequency. However, with careful trap construction, SNR                   large out-of-band signal can saturate the preamplifier input,
+losses on the X-channel can be kept below 5%.16                             distorting the amplified signal. Placing a filter before the
+   Trap-decoupling provides an extra degree of freedom in                   preamplifier can minimize this (Figure 15). The combination
+multinuclear coil design, in that the arrangement of coil                   of coil decoupling and filtering should be strong enough to
+elements for the 1 H and X-channels can now be independently                attenuate the decoupler signal down to the level of in-band
+optimized. This opens up interesting possibilities such as an               thermal noise at the preamplifier input. Note that, as this
+
+
+
+
+                                                                                    Filter
+                                                                                    panel
+
+
+                                                                   Preamp                                          1H receive
+
+
+                      1H coil
+
+
+                                                       T/R                                                Power    1H transmit
+                                                      switch                                               amp
+                                     BP filter                                               BP filter
+
+
+
+
+                                                       T/R                                                Power    X transmit
+                                                      switch                                               amp
+                                     LP filter                                               LP filter
+
+
+                       X coil
+
+
+                                                                   Preamp                                          X receive
+
+
+
+
+Figure 15 Filter placement for a multinuclear system. Filters directly after the power amplifiers prevent out-of-band noise from the amplifiers
+entering the RF chain. Filters between the coils and T/R-switches block the coupled signal, preventing saturation of the preamplifiers during
+J-decoupling
+
+Encyclopedia of Magnetic Resonance, Online  2007–2011 John Wiley & Sons, Ltd.
+This article is  2011 John Wiley & Sons, Ltd.
+This article was published in the Encyclopedia of Magnetic Resonance in 2011 by John Wiley & Sons, Ltd.
+DOI: 10.1002/9780470034590.emrstm1192
+                                                                              NESTED SURFACE COILS FOR MULTINUCLEAR NMR                              9
+
+filtering stage is placed before the preamplifier, its insertion             4. J. Jin, ‘Electromagnetic Analysis and Design in Magnetic Reso-
+loss is critical. A good filter can have an insertion loss as low               nance Imaging’, CRC Press: London, 1998.
+as 0.1 dB, with 70 dB of attenuation in the stop-band.                       5. C.-N. Chen and D. I. Hoult, ‘Biomedical Magnetic Resonance
+                                                                                Technology’, IOP Publishing: Bristol, 1989.
+                                                                             6. A. Kumar, W. A. Edelstein, and P. A. Bottomley, Magn. Reson.
+                                                                                Med., 2009, 61(5), 1201–1209.
+7     SUMMARY
+                                                                             7. J. Mispelter, M. Lupu, and A. Briguet, ‘NMR Probeheads: for
+                                                                                Biophysical and Biomedical Experiments’, Imperial College Press:
+   In vivo non-proton magnetic resonance is difficult be-                       London, 2006.
+cause the signals are very small. However, the continued                     8. D. I. Hoult, C.-N. Chen, and V. J. Sank, Magn. Reson. Med., 1984,
+development of higher field systems makes non-proton mag-                       1(3), 339–353.
+netic resonance imaging and spectroscopy attractive. The RF                  9. P. B. Roemer, W. A. Edelstein, C. E. Hayes, S. P. Souza, and O.
+design is further complicated by the need to transmit a proton                  M. Mueller, Magn. Reson. Med., 1990, 16, 192–225.
+signal, while receiving the nonproton signal. High sensitivity              10. J. Wang, Q. X. Yang, X. Zhang, C. M. Collins, M. B. Smith, X. H.
+to the non-proton signal, and very strong decoupling between                    Zhu, G. Adriany, K. Ugurbil, and W. Chen, Magn. Reson. Med.,
+the proton and non-proton channels is key.                                      2002, 48(2), 362–369.
+   Surface coils are ideal for non-proton magnetic resonance                11. J. R. Fitzsimmons, H. R. Brooker, and B. Beck, Magn. Reson.
+because they offer higher SNR than volume coils, albeit over                    Med., 1989, 10(3), 302–309.
+a smaller field-of-view. Using separate coils for the different             12. J. Mispelter, B. Tiffon, E. Quiniou, and J. M. Loste, J. Magn.
+frequencies allows the field-of-view to be individually tailored                Reson., 1989, 82(3), 622–628.
+at each frequency. However, careful design and construction                 13. P. A. Bottomley, C. J. Hardy, P. B. Roemer, and O. M. Mueller,
+is required to maintain the necessary decoupling between the                    Magn. Reson. Med., 1989, 12(3), 348–363.
+different coils, using either a geometric or a trapped design.              14. G. Adriany and R. Gruetter, J. Magn. Reson., 1997, 125(1),
+Finally, while good coil design is crucial to multinuclear                      178–184.
+magnetic resonance, system optimization is also important.                  15. M. Alecci, S. Romanzetti, J. Kaffanke, A. Celik, H. P. Wegener,
+In particular, filtering on both the observed and J-decoupling                  and N. J. Shah, J. Magn. Reson., 2006, 181(2), 203–211.
+channels must be considered.                                                16. A. Dabirzadeh and M. P. McDougall, Concepts Magn. Reson.,
+                                                                                2009, 35B(3), 121–132.
+                                                                            17. D. W. Klomp, W. K. Renema, M. van der Graaf, B. E. de Galan, A.
+                                                                                P. Kentgens, and A. Heerschap, Magn. Reson. Med., 2006, 55(2),
+8     RELATED ARTICLES
+                                                                                271–278.
+
+   Radiofrequency Coils for NMR: A Peripatetic History of
+Their Twists and Turns; Sensitivity of the NMR Experiment;                  Acknowledgments
+Impedance Matching and Baluns; Surface Coil NMR: De-
+tection with Inhomogeneous Radiofrequency Field Antennas;                      The authors would like to thank Dr Hongxia Lei for providing the
+Practical Electromagnetic Modeling Methods; Radiofrequency                  images shown in Figure 1. This work was supported by the Centre
+Systems and Coils for MRI and MRS; Surface and Other                        d’Imagerie BioMédicale (CIBM) of Université de Lausanne (UNIL),
+Local Coils for In Vivo Studies; Quadrature Surface Coils;                  Université de Genève (UNIGE), Hôpitaux Universitaires de Genève
+Double-Tuned Surface Coils; Quadrature Transverse Electro-                  (HUG), Centre Hospitalier Universitaire Vaudois (CHUV) and Ecole
+magnetic (TEM) Surface Coils; Radiofrequency Fields and                     Polytechnique Féderale de Lausanne (EPFL), and the Leenaards and
+SAR for Transverse Electromagnetic (TEM) Surface Coils; RF                  Jeantet Foundations.
+Field Modeling for Double-Tuned Volume Coils; Brain MRS
+of Human Subjects; Double Resonance; Decoupling Methods;
+Proton Decoupling During In Vivo Whole Body Phosphorus                      Biographical Sketches
+MRS
+                                                                               Arthur W. Magill. b. 1973. BSc, 1997, MSc, 1998, PhD, 2006,
+                                                                            Nottingham. Head of RF development at CIBM. Research interests:
+9     REFERENCES                                                            radiofrequency coil design for human and animal imaging and
+                                                                            spectroscopy at ultrahigh field, parallel transmit coils, multinuclear coil
+                                                                            design, and RF coil simulation.
+    1. R. Freeman, ‘A Handbook of Nuclear Magnetic Resonance’,
+                                                                               Rolf Gruetter. b. 1962. MS 1986, PhD 1990, ETH Zurich. First
+       Longman Scientific & Technical: Harlow, 1988.
+                                                                            contact with NMR in the laboratory of Professor Wuthrich 1986,
+    2. J. J. Ackerman, T. H. Grove, G. G. Wong, D. G. Gadian, and G. K.     postdoctoral at Yale in the laboratory of Bob Shulman. Interested in
+       Radda, Nature, 1980, 283, 167–170.                                   developing high field MR, with special emphasis on NMR spectroscopy.
+    3. R. A. de Graaf, ‘NMR Spectroscopy: Principles and Techniques’,       Approximately 130 papers (h-factor = 38).
+       2nd edn., John Wiley & Sons: Chichester, 2007.
+
+
+
+
+Encyclopedia of Magnetic Resonance, Online  2007–2011 John Wiley & Sons, Ltd.
+This article is  2011 John Wiley & Sons, Ltd.
+This article was published in the Encyclopedia of Magnetic Resonance in 2011 by John Wiley & Sons, Ltd.
+DOI: 10.1002/9780470034590.emrstm1192
+

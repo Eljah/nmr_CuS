@@ -1,0 +1,670 @@
+                                                     Geophysical Journal International
+                                                Geophys. J. Int. (2012) 191, 88–100                                                                             doi: 10.1111/j.1365-246X.2012.05618.x
+
+
+
+
+                                                Adaptive noise cancelling of multichannel magnetic resonance
+                                                sounding signals
+
+                                                E. Dalgaard,1 E. Auken1 and J. J. Larsen2
+                                                1 HydroGeophysics Group, Department of Geoscience, Aarhus University, Denmark. E-mail: esben.dalgaard@geo.au.dk
+                                                2 Aarhus School of Engineering, Aarhus University, Denmark
+
+
+
+
+                                                Accepted 2012 July 19. Received 2012 June 12; in original form 2012 March 13
+GJI Marine geosciences and applied geophysics
+
+
+
+
+                                                                                       SUMMARY
+                                                                                       Adaptive noise cancelling of multichannel magnetic resonance sounding (MRS) signals is
+                                                                                       investigated. An analysis of the noise sources affecting MRS signals show that the applicability
+                                                                                       of adaptive noise cancelling is primarily limited to cancel powerline harmonics. The problems
+                                                                                       of handling spikes in MRS signals are discussed and an efficient algorithm for spike detection is
+                                                                                       presented. The optimum parameters for multichannel adaptive noise cancelling are identified
+                                                                                       through simulations with synthetic signals added to noise-only recordings from an MRS
+                                                                                       instrument. We discuss the design and the efficiency of different stacking methods. The
+                                                                                       results from multichannel adaptive noise cancelling are compared to time-domain multichannel
+                                                                                       Wiener filtering. Our results show that within the experimental uncertainty the two methods
+                                                                                       give identical results.
+                                                                                       Key words: Time-series analysis; Fourier analysis; Hydrogeophysics Magnetic field;
+                                                                                       Instrumental noise.
+
+                                                                                                                               additive and uncorrelated noise, n1 (k). A reference sensor, physi-
+                                                I N T RO D U C T I O N
+                                                                                                                               cally displaced from the first sensor, measures only noise, n2 (k). If
+                                                Since the late 1980s magnetic resonance sounding (MRS) has                     the two noise signals are correlated, an adaptive algorithm can ad-
+                                                steadily evolved towards being a competitive technique for non-                just the filter to make the output y(k) as similar to n1 (k) as possible
+                                                invasive investigations of groundwater resources. In particular, the           by minimizing the error signal, e(k). Under optimum circumstances
+                                                method allows for a direct determination of the water content of               the error signal is then equal to the original signal, s(k).
+                                                the subsurface (Legchenko & Valla 2002). The main obstacle cur-                   Adaptive noise cancelling can be applied using different algo-
+                                                rently limiting a more widespread use of the method is the very                rithms and set-ups but it is only one particular method of performing
+                                                low signal-to-noise ratio of MRS signals recorded in proximity to              signal processing of multichannel MRS signals. Another method is
+                                                anthropogenic installations.                                                   multichannel Wiener filtering but it not yet clear which technique
+                                                   The first generations of MRS instruments were single channel                performs best under which circumstances. The first purpose of this
+                                                instruments. With single channel instruments, both magnetic reso-              paper is to discuss the optimization of adaptive signal processing
+                                                nance excitation and signal recording is done with a single loop and           algorithms and compare the results with multichannel Wiener filter-
+                                                various forms of filtering can be used to suppress noise, in particular        ing. MRS signals are often corrupted by very intense noise spikes
+                                                powerline harmonics (Legchenko & Valla 2003).                                  from electrical discharges. The second purpose of this paper is to
+                                                   Recently, a new generation of multichannel MRS instruments                  give an analysis of this noise source.
+                                                with multiple loops have been constructed (Walsh 2008; Dlugosch                   All the signals in this paper have been recorded with NUMIS
+                                                et al. 2011). The primary loop is still used for magnetic resonance            Poly (IRIS Instruments, Orleans Cedex 2, France). This is a multi-
+                                                excitation and signal recording. In addition, a number of reference            channel MRS instrument with one primary and three reference data
+                                                loops, physically displaced from the primary loop, measure only                channels. The data are sampled with a frequency of 19200 Hz. All
+                                                noise. Parts of the noise recorded by the reference loops will be              channels are equipped with tunable analogue bandpass filters with
+                                                correlated with the noise in the primary loop. With proper signal              a bandwidth of ∼150 Hz and sampled by 16 bit analogue to digital
+                                                processing, the noise in the reference coils can be filtered into a            converters.
+                                                replica of the noise in the primary coil and when the replica is
+                                                subtracted from the primary loop record, the desired MRS signal
+                                                                                                                               A N A LY S I S O F N O I S E S O U R C E S
+                                                remains.
+                                                   One method of performing the signal processing is adaptive noise            MRS measurements are disturbed by a number of different noise
+                                                cancelling (Farhang-Boroujeny 1998). The basic set-up for a two-               sources. The two most important are powerline harmonics and
+                                                channel adaptive noise cancelling system is shown in Fig. 1. The               discharges from both natural and anthropogenic sources, that is,
+                                                primary sensor measure the signal of interest, s(k), corrupted by              thunderstorms and electrical installations such as motors and fences.
+
+                                                88                                                                                                                                 
+                                                                                                                                                                                   C 2012 The Authors
+
+                                                                                                                                                         Geophysical Journal International 
+                                                                                                                                                                                           C 2012 RAS
+                                                                                                         Noise cancelling of MRS signals            89
+
+
+
+
+Figure 1. Schematic overview of adaptive noise cancelling with a two-channel set-up.
+
+Other noise sources include low-level atmospheric noise and noise               dominated by the frequency response of the filter. In contrast, Figs
+in the MRS receiver electronics. For multichannel MRS measure-                  3(b) and (d) give an example of a time-series and spectrum of a
+ments the noise sources must be classified according to whether the             spike-free noise-only section. In this case the spectrum is domi-
+noise in the primary loop and the reference loops is correlated or              nated by the powerline harmonics at multiples of 50 Hz. The inset
+not, as this determines the primary way of attenuating the noise.               shows the same spectrum on a logarithmic scale. Here, the band-
+   Short electrical discharges gives rise to an impulsive excitation            pass filtering of wideband noise is clearly visible as the broad feature
+of the bandpass filters with a subsequent near-exponential decay                centred at 2150 Hz.
+known as spikes. An example of spikes is shown in Fig. 2. It could                  For adaptive noise cancelling to work efficiently, the primary
+be anticipated that spikes are linearly correlated between the loops,           signal and the reference signal must be highly linearly correlated.
+however, our experiments have shown that the situation is more                  The linear correlation between two signals x and y is measured as a
+complex than that. Fig. 2 shows an example of a noise-only, that is             function of frequency by the magnitude squared coherence function
+without excitation, simultaneous record of the primary loop and the             defined as (Kuo & Morgan 1996):
+three reference loops. The spike at 115 ms (labelled ‘B’) is found in                                         
+                                                                                                  Px y ( f )2
+all four channels whereas the spike at 20 ms (labelled ‘A’) is present          γ x y ( f )2 =                     .                               (1)
+in the primary loop and reference channels 2 and 3 but completely                                Px x ( f )Pyy ( f )
+absent in reference channel 1.                                                     In this equation, Pxy (f ) is the complex cross-power spectral den-
+   One possible explanation for this phenomenon is that two differ-             sity and Pxx (f ) and Pyy (f ) are the power spectral densities of the
+ent discharge mechanisms are responsible for the two spikes. The                individual signals. The magnitude squared coherence function re-
+‘B’ spike most likely originate from a discharge in the far-field as it         turns a value of 1 for perfectly linearly correlated signals and a value
+has been recorded by all channels, whereas the ‘A’ spike most likely            of 0 for completely uncorrelated signals. A value between 0 and 1
+originate from a discharge in the near-field as it is only recorded by a        indicates a partly linear correlation.
+subset of the possible channels. From a signal processing viewpoint                It can be shown that the maximum possible attenuation of an
+this means that the transfer functions relating the observed signals            adaptive noise canceller as a function of frequency is given by (Kuo
+in the individual channels depend on the particular noise event. The            & Morgan 1996):
+assumption that the transfer functions are identical for all noise                                                          2
+sources is therefore not true. When an adaptive filter is tracking              attenuation( f ) = −10 log10 (1 − γx y ( f ) )[dB].                (2)
+the transfer functions, large filtering errors will occur when differ-          For example, an attenuation of 20 dB can only be obtained if
+ent types of noise events occur. Thus transfer function based noise             |γx y ( f )|2 = 0.99 or larger.
+cancelling can only be performed with stationary or near-stationary                 A plot of the coherence between the primary channel and a ref-
+noise conditions.                                                               erence channel for a noise-only signal without spikes is shown
+   The observation in Fig. 2 implies that spikes cannot always be               in the upper part of Fig. 4. The lower part of the figure shows
+adaptively cancelled. For instance, if a spike is only found in a ref-          the power spectral densities of the signal in the two channels.
+erence channel, the adaptive algorithm will remove a non-existent               The figure shows that the 50 Hz harmonics in the two chan-
+spike and thereby actually induce a spike in the primary loop sig-              nels are nearly perfectly linearly correlated as the coherence is
+nal. Similarly the large filtering error will disturb the filter coef-          near unity. The resolution of our coherence measurements is lim-
+ficients and, depending on the convergence speed of the adaptive                ited by a number of factors; the maximum signal length which
+algorithm, the disturbance and hence the error cancelling will be               is recorded by the NUMIS Poly instrument, frequency drifts and
+diminished even after the spike has decayed. This is because of the             jitter in the instrument and short time variations in the fundamen-
+non-stationary behaviour of spike events. It should also be noted               tal 50 Hz frequency of the powerline harmonics. Away from the
+that large spikes can even saturate the analogue-to-digital convert-            harmonics, the coherence basically vanishes. This implies that the
+ers making adaptive noise cancellation useless. The conclusion of               harmonic noise can be efficiently cancelled with adaptive noise
+these observations of spike behaviour is that whenever a spike is               cancelling, whereas the broad-band noise is incoherent, that is ran-
+found in any of the channels, adaptive noise cancelling is potentially          dom and must be diminished by standard averaging of multiple
+unreliable.                                                                     experiments.
+   The different noise sources can also be interpreted in the fre-                  An example of the coherence of a cut out section of a noise-only
+quency domain. Figs 3(a) and (c) show an example of the time-series             signal record containing a single spike is shown in Fig. 5. In this
+and spectrum of a noise-only record, with a large spike present in              case the power spectra are dominated by the broad feature of the
+the time domain. In this particular case, the spike contains approxi-           bandpass filter. The value of the coherence function in the inter-
+mately 85 per cent of the energy of the signal. Because of the large            esting region around 2150 Hz is well below 1. This implies that
+impulsive excitation of the bandpass filter, the spectrum is mainly             there is not a simple linear correlation between the primary channel
+
+
+C 2012 The Authors, GJI, 191, 88–100
+
+Geophysical Journal International 
+                                  C 2012 RAS
+90     E. Dalgaard, E. Auken and J. J. Larsen
+
+
+
+
+Figure 2. The figure shows the simultaneously measured noise-only signal in the primary channel (top graph) and the three reference channels. All reference
+channels were 10 × 10 m with 10 turns. The spike, B, at 115 ms is present in all four channels whereas the spike, A, at 20 ms is completely absent in one of
+the reference channels.
+
+
+
+
+Figure 3. Examples of noise-only recordings and their corresponding spectra. Panel (a) time-series with a single spike. Panel (b) time-series without spike,
+note the different amplitude scales of panels (a) and (b). Panels (c) and (d) power spectra of panels (a) and (b). The inset in panel (d) shows the same spectrum
+on a logarithmic scale.
+
+and the reference channel throughout the signal record and it is not                tion relating the spike in the two channels is different from the
+feasible to use adaptive noise cancelling to remove the spike. If the               transfer function relating the powerline harmonics and this causes
+spike is removed from the time-series, the coherence plot of the                    the coherence of the entire time-series to fall well below 1 in the
+remaining data completely resembles Fig. 4. Similarly, if the coher-                region around 2150 Hz.
+ence of a short section containing only the spike is measured, a high                  Based on the above observations we can conclude that efficient
+coherence above 0.9 is found in a broad region of several 100 Hz                    removal of powerline harmonics is possible through adaptive noise
+across the centre of the bandpass filter. However, the transfer func-               cancelling. However, the spikes in the MRS recordings cannot be
+
+                                                                                                                      
+                                                                                                                      C 2012 The Authors, GJI, 191, 88–100
+
+                                                                                                                Geophysical Journal International 
+                                                                                                                                                  C 2012 RAS
+                                                                                                         Noise cancelling of MRS signals            91
+
+
+
+
+Figure 4. Top graph: Magnitude square coherence function between the primary channel and a reference channel for a noise-only, spike free signal. Lower
+graph: the corresponding power spectra normalized to the same peak value.
+
+
+
+
+Figure 5. Top graph: Magnitude square coherence function between the primary channel and a reference channel for a noise-only signal containing a single
+spike. Lower graph: the corresponding power spectra normalized to the same peak value.
+
+
+expected to be cancelled with the same transfer functions but must                In the above sections the emphasis has been on the correlation
+be treated differently. Normally, MRS recordings contain only a                between the primary channel and one of the reference channels. We
+limited number of spikes therefore a simple and efficient solution             have also analysed the correlation in between the reference chan-
+of the problem is to discard the sections of the data containing               nels and the results are identical: (1) the powerline harmonics are
+spikes.                                                                        highly correlated between the reference channels. (2) Spikes are also
+   On top of the harmonic noise and the spikes we also observe                 correlated but through different transfer function. (3) The random
+a smaller random noise component, originating in wideband noise                noise is not highly correlated between the reference channels.
+and receiver electronics noise. This random component can be sup-                 The figures and conclusions are taken from a random site.
+pressed by standard signal averaging.                                          They are, however, representative for all the different sites where
+
+
+C 2012 The Authors, GJI, 191, 88–100
+
+Geophysical Journal International 
+                                  C 2012 RAS
+92     E. Dalgaard, E. Auken and J. J. Larsen
+
+measurements have been performed. The noise characteristics, that               spike detection algorithms is a comparison of some feature of a sig-
+is the ratio between power in the different harmonics or the power              nal with a predefined or statistically defined threshold. For instance
+in the random noise components obviously differs from site to site              Jiang et al. (2011) suggest the Romanovsky criteria for detection
+but the conclusions remains valid for all sites.                                of spikes containing only a few samples of high amplitude. Their
+   The analysis shows that it is normally necessary to remove spikes            algorithm is applied in the stacking process after noise cancelling.
+before using adaptive noise cancelling. After despiking and noise               This method is therefore not applicable in our case where we aim to
+cancelling the MRS signal is still corrupted by random noise. The               perform the noise cancelling on despiked data. Strehl (2006) sug-
+random noise can be suppressed by standard averaging of multi-                  gested the use of wavelets for identifying spikes, but further work
+ple recordings. Finally, the parameters of the MRS signal can be                is needed in this direction before a robust method can be devised.
+extracted by envelope detection. The entire signal processing work-             We have developed an efficient and simple procedure for automatic
+flow for a MRS recording before inversion is then:                              spike detection.
+                                                                                   Inspired by the work of Mukhopadhyay & Ray (1998) we have
+  (1) Despiking
+                                                                                implemented a spike detection algorithm based on the non-linear
+  (2) Noise cancelling
+                                                                                energy operator (NEO). For a discrete time signal, x(k), the NEO is
+  (3) Stacking
+                                                                                defined as:
+  (4) Envelope detection
+                                                                                ϕ[x(k)] = x 2 (k) − x(k − 1)x(k + 1).                                 (3)
+                                                                                   The purpose of the NEO is to pre-emphasize spikes before a
+S E M I - AU T O M AT I C D E T E C T I O N
+                                                                                threshold criterion is applied. Two examples of this are shown in
+OF SPIKES
+                                                                                Fig. 6. The left part of the figure shows an example from Risby, a
+The presence of spikes of different origins in MRS signal records               noisy site more or less surrounded by electrical fences and in close
+will distort noise cancelling of the powerline harmonics as con-                proximity to powerline installations. The top graph shows a section
+cluded in the previous paragraph. The spikes in the signals from                of the signal containing one large spike and two smaller spikes,
+both the primary and reference receivers must therefore be removed              marked by the spike detection algorithm. On the lower graph the
+before further noise cancelling. The spikes will contaminate only               corresponding NEO signal is shown. The most interesting feature
+a part of the signal section, leaving a major part of the section               of the graph is the smallest spike at ∼100 ms. The ratio between
+uncontaminated, thus deleting entire sections is not necessary. In-             the amplitude of the spike and the amplitude of the base signal is
+stead a local detection and removal of spikes is more appropriate.              increased from ∼4 to ∼8 by the NEO making the spike much more
+Because of the huge data amount, a spike detection performed by                 visible in the NEO plot.
+hand is very time consuming and automatic spike detection would                    The right part of Fig. 6 shows results recorded in Skive, a site
+be preferable.                                                                  almost completely devoid of powerline interference and spikes. The
+   A number of different spike detection algorithms have been pro-              MRS signal is clearly visible in both the time-series and the NEO
+posed by different authors, often lending inspiration from the closely          signal. Again, the application of the NEO results in a significant
+related problem of finding peaks in a signal. The basic principle of            emphasize of the spikes.
+
+
+
+
+Figure 6. Examples of semi-automatic spike detection. Top graphs: MRS recordings from Risby and Skive. Detected spikes are marked. Note the very different
+amplitude scales. Lower graphs: corresponding plots of the NEO. The upper threshold for Risby is defined as the median +10 MAD and as the median +20
+MAD in the Skive case.
+
+                                                                                                                 
+                                                                                                                 C 2012 The Authors, GJI, 191, 88–100
+
+                                                                                                           Geophysical Journal International 
+                                                                                                                                             C 2012 RAS
+                                                                                                    Noise cancelling of MRS signals            93
+
+   Once the spikes are emphasized by the NEO, an appropriate               A DA P T I V E N O I S E C A N C E L L I N G
+threshold criteria must be defined. From the right part of Fig. 6 it is
+                                                                           For optimum performance of an adaptive noise cancelling system
+clear that a simple threshold criteria is insufficient as it will either
+                                                                           it is important to choose a well-suited algorithm and operate it ef-
+mark the signal in the beginning as spike or fail to recognize the
+                                                                           ficiently. The processing of MRS signals is normally carried out
+small spikes. A criterion based on the variance of the time-series
+                                                                           offline, therefore, the constraints imposed on a real-time adaptive
+or NEO signal is also sensitive to the presence of MRS signal.
+                                                                           noise canceller in terms of memory and power consumption, causal-
+Moreover, the variance depends on the number and amplitude of
+                                                                           ity and required speed of processing does not apply in this case. The
+spikes and hence detection of small spikes will be problematic when
+                                                                           algorithm can be chosen solely based on noise cancelling perfor-
+large spikes are present. To overcome these problems an ensemble-
+                                                                           mance.
+based threshold is used with the threshold determined by the median
+                                                                               A schematic overview of the adaptive MRS multichannel noise
+absolute deviation (MAD). For a set of measurements x1 , · · · , xn
+                                                                           cancelling system is shown in Fig. 7. The signals from the three
+the MAD is defined by (Hoaglin et al. 2000):
+                                                                           reference coils are sent through three adaptive filters and their com-
+                                                                     bined output is used for noise cancelling.
+MAD = mediani xi − median j x j  .                                 (4)
+
+j indicating the ensemble of data at a given point, and the median
+                                                                           Choice of adaptive algorithm and convergence properties
+related to i is taken from the just modified ensemble. The main
+benefit of the MAD is that it is much less sensitive to outliers           Since the invention of adaptive signal processing a large number of
+than the variance and hence provides a very robust measure of the          different algorithms have been proposed, evaluated and optimized
+variability of the signal without the influence of spikes.                 for a number of scenarios. In this work we concentrate on two
+   The workflow of the proposed spike detection algorithm contains         different type of adaptive algorithms; the normalized least mean
+three steps and is a follows: (1) For a given moment of the MRS            square (NLMS) and the recursive least-square (RLS) algorithm,
+recording, the NEO of all stacks and coils are calculated and appro-       see for example Farhang-Boroujeny (1998) and appendix A. The
+priately low-pass filtered. For each sample in each coil the MAD           major benefit of the least mean square type algorithms are their
+is calculated across the ensemble of all stacks. (2) Based on the          low computational cost and ease of implementation. However, if
+MAD an upper threshold and a lower threshold is defined for each           the input signal to be filtered, that is the MRS reference channel
+sample. The thresholds are shown as two black curves on the lower          signal, has a very uneven distribution of power across its frequency
+graphs in Fig. 6. (3) Subsequently, the individual time-series from        spectrum the convergence properties of these algorithms can be
+each coil are analysed. When the MAD crosses the upper threshold           quite poor. The RLS algorithm is computationally more expensive,
+from below it defines the beginning of a spike. The end of the spike       but converge much faster independent of the frequency distribution
+is defined as the instance the MAD crosses the lower threshold from        of power. The distribution of power in the spectrum is quantified by
+above. The optimum choice of the thresholds depends on the noise           the eigenvalue spread, that is, the ratio of the largest and smallest
+characteristics of the specific site and is adjusted accordingly. As       eigenvalue, of the autocorrelation matrix of the signal to be filtered.
+an example the upper threshold is defined as the median+10 MAD             For MRS signals the typical input spectrum looks like the examples
+in the upper part of Fig. 6 and as the median+20 MAD in the                in Figs 3 and 4. The high power of the narrow harmonic signals as
+lower part of Fig. 6. The bottom right graph show how the MAD              compared to the broad feature results in a large eigenvalue spread
+defined threshold automatically adjusts to the presence of the MRS         that often exceeds 104 .
+signal. When the samples containing spikes are identified, these are          To identify the best algorithm and its limitations a number of sim-
+ignored during the estimation of the transfer function and they are        ulations have been carried out using both real MRS noise recordings
+not applied in the stacking procedure.                                     and model noise. Three important results have emerged from these
+   The proposed algorithm has been found to be stable and efficient        simulations. First of all, the adaptation of the filters should prefer-
+for all sites measured when used with appropriately user-selected          ably not be done during sections including MRS signal. When the
+thresholds. The thresholds are adjusted by inspection of the results       adaptive filter seeks to minimize the error signal, e(k) in Fig. 1,
+from a few stacks. The algorithm has been tested on a number of            the non-linear action of the adaptive filter can create a sharp peak
+synthetic signals containing either no spikes, a very large number         in the filter output exactly at the frequency of the MRS signal. A
+of spikes or saturated spikes and was found to work efficiently in         simulation of this phenomenon is shown in Fig. 8 where the pa-
+all tested scenarios.                                                      rameters of the simulation were adjusted to enhance the visibility
+
+
+
+
+Figure 7. Schematic overview of multichannel adaptive noise cancelling.
+
+
+C 2012 The Authors, GJI, 191, 88–100
+
+Geophysical Journal International 
+                                  C 2012 RAS
+94     E. Dalgaard, E. Auken and J. J. Larsen
+
+
+
+
+Figure 8. Simulation of noise cancelling with adaptation of filters during the presence of MRS signal. The Larmor frequency, f L , is marked with a grey line.
+(a) Spectrum of the signal in the primary channel. (b) Averaged spectrum of the three reference channels. (c) Spectrum of the predicted noise at the primary
+loop. Note the new artificial spectral feature in the filtered signal at f L . (d) Spectrum of noise cancelled MRS signal, black and the unfiltered signal, grey.
+
+of the effect. The interpretation of the new peak is that the adaptive              lated as
+filter seeks to cancel both noise and MRS signal. This leads to a                          
+                                                                                    S         syn(t)2
+reduction of the MRS signal amplitude and a distortion in MRS                         =                   ,                                                 (5)
+                                                                                    N     (y(t) − syn(t))2
+signal shape. Simulations have shown that the effect can be mini-
+mized by adapting the filter very slowly. The only means of com-                    where syn(t) is the synthetic signal and y(t) is the filtered signal.
+pletely avoiding this problem is to adapt the filters on noise-only                 The simulation was repeated for different step sizes of the NLMS
+sections of the data and lock the filter coefficients during MRS signal             algorithm. For each site the signal-to-noise measurements have been
+recording.                                                                          normalized to the maximum value. The figure shows that for both
+    The second important result is that the convergence of the adap-                sites the signal-to-noise ratio peaks for a step-size parameter, β,
+tive filter must be performed very slowly. If the filter is allowed to              of approximately 5 × 10−4 to 10−3 . If larger values of β is used,
+converge quickly, it can cancel noise very efficiently through fast                 the signal-to-noise ratio quickly diminishes, whereas only a slight
+and continuous adjustments of the filter coefficients. However, if                  decrease is found for smaller values of β. The conclusion is that the
+the filter coefficient values are suddenly fixed, as necessary during               step-size parameter should be in the range from 5 × 10−4 to 10−3
+recordings with MRS signal, the efficiency of the noise cancella-                   and importantly, the optimum value is only slightly dependent on
+tion is greatly diminished, as the coefficients are not adjusted for                the specific site.
+optimum average noise cancelling.                                                      Similar experiments with the RLS algorithm shows that the expo-
+    Fig. 9 shows simulations based on noise-only recordings from                    nential forgetting factor λ must be very close to 1 for good signal-to-
+two different sites. A synthetic MRS signal was added to every                      noise performance. The implication of the large λ value is that the
+other noise-only stack. The adaptive filters was trained on the stacks              potentially fast convergence of the RLS algorithm is detrimental to
+without synthetic signal and locked during the stacks with synthetic                the average noise cancelling performance. Our result shows that we
+signal. The signal-to-noise ratio after noise cancellation was calcu-               get similar noise cancelling performance with the two algorithms.
+
+                                                                                                                      
+                                                                                                                      C 2012 The Authors, GJI, 191, 88–100
+
+                                                                                                                Geophysical Journal International 
+                                                                                                                                                  C 2012 RAS
+                                                                                                         Noise cancelling of MRS signals            95
+
+
+
+
+Figure 9. Determination of optimum step size with synthetic signals added to noise-only recordings from Risby, (grey) and Odder (black). The graphs show
+the normalized signal-to-noise ratio as a function of the step-size parameter for the NLMS algorithm.
+
+The computational overhead of the RLS algorithm is therefore not               than ±0.2 rad. Likewise, the magnitude of the transfer function
+justified and the NLMS is a well-suited algorithm for noise can-               measured at the n’th and n + 1‘th harmonic seldom varies by more
+celling.                                                                       than a factor of 2. These observations relax the constraints on the
+   The final result is that the adaptation of the filters must be turned       adaptive filter and it is therefore possible to significantly reduce
+off during spikes. This problem was stressed above where it was                the necessary number of taps in the adaptive filters. However, this
+shown that different types of spikes could occur. For different                conclusion might be different in other sites, for example in a num-
+sources of powerline harmonics and spikes, the transfer functions              ber of Western Europe countries the powerline frequency is 50 Hz
+between the reference channels and the primary channel are dif-                but the power for electrical trains has a fundamental frequency of
+ferent. If the filter is allowed to adapt on both types of noise the           162/3 Hz.
+result will be a distortion of the optimum harmonic noise cancelling               From a theoretical viewpoint it is also desired to minimize the
+whenever a spike occurs.                                                       length of the filters as the excess mean squared error for an adaptive
+                                                                               filter is proportional to the length of the filter (Kuo & Morgan 1996).
+                                                                               The optimum length of the adaptive filters can be found through
+Choice of filter length and non-causal filtering                               simulations with synthetic signals added to noise-only recordings.
+The coherence analysis of the different noise sources showed that the          Fig. 10 shows results of such simulations from two different sites,
+adaptive filter will primarily cancel the 50 Hz harmonics in the MRS           Risby and Odder. The simulations are carried out analogous to the
+signal and the adaptive filter must therefore be designed with this            simulations with variable step size except that the step size is fixed
+knowledge in mind. In a worst-case scenario, the relative amplitudes           at β = 10−3 and the filter length is adjusted.
+and phase of each harmonic in the primary and reference channels                   For both sites a peak in the signal-to-noise ratio is found. The
+are completely arbitrary. The transfer function of the adaptive filter         exact position and width of the peaks are different for the sites.
+must therefore have a frequency resolution, F res , of 50 Hz or better         For Risby, the optimum filter length is close to 20 taps whereas for
+so that the amplitude and phase of each harmonic can be individually           Odder filter lengths in the 10–20 tap range gives almost identical
+controlled. The minimum filter length, number of taps, n taps , in a           results. For filter lengths longer than the optimum the signal-to-noise
+finite impulse response filter for this resolution can be calculated as        ratio decreased as expected. The oscillations found in the graphs
+                                                                               are attributed to the high correlation of the input signals because of
+           Fs
+n taps =        ,                                                    (6)       their large harmonic content.
+           Fres                                                                    For other sites investigated but not shown in the figure, similar
+where F s denotes the sampling frequency. For the NUMIS Poly sys-              results are achieved. The optimum filter length changes slightly
+tem with a sampling frequency of 19 200 Hz, at least 384 taps are              between sites but remains in the 10–20 tap range. In conclusion,
+needed to achieve the desired 50 Hz frequency resolution. However,             the filters should be long enough to give the necessary frequency
+the worst-case scenario of an arbitrary relationship between ampli-            resolution but for filter lengths increased beyond the optimum the
+tude and phase of harmonics in the primary and reference channels              noise cancelling properties decreases slowly. For a specific site the
+is not observed in practice.                                                   recovery of a synthetic signal added to noise-only recordings can
+   Measurements have shown that between the n’th and n + 1’th                  be used to adjust both step size and filter length for optimum noise
+harmonic, the phase of the transfer function normally changes less             cancelling performance.
+
+
+C 2012 The Authors, GJI, 191, 88–100
+
+Geophysical Journal International 
+                                  C 2012 RAS
+96     E. Dalgaard, E. Auken and J. J. Larsen
+
+
+
+
+Figure 10. Determination of optimum filter length with synthetic signals added to noise-only recordings from Risby (grey) and Odder (black). The graph
+shows the normalized signal-to-noise ratio as a function of the filter length for the NLMS algorithm.
+
+    The adaptive noise cancelling of MRS signals is done offline.                  Table 1. Comparison of the variance of different stacking meth-
+This implies that it is possible to use future values of the reference             ods used on data from two different sites, Risby and Odder. The
+channel signals for noise cancelling. The analysis of the coherence                variance is normalized to the mean.
+properties showed that the only noise source that can be efficiently                                                  Risby                Odder
+removed with adaptive noise cancelling is the powerline harmonics.                 Mean                                  1                   1
+Inherently, a harmonic signal is predictable and therefore non-causal              Median                              1.15                 1.15
+filtering cannot improve the noise cancelling. Simulations on noise-               Median: 80 per cent                 0.99                 0.99
+only recordings have confirmed this result.                                        Median: 90 per cent                 0.99                 0.98
+                                                                                   Romanovsky                          0.99                 0.99
+
+S TA C K I N G
+                                                                              ing could be extended to neighbouring samples. This avoids the
+After removal of spikes and coherent noise from the MRS record-               conclusions being limited by the typically small number (30–70) of
+ings a random noise component still remains. The random noise                 stacks available for averaging. The data is normalized to stacking
+can be suppressed by appropriate stacking of multiple recordings.             based on the mean value. The table shows that stacking based on
+Stacking can be done by a number of methods, the most simple                  the median value have the poorest performance as expected. The
+being averaging to find the mean value. The stacking result can be            difference between averaging and median value is not as large as the
+greatly affected by outliers in the data and it can often be improved         theoretical prediction because of the only nearly Gaussian distribu-
+by using a method that is insensitive to outliers, for example by             tion of the data. The three stacking methods that are insensitive to
+using the median as the average, using weighted median methods                outliers are slightly better than simple averaging. They have almost
+or using a Romanovsky criterion for discarding outliers (Jiang et al.         identical performance with small variations between different sites.
+2011). The quality of the stacked result is quantified by the variance,       It can thus be concluded that an outlier insensitive method provides
+which should be as small as possible.                                         the best stacking result but the result is not sensitive to the exact
+   A handle on the appropriate stacking method can be found by                implementation.
+investigating the probability density function of the MRS recordings
+after despiking and filtering. Measurements on noise-only data show
+                                                                              C O M PA R I S O N O F A D A P T I V E A N D
+that the probability density function is nearly Gaussian. Yin et al.
+                                                                              W I E N E R F I LT E R I N G M E T H O D S
+(1996) showed that for Gaussian distributed white noise the variance
+of the estimate of the mean value is a factor of π /.2 better with            In the above paragraphs the optimum parameters for an adaptive
+averaging than using the median value.                                        noise cancelling algorithm was identified. In this paragraph, this
+   In Table 1 a comparison of the variance of five different stacking         method will be compared with multichannel time-domain Wiener
+methods employed on noise-only data from two different sites are              filtering as used by for example Neyer (2010). A full account of the
+shown. The five methods are mean value, median value, the mean of             method is given by Treitel (1970) and described in appendix B.
+the middle 80 and 90 per cent of the data and the mean of the sam-                In time-domain Wiener filtering, see Fig. 11 for a schematic
+ple with outliers removed by the Romanovsky method. Stationary                overview of the method, the noise-only sections of the data are used
+noise-only recordings were employed so that the ensemble averag-              to estimate the optimum transfer functions between the reference
+
+                                                                                                               
+                                                                                                               C 2012 The Authors, GJI, 191, 88–100
+
+                                                                                                         Geophysical Journal International 
+                                                                                                                                           C 2012 RAS
+                                                                                                           Noise cancelling of MRS signals           97
+
+
+
+
+Figure 11. Schematic overview of multichannel Wiener filtering.
+
+
+channels and the primary channel. The transfer functions are sub-                small and random variations depending on the specific site and noise
+sequently used to filter the noise recorded in the reference channels            record used.
+during MRS signal recording and subtracted from the primary chan-                   In Fig. 12 the spectrum of a single, unprocessed noise-only mea-
+nel signal. The estimate of the transfer functions is influenced by              surement with synthetic signal added and the corresponding spec-
+noise in the measurements and is thus only optimum in the average                trum of the de-spiked, filtered and stacked signal are shown. The
+sense. One of the benefits of the adaptive method is the continuous              figure shows that a noise reduction of approximately 20 dB are
+update of the transfer functions hereby effectively averaging over               obtained across the interesting part of the spectrum and that up to
+extended periods of time thus minimizing the influence of noise in               35 dB of the most intense powerline harmonics are removed by the
+the estimate of the transfer functions. It should be noted that under            noise cancelling algorithm. The peak at the Larmor frequency is left
+stationary conditions, the adaptive filter will converge to the Wiener           undisturbed. A realization of Fig. 12 in the time domain is shown
+filter. The main difference between the two methods in this context              in Fig. 13, in this figure it is possible to observe the characteristics
+is therefore their ability to handle the noise in an environment that            of a MRS signal.
+is only approximately stationary.                                                   The ability of both Wiener filtering and adaptive filtering is cur-
+    To compare the methods, simulations have been performed where ∗             rently limited by the instrument employed: The four analogue-to-
+a single exponential MRS signal s(t) = S0 cos(2π f 0 t + ϕ)e−t T2 is             digital converters used in the primary loop and the three reference
+added to noise-only recordings. The noise records are only approx-               loops are controlled by four independently generated clock signals.
+imately stationary, for example the power of a particular harmonic               This implies that the four channels are not sampled at the exact
+can vary by more than a factor of two within minutes. The syn-                   same frequency and that the timing of the signal acquisition is af-
+thetic MRS signal is then recovered by first despiking the records.              fected by jitter. The jitter is tantamount to a random delay in the
+Subsequently, harmonic noise is removed with either Wiener or                    timing between channels and corresponds to a random phase shift of
+adaptive filtering. Finally, the data are stacked and the MRS sig-               the transfer function. Neither Wiener filtering nor adaptive filtering
+nal are retrieved by envelope detection, described in appendix C                 can react to the random phase shift or the difference in sampling
+and standard peak finding and fitting methods using the procedure                frequencies and the effect is a reduction in the noise cancelling
+of Neyer (2010), also described by Mueller-Petke et al. (2011).                  efficiency of both methods. An example of this is seen in Fig. 12
+The ability of the different methods to retrieve the MRS signal pa-              where a number of the powerline harmonics are not as efficiently
+rameters can then be compared. Representative results from two                   cancelled as potentially possible.
+different sites, Risby and Odder, are shown in Table 2. For com-
+parison the MRS signal has also been retrieved in the case where
+no filtering has been done. For both filtering methods filter lengths
+                                                                                 C O N C LU S I O N
+of 20 taps was used. A step size β = 10−3 was used in the NLMS
+algorithm.                                                                       In this paper, we have investigated the applicability of adaptive noise
+    As expected the results show that the MRS signal is generally                cancelling of multichannel MRS signals. One of the most important
+better retrieved by using either Wiener filtering or adaptive filtering          results is that an analysis of the noise recorded with the multichan-
+than no filtering. Within the experimental uncertainty we find that              nel MRS instrument showed that the relationship between noise,
+Wiener and adaptive filtering gives equal overall performance with               that is spikes, recorded in the primary channel and in the reference
+
+
+
+               Table 2. Comparison of retrieval of synthetic signal parameters using different methods. Data from two sites, Risby (top) and
+               Odder (bottom) are used.
+                            Model     Despiking stacking          Stacking      Despiking Wiener stacking      Despiking adaptive stacking
+               S 0 (nV)     200         192.7 ± 2.2           190.3 ± 2.3              202.4 ± 1.0                    203.1 ± 0.8
+               f 0 (Hz)     2137       2136.91 ± 0.08        2137.07 ± 0.08           2136.99 ± 0.08                 2136.91 ± 0.08
+               ϕ (rad)       2              2.05                  1.96                     2.03                           1.92
+               T 2 ∗ (ms)   200         189.9 ± 4.3           201.2 ± 4.7              187.9 ± 1.8                    186.3 ± 1.5
+               S 0 (nV)     200         197.3 ± 1.6           237.0 ± 4.5              198.9 ± 0.5                    199.0 ± 0.6
+               f 0 (Hz)     2137       2137.02 ± 0.08        2137.26 ± 0.08           2137.04 ± 0.08                 2137.04 ± 0.08
+               ϕ (rad)       2              2.00                  1.92                     1.99                           1.99
+               T 2 ∗ (ms)   200         205.8 ± 2.3           196.1 ± 5.2              200.9 ± 0.8                    200.3 ± 0.8
+
+
+
+C 2012 The Authors, GJI, 191, 88–100
+
+Geophysical Journal International 
+                                  C 2012 RAS
+98     E. Dalgaard, E. Auken and J. J. Larsen
+
+
+
+
+Figure 12. Spectrum of a single unprocessed measurement with synthetic signal added (grey) and the spectrum of the processed signal (black). The Larmor
+frequency, f L , is marked with a grey line.
+
+
+
+
+Figure 13. Time-series plot of Fig. 12. The single unprocessed measurement with synthetic signal added is grey and the processed signal is black.
+
+channels typically depends on the particular noise event. This im-               signal, when this can end up in cancellation of the signal. Adap-
+plies that different filters must be used for efficient noise cancella-          tation of the filter coefficients should only be done on noise-only
+tion of different noise events or sections of data containing spikes             sections.
+should be discarded. An efficient algorithm for semi-automatic                      The paper contained a comparison of the noise cancelling prop-
+spike detection was presented.                                                   erties of Wiener filtering and adaptive noise cancellation. It was
+   We have investigated the optimum choices of adaptive filter-                  found that the two methods provided identical noise cancelling per-
+ing algorithm, step size and filter length and devised rules of                  formance within the experimental uncertainty. Our results are cur-
+thumb for practical implementation. We found that adaptation of                  rently limited by differences in the sampling frequency of the four
+the filter coefficients should be avoided on time-series including               channels and jitter in the MRS instrument. These problems affect
+
+
+                                                                                                                  
+                                                                                                                  C 2012 The Authors, GJI, 191, 88–100
+
+                                                                                                            Geophysical Journal International 
+                                                                                                                                              C 2012 RAS
+                                                                                                           Noise cancelling of MRS signals             99
+
+both Wiener filtering and adaptive noise cancelling. We anticipate               Yin, L., Yang, R., Gabbouj, M. & Neuvo, Y., 1996. Weighted median filters:
+that better noise cancelling results than the ones presented here can              a tutorial, IEEE Trans. Circuits Syst., 43, 157–192.
+be obtained with future generations of the instrument and that a
+more thorough comparison of the different methods can be made at
+that stage.
+                                                                                 APPENDIX A: THE NLMS ALGORITHM
+   It should be stressed that more elaborate methods are needed to
+appropriately deal with noise originating from different sources. In             The filter updating equations for the multichannel NLMS algorithm
+particular, it is undesirable to discard noisy sections of the data. This        are given by:
+prevents the application of MRS in very noisy areas where entire
+                                                                                                                β
+series of measurements would be discarded.                                       wi (k + 1) = wi (k) +                       e(k)x(k),               (A1)
+                                                                                                         ε + xiT (k)xi (k)
+                                                                                 where i = {1, 2, 3} represents the three reference coils. β is the
+AC K N OW L E D G M E N T S                                                      step-size parameter (0< β < 2) and xi (k) the signal vector from the
+The authors would like to thank Nicklas S. Nyboe, Ahmad Behrooz-                 specified reference channel. ε is a small number. The output from
+mand and Lars G. Johansen for fruitful discussions on mag-                       each filter is given by (Treitel 1970):
+netic resonance sounding and signal processing. We would also                    yi = wiT (k)xi (k).                                                 (A2)
+like to thank Oliver Ritter (editor), Dr. Mike Mueller-Petke (re-
+viewer) and the anonymous reviewer for their positive and helpful                  The output from the multichannel adaptive filter is given by:
+comments.
+                                                                                 e(k) = p(k) − y1 (k) − y2 (k) − y3 (k),                             (A3)
+   This work was supported by the Danish Council for Strategic Re-
+search funded project NiCA—a project searching to identify robust                where p(k) denotes the signal in the primary channel. The output
+agricultural areas for which only a limited part of the nitrate leached          is both the noise cancelled MRS signal and the error signal used in
+from the root zone reaches streams. The data collected at Risby was              the update of the filters.
+supported by the project Riskpoint, Danish Council for Strategic
+Research—a project investigating point source contaminations.
+   We are grateful to the people who helped us collecting the data
+                                                                                 A P P E N D I X B : M U LT I C H A N N E L
+presented in this paper, August 2010 in Risby, June 2010 near Skive
+                                                                                 W I E N E R F I LT E R I N G
+and June 2011 near Odder, which all are locations in Denmark.
+                                                                                 Multichannel Wiener filtering of a four-channel system consisting of
+                                                                                 one primary receiver and three reference receivers are almost similar
+REFERENCES
+                                                                                 to adaptive filtering, eqs (A2) and (A3). The N filter coefficients
+Dlugosch, R., Mueller-Petke, M., Günther, T., Costabel, S. & Yaramanci, U.,     for each filter are estimated from a complete noise-only section
+   2011. Assessment of the potential of a new generation of surface nuclear      of data before being used for noise cancelling of the immediately
+   magnetic resonance instruments, Near Surf. Geophys., 9, 89–102.               following signal plus noise section. The multichannel Wiener–Hopf
+Farhang-Boroujeny, B., 1998. Adaptive Filters: Theory and Applications,          equation is :
+   John Wiley & Sons, Inc, New York, NY.
+Hoaglin, D.C., Mosteller, F. & Tukey, J.W., 2000. Understanding Robust           w = ACM−1 CCM.                                                      (B1)
+   and Exploratory Data Analysis, Wiley, Hoboken, NJ, 447pp.
+Jiang, C., Lin, J., Duan, Q., Sun, S. & Tian, B., 2011. Statistical stacking
+   and adaptive notch filter to remove high-level electromagnetic noise from        ACM is the reference autocorrelation matrix, which is a 3N ×
+   MRS measurements, Near Surf. Geophys., 9, 459–468.                            3N Toeplitz block matrix. Each 3 × 3 block consists of auto- and
+Kuo, S.M. & Morgan, D.R., 1996. Active Noise Control Systems/Algorithms          crosscorrelations of the reference signals. The block corresponding
+   and DSP Implementations, Wiley Interscience, New York, NY.                    to the kth lag is given by:
+Legchenko, A. & Valla, P., 2002. A review of the basic principles for proton                  ⎡                                         ⎤
+   magnetic resonance sounding measurements, J. Appl. Geophys., 50, 3–                           Cr 1,r 1 (k) Cr 1,r 2 (k) Cr 1,r 3 (k)
+   19.                                                                                        ⎢                                         ⎥
+                                                                                              ⎢                                         ⎥
+Legchenko, A. & Valla, P., 2003. Removal of power-line harmonics from            ACM(k) = ⎢ Cr 2,r 1 (k) Cr 2,r 2 (k) Cr 2,r 3 (k) ⎥ .          (B2)
+                                                                                              ⎣                                         ⎦
+   proton magnetic resonance measurements, J. Appl. Geophys., 53, 103–                           Cr 3,r 1 (k) Cr 3,r 2 (k) Cr 3,r 3 (k)
+   120.
+Mueller-Petke, M., Dlugosch, R. & Yaramanci, U., 2011. Evaluation of
+                                                                                    The crosscorrelation matrix CCM is a 3N × 1 block vector. Each
+   surface nuclear magnetic resonance-estimated subsurface water content,
+                                                                                 3 × 1 block consists of the crosscorrelation between the primary
+   New J. Phys., 13, 165–185.
+Mukhopadhyay, S. & Ray, G.C., 1998. A new interpretation of nonlinear            signal and the three reference signals. The block corresponding to
+   energy operator and its efficacy in spike detection, IEEE Trans. Biomed.      the kth lag is given by:
+   Eng., 45, 180–187.                                                                         ⎡             ⎤
+                                                                                                Cr 1, p (k)
+Neyer, F.M., 2010. Processing of full time series, Multichannel surface NMR                   ⎢             ⎥
+   signals, MSc thesis, ETH Zurich.                                                           ⎢             ⎥
+                                                                                 CCM(k) = ⎢ Cr 2, p (k) ⎥ .                                   (B3)
+Strehl, S., 2006. Development of strategies for improved filtering and fitting                ⎣             ⎦
+   of SNMR-signals, MSc thesis, Technical University of Berlin.                                 Cr 3, p (k)
+Treitel, S., 1970. Principles of digital multichannel filtering, Geophysics,
+   35, 785–811.                                                                     The filter coefficients on the left-hand side of eq. (B1) are then
+Walsh, D.O., 2008. Multi-channel surface NMR instrumentation and soft-           given by:
+   ware for 1D/2D groundwater investigations, J. Appl. Geophys., 66,
+   140–150.                                                                      w = [w1 (1)w2 (1)w3 (1)w1 (2) . . . w3 (N )]T .                     (B4)
+
+
+C 2012 The Authors, GJI, 191, 88–100
+
+Geophysical Journal International 
+                                  C 2012 RAS
+100     E. Dalgaard, E. Auken and J. J. Larsen
+
+                                                                            f = | fT − fL | .                                                   (C1)
+APPENDIX C: ENVELOPE DETECTION
+                                                                              The down-conversion in step 2 is done by:
+The desired MRS signal, that is the envelope of the free induction
+decay is extracted from the noise cancelled and averaged signal with       scdc (t) = s(t)e−i2π fL t .                                           (C2)
+the following four steps.
+                                                                           Where s is the original signal and scdc is the down converted signal,
+  (1) Determination of the true Larmor frequency, f L                      which is now complex.
+  (2) Down-conversion to baseband using f L                                  The phase offset of the signal is found as:
+  (3) Determination and correction of the phase offset in the base-                    tend                   tend                  
+band signal                                                                ϕ = tan−1          imag (scdc (t)),        real (scdc (t))      (C3)
+                                                                                              t=0                     t=0
+  (4) Lowpass filtering of the phase corrected baseband signal
+  Step 1 is performed by searching the frequency domain of the sig-           Upon determination of ϕ the offset correction is done by:
+nal around the transmitter-generated frequency, f T , used for MRS         scdc,corr (t) = scdc (t)e−iϕ                                          (C4)
+excitation. The frequency of the highest amplitude found within a
+few Hertz from f T is taken as f L . The frequency offset is defined as:      Finally, a lowpass filter is applied for further noise reduction.
+
+
+
+
+                                                                                                                
+                                                                                                                C 2012 The Authors, GJI, 191, 88–100
+
+                                                                                                          Geophysical Journal International 
+                                                                                                                                            C 2012 RAS
+

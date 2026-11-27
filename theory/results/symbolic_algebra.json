@@ -1,0 +1,336 @@
+{
+  "status": "All symbolic identities passed; no experimental data were fitted.",
+  "sympy_version": "1.14.0",
+  "checks": [
+    {
+      "check": "coulomb_hessian_equals_tensor_kernel",
+      "passed": true,
+      "residual": "Matrix([[0, 0, 0], [0, 0, 0], [0, 0, 0]])"
+    },
+    {
+      "check": "coulomb_kernel_is_traceless_away_from_source",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "check": "screened_A_matches_radial_derivatives",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "check": "screened_B_matches_radial_derivatives",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "check": "screened_trace_equals_gaussian_source",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "check": "self_hessian_coefficient",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "check": "reciprocal_hessian_sign",
+      "passed": true,
+      "residual": "Matrix([[0, 0, 0], [0, 0, 0], [0, 0, 0]])"
+    },
+    {
+      "check": "principal_values_trace",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "check": "principal_values_asymmetry",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "check": "mirror_allowed_tensor",
+      "passed": true,
+      "residual": "Matrix([[0, 0, 0], [0, 0, 0], [0, 0, 0]])"
+    },
+    {
+      "check": "ideal_tetrahedron_EFG_vanishes",
+      "passed": true,
+      "residual": "Matrix([[0, 0, 0], [0, 0, 0], [0, 0, 0]])"
+    },
+    {
+      "check": "spin_commutator_XY",
+      "passed": true,
+      "residual": "Matrix([[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]])"
+    },
+    {
+      "check": "quadrupole_H_squared",
+      "passed": true,
+      "residual": "Matrix([[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]])"
+    },
+    {
+      "check": "quadrupole_characteristic_polynomial",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "check": "CT_first_order_zero",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "check": "CT_second_order_formula",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "check": "CT_minimum",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "check": "CT_maximum",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "check": "common_scale_stationary_point",
+      "passed": true,
+      "residual": "0"
+    }
+  ],
+  "steps": [
+    {
+      "name": "coulomb_potential",
+      "meaning": "Unit-charge potential, excluding r=0.",
+      "sympy": "1/sqrt(x**2 + y**2 + z**2)",
+      "latex": "\\frac{1}{\\sqrt{x^{2} + y^{2} + z^{2}}}"
+    },
+    {
+      "name": "coulomb_gradient",
+      "meaning": "First Cartesian derivatives.",
+      "sympy": "Matrix([[-x/(x**2 + y**2 + z**2)**(3/2)], [-y/(x**2 + y**2 + z**2)**(3/2)], [-z/(x**2 + y**2 + z**2)**(3/2)]])",
+      "latex": "\\left[\\begin{matrix}- \\frac{x}{\\left(x^{2} + y^{2} + z^{2}\\right)^{\\frac{3}{2}}}\\\\- \\frac{y}{\\left(x^{2} + y^{2} + z^{2}\\right)^{\\frac{3}{2}}}\\\\- \\frac{z}{\\left(x^{2} + y^{2} + z^{2}\\right)^{\\frac{3}{2}}}\\end{matrix}\\right]"
+    },
+    {
+      "name": "coulomb_hessian",
+      "meaning": "Second Cartesian derivatives.",
+      "sympy": "Matrix([[3*x**2/(x**2 + y**2 + z**2)**(5/2) - 1/(x**2 + y**2 + z**2)**(3/2), 3*x*y/(x**2 + y**2 + z**2)**(5/2), 3*x*z/(x**2 + y**2 + z**2)**(5/2)], [3*x*y/(x**2 + y**2 + z**2)**(5/2), 3*y**2/(x**2 + y**2 + z**2)**(5/2) - 1/(x**2 + y**2 + z**2)**(3/2), 3*y*z/(x**2 + y**2 + z**2)**(5/2)], [3*x*z/(x**2 + y**2 + z**2)**(5/2), 3*y*z/(x**2 + y**2 + z**2)**(5/2), 3*z**2/(x**2 + y**2 + z**2)**(5/2) - 1/(x**2 + y**2 + z**2)**(3/2)]])",
+      "latex": "\\left[\\begin{matrix}\\frac{3 x^{2}}{\\left(x^{2} + y^{2} + z^{2}\\right)^{\\frac{5}{2}}} - \\frac{1}{\\left(x^{2} + y^{2} + z^{2}\\right)^{\\frac{3}{2}}} & \\frac{3 x y}{\\left(x^{2} + y^{2} + z^{2}\\right)^{\\frac{5}{2}}} & \\frac{3 x z}{\\left(x^{2} + y^{2} + z^{2}\\right)^{\\frac{5}{2}}}\\\\\\frac{3 x y}{\\left(x^{2} + y^{2} + z^{2}\\right)^{\\frac{5}{2}}} & \\frac{3 y^{2}}{\\left(x^{2} + y^{2} + z^{2}\\right)^{\\frac{5}{2}}} - \\frac{1}{\\left(x^{2} + y^{2} + z^{2}\\right)^{\\frac{3}{2}}} & \\frac{3 y z}{\\left(x^{2} + y^{2} + z^{2}\\right)^{\\frac{5}{2}}}\\\\\\frac{3 x z}{\\left(x^{2} + y^{2} + z^{2}\\right)^{\\frac{5}{2}}} & \\frac{3 y z}{\\left(x^{2} + y^{2} + z^{2}\\right)^{\\frac{5}{2}}} & \\frac{3 z^{2}}{\\left(x^{2} + y^{2} + z^{2}\\right)^{\\frac{5}{2}}} - \\frac{1}{\\left(x^{2} + y^{2} + z^{2}\\right)^{\\frac{3}{2}}}\\end{matrix}\\right]"
+    },
+    {
+      "name": "coulomb_tensor_kernel",
+      "meaning": "Compact Cartesian Hessian.",
+      "sympy": "Matrix([[(2*x**2 - y**2 - z**2)/(x**2 + y**2 + z**2)**(5/2), 3*x*y/(x**2 + y**2 + z**2)**(5/2), 3*x*z/(x**2 + y**2 + z**2)**(5/2)], [3*x*y/(x**2 + y**2 + z**2)**(5/2), (-x**2 + 2*y**2 - z**2)/(x**2 + y**2 + z**2)**(5/2), 3*y*z/(x**2 + y**2 + z**2)**(5/2)], [3*x*z/(x**2 + y**2 + z**2)**(5/2), 3*y*z/(x**2 + y**2 + z**2)**(5/2), (-x**2 - y**2 + 2*z**2)/(x**2 + y**2 + z**2)**(5/2)]])",
+      "latex": "\\left[\\begin{matrix}\\frac{2 x^{2} - y^{2} - z^{2}}{\\left(x^{2} + y^{2} + z^{2}\\right)^{\\frac{5}{2}}} & \\frac{3 x y}{\\left(x^{2} + y^{2} + z^{2}\\right)^{\\frac{5}{2}}} & \\frac{3 x z}{\\left(x^{2} + y^{2} + z^{2}\\right)^{\\frac{5}{2}}}\\\\\\frac{3 x y}{\\left(x^{2} + y^{2} + z^{2}\\right)^{\\frac{5}{2}}} & \\frac{- x^{2} + 2 y^{2} - z^{2}}{\\left(x^{2} + y^{2} + z^{2}\\right)^{\\frac{5}{2}}} & \\frac{3 y z}{\\left(x^{2} + y^{2} + z^{2}\\right)^{\\frac{5}{2}}}\\\\\\frac{3 x z}{\\left(x^{2} + y^{2} + z^{2}\\right)^{\\frac{5}{2}}} & \\frac{3 y z}{\\left(x^{2} + y^{2} + z^{2}\\right)^{\\frac{5}{2}}} & \\frac{- x^{2} - y^{2} + 2 z^{2}}{\\left(x^{2} + y^{2} + z^{2}\\right)^{\\frac{5}{2}}}\\end{matrix}\\right]"
+    },
+    {
+      "name": "screened_potential",
+      "meaning": "Real-space part erfc(alpha*r)/r.",
+      "sympy": "erfc(alpha*r)/r",
+      "latex": "\\frac{\\operatorname{erfc}{\\left(\\alpha r \\right)}}{r}"
+    },
+    {
+      "name": "screened_first_radial_derivative",
+      "meaning": "f'(r).",
+      "sympy": "-2*alpha*exp(-alpha**2*r**2)/(sqrt(pi)*r) - erfc(alpha*r)/r**2",
+      "latex": "- \\frac{2 \\alpha e^{- \\alpha^{2} r^{2}}}{\\sqrt{\\pi} r} - \\frac{\\operatorname{erfc}{\\left(\\alpha r \\right)}}{r^{2}}"
+    },
+    {
+      "name": "screened_second_radial_derivative",
+      "meaning": "f''(r).",
+      "sympy": "2*(2*alpha**3*exp(-alpha**2*r**2)/sqrt(pi) + 2*alpha*exp(-alpha**2*r**2)/(sqrt(pi)*r**2) + erfc(alpha*r)/r**3)",
+      "latex": "2 \\left(\\frac{2 \\alpha^{3} e^{- \\alpha^{2} r^{2}}}{\\sqrt{\\pi}} + \\frac{2 \\alpha e^{- \\alpha^{2} r^{2}}}{\\sqrt{\\pi} r^{2}} + \\frac{\\operatorname{erfc}{\\left(\\alpha r \\right)}}{r^{3}}\\right)"
+    },
+    {
+      "name": "screened_dyadic_coefficient_A",
+      "meaning": "Coefficient of r_a*r_b.",
+      "sympy": "4*alpha**3*exp(-alpha**2*r**2)/(sqrt(pi)*r**2) + 6*alpha*exp(-alpha**2*r**2)/(sqrt(pi)*r**4) + 3*erfc(alpha*r)/r**5",
+      "latex": "\\frac{4 \\alpha^{3} e^{- \\alpha^{2} r^{2}}}{\\sqrt{\\pi} r^{2}} + \\frac{6 \\alpha e^{- \\alpha^{2} r^{2}}}{\\sqrt{\\pi} r^{4}} + \\frac{3 \\operatorname{erfc}{\\left(\\alpha r \\right)}}{r^{5}}"
+    },
+    {
+      "name": "screened_identity_coefficient_B",
+      "meaning": "Coefficient of delta_ab.",
+      "sympy": "-2*alpha*exp(-alpha**2*r**2)/(sqrt(pi)*r**2) - erfc(alpha*r)/r**3",
+      "latex": "- \\frac{2 \\alpha e^{- \\alpha^{2} r^{2}}}{\\sqrt{\\pi} r^{2}} - \\frac{\\operatorname{erfc}{\\left(\\alpha r \\right)}}{r^{3}}"
+    },
+    {
+      "name": "screened_trace",
+      "meaning": "Trace before reciprocal and self terms.",
+      "sympy": "4*alpha**3*exp(-alpha**2*r**2)/sqrt(pi)",
+      "latex": "\\frac{4 \\alpha^{3} e^{- \\alpha^{2} r^{2}}}{\\sqrt{\\pi}}"
+    },
+    {
+      "name": "smooth_self_potential_series",
+      "meaning": "Taylor expansion of the smooth self potential near the observation nucleus.",
+      "sympy": "2*alpha/sqrt(pi) - 2*alpha**3*r**2/(3*sqrt(pi)) + alpha**5*r**4/(5*sqrt(pi)) - alpha**7*r**6/(21*sqrt(pi)) + O(r**8)",
+      "latex": "\\frac{2 \\alpha}{\\sqrt{\\pi}} - \\frac{2 \\alpha^{3} r^{2}}{3 \\sqrt{\\pi}} + \\frac{\\alpha^{5} r^{4}}{5 \\sqrt{\\pi}} - \\frac{\\alpha^{7} r^{6}}{21 \\sqrt{\\pi}} + O\\left(r^{8}\\right)"
+    },
+    {
+      "name": "smooth_self_hessian_diagonal",
+      "meaning": "Hessian of the self Gaussian already present in the reciprocal sum.",
+      "sympy": "-4*alpha**3/(3*sqrt(pi))",
+      "latex": "- \\frac{4 \\alpha^{3}}{3 \\sqrt{\\pi}}"
+    },
+    {
+      "name": "self_removal_hessian_diagonal",
+      "meaning": "Positive correction required to REMOVE that self contribution.",
+      "sympy": "4*alpha**3/(3*sqrt(pi))",
+      "latex": "\\frac{4 \\alpha^{3}}{3 \\sqrt{\\pi}}"
+    },
+    {
+      "name": "reciprocal_cosine_hessian",
+      "meaning": "The minus sign in the reciprocal EFG follows from differentiating cosine twice.",
+      "sympy": "Matrix([[-k_x**2*cos(k_x*x + k_y*y + k_z*z + phase), -k_x*k_y*cos(k_x*x + k_y*y + k_z*z + phase), -k_x*k_z*cos(k_x*x + k_y*y + k_z*z + phase)], [-k_x*k_y*cos(k_x*x + k_y*y + k_z*z + phase), -k_y**2*cos(k_x*x + k_y*y + k_z*z + phase), -k_y*k_z*cos(k_x*x + k_y*y + k_z*z + phase)], [-k_x*k_z*cos(k_x*x + k_y*y + k_z*z + phase), -k_y*k_z*cos(k_x*x + k_y*y + k_z*z + phase), -k_z**2*cos(k_x*x + k_y*y + k_z*z + phase)]])",
+      "latex": "\\left[\\begin{matrix}- k_{x}^{2} \\cos{\\left(k_{x} x + k_{y} y + k_{z} z + phase \\right)} & - k_{x} k_{y} \\cos{\\left(k_{x} x + k_{y} y + k_{z} z + phase \\right)} & - k_{x} k_{z} \\cos{\\left(k_{x} x + k_{y} y + k_{z} z + phase \\right)}\\\\- k_{x} k_{y} \\cos{\\left(k_{x} x + k_{y} y + k_{z} z + phase \\right)} & - k_{y}^{2} \\cos{\\left(k_{x} x + k_{y} y + k_{z} z + phase \\right)} & - k_{y} k_{z} \\cos{\\left(k_{x} x + k_{y} y + k_{z} z + phase \\right)}\\\\- k_{x} k_{z} \\cos{\\left(k_{x} x + k_{y} y + k_{z} z + phase \\right)} & - k_{y} k_{z} \\cos{\\left(k_{x} x + k_{y} y + k_{z} z + phase \\right)} & - k_{z}^{2} \\cos{\\left(k_{x} x + k_{y} y + k_{z} z + phase \\right)}\\end{matrix}\\right]"
+    },
+    {
+      "name": "principal_values_from_Vzz_eta",
+      "meaning": "Traceless principal tensor reconstructed from V_ZZ and eta.",
+      "sympy": "Matrix([[V_ZZ*(eta - 1)/2, 0, 0], [0, V_ZZ*(-eta - 1)/2, 0], [0, 0, V_ZZ]])",
+      "latex": "\\left[\\begin{matrix}\\frac{V_{ZZ} \\left(\\eta - 1\\right)}{2} & 0 & 0\\\\0 & \\frac{V_{ZZ} \\left(- \\eta - 1\\right)}{2} & 0\\\\0 & 0 & V_{ZZ}\\end{matrix}\\right]"
+    },
+    {
+      "name": "mirror_symmetry_difference",
+      "meaning": "Reflection perpendicular to b requires V_ab=V_bc=0; it does not fix eta.",
+      "sympy": "Matrix([[0, -2*V_ab, 0], [-2*V_ab, 0, -2*V_bc], [0, -2*V_bc, 0]])",
+      "latex": "\\left[\\begin{matrix}0 & - 2 V_{ab} & 0\\\\- 2 V_{ab} & 0 & - 2 V_{bc}\\\\0 & - 2 V_{bc} & 0\\end{matrix}\\right]"
+    },
+    {
+      "name": "regular_tetrahedron_tensor",
+      "meaning": "Four identical point charges on an ideal tetrahedron give a zero tensor; eta is undefined.",
+      "sympy": "Matrix([[0, 0, 0], [0, 0, 0], [0, 0, 0]])",
+      "latex": "\\left[\\begin{matrix}0 & 0 & 0\\\\0 & 0 & 0\\\\0 & 0 & 0\\end{matrix}\\right]"
+    },
+    {
+      "name": "spin_basis_m",
+      "meaning": "Basis order |3/2>,|1/2>,|-1/2>,|-3/2>.",
+      "sympy": "Matrix([[3/2], [1/2], [-1/2], [-3/2]])",
+      "latex": "\\left[\\begin{matrix}\\frac{3}{2}\\\\\\frac{1}{2}\\\\- \\frac{1}{2}\\\\- \\frac{3}{2}\\end{matrix}\\right]"
+    },
+    {
+      "name": "I_plus",
+      "meaning": "Dimensionless raising operator.",
+      "sympy": "Matrix([[0, sqrt(3), 0, 0], [0, 0, 2, 0], [0, 0, 0, sqrt(3)], [0, 0, 0, 0]])",
+      "latex": "\\left[\\begin{matrix}0 & \\sqrt{3} & 0 & 0\\\\0 & 0 & 2 & 0\\\\0 & 0 & 0 & \\sqrt{3}\\\\0 & 0 & 0 & 0\\end{matrix}\\right]"
+    },
+    {
+      "name": "I_X",
+      "meaning": "Dimensionless spin X operator.",
+      "sympy": "Matrix([[0, sqrt(3)/2, 0, 0], [sqrt(3)/2, 0, 1, 0], [0, 1, 0, sqrt(3)/2], [0, 0, sqrt(3)/2, 0]])",
+      "latex": "\\left[\\begin{matrix}0 & \\frac{\\sqrt{3}}{2} & 0 & 0\\\\\\frac{\\sqrt{3}}{2} & 0 & 1 & 0\\\\0 & 1 & 0 & \\frac{\\sqrt{3}}{2}\\\\0 & 0 & \\frac{\\sqrt{3}}{2} & 0\\end{matrix}\\right]"
+    },
+    {
+      "name": "I_Y",
+      "meaning": "Dimensionless spin Y operator.",
+      "sympy": "Matrix([[0, -sqrt(3)*I/2, 0, 0], [sqrt(3)*I/2, 0, -I, 0], [0, I, 0, -sqrt(3)*I/2], [0, 0, sqrt(3)*I/2, 0]])",
+      "latex": "\\left[\\begin{matrix}0 & - \\frac{\\sqrt{3} i}{2} & 0 & 0\\\\\\frac{\\sqrt{3} i}{2} & 0 & - i & 0\\\\0 & i & 0 & - \\frac{\\sqrt{3} i}{2}\\\\0 & 0 & \\frac{\\sqrt{3} i}{2} & 0\\end{matrix}\\right]"
+    },
+    {
+      "name": "I_Z",
+      "meaning": "Dimensionless spin Z operator.",
+      "sympy": "Matrix([[3/2, 0, 0, 0], [0, 1/2, 0, 0], [0, 0, -1/2, 0], [0, 0, 0, -3/2]])",
+      "latex": "\\left[\\begin{matrix}\\frac{3}{2} & 0 & 0 & 0\\\\0 & \\frac{1}{2} & 0 & 0\\\\0 & 0 & - \\frac{1}{2} & 0\\\\0 & 0 & 0 & - \\frac{3}{2}\\end{matrix}\\right]"
+    },
+    {
+      "name": "H_Q_over_h",
+      "meaning": "Quadrupolar Hamiltonian in frequency units.",
+      "sympy": "Matrix([[nu_Q/2, 0, sqrt(3)*eta*nu_Q/6, 0], [0, -nu_Q/2, 0, sqrt(3)*eta*nu_Q/6], [sqrt(3)*eta*nu_Q/6, 0, -nu_Q/2, 0], [0, sqrt(3)*eta*nu_Q/6, 0, nu_Q/2]])",
+      "latex": "\\left[\\begin{matrix}\\frac{\\nu_{Q}}{2} & 0 & \\frac{\\sqrt{3} \\eta \\nu_{Q}}{6} & 0\\\\0 & - \\frac{\\nu_{Q}}{2} & 0 & \\frac{\\sqrt{3} \\eta \\nu_{Q}}{6}\\\\\\frac{\\sqrt{3} \\eta \\nu_{Q}}{6} & 0 & - \\frac{\\nu_{Q}}{2} & 0\\\\0 & \\frac{\\sqrt{3} \\eta \\nu_{Q}}{6} & 0 & \\frac{\\nu_{Q}}{2}\\end{matrix}\\right]"
+    },
+    {
+      "name": "H_Q_block",
+      "meaning": "One of two equivalent 2x2 blocks.",
+      "sympy": "Matrix([[nu_Q/2, sqrt(3)*eta*nu_Q/6], [sqrt(3)*eta*nu_Q/6, -nu_Q/2]])",
+      "latex": "\\left[\\begin{matrix}\\frac{\\nu_{Q}}{2} & \\frac{\\sqrt{3} \\eta \\nu_{Q}}{6}\\\\\\frac{\\sqrt{3} \\eta \\nu_{Q}}{6} & - \\frac{\\nu_{Q}}{2}\\end{matrix}\\right]"
+    },
+    {
+      "name": "H_Q_characteristic_polynomial",
+      "meaning": "Each eigenvalue occurs twice.",
+      "sympy": "(eta**2*nu_Q**2 - 12*lambda**2 + 3*nu_Q**2)**2/144",
+      "latex": "\\frac{\\left(\\eta^{2} \\nu_{Q}^{2} - 12 \\lambda^{2} + 3 \\nu_{Q}^{2}\\right)^{2}}{144}"
+    },
+    {
+      "name": "NQR_eigenvalues",
+      "meaning": "Ordered zero-field eigenvalues in frequency units.",
+      "sympy": "Matrix([[-sqrt(3)*sqrt(eta**2 + 3)*Abs(nu_Q)/6], [-sqrt(3)*sqrt(eta**2 + 3)*Abs(nu_Q)/6], [sqrt(3)*sqrt(eta**2 + 3)*Abs(nu_Q)/6], [sqrt(3)*sqrt(eta**2 + 3)*Abs(nu_Q)/6]])",
+      "latex": "\\left[\\begin{matrix}- \\frac{\\sqrt{3} \\sqrt{\\eta^{2} + 3} \\left|{\\nu_{Q}}\\right|}{6}\\\\- \\frac{\\sqrt{3} \\sqrt{\\eta^{2} + 3} \\left|{\\nu_{Q}}\\right|}{6}\\\\\\frac{\\sqrt{3} \\sqrt{\\eta^{2} + 3} \\left|{\\nu_{Q}}\\right|}{6}\\\\\\frac{\\sqrt{3} \\sqrt{\\eta^{2} + 3} \\left|{\\nu_{Q}}\\right|}{6}\\end{matrix}\\right]"
+    },
+    {
+      "name": "NQR_frequency",
+      "meaning": "Energy separation divided by h.",
+      "sympy": "sqrt(eta**2/3 + 1)*Abs(nu_Q)",
+      "latex": "\\sqrt{\\frac{\\eta^{2}}{3} + 1} \\left|{\\nu_{Q}}\\right|"
+    },
+    {
+      "name": "axial_rotated_H_Q_over_h",
+      "meaning": "EFG Z axis at cos(theta)=c relative to B0.",
+      "sympy": "Matrix([[nu_Q*(3*c**2 - 1)/4, c*nu_Q*sqrt(3 - 3*c**2)/2, sqrt(3)*nu_Q*(1 - c**2)/4, 0], [c*nu_Q*sqrt(3 - 3*c**2)/2, nu_Q*(1 - 3*c**2)/4, 0, sqrt(3)*nu_Q*(1 - c**2)/4], [sqrt(3)*nu_Q*(1 - c**2)/4, 0, nu_Q*(1 - 3*c**2)/4, -c*nu_Q*sqrt(3 - 3*c**2)/2], [0, sqrt(3)*nu_Q*(1 - c**2)/4, -c*nu_Q*sqrt(3 - 3*c**2)/2, nu_Q*(3*c**2 - 1)/4]])",
+      "latex": "\\left[\\begin{matrix}\\frac{\\nu_{Q} \\left(3 c^{2} - 1\\right)}{4} & \\frac{c \\nu_{Q} \\sqrt{3 - 3 c^{2}}}{2} & \\frac{\\sqrt{3} \\nu_{Q} \\left(1 - c^{2}\\right)}{4} & 0\\\\\\frac{c \\nu_{Q} \\sqrt{3 - 3 c^{2}}}{2} & \\frac{\\nu_{Q} \\left(1 - 3 c^{2}\\right)}{4} & 0 & \\frac{\\sqrt{3} \\nu_{Q} \\left(1 - c^{2}\\right)}{4}\\\\\\frac{\\sqrt{3} \\nu_{Q} \\left(1 - c^{2}\\right)}{4} & 0 & \\frac{\\nu_{Q} \\left(1 - 3 c^{2}\\right)}{4} & - \\frac{c \\nu_{Q} \\sqrt{3 - 3 c^{2}}}{2}\\\\0 & \\frac{\\sqrt{3} \\nu_{Q} \\left(1 - c^{2}\\right)}{4} & - \\frac{c \\nu_{Q} \\sqrt{3 - 3 c^{2}}}{2} & \\frac{\\nu_{Q} \\left(3 c^{2} - 1\\right)}{4}\\end{matrix}\\right]"
+    },
+    {
+      "name": "first_order_energy_shifts",
+      "meaning": "State-by-state first-order shifts, in Hz if nu is in Hz.",
+      "sympy": "Matrix([[nu_Q*(3*c**2 - 1)/4], [nu_Q*(1 - 3*c**2)/4], [nu_Q*(1 - 3*c**2)/4], [nu_Q*(3*c**2 - 1)/4]])",
+      "latex": "\\left[\\begin{matrix}\\frac{\\nu_{Q} \\left(3 c^{2} - 1\\right)}{4}\\\\\\frac{\\nu_{Q} \\left(1 - 3 c^{2}\\right)}{4}\\\\\\frac{\\nu_{Q} \\left(1 - 3 c^{2}\\right)}{4}\\\\\\frac{\\nu_{Q} \\left(3 c^{2} - 1\\right)}{4}\\end{matrix}\\right]"
+    },
+    {
+      "name": "second_order_energy_shifts",
+      "meaning": "State-by-state nondegenerate perturbation sums.",
+      "sympy": "Matrix([[3*nu_Q**2*(c**2 - 1)*(7*c**2 + 1)/(32*nu_Z)], [3*nu_Q**2*(-9*c**4 + 10*c**2 - 1)/(32*nu_Z)], [3*nu_Q**2*(c**2 - 1)*(9*c**2 - 1)/(32*nu_Z)], [3*nu_Q**2*(-7*c**4 + 6*c**2 + 1)/(32*nu_Z)]])",
+      "latex": "\\left[\\begin{matrix}\\frac{3 \\nu_{Q}^{2} \\left(c^{2} - 1\\right) \\left(7 c^{2} + 1\\right)}{32 \\nu_{Z}}\\\\\\frac{3 \\nu_{Q}^{2} \\left(- 9 c^{4} + 10 c^{2} - 1\\right)}{32 \\nu_{Z}}\\\\\\frac{3 \\nu_{Q}^{2} \\left(c^{2} - 1\\right) \\left(9 c^{2} - 1\\right)}{32 \\nu_{Z}}\\\\\\frac{3 \\nu_{Q}^{2} \\left(- 7 c^{4} + 6 c^{2} + 1\\right)}{32 \\nu_{Z}}\\end{matrix}\\right]"
+    },
+    {
+      "name": "CT_first_order_shift",
+      "meaning": "Central first-order quadrupole shift vanishes.",
+      "sympy": "0",
+      "latex": "0"
+    },
+    {
+      "name": "CT_second_order_shift",
+      "meaning": "Central-transition second-order shift.",
+      "sympy": "3*nu_Q**2*(c - 1)*(c + 1)*(3*c - 1)*(3*c + 1)/(16*nu_Z)",
+      "latex": "\\frac{3 \\nu_{Q}^{2} \\left(c - 1\\right) \\left(c + 1\\right) \\left(3 c - 1\\right) \\left(3 c + 1\\right)}{16 \\nu_{Z}}"
+    },
+    {
+      "name": "CT_minimum_second_order",
+      "meaning": "Minimum at cos(theta)^2=5/9.",
+      "sympy": "-nu_Q**2/(3*nu_Z)",
+      "latex": "- \\frac{\\nu_{Q}^{2}}{3 \\nu_{Z}}"
+    },
+    {
+      "name": "CT_maximum_second_order",
+      "meaning": "Maximum at cos(theta)^2=0.",
+      "sympy": "3*nu_Q**2/(16*nu_Z)",
+      "latex": "\\frac{3 \\nu_{Q}^{2}}{16 \\nu_{Z}}"
+    },
+    {
+      "name": "common_scale_objective",
+      "meaning": "Conditional empirical calibration for a fixed four-site permutation.",
+      "sympy": "(P_1*a - f_1)**2 + (P_2*a - f_2)**2 + (P_3*a - f_3)**2 + (P_4*a - f_4)**2",
+      "latex": "\\left(P_{1} a - f_{1}\\right)^{2} + \\left(P_{2} a - f_{2}\\right)^{2} + \\left(P_{3} a - f_{3}\\right)^{2} + \\left(P_{4} a - f_{4}\\right)^{2}"
+    },
+    {
+      "name": "common_scale_derivative",
+      "meaning": "First derivative with respect to the single scale.",
+      "sympy": "2*P_1*(P_1*a - f_1) + 2*P_2*(P_2*a - f_2) + 2*P_3*(P_3*a - f_3) + 2*P_4*(P_4*a - f_4)",
+      "latex": "2 P_{1} \\left(P_{1} a - f_{1}\\right) + 2 P_{2} \\left(P_{2} a - f_{2}\\right) + 2 P_{3} \\left(P_{3} a - f_{3}\\right) + 2 P_{4} \\left(P_{4} a - f_{4}\\right)"
+    },
+    {
+      "name": "common_scale_solution",
+      "meaning": "Least-squares scale; positive for positive input frequencies.",
+      "sympy": "(P_1*f_1 + P_2*f_2 + P_3*f_3 + P_4*f_4)/(P_1**2 + P_2**2 + P_3**2 + P_4**2)",
+      "latex": "\\frac{P_{1} f_{1} + P_{2} f_{2} + P_{3} f_{3} + P_{4} f_{4}}{P_{1}^{2} + P_{2}^{2} + P_{3}^{2} + P_{4}^{2}}"
+    }
+  ],
+  "low_EFG_illustration": {
+    "nu_Q_MHz": 1.5,
+    "nu_Z_MHz": 76.0,
+    "CT_second_order_min_kHz": -9.868421052631579,
+    "CT_second_order_max_kHz": 5.550986842105263,
+    "satellite_first_order_outer_bounds_MHz": [
+      74.5,
+      77.5
+    ],
+    "status": "Illustration at eta=0; not a measured or predicted Cu3 frequency."
+  }
+}

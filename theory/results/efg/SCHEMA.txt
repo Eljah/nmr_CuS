@@ -1,0 +1,65 @@
+ANILITE EFG INTERMEDIATE NUMERICAL RECORDS
+
+Rebuild: python theory/export_efg_intermediates.py
+Verify saved summations: python theory/validate_efg_intermediates.py
+
+G is the Hessian of the electrostatic potential with trial q_j=z_j e. Distances
+are in Angstrom. Numeric tensors have unit Angstrom^-3 for dimensionless z_j;
+multiply by the factor in structure_and_conventions.json to obtain the BARE,
+UNSCREENED lattice EFG in V/m^2. This is not the full nuclear EFG. No absolute
+physical NQR frequency is inferred from that SI conversion.
+
+expanded_atoms.csv: the complete 44-atom unit cell. atom_index is zero-based and
+is the join key used by the real-space term records. orbit_index is zero-based;
+symmetry_operator_ids are one-based positions in the eight-operation CIF list.
+symmetry_expansion_before_deduplication.csv preserves every application of all
+eight operations, including coincident images on special positions.
+charge_scenarios.csv: each of six trial neutral cells, by crystallographic orbit.
+
+ewald_real_terms.csv.gz: every real-space contribution at alpha=0.3 A^-1 for all
+five Cu observation sites and six charge scenarios. delta = source atom + image
+translation - observation. The image integers multiply the cell lengths. Self
+images at r=0 are excluded. The saved uncharged radial A and B generate the term
+z_j[A r_a r_b+B delta_ab]. All six independent tensor components include z_j.
+
+ewald_reciprocal_terms.csv.gz: all nonzero reciprocal vectors retained at the
+same alpha, including both signs, in each site/scenario sum. k_i=2*pi*h_i/a_i.
+The structure factor uses sum_j z_j exp(-i k dot r_j). charge_cos_at_observation
+= Re[exp(+i k dot r_obs) structure_factor]. The coefficient already includes
+-4*pi/V * exp[-k^2/(4 alpha^2)]/k^2; multiplying by charge_cos*k_a*k_b gives each
+saved tensor component. Individual atomic inputs for the structure factor are
+fully specified by expanded_atoms.csv and charge_scenarios.csv.
+
+ewald_subtotals.csv: real sum, reciprocal sum, positive self-Gaussian correction,
+total before trace projection, negligible roundoff trace projection, and total.
+The self correction is +4*alpha^3*z_self/(3*sqrt(pi)) times the identity.
+The raw trace is tested before applying the numerical traceless projection.
+ewald_alpha_convergence.csv and ewald_convergence_tensors.json save complete
+tensor results for alpha=0.2,0.3,0.4 A^-1, R_c=6/alpha, K_c=12*alpha.
+tensors_and_eigensystems.json saves all eigenvalues, principal axes, invariants,
+bare SI values and relative NQR proxies. Eigenvector signs are arbitrary; signs
+are canonicalized by making the largest-magnitude Cartesian component positive.
+
+direct_radial_shell_basis_by_source_orbit.csv.gz contains independent unscreened
+Coulomb-kernel sums with unit source charge, grouped by observation site, source
+orbit and radial shell. Multiply by the charge_scenarios.csv trial z to obtain
+each scenario. Lower boundaries are excluded and upper boundaries included.
+direct_radial_shell_scenarios.csv includes weighted shell and cumulative tensors.
+direct_radius_convergence.csv compares spheres up to 100 A against Ewald and the
+archived direct-sum results. Finite spherical sums converge slowly and need not
+equal the periodic reference at any one finite cutoff.
+
+frequency_scaling_all_144_assignments.csv retains ALL 24 high-site assignments
+for EACH of six charge scenarios. No scenario is selected as experimentally
+established. P=|G_ZZ|sqrt(1+eta_pc^2/3). A single positive empirical scale is fit
+to four high-frequency 63Cu NQR values with unweighted least squares. The same
+scale times P_Cu3 gives a conditional low-frequency estimate. Its calibration,
+per-group residuals, fractional residuals, and discrepancies from two conditional
+NMR eta branches are explicit. Eta discrepancies do not enter the frequency-only
+ranking. frequency_scaling.json records assumptions and all scenario minima.
+The resulting ranges are MODEL SENSITIVITY, not statistical uncertainty.
+
+numerical_validation.json describes internal and archived-result checks.
+saved_term_replay_validation.json is created by the separate validator, which
+reads the gzip CSV files and independently re-sums the saved terms.
+MANIFEST.json lists SHA-256 hashes of result files and numerical script inputs.

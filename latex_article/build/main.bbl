@@ -1,0 +1,98 @@
+\begin{thebibliography}{11}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Morimoto et~al.(1969)Morimoto, Koto, and Shimazaki]{Morimoto1969}
+N.~Morimoto, K.~Koto, and Y.~Shimazaki.
+\newblock Anilite, {Cu7S4}, a new mineral.
+\newblock \emph{American Mineralogist}, 54:\penalty0 1256--1268, 1969.
+\newblock URL
+  \url{https://pubs.geoscienceworld.org/msa/ammin/article-abstract/54/9-10/1256/540561/}.
+
+\bibitem[Koto and Morimoto(1970)]{Koto1970}
+K.~Koto and N.~Morimoto.
+\newblock The crystal structure of anilite.
+\newblock \emph{Acta Crystallographica Section B}, 26:\penalty0 915--924, 1970.
+\newblock \doi{10.1107/S0567740870003370}.
+
+\bibitem[Evlampiev(2009)]{Evlampiev2009}
+I.~A. Evlampiev.
+\newblock Nuclear quadrupole resonance of copper in geerite.
+\newblock Master's thesis, Kazan State University, Kazan, 2009.
+\newblock In Russian; author-provided thesis, 41 pp. Original title: Yadernyi
+  kvadrupol'nyi rezonans medi v girite.
+
+\bibitem[Gainov et~al.(2009)Gainov, Dooglav, Pen'kov, Mukhamedshin, Mozgova,
+  Evlampiev, and Bryzgalov]{Gainov2009}
+R.~R. Gainov, A.~V. Dooglav, I.~N. Pen'kov, I.~R. Mukhamedshin, N.~N. Mozgova,
+  I.~A. Evlampiev, and I.~A. Bryzgalov.
+\newblock Phase transition and anomalous electronic behavior in the layered
+  superconductor {CuS} probed by {NQR}.
+\newblock \emph{Physical Review B}, 79:\penalty0 075115, 2009.
+\newblock \doi{10.1103/PhysRevB.79.075115}.
+
+\bibitem[Gainov et~al.(2013)Gainov, Dooglav, Vagizov, Pen'kov, Golovanevskiy,
+  Orlova, Evlampiev, Klekovkina, Klingelh{\"o}fer, Ksenofontov, and
+  Mozgova]{Gainov2013}
+R.~R. Gainov, A.~V. Dooglav, F.~G. Vagizov, I.~N. Pen'kov, V.~A. Golovanevskiy,
+  A.~Yu. Orlova, I.~A. Evlampiev, V.~V. Klekovkina, G.~Klingelh{\"o}fer,
+  V.~Ksenofontov, and N.~N. Mozgova.
+\newblock {NQR/NMR} and {M{\"o}ssbauer} spectroscopy of sulfides: potential and
+  versatility.
+\newblock \emph{European Journal of Mineralogy}, 25:\penalty0 569--578, 2013.
+\newblock \doi{10.1127/0935-1221/2013/0025-2325}.
+
+\bibitem[Gainov et~al.(2014)Gainov, Klekovkina, Evlampiev, Dooglav, Pen'kov,
+  Shumilova, and Khassanov]{Gainov2014}
+R.~R. Gainov, V.~V. Klekovkina, I.~A. Evlampiev, A.~V. Dooglav, I.~N. Pen'kov,
+  T.~G. Shumilova, and R.~R. Khassanov.
+\newblock Structural aspects in {NQR} studies of covellite {CuS} and digenite
+  {Cu1.8S}.
+\newblock In \emph{Magnetic Resonance: Fundamental Research and Pioneering
+  Applications, MR-70. Book of Abstracts}, page 104, Kazan, 2014.
+\newblock URL \url{https://csl.isc.irk.ru/BD/Books/MR-70_Abstracts.pdf}.
+\newblock ISBN 978-5-00019-221-4.
+
+\bibitem[Takeda et~al.(2012)Takeda, Ichijo, Noda, and Takegoshi]{Takeda2012}
+K.~Takeda, N.~Ichijo, Y.~Noda, and K.~Takegoshi.
+\newblock Elemental analysis by {NMR}.
+\newblock \emph{Journal of Magnetic Resonance}, 224:\penalty0 48--52, 2012.
+\newblock \doi{10.1016/j.jmr.2012.09.004}.
+
+\bibitem[Locher(1974)]{Locher1974}
+P.~R. Locher.
+\newblock Ratio of the magnetic dipole moments of {$^{63}$Cu} and {$^{65}$Cu}
+  and the hyperfine-structure anomalies.
+\newblock \emph{Physical Review B}, 10:\penalty0 801, 1974.
+\newblock \doi{10.1103/PhysRevB.10.801}.
+
+\bibitem[Harris et~al.(2001)Harris, Becker, Cabral~de Menezes, Goodfellow, and
+  Granger]{Harris2001}
+R.~K. Harris, E.~D. Becker, S.~M. Cabral~de Menezes, R.~Goodfellow, and
+  P.~Granger.
+\newblock {NMR} nomenclature. nuclear spin properties and conventions for
+  chemical shifts. {IUPAC} recommendations 2001.
+\newblock \emph{Pure and Applied Chemistry}, 73:\penalty0 1795--1818, 2001.
+\newblock \doi{10.1351/pac200173111795}.
+
+\bibitem[Evans(1981)]{Evans1981}
+H.~T. Evans, Jr.
+\newblock Copper coordination in low chalcocite and djurleite and other
+  copper-rich sulfides.
+\newblock \emph{American Mineralogist}, 66:\penalty0 807--818, 1981.
+
+\bibitem[Gainov et~al.(2010)Gainov, Dooglav, Pen'kov, Orlova, Evlampiev,
+  Mozgova, and Khasanov]{Gainov2010}
+R.~R. Gainov, A.~V. Dooglav, I.~N. Pen'kov, A.~Yu. Orlova, I.~A. Evlampiev,
+  N.~N. Mozgova, and R.~R. Khasanov.
+\newblock Determination of the local crystal-chemical features of complex
+  chalcogenides by copper, antimony, and arsenic {NQR}.
+\newblock In A.~M. Luiz, editor, \emph{Superconductor}, chapter~17, pages
+  327--344. InTech, 2010.
+\newblock ISBN 978-953-307-107-7.
+\newblock URL \url{https://www.intechopen.com/chapters/11877}.
+
+\end{thebibliography}

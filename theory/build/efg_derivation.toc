@@ -1,0 +1,24 @@
+\contentsline {section}{\numberline {1}Definitions and the structural input}{2}{section.1}%
+\contentsline {section}{\numberline {2}From the Coulomb potential to the EFG kernel}{2}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Potential Hessian and sign convention}{2}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Units and what an SI conversion means}{3}{subsection.2.2}%
+\contentsline {section}{\numberline {3}Periodic Ewald sum, including the self correction}{3}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Potential splitting}{3}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Real-space derivatives, with all radial coefficients}{4}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Reciprocal-space Hessian}{4}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Why the self correction has a positive Hessian}{4}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Convergence is distinct from model validity}{5}{subsection.3.5}%
+\contentsline {section}{\numberline {4}Principal axes, asymmetry, and symmetry restrictions}{5}{section.4}%
+\contentsline {section}{\numberline {5}Worked Cu3 calculation and the five-site comparison}{6}{section.5}%
+\contentsline {section}{\numberline {6}From the EFG to the spin-$3/2$ NQR frequency}{6}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Quadrupolar Hamiltonian and conventions}{6}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}What frequency measurements identify}{7}{subsection.6.2}%
+\contentsline {section}{\numberline {7}Finite-field levels and the unoriented-powder calculation}{7}{section.7}%
+\contentsline {section}{\numberline {8}Why a small-EFG site need not create distant wings}{8}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Explicit high-field derivation for an axial EFG}{8}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}A numerical scale example, not a Cu3 frequency measurement}{9}{subsection.8.2}%
+\contentsline {section}{\numberline {9}Empirical scaling of the lattice proxy and the low-frequency band}{9}{section.9}%
+\contentsline {subsection}{\numberline {9.1}An explicit conditional test}{9}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}What the historical low-frequency observation establishes}{10}{subsection.9.2}%
+\contentsline {section}{\numberline {10}Physical limitations and a path to a quantitative assignment}{10}{section.10}%
+\contentsline {section}{\numberline {11}Reproducibility and saved intermediates}{11}{section.11}%

@@ -1,0 +1,1083 @@
+J. ugric. Engng Res. (1988) 41, 151-172
+
+
+
+                Remote, Non-contact                    and in-situ Measurement
+                     of Soil Moisture                  Content: a Review
+
+                                             J.V. STAFFORD*
+
+
+       The range of techniques available for measuring        soil moisture content is reviewed.
+    Consideration is given to in situ, remote and non-contact methods. Emphasis is placed on the
+    last method as the aim of the review was to identify possible techniques for the rapid
+    determination of soil moisture content to depths of lo-100 mm below the surface by equipment
+    mounted on mobile field machinery with a view to routine operational use on the farm. Of the
+    techniques available, active microwave scattering/absorption    and near infra-red reflectance
+    methods have potential for development into suitable sensors.
+
+
+                                              1. Introduction
+  Agricultural soils are three component  materials consisting of solid (mineral and organic),
+water and gas. As such, their mechanical, physical and chemical behaviour is complex and is
+critically determined by the proportion of water in the soil matrix. Determination of
+moisture content is thus critical to soil related topics. Water is normally held in soil in one of
+two forms. First, free water is contained in the pores of the soil matrix and is mobile within
+that matrix. Thus, free water drains readily and is easily available to crop roots. Secondly,
+water can be “bound” to the soil particles owing to chemical and physical attractive forces.
+Such forces decrease rapidly with distance from a given particle and thus bound water may
+exist as a layer only a few molecules thick around each particle/aggregate. Such water is not
+readily removable via evapotranspiration       routes and does not drain freely through the soil
+profile. Because of the greater degree of chemical activity in fine particle soils (clays and silts)
+more bound water is held in such soils. The total moisture content of a soil is therefore the
+sum of bound and free water contents. Some techniques measure total water content and
+some only free water content. This fact may well dictate the type of technique that is used.
+   The measurement of moisture content is required in many different areas of agriculture for
+both research and development requirements and for routine on-farm monitoring. These
+include irrigation scheduling, evapotranspiration      studies, studies of the effect of cultivation
+implements, meteorological studies, yield forecasting, water run-off and infiltration studies,
+field trafficability and workability, and soil compaction studies. In some of these areas,
+simple volumetric or weight basis moisture content is required. However, in some, such as
+evapotranspiration     studies, a more appropriate indicator of moisture availability is soil
+moisture tension since the ability of a root to extract moisture from the soil matrix depends
+on the moisture tension rather than on the total moisture content of the soil. Thus moisture
+tension or potential is a more relevant parameter to measure in some cases. However, in
+many situations, measurement of total moisture content is easier and more practicable than
+measurement of moisture tension.
+   References to measurement of soil moisture content are widespread in the literature and a
+number of reviews have been produced on the subject, including those by Schmugge et al.,’
+McKim et aZ.,* Wheeler and Duncan,’ Erbach4 and Gardner.’ These reviews very
+adequately cover the literature up to recent years and it is not the intention of the present
+  * AFRC Institute of Engineering Research, Wrest Park, Silsoe, Bedford MK45 4HS, UK
+  Received 6 October 1987; accepted in revised form 3 July 1988
+                                                       151
+0021~8634/88/   II01 51 + 22 $03.00/O              0   1988 The British Society for Research   in Agricultural   Engineering
+152                                         MEASUREMENT       OF   SOlL   MOISTURE   CONTENT
+
+
+review to cover the whole area of soil moisture measurement. The present review was
+motivated by the requirement for non-contact soil moisture sensors having a rapid response
+for on-farm monitoring. Such sensors are necessary to enable dynamic measurement of soil
+moisture content from mobile field machinery. Primary applications include sensing the
+moisture profile for drilling of seed such that seed depth may be suitably controlled,
+monitoring for irrigation scheduling, and for spray and fertilizer application. Studies have
+shown’ that improved seed placement through monitoring soil moisture content could lead
+to savings of ;E14m per annum in establishing UK arable crops. Similarly, improvements in
+irrigation scheduling through a knowledge of soil moisture could lead to yield improvements
+in summer brassicas alone equivalent to f3m (1984 prices).
+    For the applications described in the previous paragraph, a high level of accuracy is not
+necessarily required. For instance, for control of seed drills, it is only necessary to know that
+seed is being placed in a moist zone, in soil with a moisture content greater than, say, 15%
+w/w in a sandy soil. However, it would be necessary to sense the moisture profile within the
+seed depth limits to an accuracy of, say, 10 mm. In the case of moisture sensing for irrigation
+purposes, then accuracies of 24% w/w may be required, with moisture content being sensed
+to determine both when to start and when to stop irrigation.
+
+
+                                   2. Modes of measurement
+   Methods of measuring soil moisture content may be divided into three different categories,
+viz. sampled, in situ, and remote. Remote measurement encompasses both non-contact
+methods and measurement from a great distance.
+   In sampled systems, the measurement            technique is essentially laboratory     based.
+Representative samples are collected in the field and stored in moisture proof containers
+prior to moisture determination in the laboratory. The most common technique, gravimetric
+determination using oven drying, is accurate and is the British Standard preferred method.7
+   In-situ methods generally involve semi-permanent installation of probes such as moisture
+blocks or neutron probe access tubes. In some methods, such as time domain reflectometry
+(TDR) and electrical capacitance, probes are inserted in the soil for the duration of the test
+only. With semi-permanent installation of probes, representative testing across a field is
+limited because of sensor cost. Methods based on temporary insertion of probes are labour-
+intensive if representative results are to be obtained.
+   The term “remote sensing” is usually applied to situations where the sensor is situated
+metres to kilometres away from the soil surface. Monitoring from aircraft or satellite is
+useful for soil moisture mapping of large areas at relatively low resolution and accuracy. The
+term “non-contact” is usually applied to situations where the sensor is mounted on a field
+machine to provide continuous and localized monitoring across a field. Remote and non-
+contact methods are based on the reflection/absorption      of electro-magnetic radiation (from
+microwave frequencies through to visible radiation) and generally relate to surface or near-
+surface moisture only.
+
+
+                                  3. Measurement techniques
+                                        3.1. Gravimetric
+  Gravimetric techniques in which a sample of soil is weighed and then the moisture is
+removed by some means and weighed again, are widely used as reference methods. In
+particular, BS 1377 : 1975 (Ref. 7) standardizes the procedure for weighing, oven drying and
+reweighing soil samples. The standard requires that samples are oven dried for a period of
+usually 16-24 h at 105°C and hence the process is slow. Various methods are used in place of
+J.   V.   STAFFORD                                                                         153
+
+oven drying to produce more rapid results. Such methods include the use of microwave
+ovens and of desiccants to drive off the moisture.
+  Gardner’ gives a detailed description of gravimetric techniques and also questions their
+use as reference methods. The questions centre around the problem of determining how
+much bound water is removed by oven drying.
+  Gravimetric techniques do not come under the heading of non-contact or in-situ rapid
+methods and therefore will not be considered further.
+
+                                   3.2. Nucleonic methods
+   In the neutron method, a source of fast neutrons and a detector of thermal neutrons are
+employed. The fast neutrons impact hydrogen atoms in the soil resulting in emission of
+thermal neutrons which are detected. In its usual form, the source and detector are
+contained adjacent to each other in a cylindrical probe which can be inserted into the soil via
+a previously installed access tube. Such an arrangement is typified by the Wallingford
+probe.* As the main hydrogen containing constituent of the soil is water, the instrument
+indicates the level of moisture content. However, there are other sources of hydrogen
+containing materials such as organic matter, which is normally present in topsoils. Thus,
+neutron probes have to be calibrated for specific soil types. For applications where moisture
+has to be determined at various depths in the soil over an extended period of time, the
+neutron probe together with permanently installed access tubes, provides a convenient and
+accurate method of moisture content determination. The method is described well in
+Graecen’ and the errors associated with the method are discussed by Parkes and Siam.”
+   The sphere of influence of a neutron probe is difficult to define as it depends on the
+distribution and level of moisture in the soil together with the type of soil and organic
+material present. Gardner’ has indicated that the neutron count is primarily influenced by a
+sphere of soil of radius 0.16 m at near saturation and 0.7 m at near zero moisture content.
+Klenke et al.” attempted to collimate the radiation from a neutron probe by simple
+shielding and achieved an effective zone of influence of O-2 m horizontal by O-4 m vertical
+over an influence angle of 150”. The zone was defined as the volume from which 95% of the
+neutrons returned to the detector.
+   Moisture content may also be determined using gamma ray attenuation, a method
+normally used for determining soil wet bulk density. For the method to be applicable to
+measurement of moisture content, the soil dry bulk density must remain reasonably
+constant. This is not normally true for agricultural topsoils and therefore the method is not
+applicable.
+
+                                    3.3. Thermal methods
+   As thermal inertia (thermal conductivity* x heat capacity*) of a porous medium depends
+on moisture content, soil surface temperature can be used as an indication of moisture
+content. Idso et al.” installed thermocouples in irrigated plots and observed that the
+maximum daily temperature was inversely proportional to moisture content in both the
+O-20 and O-40 mm soil layers. The thermocouple data correlated well with remotely sensed
+infra-red temperatures. Such methods are not appropriate where vegetative cover is present
+because of the effects of both the cover and of evapotranspiration.  Phene et al.13 described
+an indirect thermal method for measuring moisture potential. A block of ceramic embedded
+in soil and in equilibrium with soil moisture potential contained a heater and a
+thermocouple. Thermal dissipation, as indicated by temperature, was proportional to the
+moisture content of the block and hence to the moisture potential of the surrounding soil.
+   Thermal emission from a soil surface in the microwave region may be detected remotely
+by the use of microwave radiometry. The parameter which is effectively measured is the
+154                                                   MEASUREMENT                OF        SOIL   MOISTURE   CONTENT
+
+
+
+
+                            20       40              60            60                100          120
+                                          Soil   moisture,   % of field   capacity
+
+Fig. I. Aircraft observations of brightness temperature over agricultural fields. Dawn flights. observed
+values on 18 March (0) and 22 March (A), 1975. Calculated values for smooth (a) and rough (m)
+                                         surfaces (from Ref. 17)
+
+
+
+
+brightness temperature, i.e. the product of the temperature and emissivity of the surface.
+Thermal microwave emission in the surface layers (fractions of a wavelength) is moderated
+by the dielectric gradients in the soil which in turn are dependent on soil moisture content.
+Njoku and Kong” have modified the theory of microwave thermal emission for a soil with
+non-uniform moisture and temperature distribution and have validated the model from
+ground-based radiometric observations at frequencies below 4 GHz, for a sand varying in
+moisture content from 0 to 300/,. Change in surface emissivity with soil moisture content has
+also been observed by Schmugge et al. using both aircraft based” and satellite based”
+radiometers. An example of results from aircraft based radiometers is shown in Fig. I
+(Choudhury et a/.“) where emission at a wavelength of 21 cm was sensed. The calculated
+values for brightness temperature were obtained from Wilheit’s’* numerical solution of the
+model for emission from a soil surface.’ The model, which uses experimentally determined
+soil moisture and temperature profiles, showed that the brightness temperature was
+essentially determined by the top 20 mm of soil.
+   The spatial resolution with aircraft based sensors if, of course, low and is even lower with
+satellite-based radiometers (tens of kilometres).
+J.   V.   STAFFORD                                                                         I55
+
+                         3.4. Nuclear magnetic resonance techniques
+   The use of nuclear magnetic resonance (NMR) to monitor moisture content centres
+around the ability of the technique to identify the concentration of hydrogen atoms and thus
+of moisture in the soil. Although the method has similar disadvantages to the neutron
+method (see Section 3.2 above) such as being sensitive to organic matter, it has the
+advantage of being able to analyse between hydrogen atoms and water molecules in different
+binding states such as tightly bound hydrated water, loosely bound adsorbed water and
+mobile free water. The NMR method that has been applied to measurement of soil moisture
+content is the pulsed technique and Matzkanin and Paetzold” have used equipment
+applying both 90” and 180” pulsed reorientation methods to relate moisture content to both
+the spin echo and free induction decays. Using laboratory equipment, they obtained a linear
+relationship with moisture content for both methods.
+   The same authors (Paetzold et aL2’ and Paetzold et aLn) developed a tractor-mounted,
+pulsed nuclear magnetic resonance instrument for determining soil moisture content. The
+sensed material (the soil) then has to be external to both the magnet and RF coil and a flat
+configuration was developed which rested in contact with the soil. By controlling the
+strengths of magnetic and RF fields, soil moisture content could be measured at depths of
+38, 51 and 63 mm. To improve the magnetic field uniformity, and hence the measurement
+accuracy, extension pole pieces could be added which penetrated 10 cm into the soil. The
+authors did not indicate the volume of influence in either configuration other than to state
+that the sensitivity of the instrument to water content decreased with depth.
+   The equipment was used for mapping soil moisture over large areas and comparing with
+remote sensing from aircraft or satellite. Initial tests on the equipment in the field showed
+good correlation between the NMR signal and gravimetrically determined moisture content
+although physical problems of contact between soil and the bottom of the sensor were
+experienced when working in more cohesive soils such as a clay loam. Wear of the pole
+pieces in more abrasive soils would presumably cause accuracy problems, although the
+authors do not comment. Further limited comparisons between NMR and gravimetrically
+determined moisture content in five fields did not indicate good accuracy for the NMR
+method.”
+   The NMR technique does appear to have the potential for non-contact                    rapid
+measurement of moisture content. However, the technique, although developing rapidly over
+recent years, is still not at a point where a practical field machine-mountable instrument can
+be used. The equipment used by Paetzold et al. 20 had a mass of 300 kg primarily because of
+the magnet design, required pulsing at 3 MHz at a power level of 200 kW and needed
+cultivator discs to loosen soil in front of the pole pieces of the magnet.
+
+
+                                     3.5. Optical methods
+3.5.1. Polarized light
+   Scholefield” has described a polarized light sensor for determining surface soil moisture
+content. It is based on the principle that the presence of moisture at a surface of reflection
+tends to cause polarization in the reflected beam. In his device, an achromatic light source is
+directed at the soil surface. The reflected light passes through a polarizer onto a photocell.
+The polarizer can be rotated so that horizontal and vertical polarization signals can be
+determined by the photocell. The percentage of polarized visible light is determined from
+these two measurements and has been found to relate to moisture content, although the
+calibration is also affected by soil type and the roughness of the surface. The source and
+detectors are contained in a light proof enclosure which is placed on the soil surface. The
+author does not refer to the accuracy of the method.
+156                                          MEASUREMENT         OF   SOIL   MOISTURE   CONTENT
+
+
+3.5.2. Fibre optic sensors
+   Prunty and Alessi w have indicated the potential of optical fibres for sensing soil moisture
+content. A section of unclad fibre is embedded in soil; Prunty and Alessi used a 1 mm
+diameter quartz rod. Light attenuation in the fibre varies with the amount of soil water in
+contact with the fibre because of its effect on refractive index and thus on the critical angle of
+internal reflection. The authors only reported tests on small samples of remoulded soil in the
+laboratory where the results indicated a monotonic relationship between light transmission
+and moisture content.
+3.5.3. Near infra-red methods
+   As there are a number of water absorption bands in the near infra-red (NIR), the strongest
+being at 1450, 1940 and 2950 nm, near infra-red reflectance techniques may be used for
+monitoring soil moisture content. Such methods depend on molecular absorption at distinct
+wavelengths by water in the surface layers and are therefore not applicable where the
+moisture distribution is very non-homogeneous. The use of near infra-red reflectance is a
+very well developed laboratory technique for determining the proportion of moisture (as well
+as other constituents) and commercial instruments are available for measurements on
+sampled material. However, Bowman et al.** and Stafford et al.” have developed the near
+i&a-red technique for use in non-contact sensing systems by incorporating light emitting
+diodes (LEDs) emitting in the near infra-red as sources. Such instruments can be designed to
+be all solid state with no electro-mechanical. components and thus have potential for
+application to soil moisture measurement. Whalley26 has used a modified form of the
+instrument developed by Bowman et aL” to determine its ability to monitor soil moisture
+content using prepared soil samples in the laboratory. Although using a ratio method, he
+observed that the relationship between reflectance ratio and moisture content depended on
+the soil type. Further analysis indicated that the reflectance ratio was influenced by the soil
+“micro relief” or small-scale roughness. The reflectance ratio was found to vary with the
+number of water filled pores on the soil surface and thus with the moisture release
+characteristic of the soil. Whalleyt6 suggested that near infra-red reflectance would thus give
+a better relationship with moisture tension than with moisture content.
+   Christensen and Hummel*’ have described a soil moisture sensor based on near infra-red
+reflectance which uses a conventional light source and chopper disc together with a fibre
+optic bundle to convey the light to the sensing point and to route reflected radiation to
+detectors via suitable filters. Samples from 30 soil types were investigated in the laboratory
+and the ideal wavelength pair for moisture determination was derived by regression analysis
+(2066 and 1880 nm). The difference in optical density at the two wavelengths was related to
+moisture content of the samples. A quartic regression model was used to relate the two but
+there was considerable experimental scatter in the relationship.
+    A portable soil moisture meter based on NIR reflectance was described by Kano et al.”
+using one wideband light source and two lead sulphide detectors with 10 nm interference
+filters set at 1800 and 1940 nm. Limited measurements on clay and loam samples indicated a
+linear response using the ratio technique up to 35% moisture content but the paper lacks
+description of certain essentials such as the method of chopping the output from the light source.
+    The published material on near infra-red reflectance of soils indicates that the method has
+potential as a non-contact rapid moisture sensing technique but with the apparent
+ disadvantages of dependence on surface roughness, indication of surface moisture only and
+ non-linear effects due to water filled pores at the surface.
+
+                                    3.6. Electrical techniques
+  Various electrical methods may be used for measuring soil moisture content and they form
+a very important sub-group of measurement methods. All the methods rely on the effect of
+J.   V.   STAFFORD                                                                                  157
+
+
+
+                        24 -
+
+                                                                          /         II
+
+                                                                      1        I’
+
+                        20 -
+
+
+
+
+                                                  lmaglnary   part
+
+
+
+
+                                    0.1          0.2          0.3             0.4        0.5
+                                             Soil moisture,   g/cm3
+
+Fig. 2. Representative dielectric constant values as a function of volumetric water content. Frequency:
+               1.3 GHz. Soil type: -,     sand; - - -, loam: - - - -, clay (from RejI 28)
+
+
+
+moisture content on a component of soil permittivity; either dielectric constant or dielectric
+loss. The complex permittivity, E, may be described by:
+                                          s(O) = s’(u) +js”(O),                                      (1)
+where E’is the real part, the dielectric constant; E” is the imaginary part, the dielectric loss; j
+is the complex operator; w is the angular frequency.
+   Both the real and imaginary parts of the permittivity are sensitive to moisture content.
+The dielectric constant of dry soil is around 3 to 4, whereas that of pure water is around 80;
+thus the dielectric constant of a moist soil depends on the proportion of moisture. The
+dielectric loss depends on the conductivity of the medium which in soil is affected by the
+proportion of moisture present.
+   The dielectric constant of a soil depends not only on its volumetric moisture content but
+also on its temperature and density, on the soil texture and amount of organic matter. There
+is considerable literature on the effect of moisture content on dielectric constant which all
+shows that it increases with soil moisture content; there is no agreement, however, on the
+form of the relationship. Cihlar and Ulaby2’ surveyed the available literature in 1974 and
+published data on the effects of moisture content, density, soil type, temperature and
+frequency on dielectric constant. Fig. 2 from their paper typifies the effect of moisture
+content on dielectric constant; the effect of temperature was small. The effect of soil type was
+also small at higher frequencies (> 4 GHz). The effect of density was small but significant
+158                                             MEASUREMENT         OF      SOIL   MOISTURE    CONTENT
+
+
+
+
+                                                       10’0
+                                                Frequency,    Hz
+
+                                                       (0)
+
+
+
+
+                     108             109               IO’0           IO”               10’2
+                                                 Frequency,    Hz
+
+                                                       (b)
+
+Fig. 3. The dielectric spectrum of water at two temperatures. (a) Dielectric constant; (6) dielectric loss
+                                             (from Ref 28)
+
+
+with dielectric constant increasing with density. Frequency also had a large effect on
+dielectric constant; the effect on water is shown in Fig. 3 and on moist soil in Fig. 4. Njoku
+and Kong” also studied the effect of frequency on dielectric constant and dielectric loss for
+various soil moisture contents and their results are shown in Fig. 5. They show reasonable
+agreement with Fig. 4 in the shape of the relationship (over a more restricted frequency
+range), although the dielectric loss curve is shifted to higher frequencies.
+J.   V.   STAFFORD                                                                                                                                   159
+
+                      ‘OS\
+                               \
+                                    \
+                                        \
+                      IO4 -                 \,lmaglnary                              part
+                                                     \
+                                                             \
+                      IO3 J                                      \
+                                    \
+                                                                         \
+                                        \
+                 2                                                           \
+                  ;                              \                                    \
+                                                         \
+                 z-   IO’-                                           .                        \
+                 2            /-N                                                ..\
+                 i5                              \                                                    ‘;L13t
+                 a                                       \
+                       IO’ -                                     \
+                 ;                                                       \
+                 a                                                               \
+                 E                               Loss tangent                             \
+                                                                                                      \
+                 0”    loo-                                                                               \
+
+
+
+                      10-l -                                                                                   “\,_T
+
+
+                                             I                       I                            I             I            I     I     I
+                      IO+
+                              IO'           IO4                  105                      IO6                  IO'          IO8   109   IO'O   IO"
+
+                                                                                                      Frequency,       Hz
+
+Fig. 4. Components of the complex permittivity as a function of frequency for a silty clay at 15% w/w
+                                  moisture content (from Ref. 28)
+
+   Cihlar and Ulaby” observed that dielectric constant varied with free water content of the
+soil and was little affected by bound moisture. This is significant because it is the free water
+that is of interest in studies of crop growth.
+   The measurements of Newton,= typified by Fig. 6, show that the dielectric constant/
+moisture content relationship has two pronounced regions due possibly to the proportion of
+free water in the soil. The transition from one slope to another varied with the type of soil
+and probably relates to the chemo-physical activity of soil particles.
+   Topp et al.” used time domain reflectometry to determine apparent dielectric constant for
+a number of soil types at different moisture contents and some of their results are shown in
+Fig. 7. Dielectric constant varied from about 3 up to 40 for a moisture content range of
+O-50%; there was negligible effect of soil type. Their results did not show the two region
+behaviour observed by Newton.= Topp et al. ” found no significant effect of density,
+temperature or soluble salt content on dielectric constant. They deduced a regression
+equation from their experimental data as
+                                                 E, = 3.03 + 9.38, + 146.oe,’- 76.7e,”)                                                              (2)
+where E, is the apparent dielectric constant, 0, is the volumetric moisture content.
+   Ansoult et aLJ2 developed a theoretical relationship between apparent dielectric constant
+and soil moisture content which predicted Topp’s experimental results very well.
+   More recently, Hallikainen et dss redetermined dielectric constant over the microwave
+frequency range of 1418 GHz for five soil types over a range of soil moisture content. Their
+purpose was to clarify the discrepancies between earlier reported dielectric constant/soil
+moisture content relationships and to relate dielectric constant directly to soil physical
+properties. Fig. 8 illustrates their results which were obtained using both wave guide and free
+space measuring techniques.
+   Fig. 9 illustrates the effect of frequency on both dielectric constant and dielectric loss
+where opposite effects were observed. Bulk density did not significantly affect the
+160                                                             MEASUREMENT                  OF     SOIL          MOISTURE   CONTENT
+
+
+                                                                                             Moisture        content
+
+                          18
+
+
+
+
+                      ;   12-
+
+
+                      0                                                                      -30
+                                                                                             -25
+                                                                                             -20
+                                                                                             -15
+                      P                                                                      -          IO
+                                             *
+                             4”                                                              -5
+                                                                                             -0.3
+                             2-
+
+
+                                      0.5    I.0       2.0           5.0         IO    20
+                                                   Frequency.        GHz
+
+                                                             (0)
+
+
+
+
+                                                                                                  Moisture        content
+                                                                                                             wd
+
+
+
+
+                      0.01        I    0.5   I.0       2.0             5.0        IO    20
+                                                     Frequency,            GHz
+
+                                                               (b)
+
+Fig. 5. Complex permittivity          of soil as a function of frequency and moisture content. (a) Dielectric
+                                      constant; (6) dielectric loss (from ReJ 14)
+J.   V.   STAFFORD                                                                                  161
+
+
+
+
+                           20 -
+
+
+
+
+                           I5 -
+
+                     1
+                      s
+                     z
+                     is
+                     s
+                     La
+                     s
+                     ;j-   io-
+                     z
+                     az
+
+
+
+
+                                                                                       0
+
+
+
+
+                                 0   5   IO          15         20           25   30       :
+                                          Percent   moisture   (by weight)
+
+Fig. 6. Relative permittivity of clay loam as a function of moisture by weight. Frequency, 1.4 GHz; real
+                                part, ??; imaginary part, e (from Ref. 30)
+
+
+
+relationship between volumetric moisture content (m,) and E’or E”. Dielectric constant is a
+function of the water volume fraction in the soil. Hence dry bulk density (p) affects the
+gravimetric moisture content (m,)/dielectric constant relationship as:
+                                                m,=pm,.                                              (3)
+   Soil texture had a greater effect on the .z’/m, relationship at low frequencies than at high,
+as in Fig. 2. At a given moisture content, E’was found to be approximately proportional to
+sand content.
+   In the second part of their paper, Hallikainen et al. M developed both a four-component
+mixing model and a semi-empirical model to predict dielectric constant. The mixing model
+took account of the dielectric contribution from both bound and free water in the soil matrix
+but produced systematic prediction errors. The semi-empirical model, however, predicted
+the experimental values very well above 4 GHz.
+3.6.1. Dielectric loss methods
+   3.6.1.1. Resistance blocks. The d.c. resistance of soil varies with moisture content but, due
+to polarizing effects at the electrodes, resistance methods use a.c. excitation. At lower
+frequencies, electrodes have to be implanted in the soil and problems with obtaining uniform
+162                                             MEASUREMENT               OF   SOIL   MOISTURE   CONTENT
+
+
+
+
+                                  0     0-I   0.2       0.3        0.4   0.5   0.6
+                                                Water    content
+
+Fig. 7. Relationship between apparent dielectric constant and volumetric moisture content. Solid line,
+ empirical best-fit equation. Dashed lines, spread of measured values with different soils (from RejI 31)
+
+
+soil to electrode contact means that such methods cannot be used for accurate determination
+of moisture content. Thus, resistance soil moisture sensors are normally formed by
+embedding two electrodes in a rigid porous medium which is then buried in the soil. Over a
+period of time, equilibrium is achieved between the porous block and the surrounding soil
+and the impedance between the electrodes relates to the moisture content of the block.
+Porous materials used include gypsum, fibre glass matt and open pore ceramics. Such
+sensors have been reviewed by Storm and Younos. ss Although it would be expected that the
+moisture content of sensors is proportional to soil moisture tension, Coulson and Salemj6
+demonstrated good correlation with soil moisture content. They compared the output of a
+gypsum block sensor with a neutron probe and gravimetric determination on one plot over
+35 days at soil depths of 5 and 40 cm.
+   Nadler3’ has described a four-electrode sensor which can be inserted directly into the soil
+which is claimed to accurately measure volumetric moisture content. However, there are few
+details in his paper. Resistance sensors are sensitive to temperature and correction is
+necessary. A correction model has been described by Storm et al.=
+   3.6.1.2. Electromagnetic loop. Foerster et al. ~9 have described, in very brief detail, the use
+of an electromagnetic loop to determine soil moisture content. This is based on the same
+principle as the classic metal detector where the proximity of a conducting medium to a coil
+affects its power factor.
+
+3.6.2. Dielectric constant methods
+   3.6.2.1. Capacitance. Soil moisture content may be determined via its effect on dielectric
+constant by measuring the capacitance between two electrodes implanted in the soil. Where
+the soil moisture is predominantly in the form of free water, such as in sandy soils, then
+dielectric constant is directly proportional    to moisture content. A number of such
+capacitative sensors have been described in the literature with excitation frequencies from
+less than 1 kHz up to 10’s of MHz. Such an example is that described by Bell and Deanm
+J.   V.   STAFFORD                                                                                            163
+
+
+
+
+                             0
+                                                         .A
+                                 IO -
+
+                                                t-
+                                            %                  .    r( &-.I,
+
+                                                     ??a
+                                  0     AA-w             1          I      I          I
+                                      0   0.1          0.2         0.3   0.4     0.5
+                                          Volumetric         moisture,   cm’   cme3
+
+Fig. 8. Comparison of soil dielectric measurements made by the waveguide (A)              andfree space techniques
+                           (a). Frequency, 6 GHz; soil, loam (from RejI 33)
+
+
+who developed a cylindrical probe with two annular electrodes spaced 12 mm apart on the
+probe. The probe is lowered down an access tube (as used for neutron moisture probes-see
+Section 3.2) so that the moisture content can be determined at any depth thus yielding a
+moisture profile. The capacitative sensor forms part of a circuit resonating at 14-18 MHz;
+the electronics are contained within the tubular probe. The probe is claimed to give much
+better resolution than a neutron probe and to yield moisture content comparing well with
+gravimetric moisture determination.
+   Wobschall” developed a similar system working at 30 MHz and based around an
+implantable sensor with cylindrical electrodes. The oscillator and frequency shift circuit
+boards were mounted within the body of the sensor. Halbertsma et al.” also used a number
+of capacitative devices with cylindrical electrodes implanted at various depths between 2 and
+60 cm below the soil surface. The closest vertical spacing of the probes was 1 cm but
+evidence was not presented that such resolution might be achievable with a capacitative
+probe. The accuracy of the sensor was shown to be l-2% volumetric moisture content.
+   Walsh et al.- considered both low (kHz) and high (So-100 MHz) frequency excitation for
+capacitative soil moisture probes and briefly described the advantages and disadvantages.
+   3.6.2.2. Time domain rejlectometry (TDR). In time domain reflectometry (TDR), a pulse
+of radio frequency energy is injected into a transmission line and its propagation velocity is
+measured by detecting the reflected pulse from the end of the line and measuring delay time
+between transmitted and reflected pulses. The velocity depends on the dielectric constant and
+loss of the transmission line dielectric, as well as on the frequency. Where the loss is small
+relative to dielectric constant E’, the velocity, u, may be approximated by
+                                                       v = c/T,                                                (4)
+where c is the velocity in free space (i.e. 3 x 10’ m/s).
+  Topp et al.= used a coaxial transmission line containing soil as dielectric material and
+164                                              MEASUREMENT                      OF       SOIL   MOISTURE   CONTENT
+
+
+                                                            Volumetric   mmture
+                                                            content,
+                                                                  cm’ cm-’             _
+                                                                A0.02     00.27
+                                                                00.08     00.34
+
+
+
+
+                                                                                           32
+
+
+
+                              6-                                                           24
+
+
+
+                              4-                                                           16
+
+
+
+                              2-
+
+
+
+
+                                   0    4         8             12          16             ”
+                                            Frequency       f, GHZ
+
+                                                      (b)
+
+Fig. 9. Measured real (a) and imaginary (6) parts of the complex permittivity as a function of frequency
+with volumetric moisture as a parameter. Soil, loam; temperature, 23°C; free-space method, 3-18 GHz;
+                              waveguide method, I.4 GHz (from ReJ 34)
+
+
+determined the relationship between soil moisture content and dielectric constant. They
+utilized commercial TDR equipment operating in the range 30 MHz-l GHz and obtained
+results as shown previously in Fig. 7. Soil type (four mineral soils), density, temperature and
+salinity had no significant effect on the moisture versus dielectric relationship.
+   Topp et al.” modified the technique for field use by using parallel transmission lines in the
+form of twin probes separated by 51 mm, which were manually inserted into the soil. By
+using different lengths of probe, they were able to measure moisture content at different
+depths (50-300 mm). Moisture content determined by TDR correlated well with gravimetric
+moisture content (r >> 0.9) but there was considerable scatter. Experimental results indicated
+J.   V.   STAFFORD                                                                                                           165
+
+
+                    I-- -III
+                     50.0
+
+
+
+
+              E
+              f
+               k?
+              n
+               c                                                          --
+              ;;                                                                                               I.3 GHz
+                                                                        ---___
+
+
+
+                                                                                         -        -_           4.0 GHz
+                                                                                                           i
+                      0.01   -
+
+                    0.005    -                                                               --                IO.0 GHz
+                                                                               -                           I
+
+
+                     O.OOll        I     I   I     1       a       I       I        I                  I           ,
+
+                             0.0       0.1       0.2             0.3               0.4                            0.5
+                                                       Soil moisture,   g/cm3
+
+Fig. IO. Skin depth as a function of volumetric water content, frequency                           and soil type. Sand, -;
+                               loam, - - --; clay, - - - - (from ReJ 29)
+
+
+that an accuracy of 2% volumetric moisture content can be achieved with TDR.” Using the
+parallel transmission line arrangement, the volume of soil influencing the velocity of
+propagation is a cylinder the length of the probes and with a diameter of 1.4 times the probe
+spacing.45
+   Simpson and Meyera made a systematic comparison between the TDR method using
+twin probes and a nuetron probe in an irrigated cotton crop. Twenty TDR probes were
+installed at five depths (0.08-0.68 m) in close proximity to a neutron probe. Measurements
+were made every other day for 3 months. Although the correlation between neutron and
+TDR measurements was high (rZ -O-96), there was significant scatter which may have been
+partly due to the problems in neutron probe calibration. Nonetheless, the results justify the
+use of TDR in place of neutron probe.
+   Topp et al. ” have also used the TDR technique to determine wetting fronts and steep
+moisture gradients in soil.
+
+   3.6.2.3. Active microwave (radar). The attenuation of microwave energy may be used to
+indicate the moisture content of porous media because of the effect of moisture content on
+dielectric constant. In essence, a source of microwave energy is directed at the sample under
+test which attenuates the transmission or reflection of the energy in proportion to the
+dielectric constant. Such an arrangement can be set up in a transmission, forward reflection
+or back scatter mode although, in the case of in situ soil measurement, the forward reflection
+and back scatter modes are the only practical ones. The attraction of using microwave
+methods is that they are non-contact and, as remote sensing techniques from aircraft or
+satellite, they are not affected by time of day or weather. Their disadvantage is primarily
+based on the shallow depth to which microwaves penetrate. Generally speaking, microwave
+166                                                    MEASUREMENT               OF SOIL   MOISTURE   CONTENT
+
+
+
+                                             Incidence     angle
+
+
+
+
+                                 IO               15           20              30
+                                   Percent      moisture      content   by weight,   m.
+
+Fig. II.   Scattering coe$icient as a function of moisture content to a depth of 50mm.                  5.9 GHz
+                                             (from RejI 48)
+
+
+methods can be considered to indicate moisture content to a depth of one skin depth only.
+The skin depth is defined as the reciprocal of the microwave attenuation coefficient which is
+given by
+
+                                                                                                            (5)
+where A is the wavelength of the microwave energy. The skin depth varies with wavelength
+and with the dielectric constant and loss of the material. As soil moisture content increases,
+therefore, the effective depth of measurement decreases. This is illustrated in Fig. IO from
+Cihlar and Ulaby.”
+   Ulaby et al. 4a investigated the potential of microwave back scatter measurement on bare
+soil to indicate soil moisture content to skin depth. They used frequencies of 4.7, 5.9 and
+7.1 GHz and angles of incidence from 0 to 70”. They related the scattering coefficient, cr, to
+soil moisture content as determined gravimetrically. An example is shown in Fig. II where
+the microwave signal polarization was horizontal, i.e. the electric field was parallel to the soil
+surface. These curves do not make allowance for the fact that the effective depth of
+measurement varies with moisture content, hence Ulaby et aLa used a skin depth model to
+transform the data. Fig. 12 shows the relationship between scattering coefficient and
+volumetric moisture content with fitted regression lines for both horizontal and vertical
+polarization (electric field parallel and perpendicular, respectively, to the soil surface). There
+was significant scatter in the experimental data. The higher sensitivity to moisture content
+was obtained with the lowest back scatter angle.
+   Ulaby and Batlivala * investigated the effect of soil surface roughness on the back scatter
+coefficient by making measurements on three fields of differing roughness level (rms height
+variation) in the frequency range 2-8 GHz. Compared with the effect of moisture content,
+surface roughness has a significant influence on scattering coefficient. However, the effect of
+J.   V.   STAFFORD                                                                                                       167
+
+                                      b-.()0
+
+                                      o--e            100
+
+                                      -     - 300
+                      24              Lx- -   500
+                                       w       700
+                                      lncldent angle
+
+
+
+                        16                                                                                     0
+                                                            /
+                                                        1.                                                /*
+                                                  i         O                                         /
+
+
+
+
+                       -E
+
+
+
+
+                      -IE               I                           I        I                 I                     I
+                             ,O      0.2                          0.4    0.0                 0.2                   0.4
+                                            Effective           volumetric       moisture   content
+
+Fig. 12. Scattering coeficient as a function of effective moisture content, 5.9 GHz. Polarization: left,
+                               horizontal; right, vertical (from Ref 48)
+
+
+roughness also depends on the angle of incidence with an inversion of the characteristic
+between nadir and lo”. The authors conclude that the effect of surface roughness can be
+minimized by utilizing an angle of incidence in the range 7-15” and a frequency of 4 GHz.
+Their results suggested that the direction of polarization was immaterial.
+   Koolen et al.” also investigated the effect of surface roughness compared with the
+moisture response using an X-band (3 cm 10 GHz) radar mounted on rails alongside
+experimental plots. They observed that the shape of the relationship between angle of
+incidence and scattering coefficient varied with surface roughness, whilst its level varied with
+moisture content. Their results were, however, inconclusive.
+   Soil moisture content determination by microwave forward reflection was investigated by
+Wallender et al.” They set up a 3 GHz transmitter and receiver on towers at a separation of
+30 m. The receiver received both a direct beam and a reflected beam thus resulting in
+interference. The depth of fading of the intereference waves can be related to the reflection
+coefficient and thus to soil moisture content. Analysis of results showed that the coefficient
+varied with moisture content but was also affected by surface roughness and the presence of
+vegetation on the experimental plot. Although the receiver and transmitter were set for a
+grazing angle of 15”, it was observed that an area of approximately 12 m x 12 m actually
+influenced the measured reflection coefficient.
+   In contrast to the microwave methods discussed so far, where the area of influence on the
+microwave parameters is relatively large, Parchomchuk and Wallender’* have modelled a
+168                                         MEASUREMENT        OF   SOIL   MOISTURE   CONTENT
+
+
+microwave sensor for determining soil moisture of a relatively small volume. Their concept is
+to use an open ended wave guide operating at around 1 GHz placed near or on the soil
+surface. By using directional couplers, the reflection coefficient can be measured in the one
+set of wave guide components. They considered a layered soil and derived a reflection
+coefficient model for a two-layer soil which accounts for the variation in reflection coefficient
+with frequency. Sufficient information on the reflection coefficient, and thus on soil moisture,
+can be derived by taking measurements at two frequencies, the frequency shift depending on
+the moisture content and thickness of soil layer under consideration. If such a sensor can be
+practically implemented, then the method has potential for localized measurement of
+moisture content.
+   Rasmussen and Campbellw have proposed the use of 10 GHz Gunn diode resonant
+waveguide cavities as used in Doppler radar systems for speed measurement because of their
+low cost. They evaluated the performance of a system set up in transmission made with a soil
+sample placed between emitter and detector. Good correlation between microwave
+attenuation and moisture content was obtained over a range of 5525% w/w (r2 = 0.94). It is
+not made clear in the authors’ paper how this system could be implemented in the field.
+   Schmugge” has recently reviewed studies of microwave methods to measure soil moisture
+content including the effect of sampling depth, vegetation cover and surface roughness. In
+the review of literature for this report, the effect of the density of the medium on microwave
+transmission/reflection   characteristics has not been mentioned. The use of microwave
+attenuation to measure moisture content in other materials such as forage and grain has not
+been successful because of the influence of density.
+   Meyer and Schilz ” have shown from experimental data that though dielectric constant
+and loss are both affected by moisture content and material density, the function
+
+                                         A(Y) =   7
+is density independent. The expression is independent of density because (E’- 1) and a” are
+linear functions of density over wide ranges of density and moisture content (‘u). The
+function A(Y) can be derived by measurement of transmission loss and phase shift. Practical
+measuring systems using waveguide horns based on the technique have been described by
+Meyer and Schilz.”
+
+
+                             4. Options for non-contact techniques
+   This review was undertaken because of a requirement for non-contact soil moisture
+sensors for relatively localized soil areas. The techniques and studies referred to above
+indicate the very wide range of types of moisture sensor that are either available
+commercially or have been investigated experimentally. Very few, however, are available
+commercially; one example is the neutron probe. For localized, non-contact measurement,
+many of the techniques can be discounted. In particular, sampled and in situ methods cannot
+be considered and methods that survey or measure moisture over relatively large areas are
+not appropriate because discrimination of spatial variation of moisture content is required.
+The techniques that come within the scope of the present requirement are those based on
+near infra-red reflectance, active microwave attentuation, nuclear magnetic resonance and,
+possibly, electromagnetic loops.
+   Near infrared methods have the advantage of very localized measurement and, utilizing a
+light emitting diode as source, are compact and robust instruments. They do, however, only
+measure surface moisture which would not be acceptable where soil moisture is not in
+equilibrium or where free water is present or where there is a very steep moisture profile with
+depth. Measurements are also affected by surface roughness although this can be minimized
+J.    V.   STAFFORD                                                                                  169
+
+by using ratio techniques. They require a clear view of the soil surface, viz. they should not
+be used where surface vegetation is present.
+   Active microwave systems have the great advantage of being able to penetrate into the
+layers below the surface although the depth of penetration is dependent on frequency and
+moisture content. They can also be used as true remote soil moisture sensors in that they can
+be mounted on board aircraft or satellites. However, in the traditional back scatter or
+forward reflection modes of operation, the microwave “footprint”, or area of influence, is
+relatively large. There is clearly potential for overcoming these limitations by the use, for
+instance, of open end wave guides. Microwave attenuation techniques are again susceptible
+to surface roughness and, perhaps to a lesser extent, to surface vegetation.
+   Nuclear magnetic resonance is an attractive non-contact technique in that the type of
+moisture as well as the amount can be identified. However, for field application,
+considerable development in terms of reduction in size and cost will be necessary. The
+equipment is, of essence, heavy and expensive because of the requirement for high quality,
+powerful magnets. The fact that equipment has been developed for mounting on the back of
+a tractor (Paetzold et aLzO) may point the way to future development of miniaturized
+equipment.
+   The electromagnetic loop is a non-contact localized measuring device but it is sensitive to
+soil salinity as well as moisture and, of course, to any other conductive objects. There is
+insufficient investigation reported in the literature to make a judgement on its potential.
+   Most consideration in this subject review has been given to the measurement of moisture
+content but moisture tension is a more useful parameter for many agricultural applications
+such as available moisture for germination and in evapotranspiration studies. There is some
+indication that dielectric constant of soil is affected more by free water than by bound water
+and therefore methods based on dielectric constant, such as microwave, may well bear
+relationship to moisture tension. It has been suggested= that the change in shape of
+dielectric constant against moisture content is due to the presence of free water at higher
+moisture contents, whereas at lower moisture contents a higher proportion of water is bound
+water. There is also the observation from Whalley’* that near infra-red reflectance of the soil
+relates more closely to moisture tension than to moisture content.
+
+
+                                              5. Conclusions
+   Measurement of soil moisture content is very important for many different applications
+both in agriculture and in other disciplines as evidenced by the very large number of
+techniques that have been reported in the literature. Methods that are suitable for non-
+contact, localized measurement of soil moisture content are limited to near infra-red
+reflectance, active microwave methods and nuclear magnetic resonance. The most promising
+methods for development into commercial field instruments are near infra-red reflectance
+and active microwave attenuation.
+
+
+                                                 References
+     ’ Schmugge, T. J.; Jackson, T. J.; McKim, H. L. Survey of methods for soil moisture determination.
+         Water Resources Research 1980, 16(6): 961-979
+     2 McKim, H. L.; Walsh, J. E.; Arion, D. N. Review of techniques for measuring soil moisture in situ.
+         United States Army Corps of Engineers, Cold Regions Research and Engineering Laboratory,
+         Special Report 80-31, August 1980
+     3 Wheeler, P. A.; Duncan, G. L. Interactions of the electromagnetic spectrum with soils. ASAE Paper
+         No. 84-2078, 1984
+     4 Erbach, D. C. Measurement of soil moisture and bulk density. ASAE Paper No. 83-1553, 1983
+170                                             MEASUREMENT        OF   SOIL   MOISTURE     CONTENT
+
+
+ s Gardner, W. H. Water content. In: Methods of Soil Analysis. Part 1. Physical and Mineralogical
+      Methods (Klute, A., ed.). Agronomy Series No. 9. Am. Sot. Agronomy, 2nd edn, 1986,
+     pp. 493-544
+ 6 Lake, J. R. Sensor needs of the agriculture and food industries-moisture        temperature, humidity
+     and composition. NIAE Div. Note DN 1314, 1986
+ ’ Methods of test for soils for civil engineering purposes. British Standards Institution BS 1377 : 1975
+ * Bell, J. P. A new design principle for neutron soil moisture gauges: “The Wallingford” neutron
+     probe. Soil Science 1969, 108(3): 160
+ s Graecen, E. L. (editor). Soil water assessment by the neutron method. CSIRO, Australia, 1981
+lo Parkes, M. E.; Siam, N. Error associated with measurement of soil moisture change by neutron
+     probe. Journal of Agricultural Engineering Research 1979, 24( 1): 87-93
+” Klenke, J. M.; Flint, A. L.; Nicholson, R. A, A collimated neutron probe for soil-moisture
+     measurements. Proc. Int. Conf. Measurement of soil and plant water status, Utah State
+     University, July 1987, Vol. 1, pp. 21-28
+‘* Idso, S. B.; Schmugge, T. J.; Jackson, R. D.; Reginato, R. J. The utility of surface temperature
+     measurement for the remote sensing of soil water status. Journal of Geophysical Research 1975,
+     80: 3044-3049
+l3 Phene, C. J.; Hoffman, G. J.; Austin, R. S. Controlled automated irrigation with soil matric
+     potential sensor. Transactions of the ASAE 1973, 16(4): 773-776
+l4 Njoku, E. G.; Kong, J. Theory for passive microwave remote sensing of near-surface soil moisture.
+     Journal of Geophysical Research 1977, 82(20): 3108-3118
+l5 Schmugge, T. J.; Gloersen, P.; Wilheit, T.; Geiger, F. Remote sensing of soil moisture with
+     microwave radiometers. Journal of Geophysical Research 1974, 79: 3 17-323
+I6 Schmugge, T. J.; Meneely, J. M.; Rango, A.; Neff, R. Satellite microwave observations of soil
+     moisture variations. Water Resources Bulletin 1977, 13: 265
+l7 Choudhury, B.; Schmugge, T. J.; Newton, R. W.; Chang, A. Effect of surface roughness on the
+     microwave emission from soils. Journal of Geophysical Research 1979, 84: 569995706
+‘a Wilheit, T. T. Radiative transfer in a plane stratified dielectric. IEEE Transactions on Geoscience
+     Electronics 1978, GE-16 138-143
+ls Matzkanin, G. A.; Paetzold, R. F. Measuring soil water content using pulsed nuclear magnetic
+     resonance. ASAE Paper No. 82-2619, 1982
+2o Paetzold, R. F.; Matzkanin, G. A.; De La Santos, A. Surface soil water content measurement using
+     pulsed nuclear magnetic resonance techniques. Soil Science Society of America Journal 1985,
+     49(3): 537-540
+21 Paetzold, R. F.; Gish, T. J.; Jackson, T. J. NMR measurement of soil water content. Proc. Int.
+     Conf. Measurement of Soil and Plant Water Status, Utah State University, July 1987, Vol. 1,
+     pp. 255-260
+22 Scholefield, D. Measurement of surface moisture content using polarised light. British Soil Water
+     Physics Group Day Meeting, Wallingford, September 1986
+23 Prunty, L.; Alessi, R. S. Prospects for fibre optic sensing in soil. Proc. Int. Conf. Measurement of
+      Soil and Plant Water Status, Utah State University, July 1987, Vol. 1, pp. 261-265
+24 Bowman, G. E.; Hooper, A. W.; Hartshorn, R. L. A prototype infrared reflectance moisture meter.
+     Journal of Agricultural Engineering Research 1985, 31: 67-79
+26 Stafford, J. V.: Weaving, G. S.: Bull, C. R. A portable solid-state moisture meter for grass and
+      forage. Int. Conf. onxgric. l&g. Ag Eng 88, Paris, March 1988. Paper No. 88.128           -
+26
+   Whalley, W. R. Estimation of soil moisture status using infrared reflectance. MSc Thesis, Silsoe
+      College, 1985
+27
+   Christensen, D. A.; Hummel, J. W. A real-time soil moisture content sensor. ASAE Paper No.
+      85-1589, 1985
+   Kano, Y.; McClure, W. F.; Skaggs, R. W. A near infra-red reflectance soil moisture meter.
+      Transactions of the ASAE 1985, 28(6): 1852-1855
+   Cihlar, J.; Ulaby, F. T. Dielectric properties of soils as a function of moisture content. RSL
+      Technical Report 17747, 1974, University of Kansas Centre for Research, Lawrence, Kansas,
+      USA
+   Newton, R. W. Microwave remote sensing and its application to soil moisture detection. PhD
+      Thesis, 1977, Texas A&M University, USA
+   Topp, G. C.; Davis, J. L.; Anan, A. P. Electromagnetic determination of soil water content:
+      measurements in co-axial transmission lines. Water Resources Research 1980, 16(3): 574-582
+J.   V.   STAFFORD                                                                                  171
+
+32
+     Ansoult,  M.; Debacca, L. W.; Declerq, M. Statistical relationship between apparent dielectric
+      constant and water content in porous media. Soil Science Society of America Journal 1985,49( 1):
+      47-50
+33
+    Hallikaiaen, M. T.; Ulaby, F. T.; Dobson, C. M.; El-Rayes, M. A.; Wu, L. Microwave dielectric
+      behaviour of wet soil-Part         1: Empirical models and experimental      observations.   IEEE
+      Transactions on Geoscience and Remote Sensing 1985, GE-23(l): 25-34
+34
+    Hallikainen, M. T.; Ulaby, F. T.; Dobson, C. M.; El-Rayes, M. A. Microwave dielectric bchaviour
+       of wet soil-Part    2: Dielectric mixing models. IEEE Transactions on Geoscience and Remote
+       Sensing 1985, GE-23(l): 3546
+35
+    Storm, D. E.; Younos, T. M. Evaluation of soil moisture sensors for use in data acquisition
+       systems-A      technical guide. Virginia Polytechnic Institute and State University,        USA.
+       Information Series 84-4, 1984
+35
+    Carlson, T. N.; El Salam, J. Measurement of soil moisture using gypsum blocks. Proc. Int. Conf.
+       Measurement of Soil and Plant Water Status, Utah State University, July 1987, Vol. I,
+       pp. 193-200
+37
+    Nadler, A. Alternative method for determining soil moisture. Water and Irrigation Review 1984, 3:
+       22-23
+38
+    Storm, D. E.; Byler, R. K.; Younos, T. M. A temperature correction model for 4 resistance type
+       soil-moisture sensors. ASAE Paper No. 84-2518, 1984
+39 Foerster, E.; Dvoracek,     M.; Archer, J. Electromagnetic loop for soil moisture detection. ASAE
+       Paper No. 85-1540, 1985
+40
+    Bell, J. P.; Dean, T. J. Determination of soil moisture content by capacitance method. British Soil
+       Water Physics Group Day Meeting, Wallingford, September 1986
+41
+    Wobscball, D. A frequency shift dielectric soil moisture sensor. IEEE Transactions on Geoscience
+       Electronics 1978, GE-16(2): 112-l 18
+42
+    Halbertsma, J.; Przybyla, C.; Jacobs, A. Application and accuracy of a dielectric soil water content
+       meter. Proc. Int. Conf. Measurement of Soil and Plant Water Status, Utah State University, July
+        1987, Vol. 1, pp. 11-15
+43
+    Walsh, J. E.; McQueeney, D.; Layman, R. D.; McKim, H. L. Development of a simplified method
+       for field monitoring of soil moisture. Proc. 2nd Colloquium of Planetary Water and Polar
+       Processes, 1979, pp. 40-43
+44
+    Topp, G. C.; Davis, J. L.; Bailey, W. G.; Zebchuk, W. D. The measurement of soil water content
+       using a portable TDR hand probe. Canadian Journal of Soil Science 1984, 64: 313-321
+45
+    Topp, G. C. The application of time domain reflectometry to soil water content measurement. Proc.
+       Int. Conf. Measurement of Soil and Plant Water Status, Utah State University, July 1987, Vol. 1,
+       pp. 85-93
+49
+    Simpson, J. R.; Meyer, J. J. Water content measurements comparing a TDR array to neutron
+       scattering. Proc. Int. Conf. Measurement of Soil and Plant Water Status, Utah State University,
+       July 1987, Vol. 1, pp. 111-114
+47
+    Topp, G. C.; Davis, J. L.; Allen, A. P. Electromagnetic determination of soil water content using
+       TDR: 1. Applications to wetting fronts and steep gradients. Soil Science Society of America
+       Journal 1982, 46: 672-678
+43
+    Ulaby, F. T.; Sila, J.; Moore, R. K. Active microwave measurement of soil water content. Remote
+       Sensing of Environment 1974, 3: 185-203
+49
+    Ulaby, F. T.; Batlivala, P. P. Optimum radar parameters for mapping soil moisture. IEEE Trans.
+       on Geoscience Electronics 1976, GE-14(2): 81-93
+so
+    Koolen, A. J.; Koenigs, F. R.; Bouten, W. Remote sensing of surface roughness and topsoil moisture
+       of bare tilth soil with an X-band radar. Netherlands Journal of Agricultural Science 1979, 27:
+       284-296
+51
+    Wallender, W. W.; Sackman, G. L.; Kone, K.; Keminaka, M. S. Soil moisture measurement by
+       microwave forward-scattering. ASAE Paper No. 84-2523, 1984
+52
+    Parchomchuk, P.; Wallender, W. W. Electromagnetic sensing of sub-surface soil moisture. ASAE
+       Paper No. 86-2005, 1986
+ 53 Rasmussen, V. P.; Campbell, R. H. A simple microwave method for the measurement of soil
+       moisture. Proc. Int. Conf. Measurement of Soil and Plant Water Status, Utah State University,
+       July 1987, Vol. 1, pp. 275-278
+54 Schmugge, T. J. Remote sensing of soil moisture: recent advances. IEEE Transactions                on
+       Geoscience and Remote Sensing 1983, GE-21(3): 336-343
+172                                          MEASUREMENT        OF   SOIL   MOISTURE   CONTENT
+
+
+b6 Meyer, W.; Schilz, W. A microwave method for density independent determination of the moisture
+     content of solids. Journal of Physics (D): Applied Physics 1980, 13: 1823-1830
+ss Meyer, W.; Schilz, W. Feasibility study of density-independent        moisture measurement with
+     microwaves. IEEE Transactions       on Microwave Theory and Techniques 1981, M’IT-39(7):
+     132-739
+

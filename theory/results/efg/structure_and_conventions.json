@@ -1,0 +1,94 @@
+{
+  "source_CIF": "research_literature/anilite_amcsd0009376_transcribed.cif",
+  "source_CIF_sha256": "e0e0dcd7bdd916af50dce0e7c1fc13e31fb4073754a305330e27000ac47c67fe",
+  "cell_orthorhombic_A": [
+    7.89,
+    7.84,
+    11.01
+  ],
+  "volume_from_lengths_A3": 681.0521759999999,
+  "source_note": "Preserved transcription of AMCSD0009376 / Koto--Morimoto1970; room-temperature structural reference, not a 5K refinement.",
+  "asymmetric_unit": {
+    "Cu1": [
+      0.4832,
+      0.75,
+      0.0942
+    ],
+    "Cu2": [
+      0.4258,
+      0.25,
+      0.3335
+    ],
+    "Cu3": [
+      0.479,
+      0.75,
+      0.3545
+    ],
+    "Cu4": [
+      0.2371,
+      0.4303,
+      0.1553
+    ],
+    "Cu5": [
+      0.177,
+      0.4767,
+      0.4186
+    ],
+    "S1": [
+      0.246,
+      0.25,
+      0.9873
+    ],
+    "S2": [
+      0.785,
+      0.25,
+      0.9841
+    ],
+    "S3": [
+      0.9988,
+      0.998,
+      0.2611
+    ]
+  },
+  "multiplicities": {
+    "Cu1": 4,
+    "Cu2": 4,
+    "Cu3": 4,
+    "Cu4": 8,
+    "Cu5": 8,
+    "S1": 4,
+    "S2": 4,
+    "S3": 8
+  },
+  "coordinates": "Cartesian components use orthonormal crystallographic a,b,c directions; lengths in Angstrom.",
+  "tensor_convention": "G is the Hessian of electrostatic potential, not the gradient of E=-grad(phi). q_j=z_j e with trial dimensionless z_j.",
+  "numerical_tensor_unit": "Angstrom^-3 for dimensionless z_j; also commonly called e/Angstrom^3 when retaining the charge unit.",
+  "SI_conversion": "V_lattice,ab [V/m^2] = G_ab * e/(4*pi*epsilon_0) * 10^30",
+  "SI_factor_V_per_m2_per_proxy_unit": 1.4399645468667816e+21,
+  "constants": {
+    "elementary_charge_C": 1.602176634e-19,
+    "epsilon0_F_per_m": 8.8541878188e-12,
+    "source": "scipy.constants from the recorded SciPy version"
+  },
+  "alpha_reference_Ainv": 0.3,
+  "convergence_alphas_Ainv": [
+    0.2,
+    0.3,
+    0.4
+  ],
+  "Ewald_cutoffs": "R_c=6/alpha and K_c=12*alpha; strict inequalities; the singular self image is omitted.",
+  "zero_mode": "All six cells are neutral; the reciprocal k=0 term is omitted.",
+  "principal_axis_order": "|G_ZZ| >= |G_YY| >= |G_XX|; eta=(G_XX-G_YY)/G_ZZ. Axis signs are canonicalized only for file reproducibility.",
+  "roundoff_projection": "Saved separately: -(Tr G_raw)/3 I. The raw trace is checked before this negligible numerical correction.",
+  "model_limitations": [
+    "Trial charges are not measured oxidation states.",
+    "No on-site orbital electronic EFG, covalence, screening or antishielding.",
+    "Bare SI numbers are unscreened lattice proxies, not the physical nuclear EFG.",
+    "Numerical convergence does not validate the physical model."
+  ],
+  "software": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  }
+}

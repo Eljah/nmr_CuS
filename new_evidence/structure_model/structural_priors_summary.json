@@ -1,0 +1,103 @@
+{
+  "table": [
+    {
+      "site": "Cu1",
+      "Wyckoff": "4c",
+      "site_symmetry": ".m.",
+      "multiplicity": 4,
+      "coordination": "distorted_tetrahedral",
+      "eta_uniform_charge_Ewald": 0.5571989328918173,
+      "relative_abs_Vzz_uniform_charge_Cu2_1": 0.6877473028156955,
+      "eta_min_six_charge_models": 0.09520469395740408,
+      "eta_max_six_charge_models": 0.7743755014959192,
+      "abs_Vzz_min_six_charge_models": 0.2848883526844709,
+      "abs_Vzz_max_six_charge_models": 0.3155433465340035,
+      "maximum_Ewald_alpha_change": 2.831068712794149e-15
+    },
+    {
+      "site": "Cu2",
+      "Wyckoff": "4c",
+      "site_symmetry": ".m.",
+      "multiplicity": 4,
+      "coordination": "triangular",
+      "eta_uniform_charge_Ewald": 0.059141749715086074,
+      "relative_abs_Vzz_uniform_charge_Cu2_1": 1.0,
+      "eta_min_six_charge_models": 0.018255775272799715,
+      "eta_max_six_charge_models": 0.16541997592954163,
+      "abs_Vzz_min_six_charge_models": 0.4035576984599128,
+      "abs_Vzz_max_six_charge_models": 0.49280548230978705,
+      "maximum_Ewald_alpha_change": 1.609823385706477e-15
+    },
+    {
+      "site": "Cu3",
+      "Wyckoff": "4c",
+      "site_symmetry": ".m.",
+      "multiplicity": 4,
+      "coordination": "distorted_tetrahedral",
+      "eta_uniform_charge_Ewald": 0.2546805676335894,
+      "relative_abs_Vzz_uniform_charge_Cu2_1": 0.0882423311640041,
+      "eta_min_six_charge_models": 0.06895158825755789,
+      "eta_max_six_charge_models": 0.8416186822677992,
+      "abs_Vzz_min_six_charge_models": 0.036142819225591205,
+      "abs_Vzz_max_six_charge_models": 0.08087930421755447,
+      "maximum_Ewald_alpha_change": 1.6705387073656652e-15
+    },
+    {
+      "site": "Cu4",
+      "Wyckoff": "8d",
+      "site_symmetry": "1",
+      "multiplicity": 8,
+      "coordination": "triangular",
+      "eta_uniform_charge_Ewald": 0.16291879085935876,
+      "relative_abs_Vzz_uniform_charge_Cu2_1": 0.8474204109425753,
+      "eta_min_six_charge_models": 0.03521826991743179,
+      "eta_max_six_charge_models": 0.5371483289180029,
+      "abs_Vzz_min_six_charge_models": 0.34560174731163285,
+      "abs_Vzz_max_six_charge_models": 0.3951328869679698,
+      "maximum_Ewald_alpha_change": 1.1657341758564144e-15
+    },
+    {
+      "site": "Cu5",
+      "Wyckoff": "8d",
+      "site_symmetry": "1",
+      "multiplicity": 8,
+      "coordination": "triangular",
+      "eta_uniform_charge_Ewald": 0.5849289740804063,
+      "relative_abs_Vzz_uniform_charge_Cu2_1": 0.9514469095038105,
+      "eta_min_six_charge_models": 0.565618743954348,
+      "eta_max_six_charge_models": 0.641819476725436,
+      "abs_Vzz_min_six_charge_models": 0.3914324677305958,
+      "abs_Vzz_max_six_charge_models": 0.448938758322361,
+      "maximum_Ewald_alpha_change": 2.3869795029440866e-15
+    }
+  ],
+  "directional_bounds": [
+    {
+      "site": "Cu1",
+      "signed_projection_min": -0.314414771761516,
+      "signed_projection_max": -0.2848784028205473
+    },
+    {
+      "site": "Cu2",
+      "signed_projection_min": 0.40149588722161167,
+      "signed_projection_max": 0.4923739611414611
+    },
+    {
+      "site": "Cu3",
+      "signed_projection_min": 0.028523014867917345,
+      "signed_projection_max": 0.0674605966719234
+    },
+    {
+      "site": "Cu4",
+      "signed_projection_min": 0.34181215408553856,
+      "signed_projection_max": 0.39420440316756983
+    },
+    {
+      "site": "Cu5",
+      "signed_projection_min": 0.38664186905796405,
+      "signed_projection_max": 0.44406642419542136
+    }
+  ],
+  "note": "Values are exploratory point-charge proxies. Six-charge-model ranges are model sensitivity, not uncertainty intervals.",
+  "Cu3_rank_argument": "The spectral norm of Cu3 is at most 0.08088 for any convex combination of the five charge-redistribution vertices. At each other site a projection on its uniform-model principal axis has one sign at all five vertices and a magnitude at least 0.28488 (Cu1), 0.40150 (Cu2), 0.34181 (Cu4), or 0.38664 (Cu5). Hence Cu3 remains the smallest tensor norm throughout that restricted charge simplex, not merely at its vertices."
+}

@@ -1,0 +1,18 @@
+{
+  "source": "New independent exporter compared with archived numerical tensors; no old script was executed.",
+  "charge_neutrality_max_abs_e": 1.7763568394002505e-15,
+  "maximum_difference_from_archived_Ewald_tensor": 3.3306690738754696e-15,
+  "maximum_alpha_change": 2.4424906541753444e-15,
+  "maximum_abs_trace_before_projection": 4.163336342344337e-15,
+  "maximum_4c_mirror_forbidden_component": 3.5329082778274014e-16,
+  "maximum_difference_from_archived_direct_spherical_sum": 2.220446049250313e-14,
+  "Cu3_smallest_abs_GZZ_in_all_six_scenarios": true,
+  "maximum_eigensystem_reconstruction_error": 3.3306690738754696e-16,
+  "saved_Ewald_term_counts": {
+    "real": 64860,
+    "reciprocal": 15840
+  },
+  "tolerance_for_numerical_agreement": 1e-10,
+  "physical_scope": "These checks validate summation/export consistency only, not the point-charge model as a physical description of nuclear EFGs.",
+  "all_checks_passed": true
+}

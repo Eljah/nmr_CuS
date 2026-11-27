@@ -1,0 +1,143 @@
+{
+  "source": "AMCSD 0009376, Koto & Morimoto (1970), public mirror transcription",
+  "cell_A": [
+    7.89,
+    7.84,
+    11.01
+  ],
+  "Cu_atoms_per_cell": 28,
+  "S_atoms_per_cell": 16,
+  "sites": [
+    {
+      "site": "Cu1",
+      "fractional_coordinates": [
+        0.4832,
+        0.75,
+        0.0942
+      ],
+      "multiplicity": 4,
+      "relative_population": 1,
+      "nearest_S_distances_A": [
+        2.284963,
+        2.317388,
+        2.516674,
+        2.516674,
+        4.168157,
+        4.168157
+      ],
+      "nearest_S_labels": [
+        "S2",
+        "S1",
+        "S3",
+        "S3",
+        "S3",
+        "S3"
+      ]
+    },
+    {
+      "site": "Cu2",
+      "fractional_coordinates": [
+        0.4258,
+        0.25,
+        0.3335
+      ],
+      "multiplicity": 4,
+      "relative_population": 1,
+      "nearest_S_distances_A": [
+        2.295014,
+        2.306485,
+        2.306485,
+        3.205508,
+        3.986111,
+        3.986111
+      ],
+      "nearest_S_labels": [
+        "S2",
+        "S3",
+        "S3",
+        "S1",
+        "S3",
+        "S3"
+      ]
+    },
+    {
+      "site": "Cu3",
+      "fractional_coordinates": [
+        0.479,
+        0.75,
+        0.3545
+      ],
+      "multiplicity": 4,
+      "relative_population": 1,
+      "nearest_S_distances_A": [
+        2.299855,
+        2.329097,
+        2.329097,
+        2.345895,
+        4.270433,
+        4.343918
+      ],
+      "nearest_S_labels": [
+        "S1",
+        "S3",
+        "S3",
+        "S2",
+        "S2",
+        "S1"
+      ]
+    },
+    {
+      "site": "Cu4",
+      "fractional_coordinates": [
+        0.2371,
+        0.4303,
+        0.1553
+      ],
+      "multiplicity": 8,
+      "relative_population": 2,
+      "nearest_S_distances_A": [
+        2.282101,
+        2.329029,
+        2.329516,
+        2.944194,
+        4.047084,
+        4.074009
+      ],
+      "nearest_S_labels": [
+        "S3",
+        "S1",
+        "S3",
+        "S2",
+        "S3",
+        "S3"
+      ]
+    },
+    {
+      "site": "Cu5",
+      "fractional_coordinates": [
+        0.177,
+        0.4767,
+        0.4186
+      ],
+      "multiplicity": 8,
+      "relative_population": 2,
+      "nearest_S_distances_A": [
+        2.241247,
+        2.243352,
+        2.352075,
+        3.224953,
+        3.793158,
+        3.974454
+      ],
+      "nearest_S_labels": [
+        "S3",
+        "S2",
+        "S1",
+        "S3",
+        "S3",
+        "S1"
+      ]
+    }
+  ],
+  "note": "Distances are a geometric calculation, not an EFG/NQR assignment. Population ratios are not automatically observed NMR intensity ratios."
+}

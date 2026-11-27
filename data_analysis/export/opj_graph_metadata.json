@@ -1,0 +1,329 @@
+{
+  "GraphT2": {
+    "window_header_offset": 925214,
+    "annotations": [
+      {
+        "name": "Text",
+        "offset": 925682,
+        "data1_text": null,
+        "data2_text": "T=5K\r\nf=51 MHz\r\nH=45.7 kOe",
+        "data3_text": ""
+      },
+      {
+        "name": "YR",
+        "offset": 925874,
+        "data1_text": null,
+        "data2_text": " ",
+        "data3_text": ""
+      },
+      {
+        "name": "XT",
+        "offset": 926041,
+        "data1_text": null,
+        "data2_text": " ",
+        "data3_text": ""
+      },
+      {
+        "name": "3D",
+        "offset": 926208,
+        "data1_text": null,
+        "data2_text": "",
+        "data3_text": ""
+      },
+      {
+        "name": "YL",
+        "offset": 927251,
+        "data1_text": "",
+        "data2_text": "Spin-echo intensity (a.u.)",
+        "data3_text": ""
+      },
+      {
+        "name": "XB",
+        "offset": 927443,
+        "data1_text": "",
+        "data2_text": "2*\\g(t) (mS)",
+        "data3_text": ""
+      },
+      {
+        "name": "__BCO2",
+        "offset": 927621,
+        "data1_text": null,
+        "data2_text": null,
+        "data3_text": ""
+      },
+      {
+        "name": "_202",
+        "offset": 928337,
+        "data1_text": "",
+        "data2_text": "",
+        "data3_text": ""
+      },
+      {
+        "name": "_202",
+        "offset": 928890,
+        "data1_text": "",
+        "data2_text": "",
+        "data3_text": ""
+      },
+      {
+        "name": "_202",
+        "offset": 929443,
+        "data1_text": "",
+        "data2_text": "",
+        "data3_text": ""
+      },
+      {
+        "name": "_232",
+        "offset": 929996,
+        "data1_text": "",
+        "data2_text": "",
+        "data3_text": ""
+      },
+      {
+        "name": "_231",
+        "offset": 930549,
+        "data1_text": "",
+        "data2_text": "",
+        "data3_text": ""
+      },
+      {
+        "name": "__LayerInfoStorage",
+        "offset": 931102,
+        "data1_text": null,
+        "data2_text": "",
+        "data3_text": ""
+      }
+    ],
+    "curves": [
+      {
+        "offset": 931276,
+        "data_text": "",
+        "x_dataset_index_1_based": 26,
+        "y_dataset_index_1_based": 29,
+        "x_dataset": "T2a_TwoTau",
+        "y_dataset": "T2a_IntIm"
+      }
+    ],
+    "x_axis_limits_raw": [
+      9.61937716262976,
+      1352.1799307958477,
+      400.0
+    ]
+  },
+  "GrSpectra": {
+    "window_header_offset": 940659,
+    "annotations": [
+      {
+        "name": "Text1",
+        "offset": 941127,
+        "data1_text": null,
+        "data2_text": "\\+(65)Cu",
+        "data3_text": ""
+      },
+      {
+        "name": "YR",
+        "offset": 941301,
+        "data1_text": null,
+        "data2_text": " ",
+        "data3_text": ""
+      },
+      {
+        "name": "XT",
+        "offset": 941468,
+        "data1_text": null,
+        "data2_text": " ",
+        "data3_text": ""
+      },
+      {
+        "name": "YL",
+        "offset": 941635,
+        "data1_text": "",
+        "data2_text": "Y Axis Title",
+        "data3_text": ""
+      },
+      {
+        "name": "XB",
+        "offset": 941813,
+        "data1_text": "",
+        "data2_text": "Frequency (MHz)",
+        "data3_text": ""
+      },
+      {
+        "name": "3D",
+        "offset": 941994,
+        "data1_text": null,
+        "data2_text": "",
+        "data3_text": ""
+      },
+      {
+        "name": "__BCO2",
+        "offset": 943037,
+        "data1_text": null,
+        "data2_text": null,
+        "data3_text": ""
+      },
+      {
+        "name": "Legend",
+        "offset": 943753,
+        "data1_text": "",
+        "data2_text": "Pulse seq repetition time\r\n\\l(1) 20 ms\r\n\\l(2) 500 ms",
+        "data3_text": ""
+      },
+      {
+        "name": "_232",
+        "offset": 943971,
+        "data1_text": "",
+        "data2_text": "",
+        "data3_text": ""
+      },
+      {
+        "name": "Text",
+        "offset": 944524,
+        "data1_text": null,
+        "data2_text": "\\+(63)Cu",
+        "data3_text": ""
+      },
+      {
+        "name": "Text2",
+        "offset": 944698,
+        "data1_text": null,
+        "data2_text": "T=5K\r\nH=67.20566 kOe",
+        "data3_text": ""
+      },
+      {
+        "name": "__LayerInfoStorage",
+        "offset": 944884,
+        "data1_text": null,
+        "data2_text": "",
+        "data3_text": ""
+      }
+    ],
+    "curves": [
+      {
+        "offset": 945058,
+        "data_text": "",
+        "x_dataset_index_1_based": 23,
+        "y_dataset_index_1_based": 24,
+        "x_dataset": "spec20ms_FreqMHz",
+        "y_dataset": "spec20ms_Real"
+      },
+      {
+        "offset": 945555,
+        "data_text": "",
+        "x_dataset_index_1_based": 20,
+        "y_dataset_index_1_based": 21,
+        "x_dataset": "spec500ms_FreqMHz",
+        "y_dataset": "spec500ms_Real"
+      }
+    ],
+    "x_axis_limits_raw": [
+      72.0,
+      85.0,
+      2.0
+    ]
+  },
+  "T2a": {
+    "window_header_offset": 912086,
+    "annotations": [
+      {
+        "name": "__WIPR",
+        "offset": 912615,
+        "data1_text": null,
+        "data2_text": "",
+        "data3_text": ""
+      },
+      {
+        "name": "__WIOTN",
+        "offset": 913055,
+        "data1_text": null,
+        "data2_text": "",
+        "data3_text": ""
+      },
+      {
+        "name": "__LayerInfoStorage",
+        "offset": 913669,
+        "data1_text": null,
+        "data2_text": "",
+        "data3_text": ""
+      }
+    ],
+    "curves": [
+      {
+        "offset": 913843,
+        "data_text": ""
+      },
+      {
+        "offset": 914340,
+        "data_text": ""
+      },
+      {
+        "offset": 914837,
+        "data_text": ""
+      },
+      {
+        "offset": 915334,
+        "data_text": ""
+      },
+      {
+        "offset": 915831,
+        "data_text": ""
+      }
+    ]
+  },
+  "Spec05122016": {
+    "window_header_offset": 782992,
+    "annotations": [
+      {
+        "name": "__WIPR",
+        "offset": 783530,
+        "data1_text": null,
+        "data2_text": "",
+        "data3_text": ""
+      },
+      {
+        "name": "__WIOTN",
+        "offset": 783970,
+        "data1_text": null,
+        "data2_text": "",
+        "data3_text": ""
+      },
+      {
+        "name": "__LayerInfoStorage",
+        "offset": 784584,
+        "data1_text": null,
+        "data2_text": "",
+        "data3_text": ""
+      }
+    ],
+    "curves": [
+      {
+        "offset": 784758,
+        "data_text": ""
+      },
+      {
+        "offset": 785255,
+        "data_text": ""
+      },
+      {
+        "offset": 785752,
+        "data_text": ""
+      },
+      {
+        "offset": 786249,
+        "data_text": ""
+      },
+      {
+        "offset": 786746,
+        "data_text": ""
+      },
+      {
+        "offset": 787243,
+        "data_text": ""
+      },
+      {
+        "offset": 787740,
+        "data_text": ""
+      }
+    ]
+  }
+}

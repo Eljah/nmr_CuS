@@ -1,0 +1,20 @@
+[
+  {
+    "archive": "Anilite14072016.zi",
+    "sha256": "0529eafc05760be3d919db1778b1791ac083fd7aaffde751b30413411e8a3fde",
+    "output": "anilite_raw",
+    "files": 602
+  },
+  {
+    "archive": "CuS.zi",
+    "sha256": "2fe36bd10162b70cbee42bd5755ff101b2c2e2bb141dfa43a1284de629645527",
+    "output": "cus_raw",
+    "files": 51
+  },
+  {
+    "archive": "Attachments_irek.mukhamedshin@gmail.com_2016-07-04_09-39-32.zip",
+    "sha256": "72491351a2f411a996e7efd2cb19a3bd7c594051741632cf2040decdd530f66d",
+    "output": "email_attachments",
+    "files": 2
+  }
+]

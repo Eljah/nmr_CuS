@@ -1,0 +1,335 @@
+                                                   Minerals Engineering 19 (2006) 204–208
+                                                                                                              This article is also available online at:
+                                                                                                                   www.elsevier.com/locate/mineng
+                                                           Short communication
+
+                                                       Copper(II) sulﬁde?
+                                 Siew Wei Goh, Alan N. Buckley *, Robert N. Lamb
+                Surface Science and Technology, School of Chemistry, The University of New South Wales, Sydney, NSW 2052, Australia
+
+                                                 Received 4 August 2005; accepted 3 September 2005
+                                                          Available online 20 October 2005
+
+
+
+
+Abstract
+
+    Reference to covellite as copper(II) sulﬁde has been challenged. To support the nominally Cu(I) formal oxidation state for covellite
+suggested by X-ray photoelectron spectroscopy, the Cu L2,3 near-edge X-ray absorption ﬁne structure spectrum for unoxidised covellite
+has been determined in ﬂuorescence yield mode. Interpretation of the Cu L3-edge spectrum has been eﬀected with the assistance of ab ini-
+tio calculations of the density of unﬁlled states and the simulation of spectra from both Cu sites in the covellite structure. An alternative
+explanation has been provided for a covellite Cu L2,3-edge spectrum determined in electron yield mode that had been rationalised pre-
+viously in terms of the presence of both Cu(I) and Cu(II) in the covellite structure. The relevance to mineral processing of the Cu(I) for-
+mal oxidation state in copper sulﬁdes and other sulﬁde minerals has been discussed.
+ 2005 Elsevier Ltd. All rights reserved.
+
+Keywords: Sulphide ores; Ore mineralogy; Flotation activators; Surface modiﬁcation
+
+
+
+
+1. Introduction                                                             Cu in the sulﬁde mineral is present as Cu(I). Even the cop-
+                                                                            per in CuS2 is believed to be monovalent (van der Laan
+   A recent technical note in this journal addressed copper                 et al., 1992; Ueda et al., 2002). Indeed there is considerable
+extraction from gold bearing ‘‘copper(II) sulphide’’ con-                   evidence to suggest that the oxidation state of copper in all
+centrates (Ayata and Yildiran, 2005). It is unusual for                     sulﬁde minerals is nominally Cu(I), i.e., Cu with a ground
+CuS (covellite) to be considered as an entirely Cu(II) sul-                 state conﬁguration that is predominantly d10 but including
+ﬁde, but slightly more common for some of the Cu in the                     a small amount of d9 character. That proposition was ﬁrst
+mineral to be regarded as Cu(II) and some as Cu(I) (e.g.                    put forward on the basis of stereochemistry and magnetic
+Todd et al., 2003). The latter view is based on the represen-               properties before relevant X-ray photoelectron spectros-
+tation of CuS as Cu2S Æ CuS2, which reﬂects the two diﬀer-                  copy (XPS) data had become available (Jellinek, 1972),
+ent S environments in the crystal structure. The S–S                        and it was conﬁrmed by Cu 2p photoelectron spectra
+separation in the S2-groups in the covellite structure is                   (Rupp and Weser, 1976; Nakai et al., 1978; Vaughan and
+0.207 nm (Evans and Konnert, 1976), close to the disulﬁde                   Craig, 1978; Folmer and Jellinek, 1980; Gebhardt et al.,
+bond length of 0.203 nm in bulk CuS2 (King and Prewitt,                     1986; Perry and Taylor, 1986; Folmer et al., 1988). It is
+1979), and considerably shorter than the corresponding                      now widely considered that a principal Cu 2p3/2 binding
+bond length of 0.218 nm in FeS2 (Bayliss, 1977).                            energy below but near the value for copper metal,
+   The problem with considering any of the Cu in covellite                  932.6 eV, the absence of a 2p3/2 component above
+to have a Cu(II) formal oxidation state is that pertinent                   933 eV, and the absence of excited ﬁnal state satellites, indi-
+physico-chemical measurements usually indicate that all                     cate that a discernible concentration of Cu(II) is not pres-
+                                                                            ent at unoxidised surfaces of any of the copper sulﬁdes.
+                                                                            Those who tacitly assume that covellite contains both
+ *
+     Corresponding author. Tel.: +61 2 9385 4645; fax: +61 2 9662 1697.     Cu(I) and Cu(II) usually do not attempt to provide an
+     E-mail address: a.buckley@unsw.edu.au (A.N. Buckley).                  explanation for the absence of evidence for Cu(II) in the
+
+0892-6875/$ - see front matter  2005 Elsevier Ltd. All rights reserved.
+doi:10.1016/j.mineng.2005.09.003
+                                       S.W. Goh et al. / Minerals Engineering 19 (2006) 204–208                                 205
+
+Cu 2p photoelectron spectra for the unoxidised mineral               L-edge. X-ray absorption was monitored with a liquid-
+(e.g. Todd et al., 2003).                                            nitrogen cooled ultra-low energy germanium diode detec-
+   In general, XPS evidence for the absence of Cu(II) in the         tor (FY), with a channel-plate detector behind retarding
+copper sulﬁdes has been corroborated by near-edge X-ray              grids (TFY), and by means of drain current (TEY). The
+absorption ﬁne structure (NEXAFS) spectroscopy data.                 synchrotron was operated in continuous top-up mode.
+NEXAFS spectroscopy is particularly sensitive for the                NEXAFS spectra were also obtained on BL24A at the
+detection of Cu(II) as the Cu L2,3-edge absorption intensity         NSRRC using the 1600 L/mm grating in the SGM. The
+or transition probability for Cu(II) has been estimated to           spectra were determined in TEY and TFY modes, the latter
+be approximately 25 times that for Cu(I) because of the              by means of a multichannel plate partial yield detector. For
+greater availability of d-like unﬁlled states in the nominally       both sets of data, the photon ﬂux incident on the specimen
+d9 system compared with the nominally d10 conﬁguration               (I0) was monitored using a gold-coated mesh, and the Cu
+(Pattrick et al., 1997). A Cu L3 peak within the range               L2,3 spectrum shown has been normalised (I/I0). Copper
+931.9–933.4 eV, rather than in the range 930.5–931.2 eV              metal was used for energy calibration (932.6 eV for the
+normally considered indicative of Cu(II), has usually been           FY Cu L3-edge).
+interpreted as conﬁrmation that the copper in the copper                Conventional monochromatised AlKa XPS analyses
+and copper–iron sulﬁdes is Cu(I) (van der Laan et al.,               were carried out on a VG ESCALAB 220-iXL spectrome-
+1992, 2002; Pattrick et al., 1993, 1997), but Todd et al.            ter. An analyser pass energy of 20 eV and an electron take-
+(2003) considered that the Cu L2,3-edge spectrum they ob-            oﬀ angle of 90 were used. Included in the binding energies
+tained for covellite was consistent with the presence of             used for calibration were 932.67 and 83.96 eV for Cu 2p3/2
+some structural Cu(II). Therefore, resolution of some con-           and Au 4f7/2 from metallic copper and gold, respectively.
+tentious deductions from X-ray absorption spectroscopic                 Density of states (DOS) calculations and NEXAFS
+data is required before an unequivocal statement can be              spectra simulations were carried out using version 8.20
+made on the formal oxidation state of Cu in covellite.               (Ankudinov et al., 2002) of the FEFF program for a fully
+   Resolution of these contradictory conclusions is at-              screened core hole. The ab initio code includes a self-con-
+tempted in the work reported here. The Cu L2,3-edge spec-            sistent ﬁeld estimate of the Fermi level, as well as orbital
+trum for covellite has been determined in such a way that            occupancy and charge transfer. Potentials were calculated
+the information is representative of the bulk rather than            self consistently within a 0.7 nm radius cluster (about 100
+of a partially-oxidised surface layer, and ab initio calcula-        atoms) around the absorbing atom with 15% overlap of
+tions have been carried out to simulate the Cu L3-edge               the muﬃn-tin radii. Calculations using the Hedin–Lundq-
+spectral components for both Cu sites in the CuS structure           vist potential were carried out with full multiple scattering
+to establish whether either site is consistent with a formal         up to l = 2 with cluster radii of at least 1 nm, equivalent to
+oxidation state of Cu(II). XPS data for a fracture surface           about 250 atoms. The input ﬁles for running FEFF8 were
+of the covellite specimen investigated have also been                generated by the program ATOMS via the graphical inter-
+obtained.                                                            face TkATOMS (Ravel, 2001). Calculations were also car-
+                                                                     ried out using version 2k (Schwarz et al., 2002) of the code
+2. Experimental details                                              WIEN (Blaha et al., 1990) which is based on density func-
+                                                                     tional theory. The covellite crystallographic structure data
+   Single pieces of covellite of approximate size                    used in the calculations were those reported by Evans and
+5 · 5 · 0.5 mm were cut from large natural specimens from            Konnert (1976).
+Butte (USA) and were mounted using screws to the sample
+stage for either NEXAFS spectroscopy or XPS. A fresh                 3. Results and discussion
+fracture surface was characterised by XPS, whereas for
+NEXAFS spectroscopic examination, the specimen surface                  The Cu 2p and S 2p photoelectron spectra from a fresh
+was abraded and washed with propan-2-ol in air immedi-               fracture surface of covellite (Fig. 1) are entirely consistent
+ately before insertion into the end-station. Electron micro-         with the crystal structure and with a Cu(I) formal oxida-
+probe analysis of the sample conﬁrmed that the mineral               tion state, notwithstanding broad, energy loss-like compo-
+was almost entirely covellite, with Cu:S ratio of 1.001:1,           nents on the high binding energy side of both the Cu 2p
+and indicated the presence of only very low concentrations           and S 2p peaks. Because of the broad contribution on
+of minor elements.                                                   the high binding energy side of the Cu 2p3/2 peak, the pres-
+   NEXAFS spectroscopy was carried out in UHV end-                   ence of a low intensity Cu 2p3/2 component near 933.5 eV
+stations at the Advanced Photon Source (APS), Argonne                in addition to the principal peak at 932.3 eV could not be
+National Laboratory, USA, and at the National Synchro-               ruled out, but any narrow-linewidth component at the
+tron Radiation Research Center (NSRRC), Hsinchu,                     higher binding energy could not have been suﬃciently in-
+Taiwan. At the APS, the XOR 4-ID-C beam-line, which                  tense for it to have arisen from Cu(II) in one of the two
+incorporates a spherical grating monochromator (SGM),                metal sites. The Cu 2p spectrum was similar for a freshly
+was employed. With the 600 L/mm grating and 50 lm slits              abraded surface, and for surfaces exposed to air for up to
+used, the monochromator resolution was 0.5 eV at the Cu              1 h. No excited ﬁnal state satellites were evident in the
+206                                                         S.W. Goh et al. / Minerals Engineering 19 (2006) 204–208
+
+
+                                                 Cu 2p                                         S 2p
+
+
+
+
+                                    Intensity
+
+
+                                       960            955    950    945      940   935   930    168      166    164    162   160
+                                                            Binding Energy (eV)                       Binding Energy (eV)
+
+                                                Fig. 1. Cu 2p and S 2p photoelectron spectra from a covellite fracture surface.
+
+
+Cu 2p spectra in agreement with previous investigations.                                  CuII CuI4 FeII S4 rather than CuI5 FeIII S4 , is at 932.7 eV (Goh
+The S 2p spectrum comprises two incompletely-resolved                                     et al., to be published). The spectrum in Fig. 2(a) is similar
+2p1/2,3/2 doublets, of intensity ratio approximately 1:2 at                               to the TEY spectra reported by Grioni et al. (1989) and van
+2p3/2 binding energies near 161.6 and 162.4 eV arising from                               der Laan et al. (1992), and in which the leading absorption
+the monosulﬁde and disulﬁde in the lattice, respectively,                                 peak energy was at 932.0 eV. Todd et al. (2003) observed
+together with a broad component at about 163.7 eV.                                        the main TEY absorption peak at 932.2 eV, but in addi-
+   The FY Cu L3-edge NEXAFS spectrum for covellite is                                     tion, obtained an obvious shoulder near 931 eV consistent
+shown in Fig. 2(a). At the Cu L2,3-edge, indirect measure-                                with a Cu(II)–oxygen species at the surface of their covel-
+ment of X-ray absorption by FY (or TFY) provides an                                       lite. They interpreted the peak at 932.2 eV as arising from
+analysis depth of about 200 nm, whereas the corresponding                                 Cu(II) bonded to sulfur, and the peak near 934.7 eV as
+analysis depth associated with TEY would be about 15 nm.                                  arising from Cu(I) in the sulﬁde lattice, superﬁcially consis-
+Thus the FY spectrum should not be inﬂuenced by any sur-                                  tent with their assertion that CuS contains both Cu(I) and
+face oxidation products formed during exposure of the                                     Cu(II). Although only 1/3rd of the Cu in CuS would be
+specimen surface to air. No signiﬁcant diﬀerences between                                 Cu(II) if it were assumed to be CuI2 S  CuII S2 , as noted
+the FY, TFY and TEY spectra were observed. The leading                                    above, the absorption intensity for Cu(II) is 25· that for
+absorption peak is at 932.4 eV, well within the 931.9–                                    Cu(I) consequently an absorption peak arising from the
+933.4 eV range normally considered indicative of Cu(I).                                   Cu(II) would be almost an order of magnitude more in-
+The corresponding peak for bornite, which must have at                                    tense than that from the Cu(I).
+least 4/5th of its Cu in a formal oxidation state of Cu(I)                                    Cu L3-edge spectra for both Cu sites in CuS simulated
+even if it were unjustiﬁably considered to be                                             by ab initio calculations using the WIEN2k code are also
+                                                                                          shown in Fig. 2. The leading absorption peaks for Cu in
+                                                                                          both the 3-coordinate and 4-coordinate sites are at essen-
+                                                                                          tially the same energy, but the subsequent near-edge struc-
+                                                                                          ture in each simulated spectrum is quite diﬀerent. When
+                                                                     (a)
+                                                                                          these two contributions are summed with the appropriate
+                                                                                          intensity ratio, the composite simulated spectrum
+                                                                                          (Fig. 2(b)) agrees quite well with the experimental spec-
+                                                                                          trum. Based on the position of the leading absorption
+           Absorption
+
+
+
+
+                                                                     (b)
+                                                                                          peaks, the Cu in both sites is in the same oxidation state.
+                                                                                          In particular, neither Cu site appears to be consistent with
+                                                                                          a formal oxidation state of Cu(II) if the range 930.5–
+                                                                     (c)                  931.2 eV is accepted as being indicative of Cu(II). How-
+                                                                                          ever, the situation is not entirely clear-cut, as the calculated
+                                                                                          Fermi level and density of unﬁlled states (Fig. 3) reveal that
+                                                                     (d)
+                                                                                          the leading Cu L3 absorption peak arises primarily from
+                                                                                          transitions to d-states rather than s-states (dipole selection
+                                                                                          rules require Dl = ± 1), which would not be possible if the
+                                                                                          Cu electronic conﬁguration were actually d10 rather than
+                                                                                          nominally d10. As might be expected, Cu(I) is not actually
+                        930   935               940         945        950                d10 and Cu(II) is not actually d9. Rather, the diﬀerence be-
+                                Photon Energy (eV)                                        tween Cu(I) and Cu(II) corresponds to a diﬀerent degree of
+Fig. 2. Cu L3-edge NEXAFS spectrum for covellite (a) determined in FY
+                                                                                          d-occupancy which would be between 9 and 10 in both
+mode; (b) simulated using WIEN2k; (c) simulated for Cu in 3-coordinate                    cases, but with the values for Cu(I) nearer to 10 than those
+site; (d) simulated for Cu in 4-coordinate site.                                          for Cu(II). For Cu(II) systems, the Fermi level is well below
+                                                    S.W. Goh et al. / Minerals Engineering 19 (2006) 204–208                                        207
+
+
+                                                         Simulated
+                            Abs
+
+
+
+                            60
+                            40                          Total DOS
+                            20
+
+
+
+
+                                                                                                    Absorption
+                             0
+                                                                                                                  (a)
+                                                          S p -DOS
+                             1
+        Density of States
+
+
+
+
+                                                                                                                  (b)
+                             0
+                             5
+                                                        Cu s -DOS
+                             4                          Cu d -DOS                                                 (c)
+
+                             3                                                                                   -5     0    5    10      15   20
+                                                                                                                            Energy (eV)
+                             2
+                                                                                  Fig. 4. Cu L3-edge NEXAFS spectrum for covellite (a) determined in FY
+                                                                                  mode; (b) simulated using FEFF8; (c) simulated using FEFF8 with Fermi
+                             1
+                                                                                  level lowered by 1.5 eV.
+
+                             0
+                                  0   5       10         15          20           binding energy being greater in both cases. Even allowing
+                                      Energy (eV)
+                                                                                  for an underestimation by a factor of 2 of the actual Cu
+Fig. 3. Simulated Cu L3-edge NEXAFS spectrum, partial and total                   2p binding energy diﬀerence, the very small calculated dif-
+densities of unﬁlled states calculated for covellite using WIEN2k. The            ference is not consistent with Cu(I) being associated with
+Fermi level is at 0 eV.                                                           one metal site and Cu(II) being associated with the other.
+                                                                                     An alternative to the view that CuS contains some
+the high energy limit of the principal d-band whereas for                         Cu(II) was suggested by Evans and Konnert (1976). They
+Cu(I), the Fermi level is only just below that limit. It can                      reasoned that, if it were assumed the sulﬁde and disulﬁde
+be seen from the density of unﬁlled states in Fig. 3 that                         are S2 and S22   respectively, on average the Cu in CuS
+the absorption peak near 935 eV is in fact due largely to                         would have to be Cu4/3+. The presence of Cu in covellite
+transitions to minor Cu d- and S p-bands, and mostly from                         in a single Cu1.3+ state would be consistent with the exper-
+Cu in the 4-coordinate sites. Note that in Fig. 3, only the                       imental and theoretical ﬁndings of the present investiga-
+Cu s-, Cu d- and S p-states are shown together with the                           tion. Of course, whether the Cu in CuS should be
+total density of states.                                                          regarded as Cu1+ or Cu1.3+ might be dismissed as a seman-
+   With the as calculated value of the Fermi level, the                         tic issue, but the much more deﬁnitive conclusion that
+FEFF8-simulated Cu L3-edge spectrum for covellite,                                covellite does not contain Cu(II) should not be dismissed
+shown in Fig. 4, is not in good agreement with the experi-                        in this way.
+mental spectrum. However, when the calculated Fermi                                  The formal oxidation state of Cu in mineral sulﬁdes has
+level is adjusted by 1.5 eV, but with the density of states left                  some bearing on the way in which chemical equations,
+unchanged, the simulated spectrum reproduces the ob-                              describing reactions involved in the processing of those sul-
+served spectrum more closely. Although the claimed accu-                          ﬁdes, are represented. The copper activation of sphalerite is
+racy for calculating the Fermi level by means of FEFF8 is                         one such reaction, however, it should ﬁrst be noted that an
+no better than 2 eV due to limitations such as the basis set                      equilibrium equation such as Eq. (1) (Ayata and Yildiran,
+and spherical potentials, the estimations appear to be accu-                      2005):
+rate to better than 1 eV for Cu and Cu/Fe sulﬁdes other
+                                                                                  CuS $ Cu2þ (aq) + S2 (aq)                                        ð1Þ
+than covellite and chalcocite (Goh et al., to be published).
+Nevertheless, in principle it is diﬃcult to justify an arbi-                      is not necessarily invalid because CuS is not a Cu(II) sul-
+trary decrease in the Fermi level without a concomitant                           ﬁde. Furthermore, care should be taken in the interpreta-
+change to the density of states.                                                  tion of the diﬀerent aqueous Cu species in Eq. (1) and a
+   The FEFF8-calculated Cu 2p binding energies for the                            related equation for chalcocite, Eq. (2), in that the uncom-
+two Cu environments in CuS diﬀered by 0.1 eV only, with                           plexed Cu+(aq) ion can only exist in extremely low
+the 3-coordinate Cu associated with the S2 groups having                          concentrations.
+the larger value. By contrast, the FEFF8-calculated S 2p
+                                                                                  Cu2 S $ 2Cuþ (aq) + S2 (aq)                                      ð2Þ
+binding energies for the two S environments in CuS diﬀered
+by 0.4–0.5 eV, whereas the experimentally determined dif-                         The copper activation of sphalerite, which can be repre-
+ference is 0.8 eV (Laajalehto et al., 1996), with the disulﬁde                    sented (e.g. Buckley et al., 1989) by
+208                                            S.W. Goh et al. / Minerals Engineering 19 (2006) 204–208
+
+ZnS + xCu2þ (aq) $ Zn1x Cux S + xZn2þ (aq)                            ð3Þ    Folmer, J.C.W., Jellinek, F., Calis, G.H.M., 1988. The electronic structure
+                                                                                  of pyrites, particularly CuS2 and Fe1xCuxSe2: an XPS and Mössbauer
+is a reaction analogous to Eq. (1) involving Cu as Cu(I) in                       study. Journal of Solid State Chemistry 72, 137–144.
+the solid phase, but Cu2+(aq) in solution.                                    Gebhardt, J.E., McCarron, J.J., Richardson, P.E., Buckley, A.N., 1986.
+                                                                                  The eﬀect of cathodic treatment on the anodic polarization of copper
+                                                                                  sulﬁdes. Hydrometallurgy 17, 27–38.
+4. Conclusions                                                                Goh, S.W., Buckley, A.N., Lamb, R.N., Rosenberg, R.A., Moran, D., to
+                                                                                  be published. The oxidation states of copper and iron in mineral
+   Experimental Cu L2,3-edge NEXAFS spectra, and ab ini-                          sulﬁdes, and the oxides formed on initial exposure of these sulﬁdes to
+                                                                                  air.
+tio calculations carried out to facilitate interpretation of
+                                                                              Grioni, M., Goedkoop, J.B., Schoorl, R., de Groot, F.M.F., Fuggle, J.C.,
+those spectra, conﬁrm the previous deduction from XPS                             Schäfers, F., Koch, E.E., Rossi, G., Esteva, J.-M., Karnatak, R.C.,
+data that covellite should not be regarded as a Cu(II) sul-                       1989. Studies of copper valence states with Cu L3 X-ray-absorption
+ﬁde or as a sulﬁde with Cu in formal oxidation state Cu(II)                       spectroscopy. Physical Review B 39, 1541–1545.
+in one of the two metal sites. The ﬁndings are consistent                     Jellinek, F., 1972. Sulphides, selenides and tellurides of the transition
+                                                                                  elements. In: MTP International Review of Science, Inorganic Chem-
+with the Cu in covellite being nominally Cu(I), with a
+                                                                                  istry Series One, vol. 5. Butterworths, London, pp. 339–396.
+low density of unﬁlled d-states, a situation similar to that                  King Jr., H.E., Prewitt, C.T., 1979. Structure and symmetry of CuS2
+for other Cu and Cu/Fe sulﬁde minerals.                                           (pyrite structure). American Mineralogist 64, 1265–1271.
+                                                                              Laajalehto, K., Kartio, I., Kaurila, T., Laiho, T., 1996. Investigation of
+                                                                                  copper sulﬁde surfaces using synchrotron radiation excited photo-
+Acknowledgements                                                                  emission spectroscopy. In: Mathieu, H.J., Reihl, B., Briggs, D. (Eds.),
+                                                                                  Proceedings of ECASIA 95. Wiley, Chichester, pp. 717–720.
+   This work was supported by the Australian Synchrotron                      Nakai, I., Sugitani, Y., Nagashima, K., Niwa, Y., 1978. X-ray photo-
+Research Program, which is funded by the Commonwealth                             electron spectroscopic study of copper minerals. Journal of Inorganic
+                                                                                  and Nuclear Chemistry 40, 789–791.
+of Australia under the Major National Research Facilities
+                                                                              Pattrick, R.A.D., Mosselmans, J.F.W., Charnock, J.M., England, K.E.R.,
+Program. The authors are grateful to Dr. John Freeland                            Helz, G.R., Garner, C.D., Vaughan, D.J., 1997. The structure of
+and Dr. David Keavney of the APS for assistance in using                          amorphous copper sulﬁde precipitates: an X-ray absorption study.
+beam-line XOR 4-ID-C, to Dr. Yaw-wen Yang and Dr.                                 Geochimica et Cosmochimica Acta 61, 2023–2036.
+Liang-Jen Fan of the NSRRC for assistance in using                            Pattrick, R.A.D., van der Laan, G., Vaughan, D.J., Henderson, C.M.B.,
+                                                                                  1993. Oxidation state and electronic conﬁguration determination of
+BL24A, to Dr. Vicki Keast, University of Sydney, for help
+                                                                                  copper in tetrahedrite group minerals by L-edge X-ray absorption
+in carrying out WIEN2k calculations, and to Dr. Damian                            spectroscopy. Physics and Chemistry of Minerals 20, 395–401.
+Moran, University of Sydney, for assistance with large-                       Perry, D.L., Taylor, J.A., 1986. X-ray photoelectron and Auger spectro-
+cluster FEFF8 calculations on a supercomputer available                           scopic studies of Cu2S and CuS. Journal of Materials Science Letters 5,
+through the Australian Partnership for Advanced Comput-                           384–386.
+                                                                              Ravel, B., 2001. ATOMS: crystallography for the X-ray absorption
+ing National Facility.
+                                                                                  spectroscopist. Journal of Synchrotron Radiation 8, 314–316.
+                                                                              Rupp, H., Weser, U., 1976. X-ray photoelectron spectroscopy of
+References                                                                        copper(II), copper(I), and mixed valence systems. Bioinorganic
+                                                                                  Chemistry 6, 45–59.
+Ankudinov, A.L., Bouldin, C.E., Rehr, J.J., Sims, J., Hung, H., 2002.         Schwarz, K., Blaha, P., Madsen, G.K.H., 2002. Electronic structure
+   Parallel calculation of electron multiple scattering using Lanczos             calculations of solids using the WIEN2k package for material sciences.
+   algorithms. Physical Review B 65, 104107.                                      Computer Physics Communications 147, 71–76.
+Ayata, S., Yildiran, H., 2005. Copper extraction from gold bearing            Todd, E.C., Sherman, D.M., Purton, J.A., 2003. Surface oxidation of
+   copper(II) sulphide without thermal process to obtain gold concen-             chalcopyrite (CuFeS2) under ambient atmospheric and aqueous (pH
+   trate. Minerals Engineering 18, 901–904.                                       2–10) conditions: Cu, Fe L- and O K-edge X-ray spectroscopy.
+Bayliss, P., 1977. Crystal structure reﬁnement of a weakly anisotropic            Geochimica et Cosmochimica Acta 67, 2137–2146.
+   pyrite. American Mineralogist 62, 1168–1172.                               Ueda, H., Nohara, M., Kitazawa, K., Takagi, H., Fujimori, A.,
+Blaha, P., Schwarz, K., Sorantin, P., Trickey, S.B., 1990. Full-potential,        Mizokawa, T., Yagi, T., 2002. Copper pyrites CuS2 and CuSe2 as
+   linearized augmented plane wave programs for crystalline systems.              anion conductors. Physical Review B 65, 155104.
+   Computer Physics Communications 59, 399–415.                               van der Laan, G., Pattrick, R.A.D., Charnock, J.M., Grguric, B.A., 2002.
+Buckley, A.N., Woods, R., Wouterlood, H.J., 1989. An XPS investigation            Cu L2,3 X-ray absorption and the electronic structure of nonstoichio-
+   of the surface of natural sphalerites under ﬂotation-related conditions.       metric Cu5FeS4. Physical Review B 66, 045104.
+   International Journal of Mineral Processing 26, 29–49.                     van der Laan, G., Pattrick, R.A.D., Henderson, C.M.B., Vaughan, D.J.,
+Evans Jr., H.T., Konnert, J.A., 1976. Crystal structure reﬁnement of              1992. Oxidation state variations in copper minerals studied with Cu 2p
+   covellite. American Mineralogist 61, 996–1000.                                 X-ray absorption spectroscopy. Journal of the Physics and Chemistry
+Folmer, J.C.W., Jellinek, F., 1980. The valence of copper in sulphides and        of Solids 53, 1185–1190.
+   selenides: an X-ray photoelectron spectroscopy study. Journal of Less-     Vaughan, D.J., Craig, J.R., 1978. Mineral Chemistry of Metal Sulﬁdes.
+   Common Metals 76, 153–162.                                                     Cambridge University Press, Cambridge.
+

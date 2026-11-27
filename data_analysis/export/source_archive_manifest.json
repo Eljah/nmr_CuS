@@ -1,0 +1,7883 @@
+[
+  {
+    "archive": "Anilite14072016.zi",
+    "sha256": "0529eafc05760be3d919db1778b1791ac083fd7aaffde751b30413411e8a3fde",
+    "destination": "anilite_raw",
+    "members": [
+      {
+        "filename": "00600_KN_ADC.dat",
+        "size": 49963,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          32,
+          22
+        ]
+      },
+      {
+        "filename": "00599_KN_ADC.dat",
+        "size": 49931,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          42
+        ]
+      },
+      {
+        "filename": "00598_KN_ADC.dat",
+        "size": 49973,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          42
+        ]
+      },
+      {
+        "filename": "00597_KN_ADC.dat",
+        "size": 49878,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          40
+        ]
+      },
+      {
+        "filename": "00596_KN_ADC.dat",
+        "size": 49841,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          40
+        ]
+      },
+      {
+        "filename": "00595_KN_ADC.dat",
+        "size": 49889,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          40
+        ]
+      },
+      {
+        "filename": "00594_KN_ADC.dat",
+        "size": 49872,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          40
+        ]
+      },
+      {
+        "filename": "00593_KN_ADC.dat",
+        "size": 49886,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          40
+        ]
+      },
+      {
+        "filename": "00592_KN_ADC.dat",
+        "size": 49998,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          40
+        ]
+      },
+      {
+        "filename": "00591_KN_ADC.dat",
+        "size": 49797,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          40
+        ]
+      },
+      {
+        "filename": "00590_KN_ADC.dat",
+        "size": 49748,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          40
+        ]
+      },
+      {
+        "filename": "00589_KN_ADC.dat",
+        "size": 49963,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          40
+        ]
+      },
+      {
+        "filename": "00588_KN_ADC.dat",
+        "size": 49964,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          40
+        ]
+      },
+      {
+        "filename": "00587_KN_ADC.dat",
+        "size": 49992,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          40
+        ]
+      },
+      {
+        "filename": "00586_KN_ADC.dat",
+        "size": 50044,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          40
+        ]
+      },
+      {
+        "filename": "00585_KN_ADC.dat",
+        "size": 49998,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          40
+        ]
+      },
+      {
+        "filename": "00584_KN_ADC.dat",
+        "size": 50060,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          40
+        ]
+      },
+      {
+        "filename": "00583_KN_ADC.dat",
+        "size": 49924,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          40
+        ]
+      },
+      {
+        "filename": "00582_KN_ADC.dat",
+        "size": 49989,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          38
+        ]
+      },
+      {
+        "filename": "00581_KN_ADC.dat",
+        "size": 49968,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          38
+        ]
+      },
+      {
+        "filename": "00580_KN_ADC.dat",
+        "size": 49924,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          38
+        ]
+      },
+      {
+        "filename": "00579_KN_ADC.dat",
+        "size": 50071,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          38
+        ]
+      },
+      {
+        "filename": "00578_KN_ADC.dat",
+        "size": 50031,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          38
+        ]
+      },
+      {
+        "filename": "00577_KN_ADC.dat",
+        "size": 50057,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          38
+        ]
+      },
+      {
+        "filename": "00576_KN_ADC.dat",
+        "size": 50046,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          38
+        ]
+      },
+      {
+        "filename": "00575_KN_ADC.dat",
+        "size": 49997,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          38
+        ]
+      },
+      {
+        "filename": "00574_KN_ADC.dat",
+        "size": 50034,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          38
+        ]
+      },
+      {
+        "filename": "00573_KN_ADC.dat",
+        "size": 49969,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          38
+        ]
+      },
+      {
+        "filename": "00572_KN_ADC.dat",
+        "size": 50072,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          38
+        ]
+      },
+      {
+        "filename": "00571_KN_ADC.dat",
+        "size": 49976,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          38
+        ]
+      },
+      {
+        "filename": "00570_KN_ADC.dat",
+        "size": 50049,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          38
+        ]
+      },
+      {
+        "filename": "00569_KN_ADC.dat",
+        "size": 50050,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          38
+        ]
+      },
+      {
+        "filename": "00568_KN_ADC.dat",
+        "size": 50074,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          38
+        ]
+      },
+      {
+        "filename": "00567_KN_ADC.dat",
+        "size": 50015,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          36
+        ]
+      },
+      {
+        "filename": "00566_KN_ADC.dat",
+        "size": 50019,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          36
+        ]
+      },
+      {
+        "filename": "00565_KN_ADC.dat",
+        "size": 49967,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          36
+        ]
+      },
+      {
+        "filename": "00564_KN_ADC.dat",
+        "size": 49960,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          36
+        ]
+      },
+      {
+        "filename": "00563_KN_ADC.dat",
+        "size": 49929,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          36
+        ]
+      },
+      {
+        "filename": "00562_KN_ADC.dat",
+        "size": 50045,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          36
+        ]
+      },
+      {
+        "filename": "00561_KN_ADC.dat",
+        "size": 49990,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          36
+        ]
+      },
+      {
+        "filename": "00560_KN_ADC.dat",
+        "size": 49728,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          36
+        ]
+      },
+      {
+        "filename": "00559_KN_ADC.dat",
+        "size": 49960,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          36
+        ]
+      },
+      {
+        "filename": "00558_KN_ADC.dat",
+        "size": 49878,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          36
+        ]
+      },
+      {
+        "filename": "00557_KN_ADC.dat",
+        "size": 49781,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          36
+        ]
+      },
+      {
+        "filename": "00556_KN_ADC.dat",
+        "size": 49751,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          36
+        ]
+      },
+      {
+        "filename": "00555_KN_ADC.dat",
+        "size": 49767,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          36
+        ]
+      },
+      {
+        "filename": "00554_KN_ADC.dat",
+        "size": 49798,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          36
+        ]
+      },
+      {
+        "filename": "00553_KN_ADC.dat",
+        "size": 49866,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          36
+        ]
+      },
+      {
+        "filename": "00552_KN_ADC.dat",
+        "size": 49779,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          36
+        ]
+      },
+      {
+        "filename": "00551_KN_ADC.dat",
+        "size": 49699,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          34
+        ]
+      },
+      {
+        "filename": "00550_KN_ADC.dat",
+        "size": 49786,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          34
+        ]
+      },
+      {
+        "filename": "00549_KN_ADC.dat",
+        "size": 49554,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          34
+        ]
+      },
+      {
+        "filename": "00548_KN_ADC.dat",
+        "size": 49594,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          34
+        ]
+      },
+      {
+        "filename": "00547_KN_ADC.dat",
+        "size": 49387,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          34
+        ]
+      },
+      {
+        "filename": "00546_KN_ADC.dat",
+        "size": 49917,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          34
+        ]
+      },
+      {
+        "filename": "00545_KN_ADC.dat",
+        "size": 49787,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          34
+        ]
+      },
+      {
+        "filename": "00544_KN_ADC.dat",
+        "size": 49857,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          34
+        ]
+      },
+      {
+        "filename": "00543_KN_ADC.dat",
+        "size": 49598,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          34
+        ]
+      },
+      {
+        "filename": "00542_KN_ADC.dat",
+        "size": 49834,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          34
+        ]
+      },
+      {
+        "filename": "00541_KN_ADC.dat",
+        "size": 49708,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          34
+        ]
+      },
+      {
+        "filename": "00540_KN_ADC.dat",
+        "size": 49798,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          34
+        ]
+      },
+      {
+        "filename": "00539_KN_ADC.dat",
+        "size": 49864,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          34
+        ]
+      },
+      {
+        "filename": "00538_KN_ADC.dat",
+        "size": 50040,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          34
+        ]
+      },
+      {
+        "filename": "00537_KN_ADC.dat",
+        "size": 49940,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          34
+        ]
+      },
+      {
+        "filename": "00536_KN_ADC.dat",
+        "size": 50030,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          32
+        ]
+      },
+      {
+        "filename": "00535_KN_ADC.dat",
+        "size": 49918,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          32
+        ]
+      },
+      {
+        "filename": "00534_KN_ADC.dat",
+        "size": 49918,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          32
+        ]
+      },
+      {
+        "filename": "00533_KN_ADC.dat",
+        "size": 49894,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          32
+        ]
+      },
+      {
+        "filename": "00532_KN_ADC.dat",
+        "size": 49995,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          32
+        ]
+      },
+      {
+        "filename": "00531_KN_ADC.dat",
+        "size": 49991,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          32
+        ]
+      },
+      {
+        "filename": "00530_KN_ADC.dat",
+        "size": 49764,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          32
+        ]
+      },
+      {
+        "filename": "00529_KN_ADC.dat",
+        "size": 50026,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          32
+        ]
+      },
+      {
+        "filename": "00528_KN_ADC.dat",
+        "size": 49996,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          32
+        ]
+      },
+      {
+        "filename": "00527_KN_ADC.dat",
+        "size": 49934,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          32
+        ]
+      },
+      {
+        "filename": "00526_KN_ADC.dat",
+        "size": 49948,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          32
+        ]
+      },
+      {
+        "filename": "00525_KN_ADC.dat",
+        "size": 50125,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          32
+        ]
+      },
+      {
+        "filename": "00524_KN_ADC.dat",
+        "size": 49975,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          32
+        ]
+      },
+      {
+        "filename": "00523_KN_ADC.dat",
+        "size": 49952,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          32
+        ]
+      },
+      {
+        "filename": "00522_KN_ADC.dat",
+        "size": 49950,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          32
+        ]
+      },
+      {
+        "filename": "00521_KN_ADC.dat",
+        "size": 49892,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          30
+        ]
+      },
+      {
+        "filename": "00520_KN_ADC.dat",
+        "size": 49468,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          30
+        ]
+      },
+      {
+        "filename": "00519_KN_ADC.dat",
+        "size": 49895,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          30
+        ]
+      },
+      {
+        "filename": "00518_KN_ADC.dat",
+        "size": 49945,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          30
+        ]
+      },
+      {
+        "filename": "00517_KN_ADC.dat",
+        "size": 49898,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          30
+        ]
+      },
+      {
+        "filename": "00516_KN_ADC.dat",
+        "size": 49980,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          30
+        ]
+      },
+      {
+        "filename": "00515_KN_ADC.dat",
+        "size": 49952,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          30
+        ]
+      },
+      {
+        "filename": "00514_KN_ADC.dat",
+        "size": 50049,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          30
+        ]
+      },
+      {
+        "filename": "00513_KN_ADC.dat",
+        "size": 49951,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          30
+        ]
+      },
+      {
+        "filename": "00512_KN_ADC.dat",
+        "size": 49938,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          30
+        ]
+      },
+      {
+        "filename": "00511_KN_ADC.dat",
+        "size": 49914,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          30
+        ]
+      },
+      {
+        "filename": "00510_KN_ADC.dat",
+        "size": 49082,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          30
+        ]
+      },
+      {
+        "filename": "00509_KN_ADC.dat",
+        "size": 49121,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          30
+        ]
+      },
+      {
+        "filename": "00508_KN_ADC.dat",
+        "size": 50062,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          30
+        ]
+      },
+      {
+        "filename": "00507_KN_ADC.dat",
+        "size": 50006,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          30
+        ]
+      },
+      {
+        "filename": "00506_KN_ADC.dat",
+        "size": 49944,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          28
+        ]
+      },
+      {
+        "filename": "00505_KN_ADC.dat",
+        "size": 49961,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          28
+        ]
+      },
+      {
+        "filename": "00504_KN_ADC.dat",
+        "size": 49913,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          28
+        ]
+      },
+      {
+        "filename": "00503_KN_ADC.dat",
+        "size": 49916,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          28
+        ]
+      },
+      {
+        "filename": "00502_KN_ADC.dat",
+        "size": 49877,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          28
+        ]
+      },
+      {
+        "filename": "00501_KN_ADC.dat",
+        "size": 49907,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          28
+        ]
+      },
+      {
+        "filename": "00500_KN_ADC.dat",
+        "size": 50299,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          28
+        ]
+      },
+      {
+        "filename": "00499_KN_ADC.dat",
+        "size": 50076,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          28
+        ]
+      },
+      {
+        "filename": "00498_KN_ADC.dat",
+        "size": 49956,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          28
+        ]
+      },
+      {
+        "filename": "00497_KN_ADC.dat",
+        "size": 50061,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          28
+        ]
+      },
+      {
+        "filename": "00496_KN_ADC.dat",
+        "size": 50061,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          28
+        ]
+      },
+      {
+        "filename": "00495_KN_ADC.dat",
+        "size": 50104,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          28
+        ]
+      },
+      {
+        "filename": "00494_KN_ADC.dat",
+        "size": 49743,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          28
+        ]
+      },
+      {
+        "filename": "00493_KN_ADC.dat",
+        "size": 49982,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          28
+        ]
+      },
+      {
+        "filename": "00492_KN_ADC.dat",
+        "size": 51634,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          28
+        ]
+      },
+      {
+        "filename": "00491_KN_ADC.dat",
+        "size": 51640,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          26
+        ]
+      },
+      {
+        "filename": "00490_KN_ADC.dat",
+        "size": 50184,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          26
+        ]
+      },
+      {
+        "filename": "00489_KN_ADC.dat",
+        "size": 50061,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          26
+        ]
+      },
+      {
+        "filename": "00488_KN_ADC.dat",
+        "size": 50228,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          26
+        ]
+      },
+      {
+        "filename": "00487_KN_ADC.dat",
+        "size": 50272,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          26
+        ]
+      },
+      {
+        "filename": "00486_KN_ADC.dat",
+        "size": 50286,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          26
+        ]
+      },
+      {
+        "filename": "00485_KN_ADC.dat",
+        "size": 50037,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          26
+        ]
+      },
+      {
+        "filename": "00484_KN_ADC.dat",
+        "size": 50233,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          26
+        ]
+      },
+      {
+        "filename": "00483_KN_ADC.dat",
+        "size": 50128,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          26
+        ]
+      },
+      {
+        "filename": "00482_KN_ADC.dat",
+        "size": 50083,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          26
+        ]
+      },
+      {
+        "filename": "00481_KN_ADC.dat",
+        "size": 49856,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          26
+        ]
+      },
+      {
+        "filename": "00480_KN_ADC.dat",
+        "size": 49942,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          26
+        ]
+      },
+      {
+        "filename": "00479_KN_ADC.dat",
+        "size": 50029,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          26
+        ]
+      },
+      {
+        "filename": "00478_KN_ADC.dat",
+        "size": 50336,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          26
+        ]
+      },
+      {
+        "filename": "00477_KN_ADC.dat",
+        "size": 50423,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          26
+        ]
+      },
+      {
+        "filename": "00476_KN_ADC.dat",
+        "size": 50746,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          24
+        ]
+      },
+      {
+        "filename": "00475_KN_ADC.dat",
+        "size": 50284,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          24
+        ]
+      },
+      {
+        "filename": "00474_KN_ADC.dat",
+        "size": 50041,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          24
+        ]
+      },
+      {
+        "filename": "00473_KN_ADC.dat",
+        "size": 50050,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          24
+        ]
+      },
+      {
+        "filename": "00472_KN_ADC.dat",
+        "size": 50494,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          24
+        ]
+      },
+      {
+        "filename": "00471_KN_ADC.dat",
+        "size": 50555,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          24
+        ]
+      },
+      {
+        "filename": "00470_KN_ADC.dat",
+        "size": 50930,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          24
+        ]
+      },
+      {
+        "filename": "00469_KN_ADC.dat",
+        "size": 51034,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          24
+        ]
+      },
+      {
+        "filename": "00468_KN_ADC.dat",
+        "size": 50995,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          24
+        ]
+      },
+      {
+        "filename": "00467_KN_ADC.dat",
+        "size": 50995,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          24
+        ]
+      },
+      {
+        "filename": "00466_KN_ADC.dat",
+        "size": 51370,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          24
+        ]
+      },
+      {
+        "filename": "00465_KN_ADC.dat",
+        "size": 51401,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          24
+        ]
+      },
+      {
+        "filename": "00464_KN_ADC.dat",
+        "size": 52078,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          24
+        ]
+      },
+      {
+        "filename": "00463_KN_ADC.dat",
+        "size": 52081,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          24
+        ]
+      },
+      {
+        "filename": "00462_KN_ADC.dat",
+        "size": 52030,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          24
+        ]
+      },
+      {
+        "filename": "00461_KN_ADC.dat",
+        "size": 52394,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          22
+        ]
+      },
+      {
+        "filename": "00460_KN_ADC.dat",
+        "size": 52226,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          22
+        ]
+      },
+      {
+        "filename": "00459_KN_ADC.dat",
+        "size": 52079,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          22
+        ]
+      },
+      {
+        "filename": "00458_KN_ADC.dat",
+        "size": 51353,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          22
+        ]
+      },
+      {
+        "filename": "00457_KN_ADC.dat",
+        "size": 51293,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          22
+        ]
+      },
+      {
+        "filename": "00456_KN_ADC.dat",
+        "size": 51202,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          22
+        ]
+      },
+      {
+        "filename": "00455_KN_ADC.dat",
+        "size": 51150,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          22
+        ]
+      },
+      {
+        "filename": "00454_KN_ADC.dat",
+        "size": 51055,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          22
+        ]
+      },
+      {
+        "filename": "00453_KN_ADC.dat",
+        "size": 50972,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          22
+        ]
+      },
+      {
+        "filename": "00452_KN_ADC.dat",
+        "size": 50674,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          22
+        ]
+      },
+      {
+        "filename": "00451_KN_ADC.dat",
+        "size": 50602,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          22
+        ]
+      },
+      {
+        "filename": "00450_KN_ADC.dat",
+        "size": 49944,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          22
+        ]
+      },
+      {
+        "filename": "00449_KN_ADC.dat",
+        "size": 50109,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          22
+        ]
+      },
+      {
+        "filename": "00448_KN_ADC.dat",
+        "size": 50042,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          22
+        ]
+      },
+      {
+        "filename": "00447_KN_ADC.dat",
+        "size": 50735,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          22
+        ]
+      },
+      {
+        "filename": "00446_KN_ADC.dat",
+        "size": 50098,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          20
+        ]
+      },
+      {
+        "filename": "00445_KN_ADC.dat",
+        "size": 50104,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          20
+        ]
+      },
+      {
+        "filename": "00444_KN_ADC.dat",
+        "size": 50240,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          20
+        ]
+      },
+      {
+        "filename": "00443_KN_ADC.dat",
+        "size": 49993,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          20
+        ]
+      },
+      {
+        "filename": "00442_KN_ADC.dat",
+        "size": 50123,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          20
+        ]
+      },
+      {
+        "filename": "00441_KN_ADC.dat",
+        "size": 50077,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          20
+        ]
+      },
+      {
+        "filename": "00440_KN_ADC.dat",
+        "size": 50463,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          20
+        ]
+      },
+      {
+        "filename": "00439_KN_ADC.dat",
+        "size": 50292,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          20
+        ]
+      },
+      {
+        "filename": "00438_KN_ADC.dat",
+        "size": 50397,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          20
+        ]
+      },
+      {
+        "filename": "00437_KN_ADC.dat",
+        "size": 50263,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          20
+        ]
+      },
+      {
+        "filename": "00436_KN_ADC.dat",
+        "size": 50772,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          20
+        ]
+      },
+      {
+        "filename": "00435_KN_ADC.dat",
+        "size": 50488,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          20
+        ]
+      },
+      {
+        "filename": "00434_KN_ADC.dat",
+        "size": 50140,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          20
+        ]
+      },
+      {
+        "filename": "00433_KN_ADC.dat",
+        "size": 50059,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          20
+        ]
+      },
+      {
+        "filename": "00432_KN_ADC.dat",
+        "size": 50033,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          20
+        ]
+      },
+      {
+        "filename": "00431_KN_ADC.dat",
+        "size": 49948,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          18
+        ]
+      },
+      {
+        "filename": "00430_KN_ADC.dat",
+        "size": 50208,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          18
+        ]
+      },
+      {
+        "filename": "00429_KN_ADC.dat",
+        "size": 50081,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          18
+        ]
+      },
+      {
+        "filename": "00428_KN_ADC.dat",
+        "size": 50282,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          18
+        ]
+      },
+      {
+        "filename": "00427_KN_ADC.dat",
+        "size": 50211,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          18
+        ]
+      },
+      {
+        "filename": "00426_KN_ADC.dat",
+        "size": 50528,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          18
+        ]
+      },
+      {
+        "filename": "00425_KN_ADC.dat",
+        "size": 50199,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          18
+        ]
+      },
+      {
+        "filename": "00424_KN_ADC.dat",
+        "size": 50389,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          18
+        ]
+      },
+      {
+        "filename": "00423_KN_ADC.dat",
+        "size": 50308,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          18
+        ]
+      },
+      {
+        "filename": "00422_KN_ADC.dat",
+        "size": 50680,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          18
+        ]
+      },
+      {
+        "filename": "00421_KN_ADC.dat",
+        "size": 50420,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          18
+        ]
+      },
+      {
+        "filename": "00420_KN_ADC.dat",
+        "size": 50573,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          18
+        ]
+      },
+      {
+        "filename": "00419_KN_ADC.dat",
+        "size": 50490,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          18
+        ]
+      },
+      {
+        "filename": "00418_KN_ADC.dat",
+        "size": 50449,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          18
+        ]
+      },
+      {
+        "filename": "00417_KN_ADC.dat",
+        "size": 50746,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          18
+        ]
+      },
+      {
+        "filename": "00416_KN_ADC.dat",
+        "size": 50601,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          16
+        ]
+      },
+      {
+        "filename": "00415_KN_ADC.dat",
+        "size": 50570,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          16
+        ]
+      },
+      {
+        "filename": "00414_KN_ADC.dat",
+        "size": 51728,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          16
+        ]
+      },
+      {
+        "filename": "00413_KN_ADC.dat",
+        "size": 50524,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          16
+        ]
+      },
+      {
+        "filename": "00412_KN_ADC.dat",
+        "size": 50311,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          16
+        ]
+      },
+      {
+        "filename": "00411_KN_ADC.dat",
+        "size": 50325,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          16
+        ]
+      },
+      {
+        "filename": "00410_KN_ADC.dat",
+        "size": 50423,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          16
+        ]
+      },
+      {
+        "filename": "00409_KN_ADC.dat",
+        "size": 50440,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          16
+        ]
+      },
+      {
+        "filename": "00408_KN_ADC.dat",
+        "size": 50218,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          16
+        ]
+      },
+      {
+        "filename": "00407_KN_ADC.dat",
+        "size": 50288,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          16
+        ]
+      },
+      {
+        "filename": "00406_KN_ADC.dat",
+        "size": 50267,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          16
+        ]
+      },
+      {
+        "filename": "00405_KN_ADC.dat",
+        "size": 50688,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          16
+        ]
+      },
+      {
+        "filename": "00404_KN_ADC.dat",
+        "size": 50385,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          16
+        ]
+      },
+      {
+        "filename": "00403_KN_ADC.dat",
+        "size": 50412,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          16
+        ]
+      },
+      {
+        "filename": "00402_KN_ADC.dat",
+        "size": 50453,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          16
+        ]
+      },
+      {
+        "filename": "00401_KN_ADC.dat",
+        "size": 50200,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          14
+        ]
+      },
+      {
+        "filename": "00400_KN_ADC.dat",
+        "size": 50255,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          14
+        ]
+      },
+      {
+        "filename": "00399_KN_ADC.dat",
+        "size": 50593,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          14
+        ]
+      },
+      {
+        "filename": "00398_KN_ADC.dat",
+        "size": 50083,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          14
+        ]
+      },
+      {
+        "filename": "00397_KN_ADC.dat",
+        "size": 50070,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          14
+        ]
+      },
+      {
+        "filename": "00396_KN_ADC.dat",
+        "size": 49851,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          14
+        ]
+      },
+      {
+        "filename": "00395_KN_ADC.dat",
+        "size": 50090,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          14
+        ]
+      },
+      {
+        "filename": "00394_KN_ADC.dat",
+        "size": 49770,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          14
+        ]
+      },
+      {
+        "filename": "00393_KN_ADC.dat",
+        "size": 49821,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          14
+        ]
+      },
+      {
+        "filename": "00392_KN_ADC.dat",
+        "size": 49927,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          14
+        ]
+      },
+      {
+        "filename": "00391_KN_ADC.dat",
+        "size": 49835,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          14
+        ]
+      },
+      {
+        "filename": "00390_KN_ADC.dat",
+        "size": 49895,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          14
+        ]
+      },
+      {
+        "filename": "00389_KN_ADC.dat",
+        "size": 49805,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          14
+        ]
+      },
+      {
+        "filename": "00388_KN_ADC.dat",
+        "size": 49767,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          14
+        ]
+      },
+      {
+        "filename": "00387_KN_ADC.dat",
+        "size": 49751,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          14
+        ]
+      },
+      {
+        "filename": "00386_KN_ADC.dat",
+        "size": 49745,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          14
+        ]
+      },
+      {
+        "filename": "00385_KN_ADC.dat",
+        "size": 49616,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          12
+        ]
+      },
+      {
+        "filename": "00384_KN_ADC.dat",
+        "size": 49997,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          12
+        ]
+      },
+      {
+        "filename": "00383_KN_ADC.dat",
+        "size": 49666,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          12
+        ]
+      },
+      {
+        "filename": "00382_KN_ADC.dat",
+        "size": 49717,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          12
+        ]
+      },
+      {
+        "filename": "00381_KN_ADC.dat",
+        "size": 49683,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          12
+        ]
+      },
+      {
+        "filename": "00380_KN_ADC.dat",
+        "size": 49764,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          12
+        ]
+      },
+      {
+        "filename": "00379_KN_ADC.dat",
+        "size": 49803,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          12
+        ]
+      },
+      {
+        "filename": "00378_KN_ADC.dat",
+        "size": 49778,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          12
+        ]
+      },
+      {
+        "filename": "00377_KN_ADC.dat",
+        "size": 49557,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          12
+        ]
+      },
+      {
+        "filename": "00376_KN_ADC.dat",
+        "size": 49725,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          12
+        ]
+      },
+      {
+        "filename": "00375_KN_ADC.dat",
+        "size": 49834,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          12
+        ]
+      },
+      {
+        "filename": "00374_KN_ADC.dat",
+        "size": 49787,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          12
+        ]
+      },
+      {
+        "filename": "00373_KN_ADC.dat",
+        "size": 49646,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          12
+        ]
+      },
+      {
+        "filename": "00372_KN_ADC.dat",
+        "size": 49712,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          12
+        ]
+      },
+      {
+        "filename": "00371_KN_ADC.dat",
+        "size": 49708,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          12
+        ]
+      },
+      {
+        "filename": "00370_KN_ADC.dat",
+        "size": 49853,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          10
+        ]
+      },
+      {
+        "filename": "00369_KN_ADC.dat",
+        "size": 50156,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          10
+        ]
+      },
+      {
+        "filename": "00368_KN_ADC.dat",
+        "size": 49764,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          10
+        ]
+      },
+      {
+        "filename": "00367_KN_ADC.dat",
+        "size": 49858,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          10
+        ]
+      },
+      {
+        "filename": "00366_KN_ADC.dat",
+        "size": 49836,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          10
+        ]
+      },
+      {
+        "filename": "00365_KN_ADC.dat",
+        "size": 49674,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          10
+        ]
+      },
+      {
+        "filename": "00364_KN_ADC.dat",
+        "size": 49706,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          10
+        ]
+      },
+      {
+        "filename": "00363_KN_ADC.dat",
+        "size": 49682,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          10
+        ]
+      },
+      {
+        "filename": "00362_KN_ADC.dat",
+        "size": 49695,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          10
+        ]
+      },
+      {
+        "filename": "00361_KN_ADC.dat",
+        "size": 49579,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          10
+        ]
+      },
+      {
+        "filename": "00360_KN_ADC.dat",
+        "size": 49656,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          10
+        ]
+      },
+      {
+        "filename": "00359_KN_ADC.dat",
+        "size": 49555,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          10
+        ]
+      },
+      {
+        "filename": "00358_KN_ADC.dat",
+        "size": 49549,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          10
+        ]
+      },
+      {
+        "filename": "00357_KN_ADC.dat",
+        "size": 50851,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          10
+        ]
+      },
+      {
+        "filename": "00356_KN_ADC.dat",
+        "size": 50004,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          10
+        ]
+      },
+      {
+        "filename": "00355_KN_ADC.dat",
+        "size": 49741,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          10
+        ]
+      },
+      {
+        "filename": "00354_KN_ADC.dat",
+        "size": 50719,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          8
+        ]
+      },
+      {
+        "filename": "00353_KN_ADC.dat",
+        "size": 49847,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          8
+        ]
+      },
+      {
+        "filename": "00352_KN_ADC.dat",
+        "size": 49927,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          8
+        ]
+      },
+      {
+        "filename": "00351_KN_ADC.dat",
+        "size": 49983,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          8
+        ]
+      },
+      {
+        "filename": "00350_KN_ADC.dat",
+        "size": 50144,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          8
+        ]
+      },
+      {
+        "filename": "00349_KN_ADC.dat",
+        "size": 49982,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          8
+        ]
+      },
+      {
+        "filename": "00348_KN_ADC.dat",
+        "size": 50022,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          8
+        ]
+      },
+      {
+        "filename": "00347_KN_ADC.dat",
+        "size": 49988,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          8
+        ]
+      },
+      {
+        "filename": "00346_KN_ADC.dat",
+        "size": 50105,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          8
+        ]
+      },
+      {
+        "filename": "00345_KN_ADC.dat",
+        "size": 49980,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          8
+        ]
+      },
+      {
+        "filename": "00344_KN_ADC.dat",
+        "size": 49926,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          8
+        ]
+      },
+      {
+        "filename": "00343_KN_ADC.dat",
+        "size": 50022,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          8
+        ]
+      },
+      {
+        "filename": "00342_KN_ADC.dat",
+        "size": 50267,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          8
+        ]
+      },
+      {
+        "filename": "00341_KN_ADC.dat",
+        "size": 50211,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          8
+        ]
+      },
+      {
+        "filename": "00340_KN_ADC.dat",
+        "size": 50177,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          8
+        ]
+      },
+      {
+        "filename": "00339_KN_ADC.dat",
+        "size": 50270,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          6
+        ]
+      },
+      {
+        "filename": "00338_KN_ADC.dat",
+        "size": 50563,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          6
+        ]
+      },
+      {
+        "filename": "00337_KN_ADC.dat",
+        "size": 50421,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          6
+        ]
+      },
+      {
+        "filename": "00336_KN_ADC.dat",
+        "size": 50744,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          6
+        ]
+      },
+      {
+        "filename": "00335_KN_ADC.dat",
+        "size": 50761,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          6
+        ]
+      },
+      {
+        "filename": "00334_KN_ADC.dat",
+        "size": 50843,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          6
+        ]
+      },
+      {
+        "filename": "00333_KN_ADC.dat",
+        "size": 50560,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          6
+        ]
+      },
+      {
+        "filename": "00332_KN_ADC.dat",
+        "size": 50444,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          6
+        ]
+      },
+      {
+        "filename": "00331_KN_ADC.dat",
+        "size": 50349,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          6
+        ]
+      },
+      {
+        "filename": "00330_KN_ADC.dat",
+        "size": 50139,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          6
+        ]
+      },
+      {
+        "filename": "00329_KN_ADC.dat",
+        "size": 50246,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          6
+        ]
+      },
+      {
+        "filename": "00328_KN_ADC.dat",
+        "size": 50281,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          6
+        ]
+      },
+      {
+        "filename": "00327_KN_ADC.dat",
+        "size": 50119,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          6
+        ]
+      },
+      {
+        "filename": "00326_KN_ADC.dat",
+        "size": 50048,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          6
+        ]
+      },
+      {
+        "filename": "00325_KN_ADC.dat",
+        "size": 50093,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          6
+        ]
+      },
+      {
+        "filename": "00324_KN_ADC.dat",
+        "size": 51264,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          6
+        ]
+      },
+      {
+        "filename": "00323_KN_ADC.dat",
+        "size": 50262,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          4
+        ]
+      },
+      {
+        "filename": "00322_KN_ADC.dat",
+        "size": 50383,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          4
+        ]
+      },
+      {
+        "filename": "00321_KN_ADC.dat",
+        "size": 50121,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          4
+        ]
+      },
+      {
+        "filename": "00320_KN_ADC.dat",
+        "size": 50006,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          4
+        ]
+      },
+      {
+        "filename": "00319_KN_ADC.dat",
+        "size": 50039,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          4
+        ]
+      },
+      {
+        "filename": "00318_KN_ADC.dat",
+        "size": 50203,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          4
+        ]
+      },
+      {
+        "filename": "00317_KN_ADC.dat",
+        "size": 49886,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          4
+        ]
+      },
+      {
+        "filename": "00316_KN_ADC.dat",
+        "size": 49983,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          4
+        ]
+      },
+      {
+        "filename": "00315_KN_ADC.dat",
+        "size": 50046,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          4
+        ]
+      },
+      {
+        "filename": "00314_KN_ADC.dat",
+        "size": 50006,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          4
+        ]
+      },
+      {
+        "filename": "00313_KN_ADC.dat",
+        "size": 49970,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          4
+        ]
+      },
+      {
+        "filename": "00312_KN_ADC.dat",
+        "size": 49900,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          4
+        ]
+      },
+      {
+        "filename": "00311_KN_ADC.dat",
+        "size": 49916,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          4
+        ]
+      },
+      {
+        "filename": "00310_KN_ADC.dat",
+        "size": 49829,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          4
+        ]
+      },
+      {
+        "filename": "00309_KN_ADC.dat",
+        "size": 50075,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          4
+        ]
+      },
+      {
+        "filename": "00308_KN_ADC.dat",
+        "size": 49874,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          2
+        ]
+      },
+      {
+        "filename": "00307_KN_ADC.dat",
+        "size": 49985,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          2
+        ]
+      },
+      {
+        "filename": "00306_KN_ADC.dat",
+        "size": 49863,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          2
+        ]
+      },
+      {
+        "filename": "00305_KN_ADC.dat",
+        "size": 50000,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          2
+        ]
+      },
+      {
+        "filename": "00304_KN_ADC.dat",
+        "size": 49930,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          2
+        ]
+      },
+      {
+        "filename": "00303_KN_ADC.dat",
+        "size": 49801,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          2
+        ]
+      },
+      {
+        "filename": "00302_KN_ADC.dat",
+        "size": 49940,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          2
+        ]
+      },
+      {
+        "filename": "00301_KN_ADC.dat",
+        "size": 49877,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          2
+        ]
+      },
+      {
+        "filename": "00300_KN_ADC.dat",
+        "size": 50561,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          2
+        ]
+      },
+      {
+        "filename": "00299_KN_ADC.dat",
+        "size": 50444,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          2
+        ]
+      },
+      {
+        "filename": "00298_KN_ADC.dat",
+        "size": 50806,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          2
+        ]
+      },
+      {
+        "filename": "00297_KN_ADC.dat",
+        "size": 50277,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          2
+        ]
+      },
+      {
+        "filename": "00296_KN_ADC.dat",
+        "size": 50312,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          2
+        ]
+      },
+      {
+        "filename": "00295_KN_ADC.dat",
+        "size": 50448,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          2
+        ]
+      },
+      {
+        "filename": "00294_KN_ADC.dat",
+        "size": 50358,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          2
+        ]
+      },
+      {
+        "filename": "00293_KN_ADC.dat",
+        "size": 50035,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          2
+        ]
+      },
+      {
+        "filename": "00292_KN_ADC.dat",
+        "size": 50093,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          0
+        ]
+      },
+      {
+        "filename": "00291_KN_ADC.dat",
+        "size": 50244,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          0
+        ]
+      },
+      {
+        "filename": "00290_KN_ADC.dat",
+        "size": 50249,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          0
+        ]
+      },
+      {
+        "filename": "00289_KN_ADC.dat",
+        "size": 50158,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          0
+        ]
+      },
+      {
+        "filename": "00288_KN_ADC.dat",
+        "size": 50257,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          0
+        ]
+      },
+      {
+        "filename": "00287_KN_ADC.dat",
+        "size": 50231,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          0
+        ]
+      },
+      {
+        "filename": "00286_KN_ADC.dat",
+        "size": 50262,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          0
+        ]
+      },
+      {
+        "filename": "00285_KN_ADC.dat",
+        "size": 50555,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          0
+        ]
+      },
+      {
+        "filename": "00284_KN_ADC.dat",
+        "size": 50195,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          0
+        ]
+      },
+      {
+        "filename": "00283_KN_ADC.dat",
+        "size": 50061,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          0
+        ]
+      },
+      {
+        "filename": "00282_KN_ADC.dat",
+        "size": 50022,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          0
+        ]
+      },
+      {
+        "filename": "00281_KN_ADC.dat",
+        "size": 50163,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          0
+        ]
+      },
+      {
+        "filename": "00280_KN_ADC.dat",
+        "size": 50263,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          0
+        ]
+      },
+      {
+        "filename": "00279_KN_ADC.dat",
+        "size": 50979,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          0
+        ]
+      },
+      {
+        "filename": "00278_KN_ADC.dat",
+        "size": 50136,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          29,
+          0
+        ]
+      },
+      {
+        "filename": "00277_KN_ADC.dat",
+        "size": 50085,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          58
+        ]
+      },
+      {
+        "filename": "00276_KN_ADC.dat",
+        "size": 50387,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          58
+        ]
+      },
+      {
+        "filename": "00275_KN_ADC.dat",
+        "size": 50607,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          58
+        ]
+      },
+      {
+        "filename": "00274_KN_ADC.dat",
+        "size": 50521,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          58
+        ]
+      },
+      {
+        "filename": "00273_KN_ADC.dat",
+        "size": 50427,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          58
+        ]
+      },
+      {
+        "filename": "00272_KN_ADC.dat",
+        "size": 50327,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          58
+        ]
+      },
+      {
+        "filename": "00271_KN_ADC.dat",
+        "size": 50518,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          58
+        ]
+      },
+      {
+        "filename": "00270_KN_ADC.dat",
+        "size": 50382,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          58
+        ]
+      },
+      {
+        "filename": "00269_KN_ADC.dat",
+        "size": 50294,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          58
+        ]
+      },
+      {
+        "filename": "00268_KN_ADC.dat",
+        "size": 50366,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          58
+        ]
+      },
+      {
+        "filename": "00267_KN_ADC.dat",
+        "size": 50404,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          58
+        ]
+      },
+      {
+        "filename": "00266_KN_ADC.dat",
+        "size": 50559,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          58
+        ]
+      },
+      {
+        "filename": "00265_KN_ADC.dat",
+        "size": 50384,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          58
+        ]
+      },
+      {
+        "filename": "00264_KN_ADC.dat",
+        "size": 50315,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          58
+        ]
+      },
+      {
+        "filename": "00263_KN_ADC.dat",
+        "size": 50473,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          58
+        ]
+      },
+      {
+        "filename": "00262_KN_ADC.dat",
+        "size": 50473,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          58
+        ]
+      },
+      {
+        "filename": "00261_KN_ADC.dat",
+        "size": 50037,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          56
+        ]
+      },
+      {
+        "filename": "00260_KN_ADC.dat",
+        "size": 49984,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          56
+        ]
+      },
+      {
+        "filename": "00259_KN_ADC.dat",
+        "size": 50044,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          56
+        ]
+      },
+      {
+        "filename": "00258_KN_ADC.dat",
+        "size": 50373,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          56
+        ]
+      },
+      {
+        "filename": "00257_KN_ADC.dat",
+        "size": 49963,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          56
+        ]
+      },
+      {
+        "filename": "00256_KN_ADC.dat",
+        "size": 49956,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          56
+        ]
+      },
+      {
+        "filename": "00255_KN_ADC.dat",
+        "size": 49899,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          56
+        ]
+      },
+      {
+        "filename": "00254_KN_ADC.dat",
+        "size": 49723,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          56
+        ]
+      },
+      {
+        "filename": "00253_KN_ADC.dat",
+        "size": 49946,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          56
+        ]
+      },
+      {
+        "filename": "00252_KN_ADC.dat",
+        "size": 49872,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          56
+        ]
+      },
+      {
+        "filename": "00251_KN_ADC.dat",
+        "size": 49821,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          56
+        ]
+      },
+      {
+        "filename": "00250_KN_ADC.dat",
+        "size": 49766,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          56
+        ]
+      },
+      {
+        "filename": "00249_KN_ADC.dat",
+        "size": 49552,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          56
+        ]
+      },
+      {
+        "filename": "00248_KN_ADC.dat",
+        "size": 49683,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          56
+        ]
+      },
+      {
+        "filename": "00247_KN_ADC.dat",
+        "size": 49857,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          56
+        ]
+      },
+      {
+        "filename": "00246_KN_ADC.dat",
+        "size": 49924,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          56
+        ]
+      },
+      {
+        "filename": "00245_KN_ADC.dat",
+        "size": 49960,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          54
+        ]
+      },
+      {
+        "filename": "00244_KN_ADC.dat",
+        "size": 49982,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          54
+        ]
+      },
+      {
+        "filename": "00243_KN_ADC.dat",
+        "size": 50080,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          54
+        ]
+      },
+      {
+        "filename": "00242_KN_ADC.dat",
+        "size": 49985,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          54
+        ]
+      },
+      {
+        "filename": "00241_KN_ADC.dat",
+        "size": 50462,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          54
+        ]
+      },
+      {
+        "filename": "00240_KN_ADC.dat",
+        "size": 50609,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          54
+        ]
+      },
+      {
+        "filename": "00239_KN_ADC.dat",
+        "size": 50458,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          54
+        ]
+      },
+      {
+        "filename": "00238_KN_ADC.dat",
+        "size": 50618,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          54
+        ]
+      },
+      {
+        "filename": "00237_KN_ADC.dat",
+        "size": 51087,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          54
+        ]
+      },
+      {
+        "filename": "00236_KN_ADC.dat",
+        "size": 50533,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          54
+        ]
+      },
+      {
+        "filename": "00235_KN_ADC.dat",
+        "size": 50496,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          54
+        ]
+      },
+      {
+        "filename": "00234_KN_ADC.dat",
+        "size": 51222,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          54
+        ]
+      },
+      {
+        "filename": "00233_KN_ADC.dat",
+        "size": 50597,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          54
+        ]
+      },
+      {
+        "filename": "00232_KN_ADC.dat",
+        "size": 50341,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          54
+        ]
+      },
+      {
+        "filename": "00231_KN_ADC.dat",
+        "size": 50344,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          54
+        ]
+      },
+      {
+        "filename": "00230_KN_ADC.dat",
+        "size": 50284,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          52
+        ]
+      },
+      {
+        "filename": "00229_KN_ADC.dat",
+        "size": 50216,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          52
+        ]
+      },
+      {
+        "filename": "00228_KN_ADC.dat",
+        "size": 50375,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          52
+        ]
+      },
+      {
+        "filename": "00227_KN_ADC.dat",
+        "size": 50293,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          52
+        ]
+      },
+      {
+        "filename": "00226_KN_ADC.dat",
+        "size": 50216,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          52
+        ]
+      },
+      {
+        "filename": "00225_KN_ADC.dat",
+        "size": 50641,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          52
+        ]
+      },
+      {
+        "filename": "00224_KN_ADC.dat",
+        "size": 50385,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          52
+        ]
+      },
+      {
+        "filename": "00223_KN_ADC.dat",
+        "size": 50494,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          52
+        ]
+      },
+      {
+        "filename": "00222_KN_ADC.dat",
+        "size": 50363,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          52
+        ]
+      },
+      {
+        "filename": "00221_KN_ADC.dat",
+        "size": 50277,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          52
+        ]
+      },
+      {
+        "filename": "00220_KN_ADC.dat",
+        "size": 50275,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          52
+        ]
+      },
+      {
+        "filename": "00219_KN_ADC.dat",
+        "size": 51006,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          52
+        ]
+      },
+      {
+        "filename": "00218_KN_ADC.dat",
+        "size": 50490,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          52
+        ]
+      },
+      {
+        "filename": "00217_KN_ADC.dat",
+        "size": 50521,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          52
+        ]
+      },
+      {
+        "filename": "00216_KN_ADC.dat",
+        "size": 50815,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          52
+        ]
+      },
+      {
+        "filename": "00215_KN_ADC.dat",
+        "size": 50612,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          50
+        ]
+      },
+      {
+        "filename": "00214_KN_ADC.dat",
+        "size": 50635,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          50
+        ]
+      },
+      {
+        "filename": "00213_KN_ADC.dat",
+        "size": 50534,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          50
+        ]
+      },
+      {
+        "filename": "00212_KN_ADC.dat",
+        "size": 50429,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          50
+        ]
+      },
+      {
+        "filename": "00211_KN_ADC.dat",
+        "size": 50485,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          50
+        ]
+      },
+      {
+        "filename": "00210_KN_ADC.dat",
+        "size": 50982,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          50
+        ]
+      },
+      {
+        "filename": "00209_KN_ADC.dat",
+        "size": 50526,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          50
+        ]
+      },
+      {
+        "filename": "00208_KN_ADC.dat",
+        "size": 50433,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          50
+        ]
+      },
+      {
+        "filename": "00207_KN_ADC.dat",
+        "size": 50375,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          50
+        ]
+      },
+      {
+        "filename": "00206_KN_ADC.dat",
+        "size": 50501,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          50
+        ]
+      },
+      {
+        "filename": "00205_KN_ADC.dat",
+        "size": 50327,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          50
+        ]
+      },
+      {
+        "filename": "00204_KN_ADC.dat",
+        "size": 50669,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          50
+        ]
+      },
+      {
+        "filename": "00203_KN_ADC.dat",
+        "size": 50570,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          50
+        ]
+      },
+      {
+        "filename": "00202_KN_ADC.dat",
+        "size": 50548,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          50
+        ]
+      },
+      {
+        "filename": "00201_KN_ADC.dat",
+        "size": 50574,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          50
+        ]
+      },
+      {
+        "filename": "00200_KN_ADC.dat",
+        "size": 50445,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          48
+        ]
+      },
+      {
+        "filename": "00199_KN_ADC.dat",
+        "size": 50512,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          48
+        ]
+      },
+      {
+        "filename": "00198_KN_ADC.dat",
+        "size": 50743,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          48
+        ]
+      },
+      {
+        "filename": "00197_KN_ADC.dat",
+        "size": 50475,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          48
+        ]
+      },
+      {
+        "filename": "00196_KN_ADC.dat",
+        "size": 50540,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          48
+        ]
+      },
+      {
+        "filename": "00195_KN_ADC.dat",
+        "size": 50591,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          48
+        ]
+      },
+      {
+        "filename": "00194_KN_ADC.dat",
+        "size": 50659,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          48
+        ]
+      },
+      {
+        "filename": "00193_KN_ADC.dat",
+        "size": 50626,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          48
+        ]
+      },
+      {
+        "filename": "00192_KN_ADC.dat",
+        "size": 50815,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          48
+        ]
+      },
+      {
+        "filename": "00191_KN_ADC.dat",
+        "size": 50792,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          48
+        ]
+      },
+      {
+        "filename": "00190_KN_ADC.dat",
+        "size": 50670,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          48
+        ]
+      },
+      {
+        "filename": "00189_KN_ADC.dat",
+        "size": 50401,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          48
+        ]
+      },
+      {
+        "filename": "00188_KN_ADC.dat",
+        "size": 50955,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          48
+        ]
+      },
+      {
+        "filename": "00187_KN_ADC.dat",
+        "size": 50930,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          48
+        ]
+      },
+      {
+        "filename": "00186_KN_ADC.dat",
+        "size": 50739,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          48
+        ]
+      },
+      {
+        "filename": "00185_KN_ADC.dat",
+        "size": 50951,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          46
+        ]
+      },
+      {
+        "filename": "00184_KN_ADC.dat",
+        "size": 50935,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          46
+        ]
+      },
+      {
+        "filename": "00183_KN_ADC.dat",
+        "size": 50890,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          46
+        ]
+      },
+      {
+        "filename": "00182_KN_ADC.dat",
+        "size": 50743,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          46
+        ]
+      },
+      {
+        "filename": "00181_KN_ADC.dat",
+        "size": 50901,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          46
+        ]
+      },
+      {
+        "filename": "00180_KN_ADC.dat",
+        "size": 51510,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          46
+        ]
+      },
+      {
+        "filename": "00179_KN_ADC.dat",
+        "size": 51486,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          46
+        ]
+      },
+      {
+        "filename": "00178_KN_ADC.dat",
+        "size": 51498,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          46
+        ]
+      },
+      {
+        "filename": "00177_KN_ADC.dat",
+        "size": 50642,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          46
+        ]
+      },
+      {
+        "filename": "00176_KN_ADC.dat",
+        "size": 50447,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          46
+        ]
+      },
+      {
+        "filename": "00175_KN_ADC.dat",
+        "size": 50590,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          46
+        ]
+      },
+      {
+        "filename": "00174_KN_ADC.dat",
+        "size": 51757,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          46
+        ]
+      },
+      {
+        "filename": "00173_KN_ADC.dat",
+        "size": 50643,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          46
+        ]
+      },
+      {
+        "filename": "00172_KN_ADC.dat",
+        "size": 50474,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          46
+        ]
+      },
+      {
+        "filename": "00171_KN_ADC.dat",
+        "size": 51113,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          46
+        ]
+      },
+      {
+        "filename": "00170_KN_ADC.dat",
+        "size": 51121,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          44
+        ]
+      },
+      {
+        "filename": "00169_KN_ADC.dat",
+        "size": 51122,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          44
+        ]
+      },
+      {
+        "filename": "00168_KN_ADC.dat",
+        "size": 51036,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          44
+        ]
+      },
+      {
+        "filename": "00167_KN_ADC.dat",
+        "size": 50785,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          44
+        ]
+      },
+      {
+        "filename": "00166_KN_ADC.dat",
+        "size": 50720,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          44
+        ]
+      },
+      {
+        "filename": "00165_KN_ADC.dat",
+        "size": 50573,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          44
+        ]
+      },
+      {
+        "filename": "00164_KN_ADC.dat",
+        "size": 51086,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          44
+        ]
+      },
+      {
+        "filename": "00163_KN_ADC.dat",
+        "size": 50719,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          44
+        ]
+      },
+      {
+        "filename": "00162_KN_ADC.dat",
+        "size": 50427,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          44
+        ]
+      },
+      {
+        "filename": "00161_KN_ADC.dat",
+        "size": 50599,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          44
+        ]
+      },
+      {
+        "filename": "00160_KN_ADC.dat",
+        "size": 50454,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          44
+        ]
+      },
+      {
+        "filename": "00159_KN_ADC.dat",
+        "size": 51039,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          44
+        ]
+      },
+      {
+        "filename": "00158_KN_ADC.dat",
+        "size": 50787,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          44
+        ]
+      },
+      {
+        "filename": "00157_KN_ADC.dat",
+        "size": 50958,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          44
+        ]
+      },
+      {
+        "filename": "00156_KN_ADC.dat",
+        "size": 50867,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          44
+        ]
+      },
+      {
+        "filename": "00155_KN_ADC.dat",
+        "size": 50452,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          42
+        ]
+      },
+      {
+        "filename": "00154_KN_ADC.dat",
+        "size": 50504,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          42
+        ]
+      },
+      {
+        "filename": "00153_KN_ADC.dat",
+        "size": 50572,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          42
+        ]
+      },
+      {
+        "filename": "00152_KN_ADC.dat",
+        "size": 50497,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          42
+        ]
+      },
+      {
+        "filename": "00151_KN_ADC.dat",
+        "size": 50465,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          42
+        ]
+      },
+      {
+        "filename": "00150_KN_ADC.dat",
+        "size": 50688,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          42
+        ]
+      },
+      {
+        "filename": "00149_KN_ADC.dat",
+        "size": 50539,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          42
+        ]
+      },
+      {
+        "filename": "00148_KN_ADC.dat",
+        "size": 50409,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          42
+        ]
+      },
+      {
+        "filename": "00147_KN_ADC.dat",
+        "size": 50535,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          42
+        ]
+      },
+      {
+        "filename": "00146_KN_ADC.dat",
+        "size": 50398,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          42
+        ]
+      },
+      {
+        "filename": "00145_KN_ADC.dat",
+        "size": 50617,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          42
+        ]
+      },
+      {
+        "filename": "00144_KN_ADC.dat",
+        "size": 50644,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          42
+        ]
+      },
+      {
+        "filename": "00143_KN_ADC.dat",
+        "size": 50795,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          42
+        ]
+      },
+      {
+        "filename": "00142_KN_ADC.dat",
+        "size": 50699,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          42
+        ]
+      },
+      {
+        "filename": "00141_KN_ADC.dat",
+        "size": 50985,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          42
+        ]
+      },
+      {
+        "filename": "00140_KN_ADC.dat",
+        "size": 50958,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          42
+        ]
+      },
+      {
+        "filename": "00139_KN_ADC.dat",
+        "size": 50906,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          40
+        ]
+      },
+      {
+        "filename": "00138_KN_ADC.dat",
+        "size": 51027,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          40
+        ]
+      },
+      {
+        "filename": "00137_KN_ADC.dat",
+        "size": 50860,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          40
+        ]
+      },
+      {
+        "filename": "00136_KN_ADC.dat",
+        "size": 50790,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          40
+        ]
+      },
+      {
+        "filename": "00135_KN_ADC.dat",
+        "size": 51001,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          40
+        ]
+      },
+      {
+        "filename": "00134_KN_ADC.dat",
+        "size": 50943,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          40
+        ]
+      },
+      {
+        "filename": "00133_KN_ADC.dat",
+        "size": 50993,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          40
+        ]
+      },
+      {
+        "filename": "00132_KN_ADC.dat",
+        "size": 50890,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          40
+        ]
+      },
+      {
+        "filename": "00131_KN_ADC.dat",
+        "size": 51127,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          40
+        ]
+      },
+      {
+        "filename": "00130_KN_ADC.dat",
+        "size": 50991,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          40
+        ]
+      },
+      {
+        "filename": "00129_KN_ADC.dat",
+        "size": 51716,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          40
+        ]
+      },
+      {
+        "filename": "00128_KN_ADC.dat",
+        "size": 51081,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          40
+        ]
+      },
+      {
+        "filename": "00127_KN_ADC.dat",
+        "size": 51445,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          40
+        ]
+      },
+      {
+        "filename": "00126_KN_ADC.dat",
+        "size": 51305,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          40
+        ]
+      },
+      {
+        "filename": "00125_KN_ADC.dat",
+        "size": 51239,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          40
+        ]
+      },
+      {
+        "filename": "00124_KN_ADC.dat",
+        "size": 51386,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          40
+        ]
+      },
+      {
+        "filename": "00123_KN_ADC.dat",
+        "size": 51425,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          38
+        ]
+      },
+      {
+        "filename": "00122_KN_ADC.dat",
+        "size": 51512,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          38
+        ]
+      },
+      {
+        "filename": "00121_KN_ADC.dat",
+        "size": 51461,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          38
+        ]
+      },
+      {
+        "filename": "00120_KN_ADC.dat",
+        "size": 51424,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          38
+        ]
+      },
+      {
+        "filename": "00119_KN_ADC.dat",
+        "size": 51362,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          38
+        ]
+      },
+      {
+        "filename": "00118_KN_ADC.dat",
+        "size": 51403,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          38
+        ]
+      },
+      {
+        "filename": "00117_KN_ADC.dat",
+        "size": 51150,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          38
+        ]
+      },
+      {
+        "filename": "00116_KN_ADC.dat",
+        "size": 51471,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          38
+        ]
+      },
+      {
+        "filename": "00115_KN_ADC.dat",
+        "size": 51429,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          38
+        ]
+      },
+      {
+        "filename": "00114_KN_ADC.dat",
+        "size": 52456,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          38
+        ]
+      },
+      {
+        "filename": "00113_KN_ADC.dat",
+        "size": 51280,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          38
+        ]
+      },
+      {
+        "filename": "00112_KN_ADC.dat",
+        "size": 51361,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          38
+        ]
+      },
+      {
+        "filename": "00111_KN_ADC.dat",
+        "size": 51473,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          38
+        ]
+      },
+      {
+        "filename": "00110_KN_ADC.dat",
+        "size": 51449,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          38
+        ]
+      },
+      {
+        "filename": "00109_KN_ADC.dat",
+        "size": 51389,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          38
+        ]
+      },
+      {
+        "filename": "00108_KN_ADC.dat",
+        "size": 51466,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          36
+        ]
+      },
+      {
+        "filename": "00107_KN_ADC.dat",
+        "size": 51263,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          36
+        ]
+      },
+      {
+        "filename": "00106_KN_ADC.dat",
+        "size": 51311,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          36
+        ]
+      },
+      {
+        "filename": "00105_KN_ADC.dat",
+        "size": 51262,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          36
+        ]
+      },
+      {
+        "filename": "00104_KN_ADC.dat",
+        "size": 50919,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          36
+        ]
+      },
+      {
+        "filename": "00103_KN_ADC.dat",
+        "size": 50951,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          36
+        ]
+      },
+      {
+        "filename": "00102_KN_ADC.dat",
+        "size": 50694,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          36
+        ]
+      },
+      {
+        "filename": "00101_KN_ADC.dat",
+        "size": 50813,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          36
+        ]
+      },
+      {
+        "filename": "00100_KN_ADC.dat",
+        "size": 50766,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          36
+        ]
+      },
+      {
+        "filename": "00099_KN_ADC.dat",
+        "size": 51175,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          36
+        ]
+      },
+      {
+        "filename": "00098_KN_ADC.dat",
+        "size": 50627,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          36
+        ]
+      },
+      {
+        "filename": "00097_KN_ADC.dat",
+        "size": 51130,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          36
+        ]
+      },
+      {
+        "filename": "00096_KN_ADC.dat",
+        "size": 50519,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          36
+        ]
+      },
+      {
+        "filename": "00095_KN_ADC.dat",
+        "size": 50558,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          36
+        ]
+      },
+      {
+        "filename": "00094_KN_ADC.dat",
+        "size": 50419,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          36
+        ]
+      },
+      {
+        "filename": "00093_KN_ADC.dat",
+        "size": 50442,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          36
+        ]
+      },
+      {
+        "filename": "00092_KN_ADC.dat",
+        "size": 50263,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          34
+        ]
+      },
+      {
+        "filename": "00091_KN_ADC.dat",
+        "size": 50240,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          34
+        ]
+      },
+      {
+        "filename": "00090_KN_ADC.dat",
+        "size": 50097,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          34
+        ]
+      },
+      {
+        "filename": "00089_KN_ADC.dat",
+        "size": 50233,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          34
+        ]
+      },
+      {
+        "filename": "00088_KN_ADC.dat",
+        "size": 50392,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          34
+        ]
+      },
+      {
+        "filename": "00087_KN_ADC.dat",
+        "size": 50532,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          34
+        ]
+      },
+      {
+        "filename": "00086_KN_ADC.dat",
+        "size": 50447,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          34
+        ]
+      },
+      {
+        "filename": "00085_KN_ADC.dat",
+        "size": 50408,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          34
+        ]
+      },
+      {
+        "filename": "00084_KN_ADC.dat",
+        "size": 51355,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          34
+        ]
+      },
+      {
+        "filename": "00083_KN_ADC.dat",
+        "size": 50528,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          34
+        ]
+      },
+      {
+        "filename": "00082_KN_ADC.dat",
+        "size": 50539,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          34
+        ]
+      },
+      {
+        "filename": "00081_KN_ADC.dat",
+        "size": 50284,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          34
+        ]
+      },
+      {
+        "filename": "00080_KN_ADC.dat",
+        "size": 50441,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          34
+        ]
+      },
+      {
+        "filename": "00079_KN_ADC.dat",
+        "size": 50295,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          34
+        ]
+      },
+      {
+        "filename": "00078_KN_ADC.dat",
+        "size": 50320,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          34
+        ]
+      },
+      {
+        "filename": "00077_KN_ADC.dat",
+        "size": 50322,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          34
+        ]
+      },
+      {
+        "filename": "00076_KN_ADC.dat",
+        "size": 50330,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          34
+        ]
+      },
+      {
+        "filename": "00075_KN_ADC.dat",
+        "size": 50192,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          32
+        ]
+      },
+      {
+        "filename": "00074_KN_ADC.dat",
+        "size": 50204,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          32
+        ]
+      },
+      {
+        "filename": "00073_KN_ADC.dat",
+        "size": 50321,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          32
+        ]
+      },
+      {
+        "filename": "00072_KN_ADC.dat",
+        "size": 50407,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          32
+        ]
+      },
+      {
+        "filename": "00071_KN_ADC.dat",
+        "size": 50215,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          32
+        ]
+      },
+      {
+        "filename": "00070_KN_ADC.dat",
+        "size": 50315,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          32
+        ]
+      },
+      {
+        "filename": "00069_KN_ADC.dat",
+        "size": 50813,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          32
+        ]
+      },
+      {
+        "filename": "00068_KN_ADC.dat",
+        "size": 50369,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          32
+        ]
+      },
+      {
+        "filename": "00067_KN_ADC.dat",
+        "size": 50353,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          32
+        ]
+      },
+      {
+        "filename": "00066_KN_ADC.dat",
+        "size": 51150,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          32
+        ]
+      },
+      {
+        "filename": "00065_KN_ADC.dat",
+        "size": 51381,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          32
+        ]
+      },
+      {
+        "filename": "00064_KN_ADC.dat",
+        "size": 52184,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          32
+        ]
+      },
+      {
+        "filename": "00063_KN_ADC.dat",
+        "size": 50398,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          32
+        ]
+      },
+      {
+        "filename": "00062_KN_ADC.dat",
+        "size": 50241,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          32
+        ]
+      },
+      {
+        "filename": "00061_KN_ADC.dat",
+        "size": 50115,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          32
+        ]
+      },
+      {
+        "filename": "00060_KN_ADC.dat",
+        "size": 50229,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          32
+        ]
+      },
+      {
+        "filename": "00059_KN_ADC.dat",
+        "size": 50353,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          32
+        ]
+      },
+      {
+        "filename": "00058_KN_ADC.dat",
+        "size": 50286,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          30
+        ]
+      },
+      {
+        "filename": "00057_KN_ADC.dat",
+        "size": 50473,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          30
+        ]
+      },
+      {
+        "filename": "00056_KN_ADC.dat",
+        "size": 50895,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          30
+        ]
+      },
+      {
+        "filename": "00055_KN_ADC.dat",
+        "size": 50612,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          30
+        ]
+      },
+      {
+        "filename": "00054_KN_ADC.dat",
+        "size": 50181,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          30
+        ]
+      },
+      {
+        "filename": "00053_KN_ADC.dat",
+        "size": 50313,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          30
+        ]
+      },
+      {
+        "filename": "00052_KN_ADC.dat",
+        "size": 50399,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          30
+        ]
+      },
+      {
+        "filename": "00051_KN_ADC.dat",
+        "size": 50236,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          30
+        ]
+      },
+      {
+        "filename": "00050_KN_ADC.dat",
+        "size": 50364,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          30
+        ]
+      },
+      {
+        "filename": "00049_KN_ADC.dat",
+        "size": 50303,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          30
+        ]
+      },
+      {
+        "filename": "00048_KN_ADC.dat",
+        "size": 50166,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          30
+        ]
+      },
+      {
+        "filename": "00047_KN_ADC.dat",
+        "size": 50283,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          30
+        ]
+      },
+      {
+        "filename": "00046_KN_ADC.dat",
+        "size": 50340,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          30
+        ]
+      },
+      {
+        "filename": "00045_KN_ADC.dat",
+        "size": 51137,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          30
+        ]
+      },
+      {
+        "filename": "00044_KN_ADC.dat",
+        "size": 50839,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          30
+        ]
+      },
+      {
+        "filename": "00043_KN_ADC.dat",
+        "size": 50377,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          30
+        ]
+      },
+      {
+        "filename": "00042_KN_ADC.dat",
+        "size": 50355,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          28
+        ]
+      },
+      {
+        "filename": "00041_KN_ADC.dat",
+        "size": 50325,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          28
+        ]
+      },
+      {
+        "filename": "00040_KN_ADC.dat",
+        "size": 50438,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          28
+        ]
+      },
+      {
+        "filename": "00039_KN_ADC.dat",
+        "size": 50139,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          28
+        ]
+      },
+      {
+        "filename": "00038_KN_ADC.dat",
+        "size": 50308,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          28
+        ]
+      },
+      {
+        "filename": "00037_KN_ADC.dat",
+        "size": 50324,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          28
+        ]
+      },
+      {
+        "filename": "00036_KN_ADC.dat",
+        "size": 50287,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          28
+        ]
+      },
+      {
+        "filename": "00035_KN_ADC.dat",
+        "size": 50215,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          28
+        ]
+      },
+      {
+        "filename": "00034_KN_ADC.dat",
+        "size": 50234,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          28
+        ]
+      },
+      {
+        "filename": "00033_KN_ADC.dat",
+        "size": 50259,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          28
+        ]
+      },
+      {
+        "filename": "00032_KN_ADC.dat",
+        "size": 50203,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          28
+        ]
+      },
+      {
+        "filename": "00031_KN_ADC.dat",
+        "size": 50324,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          28
+        ]
+      },
+      {
+        "filename": "00030_KN_ADC.dat",
+        "size": 50169,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          28
+        ]
+      },
+      {
+        "filename": "00029_KN_ADC.dat",
+        "size": 50217,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          28
+        ]
+      },
+      {
+        "filename": "00028_KN_ADC.dat",
+        "size": 50416,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          28
+        ]
+      },
+      {
+        "filename": "00027_KN_ADC.dat",
+        "size": 50124,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          28
+        ]
+      },
+      {
+        "filename": "00026_KN_ADC.dat",
+        "size": 50278,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          26
+        ]
+      },
+      {
+        "filename": "00025_KN_ADC.dat",
+        "size": 50246,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          26
+        ]
+      },
+      {
+        "filename": "00024_KN_ADC.dat",
+        "size": 50186,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          26
+        ]
+      },
+      {
+        "filename": "00023_KN_ADC.dat",
+        "size": 50230,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          26
+        ]
+      },
+      {
+        "filename": "00022_KN_ADC.dat",
+        "size": 50093,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          26
+        ]
+      },
+      {
+        "filename": "00021_KN_ADC.dat",
+        "size": 50173,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          26
+        ]
+      },
+      {
+        "filename": "00020_KN_ADC.dat",
+        "size": 50319,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          26
+        ]
+      },
+      {
+        "filename": "00019_KN_ADC.dat",
+        "size": 50431,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          26
+        ]
+      },
+      {
+        "filename": "00018_KN_ADC.dat",
+        "size": 50528,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          26
+        ]
+      },
+      {
+        "filename": "00017_KN_ADC.dat",
+        "size": 50363,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          26
+        ]
+      },
+      {
+        "filename": "00016_KN_ADC.dat",
+        "size": 50352,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          26
+        ]
+      },
+      {
+        "filename": "00015_KN_ADC.dat",
+        "size": 50531,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          26
+        ]
+      },
+      {
+        "filename": "00014_KN_ADC.dat",
+        "size": 50382,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          26
+        ]
+      },
+      {
+        "filename": "00013_KN_ADC.dat",
+        "size": 50380,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          26
+        ]
+      },
+      {
+        "filename": "00012_KN_ADC.dat",
+        "size": 50190,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          26
+        ]
+      },
+      {
+        "filename": "00011_KN_ADC.dat",
+        "size": 50280,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          26
+        ]
+      },
+      {
+        "filename": "00010_KN_ADC.dat",
+        "size": 50215,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          24
+        ]
+      },
+      {
+        "filename": "00009_KN_ADC.dat",
+        "size": 50449,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          24
+        ]
+      },
+      {
+        "filename": "00008_KN_ADC.dat",
+        "size": 50397,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          24
+        ]
+      },
+      {
+        "filename": "00007_KN_ADC.dat",
+        "size": 50343,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          24
+        ]
+      },
+      {
+        "filename": "00006_KN_ADC.dat",
+        "size": 50318,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          24
+        ]
+      },
+      {
+        "filename": "00005_KN_ADC.dat",
+        "size": 50273,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          24
+        ]
+      },
+      {
+        "filename": "00004_KN_ADC.dat",
+        "size": 50409,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          24
+        ]
+      },
+      {
+        "filename": "00003_KN_ADC.dat",
+        "size": 50228,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          24
+        ]
+      },
+      {
+        "filename": "00002_KN_ADC.dat",
+        "size": 50293,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          24
+        ]
+      },
+      {
+        "filename": "00001_KN_ADC.dat",
+        "size": 50161,
+        "archive_timestamp": [
+          2016,
+          7,
+          20,
+          13,
+          28,
+          24
+        ]
+      },
+      {
+        "filename": "14072016_CuS_45_67.dat",
+        "size": 17224,
+        "archive_timestamp": [
+          2016,
+          7,
+          14,
+          22,
+          6,
+          8
+        ]
+      },
+      {
+        "filename": "14072016_CuS_45_58.dat",
+        "size": 10265,
+        "archive_timestamp": [
+          2016,
+          7,
+          14,
+          21,
+          31,
+          16
+        ]
+      }
+    ]
+  },
+  {
+    "archive": "CuS.zi",
+    "sha256": "2fe36bd10162b70cbee42bd5755ff101b2c2e2bb141dfa43a1284de629645527",
+    "destination": "cus_raw",
+    "members": [
+      {
+        "filename": "53.dat",
+        "size": 34922,
+        "archive_timestamp": [
+          2016,
+          7,
+          3,
+          22,
+          42,
+          44
+        ]
+      },
+      {
+        "filename": "52.dat",
+        "size": 32924,
+        "archive_timestamp": [
+          2016,
+          7,
+          3,
+          22,
+          42,
+          28
+        ]
+      },
+      {
+        "filename": "51.dat",
+        "size": 32926,
+        "archive_timestamp": [
+          2016,
+          7,
+          3,
+          22,
+          42,
+          12
+        ]
+      },
+      {
+        "filename": "50.dat",
+        "size": 33125,
+        "archive_timestamp": [
+          2016,
+          7,
+          3,
+          22,
+          41,
+          54
+        ]
+      },
+      {
+        "filename": "49.dat",
+        "size": 32997,
+        "archive_timestamp": [
+          2016,
+          7,
+          3,
+          22,
+          41,
+          34
+        ]
+      },
+      {
+        "filename": "48.dat",
+        "size": 33162,
+        "archive_timestamp": [
+          2016,
+          7,
+          3,
+          22,
+          41,
+          18
+        ]
+      },
+      {
+        "filename": "47.dat",
+        "size": 33048,
+        "archive_timestamp": [
+          2016,
+          7,
+          3,
+          22,
+          41,
+          2
+        ]
+      },
+      {
+        "filename": "46.dat",
+        "size": 33180,
+        "archive_timestamp": [
+          2016,
+          7,
+          3,
+          22,
+          40,
+          50
+        ]
+      },
+      {
+        "filename": "45.dat",
+        "size": 33093,
+        "archive_timestamp": [
+          2016,
+          7,
+          3,
+          22,
+          40,
+          34
+        ]
+      },
+      {
+        "filename": "44.dat",
+        "size": 33242,
+        "archive_timestamp": [
+          2016,
+          7,
+          3,
+          22,
+          40,
+          20
+        ]
+      },
+      {
+        "filename": "43.dat",
+        "size": 33382,
+        "archive_timestamp": [
+          2016,
+          7,
+          3,
+          22,
+          40,
+          2
+        ]
+      },
+      {
+        "filename": "42.dat",
+        "size": 33066,
+        "archive_timestamp": [
+          2016,
+          7,
+          3,
+          22,
+          39,
+          46
+        ]
+      },
+      {
+        "filename": "41.dat",
+        "size": 33193,
+        "archive_timestamp": [
+          2016,
+          7,
+          3,
+          22,
+          39,
+          32
+        ]
+      },
+      {
+        "filename": "40.dat",
+        "size": 33286,
+        "archive_timestamp": [
+          2016,
+          7,
+          3,
+          22,
+          38,
+          44
+        ]
+      },
+      {
+        "filename": "39.dat",
+        "size": 33308,
+        "archive_timestamp": [
+          2016,
+          7,
+          3,
+          22,
+          38,
+          26
+        ]
+      },
+      {
+        "filename": "38.dat",
+        "size": 33427,
+        "archive_timestamp": [
+          2016,
+          7,
+          3,
+          22,
+          38,
+          10
+        ]
+      },
+      {
+        "filename": "37.dat",
+        "size": 33127,
+        "archive_timestamp": [
+          2016,
+          7,
+          3,
+          22,
+          37,
+          58
+        ]
+      },
+      {
+        "filename": "36.dat",
+        "size": 33391,
+        "archive_timestamp": [
+          2016,
+          7,
+          3,
+          22,
+          37,
+          46
+        ]
+      },
+      {
+        "filename": "35.dat",
+        "size": 32916,
+        "archive_timestamp": [
+          2016,
+          7,
+          3,
+          22,
+          37,
+          16
+        ]
+      },
+      {
+        "filename": "34.dat",
+        "size": 33581,
+        "archive_timestamp": [
+          2016,
+          7,
+          3,
+          22,
+          37,
+          2
+        ]
+      },
+      {
+        "filename": "33.dat",
+        "size": 33415,
+        "archive_timestamp": [
+          2016,
+          7,
+          3,
+          22,
+          36,
+          44
+        ]
+      },
+      {
+        "filename": "32.dat",
+        "size": 33935,
+        "archive_timestamp": [
+          2016,
+          7,
+          3,
+          22,
+          36,
+          32
+        ]
+      },
+      {
+        "filename": "31.dat",
+        "size": 33929,
+        "archive_timestamp": [
+          2016,
+          7,
+          3,
+          22,
+          36,
+          20
+        ]
+      },
+      {
+        "filename": "30.dat",
+        "size": 34542,
+        "archive_timestamp": [
+          2016,
+          7,
+          3,
+          22,
+          36,
+          8
+        ]
+      },
+      {
+        "filename": "29.dat",
+        "size": 34949,
+        "archive_timestamp": [
+          2016,
+          7,
+          3,
+          22,
+          35,
+          46
+        ]
+      },
+      {
+        "filename": "28.dat",
+        "size": 34333,
+        "archive_timestamp": [
+          2016,
+          7,
+          3,
+          22,
+          35,
+          32
+        ]
+      },
+      {
+        "filename": "27.dat",
+        "size": 33748,
+        "archive_timestamp": [
+          2016,
+          7,
+          3,
+          22,
+          35,
+          16
+        ]
+      },
+      {
+        "filename": "26.dat",
+        "size": 34674,
+        "archive_timestamp": [
+          2016,
+          7,
+          3,
+          22,
+          35,
+          2
+        ]
+      },
+      {
+        "filename": "25.dat",
+        "size": 33944,
+        "archive_timestamp": [
+          2016,
+          7,
+          3,
+          22,
+          34,
+          46
+        ]
+      },
+      {
+        "filename": "24.dat",
+        "size": 33824,
+        "archive_timestamp": [
+          2016,
+          7,
+          3,
+          22,
+          34,
+          32
+        ]
+      },
+      {
+        "filename": "23.dat",
+        "size": 33512,
+        "archive_timestamp": [
+          2016,
+          7,
+          3,
+          22,
+          34,
+          22
+        ]
+      },
+      {
+        "filename": "22.dat",
+        "size": 33692,
+        "archive_timestamp": [
+          2016,
+          7,
+          3,
+          22,
+          34,
+          6
+        ]
+      },
+      {
+        "filename": "21.dat",
+        "size": 33650,
+        "archive_timestamp": [
+          2016,
+          7,
+          3,
+          22,
+          33,
+          52
+        ]
+      },
+      {
+        "filename": "20.dat",
+        "size": 33564,
+        "archive_timestamp": [
+          2016,
+          7,
+          3,
+          22,
+          33,
+          36
+        ]
+      },
+      {
+        "filename": "19.dat",
+        "size": 33502,
+        "archive_timestamp": [
+          2016,
+          7,
+          3,
+          22,
+          33,
+          24
+        ]
+      },
+      {
+        "filename": "18.dat",
+        "size": 33757,
+        "archive_timestamp": [
+          2016,
+          7,
+          3,
+          22,
+          33,
+          8
+        ]
+      },
+      {
+        "filename": "17.dat",
+        "size": 33960,
+        "archive_timestamp": [
+          2016,
+          7,
+          3,
+          22,
+          32,
+          56
+        ]
+      },
+      {
+        "filename": "16.dat",
+        "size": 33725,
+        "archive_timestamp": [
+          2016,
+          7,
+          3,
+          22,
+          32,
+          44
+        ]
+      },
+      {
+        "filename": "15.dat",
+        "size": 33416,
+        "archive_timestamp": [
+          2016,
+          7,
+          3,
+          22,
+          32,
+          20
+        ]
+      },
+      {
+        "filename": "14.dat",
+        "size": 33576,
+        "archive_timestamp": [
+          2016,
+          7,
+          3,
+          22,
+          32,
+          2
+        ]
+      },
+      {
+        "filename": "13.dat",
+        "size": 33579,
+        "archive_timestamp": [
+          2016,
+          7,
+          3,
+          22,
+          31,
+          46
+        ]
+      },
+      {
+        "filename": "12.dat",
+        "size": 33816,
+        "archive_timestamp": [
+          2016,
+          7,
+          3,
+          22,
+          31,
+          26
+        ]
+      },
+      {
+        "filename": "11.dat",
+        "size": 33875,
+        "archive_timestamp": [
+          2016,
+          7,
+          3,
+          22,
+          31,
+          16
+        ]
+      },
+      {
+        "filename": "10.dat",
+        "size": 34288,
+        "archive_timestamp": [
+          2016,
+          7,
+          3,
+          22,
+          31,
+          4
+        ]
+      },
+      {
+        "filename": "09.dat",
+        "size": 34102,
+        "archive_timestamp": [
+          2016,
+          7,
+          3,
+          22,
+          27,
+          58
+        ]
+      },
+      {
+        "filename": "08.dat",
+        "size": 34261,
+        "archive_timestamp": [
+          2016,
+          7,
+          3,
+          22,
+          27,
+          42
+        ]
+      },
+      {
+        "filename": "07.dat",
+        "size": 34587,
+        "archive_timestamp": [
+          2016,
+          7,
+          3,
+          22,
+          27,
+          22
+        ]
+      },
+      {
+        "filename": "06.dat",
+        "size": 34489,
+        "archive_timestamp": [
+          2016,
+          7,
+          3,
+          22,
+          27,
+          10
+        ]
+      },
+      {
+        "filename": "05.dat",
+        "size": 34585,
+        "archive_timestamp": [
+          2016,
+          7,
+          3,
+          22,
+          26,
+          56
+        ]
+      },
+      {
+        "filename": "04.dat",
+        "size": 34379,
+        "archive_timestamp": [
+          2016,
+          7,
+          3,
+          22,
+          26,
+          40
+        ]
+      },
+      {
+        "filename": "03.dat",
+        "size": 34368,
+        "archive_timestamp": [
+          2016,
+          7,
+          3,
+          22,
+          25,
+          20
+        ]
+      }
+    ]
+  },
+  {
+    "archive": "Attachments_irek.mukhamedshin@gmail.com_2016-07-04_09-39-32.zip",
+    "sha256": "72491351a2f411a996e7efd2cb19a3bd7c594051741632cf2040decdd530f66d",
+    "destination": "email_attachments",
+    "members": [
+      {
+        "filename": "Remarks.pdf",
+        "size": 532803,
+        "archive_timestamp": [
+          2026,
+          11,
+          26,
+          16,
+          50,
+          6
+        ]
+      },
+      {
+        "filename": "SpectrumIntegrals.dat",
+        "size": 1125,
+        "archive_timestamp": [
+          2026,
+          11,
+          26,
+          16,
+          50,
+          6
+        ]
+      }
+    ]
+  }
+]

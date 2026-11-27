@@ -1,0 +1,44 @@
+{
+  "purpose": "Forward-model illustration only; not additional experimental data or fit.",
+  "nu_NQR_MHz": 16.18,
+  "nu_Z_MHz": 76.0,
+  "gaussian_sigma_MHz": 0.03,
+  "orientation_grid_in_octant": [
+    256,
+    512
+  ],
+  "models": [
+    {
+      "eta": 0.0,
+      "nu_Q_MHz": 16.18,
+      "central_transition_extent_MHz": [
+        -1.1396703878644985,
+        0.6462900018270403
+      ]
+    },
+    {
+      "eta": 0.3,
+      "nu_Q_MHz": 15.942627720698264,
+      "central_transition_extent_MHz": [
+        -1.4356598535173077,
+        0.7578430481944594
+      ]
+    },
+    {
+      "eta": 0.6,
+      "nu_Q_MHz": 15.28866293322324,
+      "central_transition_extent_MHz": [
+        -1.622945208138475,
+        0.8284600054101929
+      ]
+    },
+    {
+      "eta": 0.9,
+      "nu_Q_MHz": 14.357428322352721,
+      "central_transition_extent_MHz": [
+        -1.6987669596198032,
+        0.8570504700642232
+      ]
+    }
+  ]
+}

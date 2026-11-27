@@ -1,0 +1,276 @@
+                                      Available online at www.sciencedirect.com
+                                                                                                          JOURNAL OF
+                                                SCIENCE C~DIRECTe                                         GEOCHEMICAL
+                                                                                                          EXPLORATION
+ELSEVIER                          Journal of Geochemical Exploration 78-79 (2003) 631 635
+                                                                                                    www.elsevier.com/locate/jgeoexp
+
+                                                              Abstract
+
+    Fluid history of andesite-hosted CuS-bitumen mineralization,
+                 Copiap6 district, North Central Chile
+                             Titus Haggan a'*, John Parnell b'l, M.E. Cisternas c
+                                    aED-Group, MinMet Ple, 10 Fitzwilliam Square, Dublin 2, Ireland
+           bDepartment of Geology and Petroleum Geology, University of Aberdeen, Meston Building, Aberdeen, AB24 3UE, UK
+                   Clnst. de Geol. Economiea Aplicada, Universidad de Concepcion, Casilla 160-C, Concepcion, Chile
+
+
+
+Abstract
+
+   Copper sulphide mineralization is intimately associated with solid bitumen (migrated hydrocarbon) within a 70-m-thick
+porphyritic lava horizon in a Neocomian back-arc basin near Copiap6, North Central Chile. Bitumen occurs as veins and
+vesMe-fill and exhibits well-developed anisotropic textures. Fluid flow paragenesis is divided into three principal stages,
+essentially pre-, syn- and post-metallic mineralization. Ore deposition occurred via the reduction of hot (>300 °C)
+mineralizing fluids by in situ labile bitumens. Comparative study between the Copiap6 porphyry-hosted mineralization and
+the E1 Soldado massive Cu deposit (150 Mt Cu reserves), located further to the south, reveal striking geologic and genetic
+similarities.
+© 2003 Elsevier Science B.V. All rights reserved.
+
+Keywords: Copiap6; E1 Soldado; Copper sulphides; Bitumen; Andesite
+
+
+
+
+1. Introduction                                                         sulphide minerals in intimate association with solid
+                                                                        bitumen. The mineralized andesite is located north o f
+    The presence o f bitumen within a number o f                        the early Cretaceous and south of the Palaeocene
+Chilean Manto-type Cu deposits from different parts                     Chilean metallogenic belts (Fig. 1). Numerous aban-
+o f the Cretaceous Basin (e.g. E1 Soldado, Uchumi,                      doned mines occur sporadically along the length of the
+Talcuna) suggests that organic matter was an impor-                     andesite unit. These small-scale workings are charac-
+tant control in the genesis of these deposits (Wilson,                  terised by high copper and silver grades (1.95% [Mina
+2000). This study focuses on an extensive porphyritic                   San Pedro] to 5.10% Cu [Mina San J6se] with an
+andesite lava horizon of Lower Cretaceous age near                      average silver grade of 21 g/tonnes) (Diaz et al., 1981).
+Copiap6, which contains a diverse suite o f copper                      Nine mines within the andesite were visited and
+                                                                        sampled.
+
+
+    * Corresponding author. Tel.: +353-1-6613309; fax: +353-1-          2. Regional geology
+6613119.
+    E-mail addresses: titus@ed-group.com(T. Haggan),
+j.pamell@abdn.ac.uk (J. Parnell).                                          The Lower Cretaceous sequence in the Copiap6 area
+    1 Tel.: +44-1224-272785.                                            displays a marked E - W lithological transition. In the
+
+0375-6742/03/$ - see front matter © 2003 Elsevier Science B.V. All rights reserved.
+doi:10.1016/S0375-6742(03)00131-6
+632                                                                  Abstract
+
+
+                                                                            3. Andesite petrography
+
+                                                                               The andesite displays well-defined porphyritic and
+                                                                            amygdaloidal textures and contains large phenocrysts
+                                                                            of plagioclase, pyroxene, relicts of olivine and small
+                                                                            primary magnetite crystals within an extensively albi-
+                                                                            tized aphanitic feldspathic groundmass. It has a well-
+                                                   djina
+                                                                            developed vesicular texture, containing vesicles up to
+                                                                            1 cm in diameter. Numerous gangue mineral species
+                                                                            (chlorite, calcite and quartz) and also bitumen and
+                                                   mata                     copper sulphides infill these vesicles. In mineralized
+                                                                            areas, the vesicles contain the vast majority of the
+                                                   -Zaldivar                copper sulphide minerals.
+
+
+                                                                            4. Bitumen petrography
+                                                       300 km
+                                                   nic belts                     The bitumen occurs in the form ofveinlets (up to 4
+                                                   fie Miocene-             cm thick and 50 cm long) cutting andesite ground-
+                                                   ly Pliocene
+                                                                            mass and phenocrysts, and as globules infilling degas-
+                                                   rley-Middle              sification vesicles (up to 8 mm in diameter). It is not
+                                                   Miocene
+                                                   te Eocene-
+                                                                            ubiquitous but is recorded from many locations and
+                                                   )ligocene                whenever present always occurs associated with cop-
+                                                   alaeocene                per sulphides. Bitumen may constitute up to 15% of
+                                                   ¢ Cretaceous             total rock volume. Spherical and irregular vesicles and
+                                                   cry Cu-deposit           contraction fractures (devolatilization structures)
+                                                   cry Au-deposit           occur throughout bitumen masses. These vesicles
+                                                                            and fractures generally contain a mixture of copper
+                                                   .ype Cu-deposit
+                                                                            sulphide minerals and/or calcite + chlorite + quartz.
+                                                                                 Bitumen 613C values (Cisternas et al., 1999) range
+Fig. 1. Location of the study area (black) in relation to the major
+metallogenic belts of Northern Chile. Modified from Camus and               from -26.10%o to -23.50%o, which are consis-
+Dilles (2001).                                                              tent with marine-sourced hydrocarbon ~13C values
+                                                                            ( - 3 1 % o to -25%o, Hunt, 1996). The relatively
+                                                                            narrow range in 613C values suggests a reasonably
+west, volcanic and volcaniclastic rocks predominate,                        uniform source rock character and minor isotopic
+which represent a palaeo-magmatic arc. This sequence                        changes for all post-bitumen generation alteration/
+grades into carbonate marine sediments towards the                          mineralization processes. The bitumen source rock in
+east (back-arc basin). The andesite is intercalated in                      the Copiap6 area is considered to be the bituminous
+the upper part of the Cretaceous back-arc marine                            limestones of the Nantoco Formation (Lower Hau-
+sequence (Pabelldn Formation [Barremian-Aptian])                            terivian). The ~I3C isotopic compositions of bitumen
+and is considered to have been emplaced as submar-                          from the E1 Soldado deposit range from - 3 0 %0 to
+ine lava flows via extensional fissures at the base of                      - 27 %0 (Wilson, pers. comm., 2001).
+the basinal succession (Cisternas and Frutos, 1996). It                          Reflected light microscopy of bitumen from sev-
+has an average thickness of 70 m and extends for over                       eral mines revealed the presence of well-developed
+70 km N - S along the axis of the back-arc basin.                           anisotropic textures (average anisotropic domain
+Trace and minor element geochemistry (Cistemas et                           size= 10 gm) within bitumen associated with copper
+al., 1999) point to a K-rich calc-alkaline intra-plate                      sulphide mineralization. This anisotropy represents a
+origin.                                                                     thermotropic mesophase (temperature-induced aniso-
+                                                      Abstract                                                   633
+
+tropy). It is developed in globular and irregularly          basis of cross-cutting relationships. Average geother-
+shaped bitumen fragments proximal to, and suspended          mal gradients of crustal rocks in back-arc basins are
+within, copper sulphide masses. It is manifested as          elevated with respect to normal crustal rocks (around
+irregularly shaped mottled light and dark non-granular       30 °C/km, Wilson, 2000) and the source rock(s)
+anisotropy within the bitumen and is interpreted to          would have entered the oil window when buried to
+represent heating of the bitumen by copper sulphide          a depth of about 2 km. However, hydrocarbon gen-
+parent fluids.                                               eration may have been advanced through heating
+    Two bitumen samples were subjected to GC anal-           associated with basin extension and andesite emplace-
+ysis (Haggan, 2001, pp. 332-333). These data indi-           ment. Kribek et al. (1993) invoked similar magmatic-
+cate an algal marine source for the hydrocarbon              induced pyrolytic processes of organic-rich facies to
+species and show that they are broadly correlatable          explain the presence of bitumen within Upper Proter-
+with each other.                                             ozoic Czechoslovakian lava flows.
+                                                                 Bitumen emplacement is not considered to have
+                                                             been co-eval with andesite emplacement because the
+5. Metallic mineralization                                   elevated temperatures ( - 700-800 °C) would have
+                                                             resulted in the immediate destruction of any hydro-
+    Minor oxide mineralization, principally malachite        carbon species. Also, bitumen occupies fracture
+and hematite, occurs at most mines visited. However,         porosity within the andesite indicating that the ande-
+most mineralization occurs as reduced mineral species        site was relatively cool when bitumen emplaced.
+(copper sulphides) associated with bitumen. The ande-        However, this igneous event represented a consider-
+site hosts a diverse suite of copper sulphide mine-          able heating episode, which may have initiated and
+rals: bomite + pyrite +__chalcopyrite + tetrahedrite +       advanced hydrocarbon generation.
+chalcocite + covellite. They occur as monomineralic              Bitumen migration occurred post-early gangue
+and polymineralic anhedral masses and euhedral crys-         mineral precipitation. The migrating bitumen was
+tals within and bordering bitumen masses, and in veins       emplaced into a relatively cool, fractured, permeable
+cutting across bitumen. With the exception of magnet-        andesite unit. It utilized interconnected primary (ves-
+ite, metallic mineralization is always intimately asso-      icle) and secondary (fracture) porosity in the andesite
+ciated with bitumen.                                         as flow conduits. Bitumen migration is believed to
+                                                             have been constrained to the andesite unit based on
+                                                             the total absence of any hydrocarbon residue within
+6. Paragenesis                                               the andesite host rock (Pabelldn Formation). This was
+                                                             most likely due to the availability of an effective
+   Cross-cutting and textural relationships enable the       porosity network within the andesite, which was
+construction of a paragenetic sequence for fluid flow        absent within the Pabelldn Formation.
+events within the Copiap6 andesite. Paragenesis is
+divided into three principal stages, essentially pre-,       6.2. Hydrothermal phase II
+syn- and post-metallic mineralization, described
+below.                                                          This fluid flow event resulted in the precipitation
+                                                             of abundant copper sulphide minerals. Bitumen-cop-
+6.1. Hydrothermal phase I                                    per sulphide textures and cross-cutting relationships
+                                                             clearly indicate that the introduction of Cu-rich fluids
+   This fluid flow episode occurred post-andesite            post-dated bitumen emplacement. The controlling
+crystallization and resulted in the precipitation of         factor in metallic mineral precipitation was the pres-
+chlorite, calcite and quartz within vesicles and frac-       ence of bitumen, which acted as a reductant template
+tures in the andesite. Bitumen migration (Nantoco            for metal-rich hydrothermal fluids (adsorption/reduc-
+Formation-sourced?) also occurred during this time           tion). No specific temperature may be assigned to the
+and is considered to have post-dated precipitation of        copper sulphide parent fluid. However, the develop-
+the aforementioned gangue mineral species on the             ment of thermotropic mesophase textures within bitu-
+634                                                            Abstract
+
+
+men associated with copper sulphide minerals indi-                     occurs as monomineralic anhedral masses within bitu-
+cates that fluid temperature was in excess of 300 °C                   men and as veins cutting bitumen globules. Tetrahe-
+(White, 1976). It is difficult to constrain the ultimate               drite occurs as well-developed monomineralic euhedra
+source of the mineralizing fluid. However, a recent                    and in cannibalistic relationships with chalcopyrite.
+integrative study (Kay Mahlburg and Mpodozis,                          Chalcocite is the most replacive mineral and may have
+2001) based upon several major Chilean ore districts                   precipitated through weathering of bornite. Covellite
+suggests that the genesis of Central Andean ore                        was the last metallic mineral to precipitate and pseu-
+deposits may be linked to evolving shallow subduc-                     domorphs all sulphide phases.
+tion systems and thickening crust. Potential mineral-
+izing fluids are released during dehydration reactions.                   6.3. Hydrothermal phase III
+These fluids scavenge available metals and become
+progressively enriched until favourable conditions for                    This phase resulted in the precipitation of more
+mineral precipitation are encountered, which in this                   gangue minerals, principally chlorite, calcite and
+case was highly reducing bitumens.                                     quartz. Fluid inclusion petrography and microther-
+   Different copper sulphide minerals precipitated at                  mometry was conducted on late-stage calcite-(aque-
+different times a factor that was possibly influenced                  ous) and quartz-(oil) hosted fluid inclusions. An
+by evolving fluid chemistry and temperature plus                       average homogenization temperature of 134.9 °C
+weathering alteration reactions. Bomite was the first                  was calculated from 74 primary aqueous fluid inclu-
+sulphide to precipitate. It mainly formed irregular                    sions indicating that calcite parent fluid temperature
+anhedral masses. However, it also precipitated as                      was considerably lower than the Cu-parent fluid.
+euhedral crystals, evidenced by corroded crystals,                        An average salinity of 19.77 wt.% NaC1 was cal-
+which still display discemable ghost crystalline out-                  culated from 11 Tm measurements, which indicates
+lines. Bomite is particularly associated with chalco-                  that the late calcite phase was precipitated from highly
+pyrite and, to a lesser extent, chalcocite. Chalcopyrite               saline fluids, possibly concentrated basinal brines or
+precipitated syn-(exsolution laths) and post-bomite. It                rehydrated evaporite-derived salts,
+
+Table 1
+Geologic and genetic comparisons between the Copiap6 andesite porphyry and the E1 Soldado Cu-deposit
+Deposit characteristic               Copiapd andesite                              E1 Soldado orebody
+Tectonic setting                     Back-arc basin                                Back-arc basin
+Host formation/age                   Pabelldn Formation/                           Lo Prado Formation/Lower Cretaceous
+                                     Lower Cretaceous
+Host lithology                       Andesitic lavas                               Rhyolites + andesites
+Mineralization                       Stratabound, hypogene                         Stratabound, hypogene
+                                     (some very minor supergene)
+Metallic mineral assemblage          Bornite + pyrite + chalcopyrite +             Bornite + pyrite + chalcopyrite + calcocite + sphalerite
+                                     tetrahedrite + chalcocite + covellite
+Non-metallic mineral assemblage      Chlorite + calcite + quartz + k-feldspar      Chlorite + calcite + quartz + k-feldspar + albite + epidote
+Solid bitumen (occurrence)           Vesicle and fracture-fill                     Vesicle and fracture-fill
+Bitumen (mineralization)             Consistently enriched in Cu-sulphides         Consistently enriched in Cu-sulphides
+Bitumen (textures)                   Isotropic + anisotropic                       Isotropic + anisotropic
+Bitumen ~13C values                  -26%0 to-23.5%0                               - 3 0 %0 to    2 7 %o
+Bitumen (GC)                         Marine algal fingerprint                      Not available
+Bitumen (source rock)                Nantoco Formation?                            Lower Lo Prado Formation
+Mineralization stages                Three stages defined                          Two stages defined
+Paragenesis                          Oil migration and degradation followed        Oil migration and degradation,
+                                     by hot Cu-bearing fluids                      pyrite formation followed by hot Cu-bearing fluids
+Principal mineralization control     Reduction (bitumen-induced)                   Reduction (pyrite [and bitumen] -induced)
+                                     sulphide precipitation                        sulphide precipitation
+Economic potential                   Poor (estimated 100,000 tonnes Cu)            High grade currently in production
+                                                                                   (150 million tonnes of Cu reserves)
+                                                         Abstract                                                                635
+
+   Secondary trails o f oil inclusions cross-cutting late-          bitumen, whereas abundant pyrite was the domi-
+stage quartz crystals attest to a late minor phase o f oil          nant ore-control at E1 Soldado.
+migration through the andesite unit. This oil may have
+been derived from aqueous fluids circulating within
+the bitumen source rock or more locally from strip-             Acknowledgements
+ping and remobilization o f light hydrocarbon compo-
+nents from in situ bitumen.                                       TH would like to thank Jose Frutos and Juan
+                                                                Hermosilla for assistance during fieldwork.
+
+
+7. Similarities with the El Soldado massive Cu
+                                                                References
+deposit
+                                                                Camus, E, Dilles, J.H., 2001. A special issue devoted to porphyry
+    The Copiap6 andesite at present represents a sub-              copper deposits of Northern Chile. Economic Geology 96,
+economic mineralized unit. However, several salient                233-237 (preface).
+comparative points may be made with the massive E1              Cisternas, M.E., Frntos, J., 1996. Importancia metalog6netica del
+Soldado Cu-deposit, located further to the south (Fig.             volcanismo extensional del Cret~cico Inferior en la regi6n de
+1). Data from the E1 Soldado deposit are summarised                Copiap6, Chile. Congresso Brasileiro de Geologia, Salvador-
+                                                                   Bahia, 39 Anais, 7, pp. 303-306.
+from Wilson (2000) and Wilson et al. (in press) and             Cisternas, M.E., Frutos, J., Galindo, E.M.G., Spiro, B., 1999. Lavas
+are presented in Table 1.                                          con bitumen en el Cretficico Inferior de Copiap6, Regi6n de
+                                                                   Atacama, Chile: petroquimica e importancia metalog6nica.
+                                                                   Revista Geol6gica de Chile 26/2, 205-226.
+                                                                Diaz, F., Bembow, M., Bravo, N., Guti6rrez,A., Montti, S., Salinas,
+8. Conclusions                                                     M., Vogel, S., 1981. Mapa metalog6nico prondstieo de la III
+                                                                   Regi6n. Corporaci6n de Fomento de la Producci6n-InstitutoIn-
+   Based on the above discussion, we conclude that:                vestigaciones Geol6gicas (in6dito), 9 volfimenes. 3 mapas, San-
+                                                                   tiago.
+                                                                Haggan, T., 2001. Paragenesis,fluid flow and structuralcontrols on
+1. Basinal burial was probably the principal control               bitumen vein deposits and bitumen-hostedore deposits, Andean
+   on catagenesis. However, oil generation may have                Cordillera. Unpublished Doctoral Thesis. The University of
+   been advanced through magmatic heating associ-                  Aberdeen. 386 pp.
+                                                                Hunt, J.M., 1996. Petroleum Geochemistry and Geology, 2nd ed.
+   ated with basinal extension.
+                                                                   Freeman, New York. 743 pp.
+2. Bitmnen was likely emplaced into a relatively cool           Kay Mahlburg, S., Mpodozis, C., 2001. Central Andean ore depos-
+   andesite and utilized interconnected primary (ves-              its linked to evolving shallow subduction systems and thicken-
+   icle) and secondary (fracture porosity) in the ande-            ing crest. GSAToday 11/3, 4 9.
+   site as flow conduits.                                       Kribek, B., Holubfir,V., Parnell, J., Pouba, Z., Hladikovfi,J., 1993.
+3. RL microscopy revealed a diverse suite o f copper               Interpretation of thermal mesophase in vanadiferous bitumens
+                                                                   from Upper Proterozoic lava flows (Mitov, Czechoslovakia).In:
+   sulphide minerals within the andesite. This min-                Parnell,J., Kucha, H., Landais, P. (Eds.), Bitumensin Ore Depos-
+   eralogical diversity may be the result o f mineraliz-           its, SpecialPublicationNo. 9 of the Societyfor Geology Applied
+   ing fluid temperature and composition evolution                 to Mineral Deposits. Springer-Veflag,Germany,pp. 61-77.
+   and/or weathering alteration reactions.                      White, J.L., 1976. Mesophase mechanisms in the formation of the
+4. A close spatial association exists between bitumen              microstructure of petroleum coke. In: Deviney, M.L., O'Grady,
+                                                                   T.M. (Eds.), Petroleum-DerivedCokes. American Chemical So-
+   and copper sulphide mineralization, indicating                  ciety Symposium, Series 21, Washington, DC, pp. 282 314.
+   reduction o f mineralizing fluids by labile bitumens.        Wilson, N.S.F., 2000. Organic petrology, chemical composition,
+   This was the principal control on copper sulphide               and reflectance of pyrobitumen from the E1 Soldado Cu deposit,
+   precipitation within the andesite.                              Chile. International Journal of Coal Geology 43, 53-82.
+5. Comparison with the E1 Soldado massive Cu-                   Wilson,N.S.F., Zentilli, M., Spiro, B., in press. The essentialrole of
+                                                                   bacteria and petroleum in the formation of the volcanic-hosted
+   deposit indicates many notable geological, minera-              E1 Soldado manto-type Cu deposit, Chile: a sulfur, carbon, oxy-
+   logical and genetic similarities. The principal                 gen and strontium isotope study. Submitted to Economic Geol-
+   control in the Copiap6 mineralization was in situ               ogy, December 2001.
+

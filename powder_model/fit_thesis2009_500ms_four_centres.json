@@ -1,0 +1,53 @@
+{
+  "dataset": "thesis2009",
+  "tag": "500ms_four_centres",
+  "series_ms": "500",
+  "mask_half_width_MHz": 0.12,
+  "common_eta": true,
+  "free_centres": true,
+  "eta": [
+    0.14842933204009454,
+    0.14842933204009454,
+    0.14842933204009454,
+    0.14842933204009454
+  ],
+  "effective_63_zeeman_MHz": [
+    76.25951020850488,
+    75.88633736100641,
+    76.29999726803322,
+    75.55483272132757
+  ],
+  "sigma_MHz": 0.15679696530066295,
+  "isotope65_scale": 0.2018952341068515,
+  "amplitudes": [
+    844.2019343202828,
+    5879.527741748979,
+    3258.944201004766,
+    2695.8319968374813
+  ],
+  "baseline": [
+    -379.161710992779,
+    -246.87665532805292
+  ],
+  "normalized_SSE": 0.42584549860431264,
+  "masked_n": 245,
+  "normalized_RMS": 0.0416910648971995,
+  "nuQ63_MHz": [
+    11.926288232713606,
+    15.214237369551944,
+    16.120914252740697,
+    16.89806586690249
+  ],
+  "params": [
+    0.14842933204009454,
+    76.25951020850488,
+    75.88633736100641,
+    76.29999726803322,
+    75.55483272132757,
+    0.15679696530066295,
+    0.2018952341068515
+  ],
+  "optimizer_success": true,
+  "normalization": 10291.363927,
+  "note": "Conditional exploratory fit. All transitions, isotropic magnetic shift, common Gaussian broadening. No confidence interval or unique site assignment is asserted."
+}

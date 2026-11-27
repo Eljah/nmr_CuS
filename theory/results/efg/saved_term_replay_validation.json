@@ -1,0 +1,15 @@
+{
+  "all_checks_passed": true,
+  "max_absolute_component_errors": {
+    "real_sum": 0.0,
+    "reciprocal_sum": 0.0,
+    "total_from_subtotals": 0.0
+  },
+  "replayed_term_counts": {
+    "ewald_real_terms.csv.gz": 64860,
+    "ewald_reciprocal_terms.csv.gz": 15840
+  },
+  "verified_result_file_hashes": 20,
+  "tolerance": 1e-11,
+  "scope": "Numerical record replay only; this does not validate physical point charges or electronic EFG contributions."
+}

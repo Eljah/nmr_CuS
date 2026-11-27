@@ -1,0 +1,122 @@
+{
+  "inputs": [
+    {
+      "path": "research_literature/anilite_amcsd0009376_transcribed.cif",
+      "sha256": "e0e0dcd7bdd916af50dce0e7c1fc13e31fb4073754a305330e27000ac47c67fe"
+    },
+    {
+      "path": "new_evidence/structure_model/geometry_efg_proxy.json",
+      "sha256": "3a0d8a03608f410ab657fa471dc260b21318aaa44eae840b54d512b586b032d9"
+    },
+    {
+      "path": "powder_model/FINAL_MODEL_COMPARISON.csv",
+      "sha256": "66346f56cd99d5eda268723fdaa64023ac3f938662ef80c210447281df42ed5c"
+    },
+    {
+      "path": "theory/export_efg_intermediates.py",
+      "sha256": "90346f115b95adfa5fd42501d3f7a0c2d2975e95dd79c054ea5905ad8bd5d477"
+    }
+  ],
+  "results": [
+    {
+      "path": "SCHEMA.txt",
+      "bytes": 4274,
+      "sha256": "aed6a82377bb66439dafba4eeda243875f794f5adc209ec2084ecaceac0ecfd5"
+    },
+    {
+      "path": "charge_scenarios.csv",
+      "bytes": 1953,
+      "sha256": "087d97906a40b854946cce2541fb2e8a2110e0bf851111f5ac48e51ec5ba1d1c"
+    },
+    {
+      "path": "direct_radial_shell_basis_by_source_orbit.csv.gz",
+      "bytes": 237027,
+      "sha256": "4451a96e1123fb2d491ea2dac4c9ce32ffbb740ad68405ea06d1ae58cc4eb726"
+    },
+    {
+      "path": "direct_radial_shell_scenarios.csv",
+      "bytes": 895884,
+      "sha256": "012862c8e75e60f88359890284210a7b0b8c415735b04cbd0046dbf576839332"
+    },
+    {
+      "path": "direct_radius_convergence.csv",
+      "bytes": 50637,
+      "sha256": "bd8789af66f0f750d39b535ee02d363ab734077e68abb7444bde62fcdd7e4ffd"
+    },
+    {
+      "path": "ewald_alpha_convergence.csv",
+      "bytes": 24695,
+      "sha256": "43189b05f935f15d3c6d343d7f15f17689205b4b3251cd48e742f72f8b5bf0a5"
+    },
+    {
+      "path": "ewald_convergence_tensors.json",
+      "bytes": 34687,
+      "sha256": "fdc4f187e4bf60d2fde39ca89a9e0f9532f90045771c98617bc34f97a6bd59f2"
+    },
+    {
+      "path": "ewald_real_terms.csv.gz",
+      "bytes": 7671410,
+      "sha256": "cad578809328632a6d3ac700602e4430e11c6a69e6d67d3e547f00ecb3c8aba0"
+    },
+    {
+      "path": "ewald_reciprocal_terms.csv.gz",
+      "bytes": 1158898,
+      "sha256": "a2ad134b2edd566ede5f367868e3d9c1926c9a7e6f20c8d471c529c7b269f7ab"
+    },
+    {
+      "path": "ewald_subtotals.csv",
+      "bytes": 31963,
+      "sha256": "83c63aa15618e1eb67de48522df29ab66420e113ddf94ed18ffac476f40bc842"
+    },
+    {
+      "path": "expanded_atoms.csv",
+      "bytes": 2934,
+      "sha256": "428a20ac84792183f107bee13b013ae7ebd8ea11da84a38d186c0fc043136268"
+    },
+    {
+      "path": "frequency_scaling.json",
+      "bytes": 10610,
+      "sha256": "ec35f605cfe92450fac4d9af1ea1d734dba38f6847fb6fe4b55c6849d1211917"
+    },
+    {
+      "path": "frequency_scaling_all_144_assignments.csv",
+      "bytes": 73883,
+      "sha256": "c1730fe4f772bfd545f18904e7a605428363ac60f4a08b60c4aeb87230ade133"
+    },
+    {
+      "path": "frequency_scaling_best_assignment_group_residuals.csv",
+      "bytes": 3878,
+      "sha256": "da3c8bf920bab81471f9b4dcb8821423d1507a7f42bf5d92987d417e904a62f4"
+    },
+    {
+      "path": "frequency_scaling_best_by_scenario.csv",
+      "bytes": 3970,
+      "sha256": "da228fec8b84f70de3efbfe1500f121f49dd73d6b7be59b8a336b6d53660ec4b"
+    },
+    {
+      "path": "numerical_validation.json",
+      "bytes": 935,
+      "sha256": "19c8f2d7c31887743a965505d797172cf89f37620dc0d3442eec08d85dd71c42"
+    },
+    {
+      "path": "structure_and_conventions.json",
+      "bytes": 2719,
+      "sha256": "83caeea62d875e789fa3b540d90f78709694ff1966917c96e22438e088ac0276"
+    },
+    {
+      "path": "symmetry_expansion_before_deduplication.csv",
+      "bytes": 1706,
+      "sha256": "a1a586b203983dcdc0de310e4f9a9a1a47e7801bdc3f4b409222a1e09d118e63"
+    },
+    {
+      "path": "tensor_summary.csv",
+      "bytes": 7157,
+      "sha256": "1b060076a8e1039c4704c06102239f321629503c10b16085d76efa51f25011c4"
+    },
+    {
+      "path": "tensors_and_eigensystems.json",
+      "bytes": 51294,
+      "sha256": "f11d56c874653fbe018de588a17062f7b6c06a18ba665dd885ef0cf5bf392d5c"
+    }
+  ]
+}

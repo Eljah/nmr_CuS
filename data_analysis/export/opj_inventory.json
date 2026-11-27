@@ -1,0 +1,667 @@
+{
+  "source_sha256": "d5c3a25255429e26dff39fa3a46de4ad54d90aa2f7daee860c088ae6e8ddf896",
+  "dataset_end_offset": 782992,
+  "parser_reference": "https://github.com/jgonera/openopj/blob/master/docs/opj_format.markdown",
+  "columns": [
+    {
+      "name": "Spec05122016_Freq",
+      "header_offset": 67,
+      "content_offset": 196,
+      "dtype_hex": "0x1121",
+      "value_size": 10,
+      "allocated_rows": 257,
+      "header_first_row": 0,
+      "header_last_row": 257,
+      "finite_rows": 256,
+      "missing_rows": 1,
+      "first_values": [
+        72.05,
+        72.1,
+        72.15
+      ],
+      "last_values": [
+        84.65,
+        84.7,
+        84.75
+      ]
+    },
+    {
+      "name": "Spec05122016_RepTime",
+      "header_offset": 2777,
+      "content_offset": 2906,
+      "dtype_hex": "0x121",
+      "value_size": 10,
+      "allocated_rows": 257,
+      "header_first_row": 0,
+      "header_last_row": 257,
+      "finite_rows": 256,
+      "missing_rows": 1,
+      "first_values": [
+        20000.0,
+        20000.0,
+        20000.0
+      ],
+      "last_values": [
+        20000.0,
+        20000.0,
+        20000.0
+      ]
+    },
+    {
+      "name": "Spec05122016_File",
+      "header_offset": 5487,
+      "content_offset": 5616,
+      "dtype_hex": "0x121",
+      "value_size": 10,
+      "allocated_rows": 257,
+      "header_first_row": 0,
+      "header_last_row": 257,
+      "finite_rows": 256,
+      "missing_rows": 1,
+      "first_values": [
+        51.0,
+        53.0,
+        55.0
+      ],
+      "last_values": [
+        555.0,
+        557.0,
+        559.0
+      ]
+    },
+    {
+      "name": "Spec05122016_IntQ",
+      "header_offset": 8197,
+      "content_offset": 8326,
+      "dtype_hex": "0x6121",
+      "value_size": 10,
+      "allocated_rows": 257,
+      "header_first_row": 0,
+      "header_last_row": 257,
+      "finite_rows": 256,
+      "missing_rows": 1,
+      "first_values": [
+        120.728268,
+        129.488341,
+        139.821623
+      ],
+      "last_values": [
+        80.749365,
+        98.464532,
+        86.414663
+      ]
+    },
+    {
+      "name": "Spec05122016_RepTime1",
+      "header_offset": 10907,
+      "content_offset": 11036,
+      "dtype_hex": "0x121",
+      "value_size": 10,
+      "allocated_rows": 258,
+      "header_first_row": 0,
+      "header_last_row": 258,
+      "finite_rows": 256,
+      "missing_rows": 2,
+      "first_values": [
+        500000.0,
+        500000.0,
+        500000.0
+      ],
+      "last_values": [
+        500000.0,
+        500000.0,
+        500000.0
+      ]
+    },
+    {
+      "name": "Spec05122016_File1",
+      "header_offset": 13627,
+      "content_offset": 13756,
+      "dtype_hex": "0x121",
+      "value_size": 10,
+      "allocated_rows": 258,
+      "header_first_row": 0,
+      "header_last_row": 258,
+      "finite_rows": 256,
+      "missing_rows": 2,
+      "first_values": [
+        52.0,
+        54.0,
+        56.0
+      ],
+      "last_values": [
+        556.0,
+        558.0,
+        560.0
+      ]
+    },
+    {
+      "name": "Spec05122016_IntQ1",
+      "header_offset": 16347,
+      "content_offset": 16476,
+      "dtype_hex": "0x6121",
+      "value_size": 10,
+      "allocated_rows": 258,
+      "header_first_row": 0,
+      "header_last_row": 257,
+      "finite_rows": 256,
+      "missing_rows": 2,
+      "first_values": [
+        526.505721,
+        546.003172,
+        555.341556
+      ],
+      "last_values": [
+        334.707087,
+        345.077961,
+        340.256593
+      ]
+    },
+    {
+      "name": "spec1_FreqMHz",
+      "header_offset": 19067,
+      "content_offset": 19196,
+      "dtype_hex": "0x1121",
+      "value_size": 10,
+      "allocated_rows": 3630,
+      "header_first_row": 0,
+      "header_last_row": 3605,
+      "finite_rows": 3605,
+      "missing_rows": 25,
+      "first_values": [
+        72.799756,
+        72.801282,
+        72.802808
+      ],
+      "last_values": [
+        78.295972,
+        78.297498,
+        78.299023
+      ]
+    },
+    {
+      "name": "spec1_Real",
+      "header_offset": 55507,
+      "content_offset": 55636,
+      "dtype_hex": "0x6121",
+      "value_size": 10,
+      "allocated_rows": 3630,
+      "header_first_row": 0,
+      "header_last_row": 3605,
+      "finite_rows": 3605,
+      "missing_rows": 25,
+      "first_values": [
+        -16.631415,
+        -13.400084,
+        -12.70479
+      ],
+      "last_values": [
+        -22.723034,
+        -23.297042,
+        0.0
+      ]
+    },
+    {
+      "name": "spec1_Imag",
+      "header_offset": 91947,
+      "content_offset": 92076,
+      "dtype_hex": "0x121",
+      "value_size": 10,
+      "allocated_rows": 3630,
+      "header_first_row": 0,
+      "header_last_row": 3605,
+      "finite_rows": 3605,
+      "missing_rows": 25,
+      "first_values": [
+        -64.185019,
+        -62.696062,
+        -60.748777
+      ],
+      "last_values": [
+        111.794024,
+        87.457202,
+        0.0
+      ]
+    },
+    {
+      "name": "A00561_FreqMHz",
+      "header_offset": 128387,
+      "content_offset": 128516,
+      "dtype_hex": "0x1121",
+      "value_size": 10,
+      "allocated_rows": 330,
+      "header_first_row": 0,
+      "header_last_row": 327,
+      "finite_rows": 327,
+      "missing_rows": 3,
+      "first_values": [
+        72.799756,
+        72.801282,
+        72.802808
+      ],
+      "last_values": [
+        73.294141,
+        73.295667,
+        73.297192
+      ]
+    },
+    {
+      "name": "A00561_Real",
+      "header_offset": 131827,
+      "content_offset": 131956,
+      "dtype_hex": "0x6121",
+      "value_size": 10,
+      "allocated_rows": 330,
+      "header_first_row": 0,
+      "header_last_row": 327,
+      "finite_rows": 327,
+      "missing_rows": 3,
+      "first_values": [
+        -16.631415,
+        -13.400084,
+        -12.70479
+      ],
+      "last_values": [
+        -35.588472,
+        -30.275205,
+        -16.035989
+      ]
+    },
+    {
+      "name": "A00561_Imag",
+      "header_offset": 135267,
+      "content_offset": 135396,
+      "dtype_hex": "0x6121",
+      "value_size": 10,
+      "allocated_rows": 330,
+      "header_first_row": 0,
+      "header_last_row": 327,
+      "finite_rows": 327,
+      "missing_rows": 3,
+      "first_values": [
+        -64.185019,
+        -62.696062,
+        -60.748777
+      ],
+      "last_values": [
+        -4.019957,
+        -24.771888,
+        -43.983862
+      ]
+    },
+    {
+      "name": "A00661_FreqMHz",
+      "header_offset": 138707,
+      "content_offset": 138836,
+      "dtype_hex": "0x1121",
+      "value_size": 10,
+      "allocated_rows": 330,
+      "header_first_row": 0,
+      "header_last_row": 327,
+      "finite_rows": 327,
+      "missing_rows": 3,
+      "first_values": [
+        77.799756,
+        77.801282,
+        77.802808
+      ],
+      "last_values": [
+        78.294141,
+        78.295667,
+        78.297192
+      ]
+    },
+    {
+      "name": "A00661_Real",
+      "header_offset": 142147,
+      "content_offset": 142276,
+      "dtype_hex": "0x6121",
+      "value_size": 10,
+      "allocated_rows": 330,
+      "header_first_row": 0,
+      "header_last_row": 327,
+      "finite_rows": 327,
+      "missing_rows": 3,
+      "first_values": [
+        -78.260969,
+        -95.088018,
+        -109.258881
+      ],
+      "last_values": [
+        -10.849201,
+        -21.123467,
+        -29.121302
+      ]
+    },
+    {
+      "name": "A00661_Imag",
+      "header_offset": 145587,
+      "content_offset": 145716,
+      "dtype_hex": "0x6121",
+      "value_size": 10,
+      "allocated_rows": 330,
+      "header_first_row": 0,
+      "header_last_row": 327,
+      "finite_rows": 327,
+      "missing_rows": 3,
+      "first_values": [
+        45.405653,
+        32.519639,
+        15.508929
+      ],
+      "last_values": [
+        113.97718,
+        112.412154,
+        109.321502
+      ]
+    },
+    {
+      "name": "spec1a_FreqMHz",
+      "header_offset": 149027,
+      "content_offset": 149156,
+      "dtype_hex": "0x1121",
+      "value_size": 10,
+      "allocated_rows": 3630,
+      "header_first_row": 0,
+      "header_last_row": 3604,
+      "finite_rows": 3604,
+      "missing_rows": 26,
+      "first_values": [
+        72.799756,
+        72.801282,
+        72.802808
+      ],
+      "last_values": [
+        78.294446,
+        78.295972,
+        78.297498
+      ]
+    },
+    {
+      "name": "spec1a_Real",
+      "header_offset": 185467,
+      "content_offset": 185596,
+      "dtype_hex": "0x6121",
+      "value_size": 10,
+      "allocated_rows": 3630,
+      "header_first_row": 0,
+      "header_last_row": 3604,
+      "finite_rows": 3604,
+      "missing_rows": 26,
+      "first_values": [
+        -16.631415,
+        -13.400084,
+        -12.70479
+      ],
+      "last_values": [
+        -12.904055,
+        -22.723034,
+        -23.297042
+      ]
+    },
+    {
+      "name": "spec1a_Imag",
+      "header_offset": 221907,
+      "content_offset": 222036,
+      "dtype_hex": "0x121",
+      "value_size": 10,
+      "allocated_rows": 3630,
+      "header_first_row": 0,
+      "header_last_row": 3604,
+      "finite_rows": 3604,
+      "missing_rows": 26,
+      "first_values": [
+        -64.185019,
+        -62.696062,
+        -60.748777
+      ],
+      "last_values": [
+        113.664174,
+        111.794024,
+        87.457202
+      ]
+    },
+    {
+      "name": "spec500ms_FreqMHz",
+      "header_offset": 258347,
+      "content_offset": 258476,
+      "dtype_hex": "0x1121",
+      "value_size": 10,
+      "allocated_rows": 8670,
+      "header_first_row": 0,
+      "header_last_row": 8651,
+      "finite_rows": 8651,
+      "missing_rows": 19,
+      "first_values": [
+        71.799756,
+        71.801282,
+        71.802808
+      ],
+      "last_values": [
+        84.995557,
+        84.997083,
+        84.998608
+      ]
+    },
+    {
+      "name": "spec500ms_Real",
+      "header_offset": 345187,
+      "content_offset": 345316,
+      "dtype_hex": "0x6121",
+      "value_size": 10,
+      "allocated_rows": 8670,
+      "header_first_row": 0,
+      "header_last_row": 8651,
+      "finite_rows": 8651,
+      "missing_rows": 19,
+      "first_values": [
+        71.937337,
+        57.442512,
+        43.794553
+      ],
+      "last_values": [
+        -1.369008,
+        -36.029206,
+        -2.773832
+      ]
+    },
+    {
+      "name": "spec500ms_Imag",
+      "header_offset": 432027,
+      "content_offset": 432156,
+      "dtype_hex": "0x121",
+      "value_size": 10,
+      "allocated_rows": 8670,
+      "header_first_row": 0,
+      "header_last_row": 8651,
+      "finite_rows": 8651,
+      "missing_rows": 19,
+      "first_values": [
+        -161.785154,
+        -156.744409,
+        -157.361051
+      ],
+      "last_values": [
+        258.587774,
+        253.958177,
+        18.256317
+      ]
+    },
+    {
+      "name": "spec20ms_FreqMHz",
+      "header_offset": 518867,
+      "content_offset": 518996,
+      "dtype_hex": "0x1121",
+      "value_size": 10,
+      "allocated_rows": 8670,
+      "header_first_row": 0,
+      "header_last_row": 8651,
+      "finite_rows": 8651,
+      "missing_rows": 19,
+      "first_values": [
+        71.799756,
+        71.801282,
+        71.802808
+      ],
+      "last_values": [
+        84.995557,
+        84.997083,
+        84.998608
+      ]
+    },
+    {
+      "name": "spec20ms_Real",
+      "header_offset": 605707,
+      "content_offset": 605836,
+      "dtype_hex": "0x6121",
+      "value_size": 10,
+      "allocated_rows": 8670,
+      "header_first_row": 0,
+      "header_last_row": 8651,
+      "finite_rows": 8651,
+      "missing_rows": 19,
+      "first_values": [
+        23.929559,
+        4.93644,
+        -11.369744
+      ],
+      "last_values": [
+        0.766674,
+        23.911346,
+        1.842381
+      ]
+    },
+    {
+      "name": "spec20ms_Imag",
+      "header_offset": 692547,
+      "content_offset": 692676,
+      "dtype_hex": "0x121",
+      "value_size": 10,
+      "allocated_rows": 8670,
+      "header_first_row": 0,
+      "header_last_row": 8651,
+      "finite_rows": 8651,
+      "missing_rows": 19,
+      "first_values": [
+        -13.398836,
+        -12.459123,
+        -21.625124
+      ],
+      "last_values": [
+        -40.454868,
+        -37.587022,
+        -2.687914
+      ]
+    },
+    {
+      "name": "T2a_TwoTau",
+      "header_offset": 779387,
+      "content_offset": 779516,
+      "dtype_hex": "0x1121",
+      "value_size": 10,
+      "allocated_rows": 58,
+      "header_first_row": 0,
+      "header_last_row": 35,
+      "finite_rows": 35,
+      "missing_rows": 23,
+      "first_values": [
+        60.0,
+        126.896552,
+        193.793103
+      ],
+      "last_values": [
+        520.0,
+        540.0,
+        560.0
+      ]
+    },
+    {
+      "name": "T2a_File",
+      "header_offset": 780107,
+      "content_offset": 780236,
+      "dtype_hex": "0x121",
+      "value_size": 10,
+      "allocated_rows": 58,
+      "header_first_row": 0,
+      "header_last_row": 35,
+      "finite_rows": 35,
+      "missing_rows": 23,
+      "first_values": [
+        1.0,
+        2.0,
+        3.0
+      ],
+      "last_values": [
+        33.0,
+        34.0,
+        35.0
+      ]
+    },
+    {
+      "name": "T2a_IntRe",
+      "header_offset": 780827,
+      "content_offset": 780956,
+      "dtype_hex": "0x6121",
+      "value_size": 10,
+      "allocated_rows": 58,
+      "header_first_row": 0,
+      "header_last_row": 58,
+      "finite_rows": 35,
+      "missing_rows": 23,
+      "first_values": [
+        554.9288,
+        551.1408,
+        540.6904
+      ],
+      "last_values": [
+        450.1472,
+        440.0064,
+        445.2672
+      ]
+    },
+    {
+      "name": "T2a_IntIm",
+      "header_offset": 781547,
+      "content_offset": 781676,
+      "dtype_hex": "0x6121",
+      "value_size": 10,
+      "allocated_rows": 58,
+      "header_first_row": 0,
+      "header_last_row": 58,
+      "finite_rows": 35,
+      "missing_rows": 23,
+      "first_values": [
+        1203.7328,
+        1115.1688,
+        1043.408
+      ],
+      "last_values": [
+        716.48,
+        691.352,
+        678.68
+      ]
+    },
+    {
+      "name": "T2a_IntQ",
+      "header_offset": 782267,
+      "content_offset": 782396,
+      "dtype_hex": "0x6121",
+      "value_size": 10,
+      "allocated_rows": 58,
+      "header_first_row": 0,
+      "header_last_row": 58,
+      "finite_rows": 35,
+      "missing_rows": 23,
+      "first_values": [
+        1430.543541,
+        1284.039514,
+        1218.8714
+      ],
+      "last_values": [
+        914.515588,
+        895.971068,
+        882.833574
+      ]
+    }
+  ]
+}

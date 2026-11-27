@@ -1,0 +1,118 @@
+[
+  {
+    "nuNQR_MHz": 1.5,
+    "eta": 0,
+    "nuQ_MHz": 1.5,
+    "nuL_MHz": 76,
+    "transitions": [
+      {
+        "transition": 0,
+        "min_MHz": 74.50000000000011,
+        "max_MHz": 76.7499726110959,
+        "min_offset_kHz": -1499.9999999998863,
+        "max_offset_kHz": 749.9726110958989
+      },
+      {
+        "transition": 1,
+        "min_MHz": 75.99013221953216,
+        "max_MHz": 76.005551020621,
+        "min_offset_kHz": -9.86778046784309,
+        "max_offset_kHz": 5.55102062099877
+      },
+      {
+        "transition": 2,
+        "min_MHz": 75.25002738890413,
+        "max_MHz": 77.4999999999996,
+        "min_offset_kHz": -749.9726110958704,
+        "max_offset_kHz": 1499.999999999602
+      }
+    ]
+  },
+  {
+    "nuNQR_MHz": 1.5,
+    "eta": 1,
+    "nuQ_MHz": 1.299038105676658,
+    "nuL_MHz": 76,
+    "transitions": [
+      {
+        "transition": 0,
+        "min_MHz": 74.7009777086628,
+        "max_MHz": 77.29902229133779,
+        "min_offset_kHz": -1299.0222913371952,
+        "max_offset_kHz": 1299.022291337792
+      },
+      {
+        "transition": 1,
+        "min_MHz": 75.9851988097062,
+        "max_MHz": 76.00740113560256,
+        "min_offset_kHz": -14.80119029379523,
+        "max_offset_kHz": 7.401135602563613
+      },
+      {
+        "transition": 2,
+        "min_MHz": 74.70097770866249,
+        "max_MHz": 77.29902229133793,
+        "min_offset_kHz": -1299.0222913375078,
+        "max_offset_kHz": 1299.0222913379341
+      }
+    ]
+  },
+  {
+    "nuNQR_MHz": 16.96,
+    "eta": 0,
+    "nuQ_MHz": 16.96,
+    "nuL_MHz": 76,
+    "transitions": [
+      {
+        "transition": 0,
+        "min_MHz": 59.04000000000009,
+        "max_MHz": 84.44056379465124,
+        "min_offset_kHz": -16959.99999999991,
+        "max_offset_kHz": 8440.56379465124
+      },
+      {
+        "transition": 1,
+        "min_MHz": 74.74865886809405,
+        "max_MHz": 76.71017805905547,
+        "min_offset_kHz": -1251.3411319059458,
+        "max_offset_kHz": 710.1780590554654
+      },
+      {
+        "transition": 2,
+        "min_MHz": 67.55943620534886,
+        "max_MHz": 92.95999999999984,
+        "min_offset_kHz": -8440.56379465114,
+        "max_offset_kHz": 16959.999999999836
+      }
+    ]
+  },
+  {
+    "nuNQR_MHz": 16.96,
+    "eta": 1,
+    "nuQ_MHz": 14.68779084818408,
+    "nuL_MHz": 76,
+    "transitions": [
+      {
+        "transition": 0,
+        "min_MHz": 61.33522731019437,
+        "max_MHz": 90.66477268980549,
+        "min_offset_kHz": -14664.77268980563,
+        "max_offset_kHz": 14664.772689805488
+      },
+      {
+        "transition": 1,
+        "min_MHz": 74.1306119197034,
+        "max_MHz": 76.94326268260374,
+        "min_offset_kHz": -1869.388080296602,
+        "max_offset_kHz": 943.2626826037449
+      },
+      {
+        "transition": 2,
+        "min_MHz": 61.33522731019443,
+        "max_MHz": 90.66477268980537,
+        "min_offset_kHz": -14664.772689805566,
+        "max_offset_kHz": 14664.772689805375
+      }
+    ]
+  }
+]

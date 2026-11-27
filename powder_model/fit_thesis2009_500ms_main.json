@@ -1,0 +1,50 @@
+{
+  "dataset": "thesis2009",
+  "tag": "500ms_main",
+  "series_ms": "500",
+  "mask_half_width_MHz": 0.12,
+  "common_eta": true,
+  "free_centres": false,
+  "eta": [
+    0.22499999998945666,
+    0.22499999998945666,
+    0.22499999998945666,
+    0.22499999998945666
+  ],
+  "effective_63_zeeman_MHz": [
+    75.94148633083006,
+    75.94148633083006,
+    75.94148633083006,
+    75.94148633083006
+  ],
+  "sigma_MHz": 0.24999999999901698,
+  "isotope65_scale": 0.1669983834766392,
+  "amplitudes": [
+    1423.8641940883642,
+    5017.129301694304,
+    0.0,
+    5927.786056992606
+  ],
+  "baseline": [
+    -259.88348344633215,
+    -150.84819894784007
+  ],
+  "normalized_SSE": 0.5258035009650569,
+  "masked_n": 245,
+  "normalized_RMS": 0.04632641512822771,
+  "nuQ63_MHz": [
+    11.870263652881093,
+    15.142767416833271,
+    16.045185121438266,
+    16.818686011099693
+  ],
+  "params": [
+    0.22499999998945666,
+    75.94148633083006,
+    0.24999999999901698,
+    0.1669983834766392
+  ],
+  "optimizer_success": true,
+  "normalization": 10291.363927,
+  "note": "Conditional exploratory fit. All transitions, isotropic magnetic shift, common Gaussian broadening. No confidence interval or unique site assignment is asserted."
+}

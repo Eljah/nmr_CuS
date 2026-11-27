@@ -1,0 +1,30 @@
+[
+  {
+    "group": 1,
+    "eta": 0.15000000001013725,
+    "centre_MHz": 76.41077994554423,
+    "max_translation_error_kHz": 5.670393825312203,
+    "rms_translation_error_kHz": 3.097736680950513
+  },
+  {
+    "group": 2,
+    "eta": 0.06337334761431906,
+    "centre_MHz": 75.9503180179125,
+    "max_translation_error_kHz": 2.1118110664843925,
+    "rms_translation_error_kHz": 1.2409582562121027
+  },
+  {
+    "group": 3,
+    "eta": 0.21251481856760707,
+    "centre_MHz": 75.59204968627643,
+    "max_translation_error_kHz": 3.6854043907936784,
+    "rms_translation_error_kHz": 1.9317266740997676
+  },
+  {
+    "group": 4,
+    "eta": 0.2913335713217885,
+    "centre_MHz": 76.52003616829289,
+    "max_translation_error_kHz": 14.509858101149575,
+    "rms_translation_error_kHz": 7.2450887459615645
+  }
+]

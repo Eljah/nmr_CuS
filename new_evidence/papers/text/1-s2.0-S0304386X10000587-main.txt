@@ -1,0 +1,389 @@
+                                                                         Hydrometallurgy 103 (2010) 108–113
+
+
+
+                                                                   Contents lists available at ScienceDirect
+
+
+                                                                          Hydrometallurgy
+                                                 j o u r n a l h o m e p a g e : w w w. e l s ev i e r. c o m / l o c a t e / h yd r o m e t
+
+
+
+
+The dissolution of chalcopyrite in chloride solutions
+Part 1. The effect of solution potential
+Lilian Velásquez-Yévenes a, Michael Nicol b,⁎, Hajime Miki b
+a
+    Department of Metallurgical Engineering, Universidad Católica del Norte, Antofagasta, Chile
+b
+    Parker Centre, Faculty of Minerals and Energy, Murdoch University, Perth, WA 6150, Australia
+
+
+
+
+a r t i c l e           i n f o                            a b s t r a c t
+
+Article history:                                           A study of the dissolution of several copper concentrates under controlled potential conditions in chloride
+Received 26 January 2010                                   solutions has demonstrated that the rate of dissolution of chalcopyrite is strongly dependent on the potential
+Received in revised form 2 March 2010                      of the solution. Linear rates were obtained for the dissolution of chalcopyrite in solutions containing 0.2 M
+Accepted 3 March 2010
+                                                           HCl and 0.5 g L− 1 Cu(II) at 35 °C. The rate is enhanced within a range of potentials of 550 to 620 mV (versus
+Available online 11 March 2010
+                                                           SHE) and the presence of dissolved oxygen is essential for enhanced rates within this potential window. Even
+                                                           though dissolved oxygen is important in order to achieve acceptable rates of dissolution, excessive oxidation
+Keywords:
+Chalcopyrite
+                                                           can increase the potential into a region in which passivation is possible.
+Chloride leaching rates                                    Reduction of the potential into the optimum region results in restoration of enhanced rates of dissolution. On
+Controlled potential                                       the other hand, dissolution at low potentials (b 540 mV) results in reduced rates of copper dissolution which
+Mineralogy                                                 increase signiﬁcantly when the potential is subsequently increased to above 580 mV. Mineralogical studies
+Passivation                                                have shown that chalcopyrite remains un-leached and small amounts of covellite appear to be formed on the
+                                                           surface of the chalcopyrite at low potentials. All concentrates appear to dissolve at roughly the same rate
+                                                           under the same conditions, despite differences in the composition and mineralogy of the samples.
+                                                                                                                                 © 2010 Elsevier B.V. All rights reserved.
+
+
+
+
+1. Introduction                                                                                  Elsherief, 2002) and a reaction model to explain the phenomenon has
+                                                                                                 been proposed (Hiroyoshi et al., 1997, 2001, 2000).
+    The dissolution of sulﬁde minerals and, in particular, that of                                    Preliminary experiments showed that it is not possible to maintain
+chalcopyrite is a potential-dependent reaction and many studies have                             constant potential conditions throughout the duration of a leach test
+been carried out in order to establish the relationship between the                              due to continuous changes in variables such as pH, chloride and iron
+solution potential and the leaching rate. In the context of leaching                             and copper concentrations. In order to develop an ambient temper-
+under ambient conditions that are appropriate to heap or dump                                    ature process for successful heap leaching of chalcopyrite in a chloride
+leaching, it is now well known that the leaching rate of chalcopyrite in                         or chloride–sulfate system it is not only appropriate to establish the
+sulfate solutions is dependent on the potential and that the rate is                             boundaries of the potential range required for adequate leaching but
+enhanced in a certain potential range (Nicol and Lazaro, 2002).                                  it is also necessary to develop and implement strategies for the control
+Conventional mixed-potential theory for dissolution does not appear                              of the potential if required.
+to apply to the leaching of chalcopyrite under these conditions.                                      This paper, which is the ﬁrst of three, starts by deﬁning the
+    Several studies have been devoted to the elucidation of the                                  conditions and the potential range for optimum chalcopyrite leaching
+potentials at which dissolution is possible and that at which apparent                           using three different potential control systems i.e. electrochemical,
+passivation occurs. Thus, Nicol and Lazaro (2002) used electrochemical                           chemical and gaseous. The results of experiments to establish
+and chemical experiments to establish the relevant leaching potential                            whether chalcopyrite concentrates from different localities leach at
+region as being 0.45 to 0.75 V under appropriate experimental                                    different rates under the same conditions will be presented without
+conditions. However, few actual dissolution studies have been con-                               any detailed interpretation or discussion. The second paper will deal
+ducted under controlled potential conditions, particularly in chloride                           with the effects of various parameters on the rate of dissolution of
+media (Hiroyoshi et al., 2000; Rivera-Vasquez et al., 2006; Third et al.,                        chalcopyrite under controlled potential conditions. The ﬁnal paper
+2002). In addition, several studies have focused on enhanced dissolution                         will discuss the experimental results obtained in the ﬁrst two parts
+at low redox potentials (Hackl et al., 1995; Hiroyoshi et al., 2000;                             and will present additional information in support of a novel
+                                                                                                 interpretation of all the data and will suggest alternative mechanisms
+    ⁎ Corresponding author.                                                                      for the enhanced leaching process which are consistent with the
+      E-mail address: M.Nicol@murdoch.edu.au (M. Nicol).                                         experimental observations.
+
+0304-386X/$ – see front matter © 2010 Elsevier B.V. All rights reserved.
+doi:10.1016/j.hydromet.2010.03.001
+                                                   L. Velásquez-Yévenes et al. / Hydrometallurgy 103 (2010) 108–113                                           109
+
+
+2. Experimental                                                                      Table 2
+                                                                                     Mineralogical composition of concentrates (mass, %).
+
+2.1. Materials and procedures                                                          Mineral            Mineral           Conc. 1         Conc. 2   Conc. 3
+
+                                                                                                          + 25–38 µm        + 25–38 µm      − 38 µm   − 38 µm
+    Chalcopyrite concentrates were obtained by ﬂotation from several
+                                                                                       Chalcocite          0.00              0.00            0.0       2.49
+operations in Chile and the USA and a relatively pure massive sample
+                                                                                       Chalcopyrite       77.90             82.50           17.6      32.98
+of chalcopyrite was obtained from the OK Tedi mine. Because of the                     Covellite           0.00              0.16            5.0       5.65
+fact that dry screening of the concentrates produced signiﬁcant                        Bornite             0.01              3.40            1.7       2.68
+amounts of agglomerated ﬁne material that made comparisons of the                      Native_Cu           0.00              0.00            0.0       0.00
+relative leach rates difﬁcult, the procedure included wet screening of                 Enargite            0.00              1.70            1.2       0.73
+                                                                                       Brochantite         0.00              0.00            0.0       0.23
+each concentrate to obtain a well-deﬁned chalcopyrite size fraction.                   Chrysocolla         0.00              0.00            0.0       0.04
+Most experiments were carried out with −38 + 25 μm or − 38 μm                          Other Cu            0.00              0.00            0.0       0.05
+size fractions. The chemical analyses of the screened samples are                      Pyrite             17.9               2.70           62.2      34.33
+shown in Table 1 and mineralogical data obtained from mineral                          Quartz              0.02              5.00            3.4       5.33
+                                                                                       Galena              0.41              0.47            0.1       0.1
+liberation analyses (MLA) for three of the four concentrates are
+                                                                                       Gangue              4.02              4.03            8.8      15.39
+presented in Table 2.
+
+2.2. Leaching experiments
+                                                                                     initially only contained acid. Passage of an appropriate current
+    Agitated leaching experiments were carried out in instrumented                   between these electrodes enabled the potential of the ORP electrode
+reactors constructed at Murdoch University. The bafﬂed cylindrical                   to be controlled to a set value. An alternative potential control system
+glass reactors have a volume of 1000 cm3 and are sealed with a multi-                involving the addition of an oxidant, in this case, 0.2 M permanganate
+port PVC lid on which is mounted a stirrer motor with a titanium                     to the reactor using a Metrohm titration unit linked to the measured
+impeller. The lid has ports for ORP and chalcopyrite electrodes and                  solution potential was also used.
+nitrogen or oxygen gas inlets. The reactor is enclosed in a                              Daily measurements of pH and the dissolved oxygen concentration
+temperature-controlled PVC surround. Unless stated otherwise, the                    in the reactor were made manually. In most experiments with those
+leach experiments were conducted with several concentrates and the                   concentrates that contained predominantly chalcopyrite, the fraction
+mass of material used was adjusted to provide approximately 3 g of                   of copper dissolved at any time was very similar to that of iron except
+copper in 900 cm3 of a solution containing 0.2 M HCl and 0.5 g L− 1 of               at pH values above about 1.5 in which case precipitation of some iron
+Cu(II) at 35 °C at a stirring speed of 800 rpm. As will be shown in the              was observed.
+second paper of this series, these conditions were selected as being an
+appropriate compromise between optimum conditions and those                          3. Results and discussion
+most likely to be economically possible in a heap leach process.
+    During each test, liquid samples were withdrawn periodically after                   Preliminary experiments were based on a published (Hiroyoshi
+compensating for evaporation by the addition of distilled water and                  et al., 2001) simple experimental technique in which small amounts
+settling of suspended solids for approximately 30 min. An equal                      of the mineral sample were leached in aerated shake ﬂasks without
+volume of the lixiviant was added to replace that removed in the                     any attempt to control the potential, other than the initial value which
+sample. The samples were ﬁltered (0.2 µm) prior to analysis for                      was varied by changing the iron(II)/iron(III) ratio. The results shown
+copper, total iron and in some cases silver using atomic absorption                  in Fig. 2 conﬁrmed the potential dependence of the rate of dissolution
+spectrometry (AAS). When solid samples were required, a slurry                       of chalcopyrite in that greater rates are observed at potentials
+sample was collected from the reactor and vacuum ﬁltered. The solid                  between about 530 and 580 mV. These experiments were conducted
+was washed and dried in air. The dried solid samples were sent to the                over a short term, during which only a small fraction of the mineral
+Newcastle Technology Centre of BHP Billiton for MLA analysis and                     was dissolved, and the results do not reﬂect the relative rates under
+microscopic examination.                                                             more appropriate conditions.
+    The solution potentials were monitored using a platinum ring                         Several additional experiments were therefore conducted with
+electrode with a combined Ag/AgCl reference electrode (3 M KCl). In                  Concentrate 1 in aerated agitated reactors without control of the
+some cases the mixed potential was also measured using a chalcopy-                   potential. In particular, the effect of the addition of ferric ions on the
+rite electrode/reference electrode combination. The electrodes were                  rate of dissolution was investigated. The results of two such
+connected to high impedance analogue input channels on a National                    experiments are shown in Fig. 3. It is apparent that the rate of
+Instruments data acquisition board controlled by Labview™ software.                  dissolution in a dilute chloride solution at low pH is signiﬁcantly
+A schematic of the potential control system used with injection of                   greater than that in the presence of ferric ions. The measured
+nitrogen or oxygen gas is shown in Fig. 1. A similar system was used for             potentials of the solution during these experiments are also shown
+electrochemical control which consisted of two platinum electrodes in                and conﬁrm the detrimental effect of high (greater than about
+the slurry. The anode is used to oxidise copper(I) and/or iron(II) and               650 mV) potentials on the rate. Thus, conventional wisdom that ferric
+the cathode is separated from the leaching solution by a fritted glass               ions are suitable as an oxidant in this system and that increased
+disk sealed into the bottom of the cathode compartment which                         potentials are desirable under these conditions is not correct.
+
+                                                                                     3.1. Electrochemical control of the potential
+Table 1
+Chemical composition (element, mass %).
+                                                                                         The electrochemical control system was used to investigate the
+ Sample              Size (µm)       Cu     Fe           S          Ag (ppm)         effect of potential on the rate of dissolution of Concentrate1. Four
+ Mineral             + 25–38         20.7   30.5         35.4       –                experiments were carried out in the instrumented reactors using de-
+ Concentrate 1       + 25–38         30.8   28.3         32.4       50               aerated solutions at various potential set-points under otherwise
+ Concentrate 2       −38              8.1   30           35.3       20               standard conditions. The results are shown in Fig. 4. It is apparent that
+ Concentrate 3       −38             13.2   21.8         23.3       30               the rate of dissolution of chalcopyrite is low by comparison with the
+ Concentrate 4       − 38            28.0   27.3         NA         NA
+                                                                                     results of Fig. 3 with a maximum of about 10% dissolved after 600 h.
+110                                                      L. Velásquez-Yévenes et al. / Hydrometallurgy 103 (2010) 108–113
+
+
+
+
+                                                                 Fig. 1. Schematic of the potential control system.
+
+
+
+    Three further experiments were conducted in which the potential                         dissolution that is observed in most experiments even up to 80%
+was electrochemically controlled at 580 mV while the slurry was                             dissolution. It should be noted that the initial relatively rapid
+sparged with nitrogen, air or oxygen. The results are shown in Fig. 5.                      dissolution of about 5–7% of the copper in these and subsequent
+The dissolved oxygen concentrations were maintained approximately                           experiments with Concentrate1 is due to the greater reactivity of
+constant at about 12 mg L− 1 in the oxygen case and 5 mg L− 1 in the                        small amounts of bornite in the concentrate (Table 2).
+case of the air-sparged reactor. The rate of dissolution is obviously
+strongly dependent on the presence of dissolved oxygen but is
+                                                                                            3.3. Chemical control of the potential
+relatively insensitive to the concentration in the range 5 to 12 mg L− 1.
+As a result of this observation, the use of electrochemical control was
+                                                                                                One experiment was conducted in which the potential was
+discontinued and control of the potential by injection of the
+                                                                                            controlled by injection of permanganate into the leach slurry of
+appropriate gas was subsequently employed.
+                                                                                            Concentrate 3 which was de-aerated by sparging with nitrogen. The
+                                                                                            results are shown in Fig. 7 which also shows the corresponding curve
+                                                                                            for the dissolution of this concentrate under conditions of oxygen
+3.2. Control of the potential by addition of oxygen
+                                                                                            control. This result reconﬁrms the importance of dissolved oxygen
+                                                                                            and also that the phenomenon also applies to chalcopyrite from a
+    As a result of the need to have some dissolved oxygen present in
+                                                                                            different source. The role of dissolved oxygen will be discussed in a
+the leach solution, it was decided to modify the control system to one
+                                                                                            subsequent paper but it should be pointed out that enhanced rates are
+which varies the amount of air or oxygen injected into the leach pulp.
+                                                                                            only observed when dissolved oxygen is present together with an
+Experiments were carried out at various potentials on Concentrate 1
+                                                                                            oxidant such as copper(II) or iron(II) ions.
+under standard conditions. The results presented in Fig. 6 conﬁrm the
+importance of dissolved oxygen in that, at the appropriate potentials,
+over 90% dissolution was achieved after 1200 h. The results also                            3.4. Reversibility of operation outside the potential window
+demonstrate that enhanced rates of leaching can be achieved in the
+potential window of about 560–600 mV with signiﬁcantly lower rates                          3.4.1. Effect of high potentials
+at 540 and 620 mV. The reduction in rate at the low potential is due to                         The above results have shown that at potentials above about
+the enhanced stability of covellite (CuS) at potentials below about                         620 mV, the rate of dissolution decreases substantially. It is probable
+550 mV under these conditions while passivation of chalcopyrite                             that this is due to the so-called passivation of chalcopyrite which has
+occurs at potentials above about 620 mV — as will be discussed in a                         been previously observed from both dissolution and electrochemical
+subsequent paper. Of interest is the relatively constant rate of                            studies (Lazaro and Nicol, 2003). In a practical implementation of
+                                                                                            controlled potential leaching, it would be desirable if passivation
+                                                                                            could be reversed by reduction of the potential into the operating
+
+
+
+
+Fig. 2. The effect of solution potential on the extent of copper dissolution from the       Fig. 3. Copper dissolution from Concentrate 1 in a solution of 10 g L− 1 chloride at pH 0.5
+mineral sample after 24 h in a solution of 1 M chloride, 0.1 M H2SO4 and 0.01 M Fe(III).    and 20 °C in the absence (■) of iron(III) and in the presence (▲) of 10 g L− 1 iron(III).
+(□) Initial potential and (■) ﬁnal potential.                                               Also shown are the corresponding potentials (----) during the experiment.
+                                                        L. Velásquez-Yévenes et al. / Hydrometallurgy 103 (2010) 108–113                                                     111
+
+
+
+
+Fig. 4. Copper dissolution from Concentrate 1 in a solution of 0.2 M HCl and 0.5 g L− 1
+copper(II) under electrochemical control. (▲) 560 mV, (●) 580 mV, (■) 600 mV and          Fig. 6. Copper dissolution from Concentrate 1 in a solution of 0.2 M HCl and 0.5 g L− 1
+(♦) 610 mV.                                                                               copper(II) at 35 °C under air control. (▲) 540 mV (●) 560 mV, (×) 580 mV, (♦) 600 mV
+                                                                                          and (■) 620 mV.
+
+
+window. Experiments were therefore conducted during which the                             940 h. It is clear that the rate on increasing the potential is similar to
+potential was controlled initially at 650 mV and, after a period at this                  that observed under standard conditions i.e. there does not appear to
+potential, it was reduced to 580 mV.                                                      be any net advantage in carrying out a 2-stage process with the ﬁrst
+   The results for experiments carried out with Concentrate 3 at both                     involving reducing conditions. Solid samples for mineralogical
+25 and 50 °C are shown in Fig. 8. The signiﬁcantly higher rate at                         analysis were taken just before increasing the potential and on
+580 mV at 50 °C than at 25 °C suggests a large activation energy for                      completion of the tests.
+the dissolution reaction. It is apparent that slow passivation occurs at                      Fig. 10 shows an optical micrograph of a reacted chalcopyrite
+a potential of 650 mV even at 50 °C with the rate becoming almost                         particle removed after 936 h in this experiment. There is obvious
+zero after about 500 h. Reduction of the potential after 700 h results in                 conversion of chalcopyrite to covellite and small amounts of
+restoration of the rate normally observed within the potential                            chalcocite. The results of mineralogical analyses of the head and
+window. Similarly, the much slower rate at 25 °C at 650 mV increases                      residue samples from this test as estimated from a MLA investigation
+to the normal rate at 580 mV when the potential is reduced after                          are presented in Table 3. As shown, the chalcopyrite content is slightly
+1400 h. These results have shown that the reactions responsible for                       reduced after 936 h at low potential while there appears to be an
+passivation are reversible. The relatively slow onset of passivation at                   increase in the content of covellite and bornite suggesting that
+elevated temperatures is at least a partial explanation for the fact that                 chalcopyrite could have been reduced to these copper sulﬁdes. After
+ﬁnely milled chalcopyrite can be effectively leached under relatively                     2640 h, the amount of chalcopyrite and bornite has decreased while
+mild conditions.                                                                          there is a no detectable covellite, but increased amounts of sulfur in
+                                                                                          the residue. It should be pointed out that the method of preparation of
+                                                                                          the polished sections can result in signiﬁcant losses of elemental
+3.4.2. Effect of low potentials                                                           sulfur globules and that the amounts analyzed are therefore lower
+    Two tests were carried in order to establish the extent to which                      limits only.
+chalcopyrite dissolves at low potentials (450 mV) and whether a                               The mineral maps (not shown) show that most of the un-reacted
+subsequent increase in potential results in similar or enhanced rates                     chalcopyrite is present as liberated particles with a few particles
+over those observed in the optimum potential window. The tests were                       rimmed by elemental sulfur. In addition, it was interesting to observe
+carried out under otherwise standard conditions using nitrogen to                         the occurrence of sulfur as isolated and relatively large globules
+maintain the low potentials. The results are shown in Fig. 9 from                         suggesting that the formation of elemental sulfur occurs by
+which it is apparent that the test at low potential showed negligible                     precipitation from a dissolved sulfur species as has been previously
+dissolution of copper until the potential was increased to 550 mV after
+
+
+
+
+Fig. 5. Copper dissolution from Concentrate 1 in a solution of 0.2 M HCl and 0.5 g L− 1   Fig. 7. Copper dissolution from Concentrate 1 in a solution of 0.2 M HCl and 0.5 g L− 1
+copper(II) at 35 °C under electrochemical control with sparging of (▲) nitrogen,          copper(II) at 35 °C at a controlled potential of 580 mV using (▲) oxygen and
+(●) oxygen, and (■) air.                                                                  (●) permanganate.
+112                                                       L. Velásquez-Yévenes et al. / Hydrometallurgy 103 (2010) 108–113
+
+
+
+
+Fig. 8. Reversibility of passivation of copper dissolution from Concentrate 3 under air      Fig. 10. Optical micrograph showing the conversion of chalcopyrite (yellow) in
+control. (Δ) 1 M HCl + 0.5 g L− 1 copper(II) at 50 °C and 580 mV, (▲) 1 M HCl+ 0.5 g L− 1    Concentrate 1 to covellite and chalcocite after 936 h at 450 mV. Conditions as in Fig. 9.
+copper(II) at 50 °C and 650 mV/550 mV, and (■) 0.2 M HCl+ 0.5 g L− 1 copper(II) at 25 °C
+and 650 mV/550 mV.
+
+                                                                                             showed that the chalcopyrite particles are mostly liberated in all
+suggested (Dutrizac, 1990; Schippers and Sand, 1999). This aspect will                       samples with only small amounts associated with other minerals.
+be dealt with in more detail in a later paper in this series.
+
+3.5. Dissolution of chalcopyrite concentrates from different sources                         3.5.2. Leaching experiments
+                                                                                                 Each of the chalcopyrite samples was leached at a controlled
+   A number of leach experiments were carried out using each of the                          potential of 580 mV using the nitrogen/air control system under
+concentrates described in Tables 1 and 2. The experiments were                               standard conditions i.e., 0.2 M HCl and 0.5 g L− 1 Cu(II) at 35 °C. Fig. 11
+conducted with the +25–38 µm size fraction for Concentrate 1 and                             summarizes the leaching curves, which are approximately linear with
+with the − 38 µm fraction with the other samples due to the limited                          remarkably similar rates for all concentrates. This conﬁrms other
+amounts of these concentrates available.                                                     work conducted under different conditions (Dutrizac, 1982). The
+                                                                                             initial relatively rapid rate of dissolution in some cases is due to the
+3.5.1. Mineralogy                                                                            greater reactivity of the secondary copper sulﬁde minerals present
+    The various samples of screened concentrates were analyzed                               mainly in Concentrates 2 and 3.
+chemically and mineralogically with the results given in Tables 1 and 2.                         Chemical analyses of some of the residues gave values of the extent
+The silver content of the various samples ranged from 50 to 10 ppm                           of dissolution of copper that were consistent with those calculated
+and this is of potential interest since soluble silver is known to                           from the corresponding solution concentrations. In some cases,
+accelerate the dissolution of chalcopyrite (Hiroyoshi et al., 2002, 2007;                    depending on the pH during the latter stages of leaching, precipitation
+Parker et al., 2003; Yuehua et al., 2002). It is apparent that the                           of iron was observed which resulted in lower extraction of iron into
+Concentrate1 is the highest grade with respect to chalcopyrite and                           solution. However, this did not appear to affect the rate of dissolution
+although data for Concentrate 4 was limited to chemical analysis for                         of copper.
+copper and iron only, mineralogical analyses of another sample from
+the same source indicated the presence of chalcopyrite and pyrite as
+the only measurable sulﬁde minerals. The other two materials
+contained signiﬁcant proportions of the copper as other copper                               Table 3
+                                                                                             Modal mineralogical analysis (mass %) of Concentrate 1 and residues after dissolution
+sulﬁdes, as shown by the copper source ratios (percentage of copper
+                                                                                             under the conditions shown in Fig. 9.
+present in the form of each mineral) in Table 4. The MLA analyses
+                                                                                               Mineral                        Head                  Residue                Residue
+
+                                                                                                                                                    936, h                 2640, h
+
+                                                                                               Chalcopyrite                    82.5                  80.2                   57.1
+                                                                                               Covellite                        0.16                  0.4                    0.0
+                                                                                               Bornite                          3.4                   4.0                    1.9
+                                                                                               Pyrite                           2.7                   5.5                   12.0
+                                                                                               Elemental sulfur                 0.0                   0.0                    5.7
+                                                                                               Total                          100                   100                    100
+
+
+
+
+                                                                                             Table 4
+                                                                                             Pyrite content and copper source ratios (mass %) of major copper minerals.
+
+                                                                                               Sample                Concentrate 1           Concentrate 2          Concentrate 3
+
+                                                                                               Mineral
+
+                                                                                               Chalcopyrite          90.2                    54.0                   59.1
+                                                                                               Covellite              0.2                    31.0                   19.6
+                                                                                               Bornite                6.8                     9.0                    8.8
+Fig. 9. Dissolution of copper from Concentrate 1 in a solution of 0.2 M HCl and 0.5 g L− 1
+                                                                                               Enargite               2.6                     5.0                    1.8
+copper(II) at 35 °C and (▲) 580 mV and (■) 450 mV with potential increased to 550 mV
+                                                                                               Pyrite                 2.7                    62.2                   34.3
+after 936 h.
+                                                          L. Velásquez-Yévenes et al. / Hydrometallurgy 103 (2010) 108–113                                                             113
+
+
+                                                                                                All concentrates studied appear to dissolve at roughly the same
+                                                                                             rate under the same conditions, despite differences in the composition
+                                                                                             and mineralogy of the concentrate samples.
+
+
+                                                                                             Acknowledgements
+
+                                                                                                 The authors would like to acknowledge the ﬁnancial support from
+                                                                                             BHP Billiton, Universidad Católica del Norte and the Parker Centre.
+                                                                                             Thanks also to Dr Puru Shrestha and his mineralogy team at BHP
+                                                                                             Billiton for their excellent mineralogical support of this project.
+
+
+                                                                                             References
+                                                                                             Dutrizac, J.E., 1982. Ferric ion leaching of chalcopyrite from different localities.
+Fig. 11. Dissolution of copper from chalcopyrite concentrates from different localities in       Metallurgical Transactions B 13B, 303–309.
+0.2 M HCl and 0.5 g L− 1 copper(II) at 35 °C. (▲) Conc. 1, (■) Conc. 2, (×) Conc. 3, and     Dutrizac, J.E., 1990. Elemental sulphur formation during the ferric chloride leaching of
+(●) Conc. 4.                                                                                     chalcopyrite. Hydrometallurgy 23, 153–176.
+                                                                                             Elsherief, A.E., 2002. The inﬂuence of cathodic reduction, Fe2+ and Cu2+ ions on the
+                                                                                                 electrochemical dissolution of chalcopyrite in acidic solution. Minerals Engineering
+                                                                                                 15, 215–223.
+4. Conclusions                                                                               Hackl, R.P., Dreisinger, D.B., Peters, E., King, J.A., 1995. Passivation of chalcopyrite during
+                                                                                                 oxidative leaching in sulfate media. Hydrometallurgy 39, 25–48.
+                                                                                             Hiroyoshi, N., Hirota, M., Hirajima, T., Tsunekawa, M., 1997. A case of ferrous sulfate
+    Leaching experiments under controlled potential and standard                                 addition enhancing chalcopyrite leaching. Hydrometallurgy 47, 37–45.
+conditions have demonstrated that the rate of dissolution of                                 Hiroyoshi, N., Miki, H., Hirajima, T., Tsunekawa, M., 2000. A model for ferrous-promoted
+                                                                                                 chalcopyrite leaching. Hydrometallurgy 57, 31–38.
+chalcopyrite is potential dependent and the presence of dissolved
+                                                                                             Hiroyoshi, N., Maeda, H., Miki, H., Hirajima, T., Tsunekawa, M., 2001. Enhancement of
+oxygen is essential for enhanced rates. However, it appears that the                             chalcopyrite leaching by ferrous ions in acidic ferric sulfate solutions. Hydromet-
+rate is not strongly dependent on the oxygen concentration in the                                allurgy 60, 185–197.
+range 5 to 15 mg L− 1. The linear rate of dissolution of chalcopyrite                        Hiroyoshi, N., Arai, M., Miki, H., Tsunekawa, M., Hirajima, T., 2002. A new reaction model
+                                                                                                 for the catalytic effect of silver ions on chalcopyrite leaching in sulfuric acid
+from several concentrates in chloride solutions under standard                                   solutions. Hydrometallurgy 63, 257–267.
+conditions with a solution of 0.2 M HCl with 0.5 g L− 1 copper(II) at                        Hiroyoshi, N., Kuroiwa, S., Miki, H., Tsunekawa, M., Hirajima, T., 2007. Effects of co-
+35 °C is enhanced within a range of potentials of 550 to 620 mV                                  existing metal ions on the redox potential dependence of chalcopyrite leaching in
+                                                                                                 sulfuric acid solutions. Hydrometallurgy 87 (1–2), 1–10.
+(potential window).                                                                          Lazaro, I., Nicol, M.J., 2003. The mechanism of the dissolution and passivation of
+    Even though dissolved oxygen is important in order to achieve                                chalcopyrite — An electrochemical study. In: Hydrometallurgy 2003, vol. 1. The
+acceptable rates of dissolution, an excess of oxygen can increase the                            Minerals, Metals and Materials Society, Warrendale, Pennsylvania, pp. 405–418.
+                                                                                             Nicol, M.J., Lazaro, I., 2002. The role of Eh measurements in the interpretation of the
+potential into a region in which passivation is possible. Initial leaching                       kinetics and mechanism of the oxidation and leaching of sulphide minerals.
+at potentials above 630 mV for extended periods results in low rates                             Hydrometallurgy 63, 15–22.
+that are increased when the potential is subsequently reduced to                             Parker, A., Klauber, C., Kougianos, A., Watling, H.R., van Bronswijk, W., 2003. An X-ray
+                                                                                                 photoelectron spectroscopy study of the mechanism of oxidative dissolution of
+580 mV. Therefore, it appears that the “passivation” is reversible.
+                                                                                                 chalcopyrite. Hydrometallurgy 71, 265–276.
+    On the other hand, leaching at low potential (b540 mV) results in                        Rivera-Vasquez, B., Viramontes-Gamboa, G., Dixon, D.G., 2006. Leaching of chalcopyrite
+reduced rates of copper dissolution which increase signiﬁcantly when                             concentrates in acid ferric sulfate media at controlled redox potential. In: Domic, E.M.,
+                                                                                                 Casas de Prada, J.M. (Eds.), HydroProcess 2006, International Workshop on Process
+the potential is subsequently increased to above 580 mV. Mineralog-
+                                                                                                 Hydrometallurgy. GEGAMIN, Santiago, Chile, pp. 287–299.
+ical studies have shown that chalcopyrite remains un-leached and                             Schippers, A., Sand, W., 1999. Bacterial leaching of metal sulﬁdes proceeds by two
+small amounts of covellite and chalcocite appear to be formed on the                             indirect mechanisms via thiosulfate or via polysulﬁdes and sulfur. Applied and
+surface of the chalcopyrite under these conditions suggesting the                                Environmental Microbiology 65, 319–321.
+                                                                                             Third, K.A., Cord-Ruwisch, R., Watling, H.R., 2002. Control of the redox potential by
+possibility of a two-stage process in which chalcopyrite is converted                            oxygen limitation improves bacterial leaching of chalcopyrite. Biotechnology and
+to a more reactive secondary copper sulﬁde. However, the overall rate                            Bioengineering 78, 433–441.
+in this two-stage process appears to be similar to that achieved by                          Yuehua, H., Guanzhou, Q., Jun, W., Dianzuo, W., 2002. The effect of silver-bearing
+                                                                                                 catalysts on bioleaching of chalcopyrite. Hydrometallurgy 64, 81–88.
+operation as a single stage within the potential window.
+

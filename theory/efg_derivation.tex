@@ -1,0 +1,801 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[a4paper,margin=23mm]{geometry}
+\usepackage{amsmath,amssymb,bm,booktabs,longtable,array}
+\usepackage{microtype}
+\usepackage{xcolor}
+\usepackage[hidelinks]{hyperref}
+\usepackage{url}
+\hypersetup{pdftitle={Model electric-field gradients in anilite: analytic derivation and numerical conventions}}
+\setlength{\parindent}{1.2em}
+\setlength{\parskip}{3pt}
+\setlength{\emergencystretch}{2em}
+\renewcommand{\theequation}{S\arabic{equation}}
+\newcommand{\dd}{\mathrm d}
+\newcommand{\erfc}{\operatorname{erfc}}
+\newcommand{\erf}{\operatorname{erf}}
+\newcommand{\Tr}{\operatorname{Tr}}
+\newcommand{\diag}{\operatorname{diag}}
+\newcommand{\Id}{\mathbf 1}
+\newcommand{\G}{\bm G}
+\newcommand{\V}{\bm V}
+\newcommand{\rvec}{\bm r}
+\newcommand{\kvec}{\bm k}
+\newcommand{\nvec}{\bm n}
+\newcommand{\nuq}{\nu_Q}
+\newcommand{\nunqr}{\nu_{\mathrm{NQR}}}
+\newcommand{\nuz}{\nu_{\mathrm Z}}
+\newcommand{\etapc}{\eta_{\mathrm{pc}}}
+\begin{document}
+\lefthyphenmin=3
+\righthyphenmin=3
+\hyphenation{NQR NMR EFG EFGs}
+\begin{center}
+{\LARGE\bfseries Model electric-field gradients in anilite:\par}
+\vspace{3pt}
+{\Large analytic derivation, numerical conventions,\par
+and the low-frequency Cu3 hypothesis\par}
+\vspace{9pt}
+{\small Supporting calculation for the copper powder-NMR manuscript\par
+27 November 2026\par}
+\end{center}
+
+\noindent\textbf{Scope.} This document derives the electrostatic lattice proxy
+used for anilite Cu$_7$S$_4$ and the steps relating an EFG to spin-$3/2$ NQR and
+powder NMR. It retains the distinction between (i) a converged mathematical
+lattice sum, (ii) a model of the complete nuclear EFG, and (iii) a crystallographic
+assignment of an observed signal. The calculations establish the first of these
+for explicitly chosen point charges. They provide hypotheses for the other two.
+Symbolic intermediate expressions and checks are saved by
+\path{theory/symbolic_algebra.py}; all real-space and reciprocal-space numerical
+terms are retained separately under \path{theory/results/efg/}.
+
+\setcounter{tocdepth}{1}
+\tableofcontents
+\newpage
+
+\section{Definitions and the structural input}
+
+Let a periodic unit cell contain charges $q_j=z_j e$ at Cartesian positions
+$\rvec_j=\bm A\bm f_j$, where $\bm f_j$ are fractional coordinates. For the
+reference orthorhombic anilite structure,
+\begin{equation}
+ \bm A=\diag(7.89,7.84,11.01)\ \text{\AA},\qquad
+ \Omega=\det\bm A=681.052176\ \text{\AA}^3.
+\end{equation}
+The value computed from the listed lattice lengths is used rather than the
+rounded CIF volume. The coordinate source is the transcription of AMCSD~0009376
+preserved in \path{research_literature/anilite_amcsd0009376_transcribed.cif},
+based on Koto and Morimoto's structure \cite{Koto1970}. It is a reference
+near-room-temperature structure, not a refinement of the measured sample at 5~K.
+
+\begin{center}
+\begin{tabular}{lrrrl}
+\toprule
+Atom & $f_a$ & $f_b$ & $f_c$ & Unit-cell multiplicity \\
+\midrule
+Cu1 & 0.48320 & 0.75000 & 0.09420 & 4 \\
+Cu2 & 0.42580 & 0.25000 & 0.33350 & 4 \\
+Cu3 & 0.47900 & 0.75000 & 0.35450 & 4 \\
+Cu4 & 0.23710 & 0.43030 & 0.15530 & 8 \\
+Cu5 & 0.17700 & 0.47670 & 0.41860 & 8 \\
+S1 & 0.24600 & 0.25000 & 0.98730 & 4 \\
+S2 & 0.78500 & 0.25000 & 0.98410 & 4 \\
+S3 & 0.99880 & 0.99800 & 0.26110 & 8 \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+Each representative coordinate is expanded by the eight symmetry operations
+stored in the CIF, reduced modulo the unit cell, and deduplicated. This gives
+28 Cu and 16 S atoms, or four formula units. Cu1 and Cu3 are tetrahedrally
+coordinated; Cu2, Cu4 and Cu5 have three nearest sulfur neighbours. The count of
+eight tetrahedrally and twenty triangularly coordinated Cu atoms per unit cell
+agrees with the published crystallochemical comparison \cite{Evans1981}.
+
+Two types of charge scenario are evaluated. The baseline uses
+\begin{equation}
+ z_{\mathrm{Cu}}=\frac87,\qquad z_{\mathrm S}=-2,\qquad
+ 28\frac87-16(2)=0.
+\label{eq:neutral}
+\end{equation}
+Five further scenarios start with $z_{\mathrm{Cu}}=1$ and place the remaining
+four positive charge units on one complete Cu orbit of multiplicity $m_s$:
+\begin{equation}
+ z_s=1+\frac4{m_s},\quad z_{\text{other Cu}}=1,
+ \quad z_{\mathrm S}=-2.
+\end{equation}
+All six cells are neutral and retain the reference space-group symmetry. These
+are sensitivity scenarios, not measured oxidation-state assignments.
+
+\section{From the Coulomb potential to the EFG kernel}
+
+\subsection{Potential Hessian and sign convention}
+
+For a point charge at a displacement $\rvec$ from the observation point, the
+electrostatic potential is
+\begin{equation}
+ \phi(\rvec)=\frac{ze}{4\pi\epsilon_0 r},\qquad
+ r=(r_a r_a)^{1/2}.
+\end{equation}
+Repeated Cartesian indices are summed in this section. We use the conventional
+quadrupolar EFG sign: $V_{ab}$ is the second derivative of the electrostatic
+\emph{potential}. Since $\bm E=-\nabla\phi$, the derivative
+$\partial E_a/\partial r_b$ has the opposite sign. A consistent convention is
+essential when retaining signed eigenvalues, even though the zero-field NQR
+frequency below involves their magnitude.
+
+First differentiate $r$ and $1/r$:
+\begin{align}
+ \frac{\partial r}{\partial r_a}&=\frac{r_a}{r},\\
+ \frac{\partial (r^{-1})}{\partial r_a}&=-\frac{r_a}{r^3},\\
+ \frac{\partial^2(r^{-1})}{\partial r_a\partial r_b}
+ &=-\frac{\delta_{ab}}{r^3}+\frac{3r_a r_b}{r^5}
+ =\frac{3r_a r_b-r^2\delta_{ab}}{r^5}.
+\label{eq:kernel}
+\end{align}
+Hence the numerical lattice tensor used in the code is
+\begin{equation}
+ G_{ab}(s)=\sum_{j,\bm R}'z_j
+ \frac{3d_{j\bm R,a}d_{j\bm R,b}
+ -d_{j\bm R}^2\delta_{ab}}{d_{j\bm R}^5},\qquad
+ \bm d_{j\bm R}=\rvec_j+\bm R-\rvec_s.
+\label{eq:direct}
+\end{equation}
+The prime removes the observation atom in the home cell, while its nonzero
+periodic images remain. The kernel is even in $\bm d$, so defining the
+displacement with the opposite sign gives the same Hessian.
+
+For each nonzero displacement,
+\begin{equation}
+ \sum_a\frac{3d_a^2-d^2}{d^5}=0.
+\end{equation}
+Therefore the lattice tensor is symmetric and traceless. For a general continuous
+charge distribution the quadrupolar interaction selects the traceless part of
+the potential Hessian. Here the observation point is away from all retained
+point-charge singularities, and the lattice Hessian is already traceless.
+
+\subsection{Units and what an SI conversion means}
+
+The scripts use $z_j=q_j/e$ as numerical charge values and distances in
+\AA. Thus the numerical entries of $G$ are in \AA$^{-3}$ for charges measured
+in units of $e$. Some archived files describe this convention as
+``$e$/\AA$^3$, with the Coulomb prefactor omitted.'' There is exactly one factor
+of the elementary charge in the SI conversion:
+\begin{equation}
+ V^{\mathrm{pc}}_{ab},[\mathrm{V\,m^{-2}}]
+ =\underbrace{\frac{e}{4\pi\epsilon_0}
+ (10^{10})^3}_{\simeq\,1.43996\times10^{21}\ \mathrm{V\,m^{-2}}}
+ G_{ab}\,[\text{numerical units}].
+\label{eq:units}
+\end{equation}
+The constants follow the 2022 CODATA convention \cite{CODATA}. Equation
+\eqref{eq:units} is a unit conversion for the chosen point-charge model. It does
+not restore the omitted electronic charge density or make the model a prediction
+of the complete nuclear EFG.
+
+\section{Periodic Ewald sum, including the self correction}
+
+\subsection{Potential splitting}
+
+The Ewald identity is
+\begin{equation}
+ \frac1r=\frac{\erfc(\alpha r)}r+\frac{\erf(\alpha r)}r,
+ \qquad \alpha>0.
+\end{equation}
+It partitions the periodic Coulomb problem into a short-range real-space sum
+and a smooth reciprocal-space sum \cite{Ewald1921,DLPOLY}. The reciprocal vectors
+satisfy $\kvec=2\pi\bm A^{-T}\bm m$, with integer $\bm m$. For a neutral cell,
+the nonzero reciprocal modes of the smooth potential, without the common SI
+prefactor, are
+\begin{equation}
+ \psi^{\mathrm{rec}}(\rvec)=\frac{4\pi}{\Omega}
+ \sum_{\kvec\ne0}\frac{e^{-k^2/(4\alpha^2)}}{k^2}
+ \sum_j z_j\cos[\kvec\cdot(\rvec-\rvec_j)].
+\label{eq:recpotential}
+\end{equation}
+Charge neutrality removes the problematic uniform charge mode. An arbitrary
+constant potential does not affect its Hessian. The present calculation uses
+the periodic electrostatic convention; it does not introduce a spatially varying
+macroscopic external field gradient.
+
+\subsection{Real-space derivatives, with all radial coefficients}
+
+For any radial function $f(r)$,
+\begin{align}
+ \partial_a f&=f'(r)\frac{r_a}{r},\\
+ \partial_a\partial_b f
+ &=\left(f''-\frac{f'}r\right)\frac{r_a r_b}{r^2}
+ +\frac{f'}r\delta_{ab}.
+\label{eq:radial}
+\end{align}
+Set $f(r)=\erfc(\alpha r)/r$ and $E(r)=e^{-\alpha^2r^2}$. Differentiation gives
+\begin{align}
+ f'(r)&=-\frac{\erfc(\alpha r)}{r^2}
+ -\frac{2\alpha}{\sqrt\pi}\frac{E(r)}r,\\
+ f''(r)&=\frac{2\erfc(\alpha r)}{r^3}
+ +\frac{4\alpha}{\sqrt\pi}\frac{E(r)}{r^2}
+ +\frac{4\alpha^3}{\sqrt\pi}E(r).
+\end{align}
+Substituting these two expressions into Eq.~\eqref{eq:radial} gives
+\begin{align}
+ A(r)&=\frac{3\erfc(\alpha r)}{r^5}
+ +\frac{6\alpha E(r)}{\sqrt\pi r^4}
+ +\frac{4\alpha^3E(r)}{\sqrt\pi r^2},\\
+ B(r)&=-\frac{\erfc(\alpha r)}{r^3}
+ -\frac{2\alpha E(r)}{\sqrt\pi r^2},\\
+ G^{\mathrm{real}}_{ab}(s)
+ &=\sum_{j,\bm R}'z_j
+ \left[A(d)d_a d_b+B(d)\delta_{ab}\right].
+\label{eq:real}
+\end{align}
+The trace of one screened Hessian is
+\begin{equation}
+ A(r)r^2+3B(r)=\frac{4\alpha^3}{\sqrt\pi}E(r).
+\label{eq:realtrace}
+\end{equation}
+Thus the real-space Ewald subtotal is \emph{not} separately traceless. Discarding
+its trace before adding the other contributions would alter the required
+cancellation.
+
+\subsection{Reciprocal-space Hessian}
+
+Twice differentiating the cosine in Eq.~\eqref{eq:recpotential} gives
+\begin{equation}
+ \partial_a\partial_b\cos[\kvec\cdot(\rvec-\rvec_j)]
+ =-k_a k_b\cos[\kvec\cdot(\rvec-\rvec_j)].
+\end{equation}
+Consequently,
+\begin{equation}
+ G^{\mathrm{rec}}_{ab}(s)=-\frac{4\pi}{\Omega}
+ \sum_{\kvec\ne0}\frac{e^{-k^2/(4\alpha^2)}}{k^2}k_a k_b
+ \sum_jz_j\cos[\kvec\cdot(\rvec_s-\rvec_j)].
+\label{eq:rec}
+\end{equation}
+The sum as implemented includes both $\kvec$ and $-\kvec$. No additional factor
+of two is applied. A half-space implementation would need the corresponding
+factor explicitly.
+
+\subsection{Why the self correction has a positive Hessian}
+
+The observation charge is removed from the singular real-space sum, but its
+smooth Gaussian contribution is still contained in Eq.~\eqref{eq:rec}. Near
+that charge,
+\begin{equation}
+ \frac{\erf(\alpha r)}r
+ =\frac{2\alpha}{\sqrt\pi}
+ -\frac{2\alpha^3}{3\sqrt\pi}r^2
+ +\frac{\alpha^5}{5\sqrt\pi}r^4+O(r^6).
+\end{equation}
+The constant has zero Hessian and
+$\partial_a\partial_b r^2=2\delta_{ab}$. Hence the smooth self term already
+present in the reciprocal sum has Hessian
+\begin{equation}
+ G^{\mathrm{smooth\ self}}_{ab}
+ =-\frac{4\alpha^3z_s}{3\sqrt\pi}\delta_{ab}.
+\end{equation}
+Removing it therefore \emph{adds} the opposite tensor:
+\begin{equation}
+ \boxed{\quad
+ \G(s)=\G^{\mathrm{real}}(s)+\G^{\mathrm{rec}}(s)
+ +\frac{4\alpha^3z_s}{3\sqrt\pi}\Id .\quad}
+\label{eq:ewald}
+\end{equation}
+This correction follows by differentiating with respect to the observation
+coordinate while holding source positions fixed. Differentiating a constant
+self-energy correction would not derive the local field Hessian correctly.
+
+In exact arithmetic Eq.~\eqref{eq:ewald} is traceless. The code records the trace
+\emph{before} projecting out a residual $\Tr(\G)\Id/3$. That final projection
+only removes roundoff, after the real, reciprocal and self terms have been
+combined; it cannot replace the self correction.
+
+\subsection{Convergence is distinct from model validity}
+
+The archived calculation uses $r_c=6/\alpha$, $k_c=12\alpha$, with
+$\alpha=0.2,0.3,0.4$~\AA$^{-1}$. At these cutoffs the exponential factors reach
+$e^{-36}$. Agreement across $\alpha$ tests the cancellation between two different
+partitions of the same lattice sum. Direct spherical sums at radii
+15, 20, 30, 40, 60, 80 and 100~\AA\ provide a separate convergence comparison.
+The primary periodic tensors change by less than approximately
+$3\times10^{-15}$ numerical tensor units between the three splitting parameters.
+These are numerical checks for a fixed model; they are not an uncertainty on
+the physical nuclear EFG.
+
+\section{Principal axes, asymmetry, and symmetry restrictions}
+
+Diagonalize the real symmetric tensor:
+\begin{equation}
+ \G\bm u_i=\lambda_i\bm u_i,\qquad
+ \bm U^T\G\bm U=\diag(G_{XX},G_{YY},G_{ZZ}).
+\end{equation}
+Choose $|G_{ZZ}|\geq|G_{YY}|\geq|G_{XX}|$. Tracelessness then permits the
+convention
+\begin{equation}
+ \etapc=\frac{G_{XX}-G_{YY}}{G_{ZZ}},\qquad0\leq\etapc\leq1.
+\end{equation}
+The reverse reconstruction follows from the sum and difference:
+\begin{equation}
+ G_{XX}=\frac{\etapc-1}{2}G_{ZZ},\qquad
+ G_{YY}=-\frac{\etapc+1}{2}G_{ZZ}.
+\end{equation}
+Eigenvector signs are arbitrary; eigenvector order is not. Near a degenerate
+pair the numerical orientation of its individual eigenvectors is not uniquely
+defined, even when the tensor itself is well determined. If $G_{ZZ}=0$, the
+ordering and trace imply $\G=0$, and $\etapc$ is undefined rather than zero.
+
+For a $4c$ site of this $Pnma$ setting, reflection perpendicular to $b$ is
+$\bm M=\diag(1,-1,1)$. Invariance gives
+\begin{equation}
+ \bm M\G\bm M^T-\G=
+ \begin{pmatrix}0&-2G_{ab}&0\\-2G_{ab}&0&-2G_{bc}\\0&-2G_{bc}&0\end{pmatrix}
+ =0.
+\end{equation}
+Thus $G_{ab}=G_{bc}=0$ and $b$ is one principal direction. The $ac$ block may
+contain a nonzero off-diagonal entry, and neither the mirror nor the general
+$8d$ site symmetry forces $\eta=0$.
+
+For four equal charges at the vertices proportional to
+$(1,1,1)$, $(1,-1,-1)$, $(-1,1,-1)$ and $(-1,-1,1)$,
+\begin{equation}
+ \sum_j \left(3\bm d_j\bm d_j^T-d_j^2\Id\right)=0.
+\end{equation}
+An ideal tetrahedron therefore gives a vanishing tensor. A distorted tetrahedron
+can give a small residual tensor with substantial asymmetry. Small $|G_{ZZ}|$
+and small $\etapc$ are separate statements.
+
+\section{Worked Cu3 calculation and the five-site comparison}
+
+For the baseline charges, the periodic Cu3 tensor in crystallographic axes is
+\begin{equation}
+ \G_{\mathrm{Cu3}}=10^{-3}
+ \begin{pmatrix}
+ 11.66175955&0&31.28442026\\
+ 0&-14.47092006&0\\
+ 31.28442026&0&2.80916052
+ \end{pmatrix}.
+\end{equation}
+Entries suppressed to zero are below the displayed precision and respect the
+mirror constraint. Diagonalization and ordering by magnitude give
+\begin{equation}
+ (G_{XX},G_{YY},G_{ZZ})
+ =(-0.01447092006,-0.02436053779,0.03883145786).
+\end{equation}
+The trace vanishes within rounding, and the resulting asymmetry is
+\begin{equation}
+ \etapc(\mathrm{Cu3})=
+ \frac{-0.01447092006+0.02436053779}{0.03883145786}
+ =0.25468057.
+\end{equation}
+Multiplying this tensor by Eq.~\eqref{eq:units} changes its units but leaves its
+eigenvectors, eigenvalue ratios and asymmetry unchanged.
+
+\begin{center}
+\begin{tabular}{lrrr}
+\toprule
+Site & Signed $G_{ZZ}$ & $\etapc$ & $|G_{ZZ}|/|G_{ZZ}^{\mathrm{Cu2}}|$\\
+\midrule
+Cu1 & $-0.30264647$ & 0.55719893 & 0.68774730 \\
+Cu2 & $ 0.44005476$ & 0.05914175 & 1.00000000 \\
+Cu3 & $ 0.03883146$ & 0.25468057 & 0.08824233 \\
+Cu4 & $ 0.37291139$ & 0.16291879 & 0.84742041 \\
+Cu5 & $ 0.41868874$ & 0.58492897 & 0.95144691 \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+Cu3 has the smallest tensor magnitude in all six neutral scenarios. This
+property extends throughout their restricted convex charge family: the tensor
+depends linearly on charge, so its spectral norm obeys
+\begin{equation}
+ \left\|\sum_iw_i\G_i\right\|_2
+ \leq\sum_iw_i\|\G_i\|_2
+ \leq\max_i\|\G_i\|_2,\qquad w_i\geq0,\quad\sum_iw_i=1.
+\end{equation}
+For Cu3 the upper bound from the five charge-redistribution vertices is 0.08088.
+For each other Cu site a projection along its baseline principal direction has
+one sign at all five vertices, with magnitude at least 0.28488, 0.40150, 0.34181
+or 0.38664 for Cu1, Cu2, Cu4 or Cu5, respectively. A signed projection bounds the
+spectral norm from below, so none of these sites can become smaller than Cu3
+within that charge simplex. This is a property of the specified fixed-coordinate
+model family, not a theorem about arbitrary electronic charge distributions.
+
+\section{From the EFG to the \texorpdfstring{spin-$3/2$}{spin-3/2} NQR frequency}
+
+\subsection{Quadrupolar Hamiltonian and conventions}
+
+Use dimensionless angular-momentum operators, with
+$I_Z|m\rangle=m|m\rangle$ and
+\begin{equation}
+ I_\pm|m\rangle=
+ \sqrt{I(I+1)-m(m\pm1)}\,|m\pm1\rangle.
+\end{equation}
+For the physical nuclear EFG, the quadrupole Hamiltonian is
+\begin{align}
+ \frac{\mathcal H_Q}{h}
+ &=\frac{\nuq}{6}
+ \left[3I_Z^2-I(I+1)+\eta(I_X^2-I_Y^2)\right],\\
+ \nuq&=\frac{3eQV_{ZZ}}{2I(2I-1)h}.
+\label{eq:nuqdef}
+\end{align}
+For $I=3/2$, $\nuq=eQV_{ZZ}/(2h)$. The signed $\nuq$ used here is a coupling
+constant; it should not be confused with a paper's notation in which the symbol
+$\nu_Q$ denotes the experimentally observed NQR frequency itself. The standard
+Cu NQR Hamiltonian and this identifiability issue are discussed in
+Ref.~\cite{Gainov2009}.
+
+Since $I_X^2-I_Y^2=(I_+^2+I_-^2)/2$, in the ordered basis
+$\{|3/2\rangle,|1/2\rangle,|-1/2\rangle,|-3/2\rangle\}$,
+\begin{equation}
+ \frac{\mathcal H_Q}{h}=\frac{\nuq}{2}
+ \begin{pmatrix}
+ 1&0&\eta/\sqrt3&0\\
+ 0&-1&0&\eta/\sqrt3\\
+ \eta/\sqrt3&0&-1&0\\
+ 0&\eta/\sqrt3&0&1
+ \end{pmatrix}.
+\end{equation}
+The two $2\times2$ blocks have the same characteristic polynomial:
+\begin{equation}
+ \det\left[
+ \frac{\nuq}{2}
+ \begin{pmatrix}1&\eta/\sqrt3\\\eta/\sqrt3&-1\end{pmatrix}
+ -\lambda\Id\right]
+ =\lambda^2-\frac{\nuq^2}{4}\left(1+\frac{\eta^2}{3}\right).
+\end{equation}
+There are two doubly degenerate energy levels,
+\begin{equation}
+ E_\pm/h=\pm\frac{|\nuq|}{2}\sqrt{1+\frac{\eta^2}{3}},
+\end{equation}
+and their separation gives
+\begin{equation}
+ \boxed{\nunqr=|\nuq|\sqrt{1+\frac{\eta^2}{3}}.}
+\label{eq:nqr}
+\end{equation}
+
+\subsection{What frequency measurements identify}
+
+One spin-$3/2$ NQR frequency constrains a combination of $V_{ZZ}$ and $\eta$.
+For any chosen trial asymmetry,
+\begin{equation}
+ |\nuq|=\frac{\nunqr}{\sqrt{1+\eta^2/3}},\qquad
+ \frac{\sqrt3}{2}\nunqr\leq|\nuq|\leq\nunqr.
+\end{equation}
+For two Cu isotopes in the same environment, neglecting an isotope-induced
+change of the electronic environment,
+\begin{equation}
+ \frac{{}^{65}\nunqr}{{}^{63}\nunqr}
+ =\left|\frac{{}^{65}Q}{{}^{63}Q}\right|.
+\end{equation}
+The second isotope is useful for pairing lines but does not supply a new
+independent equation separating $V_{ZZ}$ from $\eta$ in zero field. In applied
+field its different gyromagnetic ratio provides a further check on the combined
+Zeeman--quadrupole profile.
+
+For the thesis frequencies 11.97 and 16.96~MHz, the bound gives
+\begin{equation}
+ \frac{|V_{ZZ,s4}|}{|V_{ZZ,s1}|}
+ \geq\frac{(\sqrt3/2)16.96}{11.97}=1.22705\ldots.
+\end{equation}
+Thus the four high-frequency groups cannot all be explained by equal
+$|V_{ZZ}|$ with only different asymmetries.
+
+\section{Finite-field levels and the unoriented-powder calculation}
+
+For the isotropic magnetic-shift model used in the archived fit,
+\begin{equation}
+ \frac{\mathcal H(\nvec)}h=-\nuz\,\bm I\cdot\nvec
+ +\frac{\nuq}{6}
+ [3I_Z^2-I(I+1)+\eta(I_X^2-I_Y^2)],
+\label{eq:fullH}
+\end{equation}
+where $\nvec$ is the field direction in the EFG principal frame and
+$\nuz=(\gamma/2\pi)B_0(1+K)$ for a scalar shift $K$. Each trial $\eta$ is
+accompanied by the $|\nuq|$ required by Eq.~\eqref{eq:nqr}. The physical sign is
+not established by the present analysis; the archived fits use the positive
+coupling magnitude.
+
+Diagonalizing the $4\times4$ matrix gives eigenvectors $|u\rangle$ and
+eigenvalues $\epsilon_u=E_u/h$. The transition frequencies are
+$\nu_{uv}=\epsilon_v-\epsilon_u>0$. For a transverse RF direction $\bm e$,
+the matrix-element weight is $|\langle u|\bm I\cdot\bm e|v\rangle|^2$.
+Averaging its azimuth about $\nvec$ uses
+\begin{equation}
+ \langle e_a e_b\rangle_\perp
+ =\frac12(\delta_{ab}-n_a n_b),
+\end{equation}
+which gives
+\begin{equation}
+ W_{uv}(\nvec)=\frac12\left[
+ \sum_a|\langle u|I_a|v\rangle|^2
+ -|\langle u|\bm I\cdot\nvec|v\rangle|^2\right].
+\end{equation}
+The corresponding orientation-averaged profile is
+\begin{equation}
+ P(\nu)=\frac1{4\pi}\int_0^{2\pi}\!\dd\varphi
+ \int_{-1}^{1}\!\dd u\,
+ \sum_{u_1<v_1}W_{u_1v_1}(u,\varphi)
+ \delta[\nu-\nu_{u_1v_1}(u,\varphi)],
+\label{eq:powder}
+\end{equation}
+where the integration variable $u=\cos\theta$ is distinct from an eigenstate
+label. No preferred orientation is imposed. For Eq.~\eqref{eq:fullH}, symmetry
+allows the integral to be reduced to one octant. Equal-spaced midpoint grids in
+$\cos\theta$ and $\varphi$ then have equal weights after normalization.
+
+Numerical frequency deposition is followed by convolution with a Gaussian of
+standard deviation $\sigma$. The measured spectrum is modelled as a sum over
+four spectral groups and two isotopes, with group amplitudes and an empirical
+underlying contribution. The 20 and 500~ms repetition-period spectra share
+their quadrupolar parameters but may have different amplitudes. These weights
+describe a frequency-profile model; actual spin-echo intensities additionally
+depend on populations, pulse excitation, RF distribution, relaxation and probe
+response. They are not direct crystallographic occupancies.
+
+The powder shape depends on $\eta$ through both angular variations in
+Eq.~\eqref{eq:fullH} and the required change of $\nuq$ at fixed $\nunqr$.
+Nevertheless, overlapping profiles and unmodelled response factors can leave
+multiple acceptable minima. In particular, the archived fit retains low- and
+high-$\eta_1$ branches; a point-charge model does not by itself remove that
+experimental identifiability problem.
+
+\section{Why a small-EFG site need not create distant wings}
+
+\subsection{Explicit high-field derivation for an axial EFG}
+
+For an illustrative analytic limit, set $\eta=0$ and place the quantization
+axis along $B_0$. The EFG axis is then represented by
+$I_Z^{\mathrm{EFG}}=I_z\cos\theta+I_x\sin\theta$. The unperturbed energies are
+\begin{equation}
+ E_m^{(0)}/h=-\nuz m.
+\end{equation}
+Writing $c=\cos\theta$, first-order perturbation theory gives
+\begin{equation}
+ E_m^{(1)}/h=\frac{\nuq}{12}(3c^2-1)
+ [3m^2-I(I+1)].
+\end{equation}
+The $m=1/2$ and $m=-1/2$ shifts are equal, so the central transition has no
+first-order quadrupole shift. Second-order perturbation theory gives
+\begin{equation}
+ E_m^{(2)}/h=\sum_{m'\ne m}
+ \frac{|(\mathcal H_Q/h)_{mm'}|^2}{\nuz(m'-m)}.
+\end{equation}
+For $m=1/2$, the two nonzero couplings have squared magnitudes
+$3\nuq^2(1-c^2)c^2/4$ and $3\nuq^2(1-c^2)^2/16$ and denominators
+$\nuz$ and $-2\nuz$, respectively. Therefore
+\begin{align}
+ E_{1/2}^{(2)}/h
+ &=\frac{3\nuq^2(1-c^2)c^2}{4\nuz}
+ -\frac{3\nuq^2(1-c^2)^2}{32\nuz},\\
+ E_{-1/2}^{(2)}/h&=-E_{1/2}^{(2)}/h,\\
+ \delta\nu_{\mathrm{CT}}^{(2)}
+ &=\frac{3\nuq^2}{16\nuz}(1-c^2)(1-9c^2).
+\label{eq:ct}
+\end{align}
+Maximizing and minimizing the quadratic in $c^2\in[0,1]$ gives
+\begin{equation}
+ -\frac{\nuq^2}{3\nuz}\leq\delta\nu_{\mathrm{CT}}^{(2)}
+ \leq\frac{3\nuq^2}{16\nuz}.
+\end{equation}
+The lower bound is reached at $c^2=5/9$ and the upper bound at $c^2=0$.
+The first-order satellite frequencies lie at
+\begin{equation}
+ \nu_{\mathrm{sat}}=\nuz\pm\frac{\nuq}{2}(3c^2-1),
+\end{equation}
+so their combined outer bounds are $\nuz\pm|\nuq|$ in this approximation.
+
+\subsection{A numerical scale example, not a Cu3 frequency measurement}
+
+For $\nuq=1.5$~MHz, $\nuz=76$~MHz and $\eta=0$, the central-transition bounds
+from Eq.~\eqref{eq:ct} are $-9.868$ and $+5.551$~kHz; the satellite bounds are
+approximately 74.5--77.5~MHz. Such a signal can overlap the already occupied
+$^{63}$Cu frequency region. Absence of additional resolved outer wings therefore
+constrains a proposed fifth contribution but does not exclude every low-EFG
+fifth site. The frequency 1.5~MHz is an illustrative input, not an assignment
+deduced from this high-field expansion. Exact diagonalization is used in the
+archived numerical profile calculations.
+
+\section{Empirical scaling of the lattice proxy and the low-frequency band}
+
+\subsection{An explicit conditional test}
+
+To test whether the \emph{relative} lattice tensors are compatible with the
+frequency scale, define
+\begin{equation}
+ P_s=|G_{ZZ,s}|\sqrt{1+\eta_{\mathrm{pc},s}^2/3}.
+\end{equation}
+Assume provisionally that one positive common scale $a$ maps $P_s$ to NQR
+frequencies. This amounts to assuming a common multiplicative relation between
+the nuclear EFGs and these lattice proxies across sites. It is an additional
+physical hypothesis; the electrostatic calculation does not establish it.
+
+For each of the $4!=24$ assignments $\pi$ of Cu1, Cu2, Cu4 and Cu5 to the four
+high-frequency groups $\nu_i$, minimize
+\begin{align}
+ L_\pi(a)&=\sum_{i=1}^4[aP_{\pi(i)}-\nu_i]^2,\\
+ \frac{\dd L_\pi}{\dd a}
+ &=2\sum_iP_{\pi(i)}[aP_{\pi(i)}-\nu_i]=0,\\
+ a_\pi&=\frac{\sum_iP_{\pi(i)}\nu_i}
+ {\sum_iP_{\pi(i)}^2},\\
+ \widehat\nu_{\mathrm{Cu3},\pi}&=a_\pi P_{\mathrm{Cu3}}.
+\label{eq:calibration}
+\end{align}
+All 24 assignments are retained for each of the six charge scenarios, including
+their high-frequency residuals. The low-frequency band is not used to fit $a$.
+The calibration uses the thesis high-frequency set
+$(11.97,15.27,16.18,16.96)$~MHz. A frequency-only optimum is not a simultaneous
+fit of the experimental asymmetries.
+
+For the baseline point charges, the best frequency-only mapping is
+$(s1,s2,s3,s4)\mapsto(\mathrm{Cu1,Cu4,Cu2,Cu5})$, with
+$a=38.29166696$~MHz per numerical proxy unit. Its explicit residuals are
+\begin{center}
+\begin{tabular}{lrrr}
+\toprule
+Group & Input frequency (MHz) & Scaled proxy (MHz) & Residual (MHz)\\
+\midrule
+s1 & 11.970000 & 12.173743 & $+0.203743$\\
+s2 & 15.270000 & 14.342428 & $-0.927572$\\
+s3 & 16.180000 & 16.860251 & $+0.680251$\\
+s4 & 16.960000 & 16.921832 & $-0.038168$\\
+\bottomrule
+\end{tabular}
+\end{center}
+The high-frequency RMSE is 0.584401~MHz. The scaled Cu3 value is
+1.502909~MHz. The mapped baseline asymmetries are approximately
+$(0.557,0.163,0.059,0.585)$; they do not reproduce the fitted powder-NMR
+asymmetry pattern. Hence even the best frequency-only mapping does not validate
+a unique assignment.
+
+\begin{center}
+\begin{tabular}{lrr}
+\toprule
+Charge scenario & Best-scaled Cu3 (MHz) & High-frequency RMSE (MHz)\\
+\midrule
+Uniform Cu charge $8/7$ & 1.50291 & 0.5844\\
+Excess charge on Cu1 & 3.51559 & 0.5922\\
+Excess charge on Cu2 & 2.18006 & 0.3713\\
+Excess charge on Cu3 & 1.97518 & 0.5229\\
+Excess charge on Cu4 & 1.40027 & 0.8775\\
+Excess charge on Cu5 & 1.45307 & 0.7256\\
+\bottomrule
+\end{tabular}
+\end{center}
+
+These selected-scenario values span approximately 1.40--3.52~MHz. They are
+conditional scaled estimates, not an independently predicted absolute NQR
+frequency and not a confidence interval. The complete 144-assignment table is
+saved, so alternative assignments and poor frequency matches are not hidden.
+
+\subsection{What the historical low-frequency observation establishes}
+
+The author's thesis reports a signal in the 1.5--2.2~MHz region at 4.2~K for a
+mixed sample of nominal overall composition Cu$_{1.1}$S (p.~22, Fig.~8), and
+discusses tetrahedral environments and unresolved phase contributions later in
+the text \cite{Thesis}. This is evidence of an observed low-frequency response,
+not a resolved assignment to a particular anilite site. The experimenter's
+current account of limited tuning and resonant-circuit coverage provides
+additional experimental context; it is not substituted for an archived
+frequency-resolved dataset.
+
+A concrete competing contribution is already known: covellite CuS has an
+experimentally observed $^{63}$Cu NQR signal at 1.87~MHz and 4.2~K
+\cite{Gainov2009}. Accordingly, a Cu3 contribution from anilite is a possible
+component of the historical mixed-sample response. The existence of a band near
+2~MHz alone cannot separate it from CuS. The lattice-proxy result motivates a
+test of that component; it does not assign the entire low-frequency band to
+anilite.
+
+\section{Physical limitations and a path to a quantitative assignment}
+
+The complete nuclear EFG contains the actual electronic charge distribution.
+Schematically one may distinguish a lattice contribution and an on-site
+electronic contribution. Semiempirical treatments sometimes write \cite{Gainov2009}
+\begin{equation}
+ \V^{\mathrm{nuc}}\simeq(1-\gamma_\infty)\V^{\mathrm{lattice}}
+ +(1-R)\V^{\mathrm{valence}},
+\end{equation}
+with antishielding and shielding parameters. This is only a schematic
+decomposition here; no values of $\gamma_\infty$, $R$, orbital populations or
+site-independent enhancement factor have been assumed or fitted. Covalency,
+metallic screening and site-dependent electronic effects can change the
+eigenvalues, axes and asymmetries. A scalar rescaling changes tensor magnitudes
+but cannot change $\eta$, and therefore cannot repair an asymmetry mismatch.
+
+Thermal displacements introduce another distinction. For a relative
+displacement $\bm u_j-\bm u_s$, the thermal average of a nonlinear kernel
+$K_{ab}(\bm d)$ generally obeys
+\begin{equation}
+ \langle K_{ab}(\bm d+\bm u)\rangle
+ =K_{ab}(\bm d)+\frac12\partial_\mu\partial_\nu K_{ab}(\bm d)
+ \langle u_\mu u_\nu\rangle+\cdots,
+\end{equation}
+rather than simply the kernel at the average coordinate. Relative-displacement
+covariances require both individual atomic displacements and their correlations.
+The CIF displacement parameters alone do not determine a complete thermal EFG
+or $\eta(T)$. Likewise,
+\begin{equation}
+ \frac{\dd\ln\nunqr}{\dd T}
+ =\frac{\dd\ln|V_{ZZ}|}{\dd T}
+ +\frac{\eta}{3+\eta^2}\frac{\dd\eta}{\dd T}
+\end{equation}
+does not separate those two contributions using only one NQR frequency.
+
+The present model's robust result is the comparatively small Cu3 lattice tensor
+within its stated charge family. A quantitative experimental assignment would
+require a reliable low-temperature structure, an electronic-structure EFG
+calculation, and a joint match of all available frequencies, asymmetries,
+intensity constraints and phase contributions. The four high-frequency spectral
+labels s1--s4 are retained separately from Cu1--Cu5 throughout the numerical
+archive.
+
+\section{Reproducibility and saved intermediates}
+
+The repository preserves the earlier calculation unchanged and adds an
+independent, more detailed evaluation. The principal entry points are:
+\begin{itemize}
+\item \path{theory/symbolic_algebra.py}: Coulomb derivatives, screened radial
+derivatives, reciprocal sign, smooth-self Taylor series, mirror and tetrahedron
+identities, explicit spin matrices, zero-field eigenvalues, all second-order
+state shifts, and the analytic common-scale least-squares solution.
+\item In \path{theory/results/}, the files \path{symbolic_algebra.json} and
+\path{symbolic_algebra.txt} retain every saved symbolic step in plain
+and LaTeX forms; \path{symbolic_checks.csv} records each identity residual.
+\item \path{theory/results/efg/}: expanded cell, per-term real and reciprocal
+contributions, self terms, subtotal tensors, raw traces, eigensystems,
+convergence results, and all empirical frequency-scaling assignments.
+\item \path{new_evidence/structure_model/geometry_efg_proxy.py}: original
+periodic point-charge calculation and its retained results.
+\end{itemize}
+The detailed numerical file names and commands are listed in the accompanying
+Russian readme. All algebraic checks compare independently derived expressions,
+and the numerical checks compare summation methods or exact Hamiltonian results;
+they do not merely assert that copied output matches itself.
+
+\begin{thebibliography}{9}
+\bibitem{Koto1970}
+K. Koto and N. Morimoto, The crystal structure of anilite,
+\emph{Acta Crystallographica B} \textbf{26}, 915--924 (1970).
+\href{https://doi.org/10.1107/S0567740870003370}{doi:10.1107/S0567740870003370}.
+The coordinate transcription follows AMCSD~0009376 as exposed at
+\url{https://www.mindat.org/show.php?clearcache=1&id=236&ld=}.
+
+\bibitem{Evans1981}
+H. T. Evans, Jr., Copper coordination in low chalcocite and djurleite and other
+copper-rich sulfides, \emph{American Mineralogist} \textbf{66}, 807--818 (1981).
+
+\bibitem{Ewald1921}
+P. P. Ewald, Die Berechnung optischer und elektrostatischer Gitterpotentiale,
+\emph{Annalen der Physik} \textbf{369}, 253--287 (1921).
+\href{https://doi.org/10.1002/andp.19213690304}{doi:10.1002/andp.19213690304}.
+
+\bibitem{DLPOLY}
+DL\_Software Digital Guide, Distance cutoffs and Ewald sums;
+DL\_POLY manual, Choosing Ewald Sum Variables.
+\url{https://dl-sdg.github.io/RESOURCES/FORCE_FIELD/ff11.html};
+\url{https://ccp5.gitlab.io/dl-poly/UserManual/construction_and_execution/ewald_precision.html}.
+Accessed 27 November 2026.
+
+\bibitem{Gainov2009}
+R. R. Gainov \emph{et al.}, Phase transition and anomalous electronic behavior
+in the layered superconductor CuS probed by NQR,
+\emph{Physical Review B} \textbf{79}, 075115 (2009).
+\href{https://doi.org/10.1103/PhysRevB.79.075115}{doi:10.1103/PhysRevB.79.075115};
+\url{https://arxiv.org/abs/0809.0560}.
+
+\bibitem{Thesis}
+I. A. Evlampiev, \emph{Nuclear quadrupole resonance of copper in geerite},
+master's thesis, Kazan State University (2009), in Russian.
+Author-provided file \path{diploma_magister_geerite_2009_5.doc};
+low-frequency discussion on pp.~22 and 33. The historical phase label is
+preserved in the source title.
+
+\bibitem{CODATA}
+NIST, The 2022 CODATA Recommended Values of the Fundamental Physical Constants,
+Web Version 9.0 (2024). \url{https://physics.nist.gov/constants}.
+Elementary charge $e=1.602176634\times10^{-19}$~C (exact);
+$\epsilon_0=8.8541878188(14)\times10^{-12}$~F\,m$^{-1}$.
+\end{thebibliography}
+\end{document}

@@ -1,0 +1,553 @@
+                                                                          Hydrometallurgy 105 (2011) 321–327
+
+
+
+                                                                    Contents lists available at ScienceDirect
+
+
+                                                                           Hydrometallurgy
+                                                  j o u r n a l h o m e p a g e : w w w. e l s ev i e r. c o m / l o c a t e / h yd r o m e t
+
+
+
+
+The kinetics of dissolution of synthetic covellite, chalcocite and digenite in dilute
+chloride solutions at ambient temperatures
+Hajime Miki a, Michael Nicol a,⁎, Lilian Velásquez-Yévenes b
+a
+    Faculty of Minerals and Energy, Murdoch University, Perth, WA 6150, Australia
+b
+    Department of Metallurgical Engineering, Universidad Católica del Norte, Antofagasta, Chile
+
+
+
+
+a r t i c l e            i n f o                            a b s t r a c t
+
+Article history:                                            An experimental study of the comparative kinetics of dissolution of various synthetic copper sulphides
+Received 14 September 2010                                  (covellite, chalcocite, and digenite) in dilute chloride solutions has been carried out at ambient temperatures
+Received in revised form 28 October 2010                    such as could be encountered in the heap leaching of secondary copper sulphide minerals.
+Accepted 4 November 2010
+                                                            The dissolution of sized synthetic covellite particles was carried out in dilute HCl solutions containing known
+Available online 30 November 2010
+                                                            concentrations of copper(II) and iron(III) at controlled potentials. The results show that the rate of dissolution
+                                                            is similar at potentials of 600 and 650 mV, but is predictably less at a potential of 550 mV. The rate of
+Keywords:
+Covellite
+                                                            dissolution is remarkably similar to that of chalcopyrite under similar conditions and is largely independent of
+Chalcocite                                                  Cl− and HCl concentration in the range 0.2 to 2.5 M and 0.1 to 1 M respectively. The effect of temperature is
+Digenite                                                    signiﬁcant and an activation energy of 71.5 kJ mol− 1 was derived which conﬁrms a chemical or
+Kinetics                                                    electrochemical rate-determining reaction on the mineral surface. A mineralogical study of the residue
+Solution potential                                          after leaching shows that most of the sulphur is associated with unreacted covellite and occurs as isolated
+Chloride leaching                                           globules on the surface with over 90% of the unreacted covellite surface free of sulphur.
+                                                            Dissolution of synthetic chalcocite and digenite is rapid compared with that of covellite under the same
+                                                            conditions. At a potential of 500 mV, the relatively rapid initial dissolution of chalcocite and digenite does not
+                                                            proceed beyond about 50% and 45% copper dissolution, respectively, as predicted from the thermodynamics.
+                                                            These results conﬁrm the formation of a covellite-like phase as an intermediate which cannot be leached at a
+                                                            potential of 500 mV. An increase in the potential results in rapid dissolution of this “secondary covellite,”
+                                                            relative to primary covellite. These results provide useful information for the conditions that should be used
+                                                            for the heap leaching of ores containing secondary copper sulphide minerals.
+                                                                                                                                     © 2010 Elsevier B.V. All rights reserved.
+
+
+
+
+1. Introduction                                                                                       In the case of the secondary copper sulphide minerals, chalcocite
+                                                                                                  (Cu2S) is the most common while digenite (Cu1.8S) and other
+    The recovery of copper by heap leaching of low-grade ores                                     intermediate sulphides (Cu2 − xS) are often associated with chalcocite.
+containing secondary copper sulphide minerals is becoming increas-                                Although it is well known that the rate of leaching of the secondary
+ingly important as the easily leached oxide ores are being depleted.                              copper sulphides is more rapid than that of the primary minerals of
+The present authors have recently published the results of a study of                             chalcopyrite and enargite under strongly oxidizing conditions, the
+the dissolution of chalcopyrite concentrates and ores under condi-                                rates are considerably slower than those for the most common oxide
+tions that could be appropriate to heap leaching of ores containing                               minerals. In addition, an oxidant is required for the sulphides and
+this refractory mineral. In dilute chloride solutions at ambient                                  bacterially-assisted oxidation in sulphate solutions has been the
+temperatures, the results were obtained that have shown that the                                  generally accepted method for heap leaching of sulphide minerals.
+rate of leaching of chalcopyrite under these conditions is enhanced if                                An alternative approach using dilute chloride solutions has been
+the solution potential is controlled within a potential window (550–                              applied in at least one case (Aroca, 1999) and is an attractive
+620 mV) (Velásquez-Yévenes, 2009; Velásquez-Yévenes et al., 2010a,                                alternative which makes use of copper(II) as an oxidant. The rapid
+b; Nicol et al., 2010). In the proposed mechanism for enhanced                                    rate of the re-oxidation of copper(I) by dissolved oxygen in chloride
+leaching at low potentials, it was suggested that a covellite-like phase                          solutions (Miki and Nicol, 2008, 2011) permits the use of aerated
+is produced as an intermediate and a future publication will present                              heaps without external regeneration of the oxidant.
+electrochemical evidence for such an intermediate.                                                    Although there is a considerable body of published information on
+                                                                                                  the dissolution of secondary copper sulphides in chloride solutions,
+    ⁎ Corresponding author. Tel.: +61 893606766.                                                  the emphasis has been on elevated temperature processes aimed at
+      E-mail address: M.Nicol@murdoch.edu.au (M. Nicol).                                          concentrates. Research on the rates of dissolution of secondary
+
+0304-386X/$ – see front matter © 2010 Elsevier B.V. All rights reserved.
+doi:10.1016/j.hydromet.2010.11.004
+322                                                H. Miki et al. / Hydrometallurgy 105 (2011) 321–327
+
+
+sulphides in dilute chloride solutions at ambient temperatures is              chalcopyrite. The rate of leaching of chalcocite is high compared with
+therefore desirable. In particular, the solution potentials required to        other copper sulphide minerals and, for this reason, bacterially-
+effectively leach these minerals are not known with any certainty in           assisted heap leaching can be used.
+dilute chloride solutions.                                                         Sullivan (1930b) investigated the dissolution of chalcocite ores
+    In the absence of suitable natural samples of these minerals,              and he found that chalcocite dissolves in two steps according to the
+chalcocite, digenite and covellite were synthesised and leaching               following reactions
+experiments have been carried out under conditions similar to those
+                                                                                              3þ          2þ          2þ
+used in previous studies with chalcopyrite (Velásquez-Yévenes et al.,          Cu2 S þ 2Fe         ¼ Cu        þ 2Fe       þ CuS                     ð2Þ
+2010a). The effects of potential, chloride and acid concentration and
+                                                                                           3þ          2þ          2þ        0
+temperature have been investigated.                                            CuS þ 2Fe        ¼ Cu        þ 2Fe       þS                           ð3Þ
+                                                                                   The ﬁrst step is faster than the second and is only slightly affected
+2. Copper sulphide leaching                                                    by temperature which suggests that it could be controlled by mass
+                                                                               transport processes. The second, slower step is more strongly
+2.1. Covellite leaching                                                        dependent on the temperature. In this and subsequent equations
+                                                                               and discussion, the term “secondary covellite” is used to describe the
+    Covellite (CuS) is a copper sulphide mineral which contains 66%            product of the ﬁrst stage of oxidation of chalcocite although the
+copper and it is now considered as being Cu2S2 (Goh et al., 2006) with         original description as “blaubliebender” covellite has been shown to
+the copper existing as copper(I). It is widely associated with                 be inaccurate in that the intermediate species is a complex mixture
+chalcopyrite and chalcocite which are the main primary and secondary           of sulphides within the compositional range Cu1.6S (geerite) to Cu1.1S
+copper sulphides, respectively (Dutrizac and MacDonald, 1974b).                (yarrowite) (Whiteside and Goble, 1986).
+    At elevated leach temperatures, it is generally considered that the            Cheng and Lawson (1991b) investigated this process in mixed
+relative rates of dissolution are chalcocite N covellite N chalcopyrite        chloride–sulphate solutions and suggested that for the ﬁrst reaction,
+(Cheng and Lawson, 1991b).                                                     the rate limiting step is the diffusion of oxygen through the liquid
+    The ﬁrst systematic report of CuS leaching in ferric sulphate media        boundary layer around the particles. In the much slower second step,
+was reported by Sullivan (1930a) who conﬁrmed that the mineral                 dissolution can be described in terms of a model in which a shrinking
+dissolves according to following equation.                                     core of unreacted secondary covellite is surrounded by a thickening
+                                                                               shell of elemental sulphur. The rate of copper dissolution from the
+          3þ          2þ       2þ        0
+CuS þ 2Fe      ¼ Cu        þ 2Fe    þS                                ð1Þ      secondary covellite is initially limited by the rate of surface chemical
+    Note that this and other equations are written as published in the         reaction and in the latter stages by both the surface chemical reaction
+literature and not in terms of Cu2S2.                                          and pore diffusion processes. The activation energy for the ﬁrst step is
+    Thomas and Ingrahan (1967) leached synthetic CuS disks in ferric           33.5 kJ mol− 1 and for the second step is 69.0 kJ mol− 1. Cheng and
+sulphate solutions at elevated temperatures and conﬁrmed that                  Lawson (1991b) also investigated the effect of the concentration of
+synthetic CuS dissolved with the same equation and found that 4% of            chloride ions on the rate of chalcocite leaching and found that it
+the leached sulphur reported as sulphate (SO2−                                 increases with addition of chloride.
+                                                4 ). Sullivan (1930a)
+also reported that covellite dissolution increased with increasing                 Many publications have conﬁrmed that secondary covellite is
+temperature and is insensitive to acid concentration. Dissolution              formed as an intermediate product during the dissolution of
+increased with increasing ferric ion concentration up to about                 chalcocite (McDonald and Langer, 1983; Rademan et al., 1999;
+0.005 M, above which the rate was constant. This basic behaviour               Cheng and Lawson, 1991a,b; Fisher et al., 1992; Senanayake, 2007;
+was conﬁrmed in several reports (Thomas and Ingrahan, 1967; Mulak,             Lee et al., 2008). According to an electrochemical study, this reaction
+1971; Dutrizac and MacDonald, 1974a).                                          progresses from chalcocite to djurleite, digenite and ﬁnally covellite
+    Various papers (Thomas and Ingrahan, 1967; Mulak, 1971;                    (Arce and González, 2002; Elsherief et al., 1995).
+Dutrizac and MacDonald, 1974a) reported on the effect of tempera-                  It is generally accepted that the intermediate or secondary
+ture and this resulted in activation energies in the range from 77 to          covellite is more reactive than the primary mineral (Cheng and
+92 kJ mol− 1 which suggests that the rate of covellite leaching is             Lawson, 1991b) and it has been reported that the leaching rate of the
+controlled by slow chemical and/or/electrochemical steps.                      secondary species increases with increasing ferric ion concentration
+    Thomas and Ingrahan (1967) carried out covellite leaching                  in the range 0.25 M and 1 M which is not the same as that of primary
+experiments with ferric sulphate solutions and their dissolution               covellite (Dutrizac and MacDonald, 1974b).
+curves showed that the rate increased gradually during the initial
+period of leaching but then became linear. Similar behaviour has been          2.3. Digenite leaching
+reported by Dutrizac and MacDonald (1974a) and they suggested a
+mechanism in which the ferric attack of covellite occurred preferen-              Digenite can be represented as Cu1.8S and it normally occurs as a
+tially in certain areas and the progressive development of such pits           weathered form of chalcocite. Ruiz et al. (1998) investigated the
+was responsible for the observed leaching behaviour.                           leaching of digenite in chloride media at 50–90 °C and observed that
+    Cheng and Lawson (1991a) investigated the leaching of synthetic            the rate depends on the chloride concentration (1–5 M) and
+covellite in sulphate–chloride solutions from 75 to 95 °C in the               temperature. As in the case of chalcocite, digenite leaching can be
+presence of oxygen and they concluded that chloride concentration              represented as the following overall reactions with the formation of a
+is important for oxygenated leaching of covellite. Under these                 secondary “covellite” phase
+conditions, leaching followed a shrinking core model and they
+                                                                                                   þ                                2þ
+suggested that the thickening surface layer of sulphur caused partial          Cu1:8 S þ 1:6H þ 0:4O2 ¼ CuS þ 0:8Cu                      þ 0:8H2 O   ð4Þ
+passivation.
+                                                                                          þ                      2þ
+                                                                               CuS þ 2H þ 0:5O2 ¼ Cu                   þ H2 O þ S                    ð5Þ
+2.2. Chalcocite leaching                                                          Although shown as reactions involving oxygen, it was shown that
+                                                                               copper(II) ions (produced by re-oxidation of copper(I) by dissolved
+   Chalcocite, (Cu2S) which contains 79.9% copper is the main                  oxygen) is the active oxidant. Again, the second step is much slower
+secondary copper sulphide and has an abundance exceed only by                  than the ﬁrst for which the rate is controlled by boundary layer
+                                                                H. Miki et al. / Hydrometallurgy 105 (2011) 321–327                                                 323
+
+
+diffusion of the copper(II) ions to the particle surface. The rate of the                       Thus, using the data for the metastable species quoted by
+second step reaction follows a shrinking core model and is controlled by                    Woods et al. (1987), the standard reduction potential for the reaction
+diffusion through a porous product layer. The activation energy of the                      Cu2 − xS + xCu2+ + 2xe = Cu2S is 0.51 V for x = 0.33 (geerite) and
+ﬁrst step is 15.8 kJ mol− 1 and that for the second step is 84.0 kJ mol− 1.                 0.527 V for x = 0.62 (spionkopite) compared to the value of 0.540 V
+                                                                                            for x = 1. Similarly, the potential for the reaction (2 − x)Cu2+ + S +
+                                                                                            2(2 − x)e = Cu2 − xS is 0.571 V for x = 0.33 (geerite) and 0.578 V for
+2.4. Thermodynamics                                                                         x = 0.62 (spionkopite) compared to the value of 0.583 V for x = 1.
+                                                                                            Thus these intermediate species have stabilities that are very similar
+   The thermodynamics of the oxidation of covellite by copper(II) or                        to that for covellite and therefore only that for covellite has been
+iron(III) ions in chloride solutions are not as favourable as that for                      included in Fig. 1. Similar considerations apply to digenite after
+chalcopyrite and chalcocite, as shown by the curves in Fig. 1. The                          about 45% dissolution of the copper.
+formal potentials of the couples involved
+                                       −                                                    3. Experimental
+Cu2 S2 ¼ 2CuðIÞ þ 2S þ 2e                                                          ð6Þ
+                   −
+CuðIIÞ þ e             ¼ CuðIÞ                                                     ð7Þ      3.1. Synthesis of copper sulphides
+                   −
+FeðIIIÞ þ e            ¼ FeðIIÞ                                                    ð8Þ          Copper sulphide samples were synthesised with stoichiometric
+                                                                                            quantities of acid-washed copper wire and reagent grade elemental
+are shown as a function of the concentration of chloride ions at 25 °C
+                                                                                            sulphur powder which were placed in separate Vycor boats and
+using published thermodynamic data at the appropriate ionic
+                                                                                            sealed under vacuum in a Vycor tube. For covellite, copper wire
+strength (Martell and Smith, 2004). Also shown for comparison is
+                                                                                            (1 mm diameter) was twisted into a spiral shape to maximize the
+the curve for the oxidation of chalcocite to covellite,
+                                                                                            surface area and the tube and contents were kept at 320 °C for 24 h to
+                                           −
+2Cu2 S ¼ Cu2 S2 þ 2CuðIÞ þ 2e                                                      ð9Þ      obtain the dark blue sample. For digenite, the Vycor tube containing
+                                                                                            copper wire and sulphur was kept at 450 °C for 24 h to produce the
+    The curves for the reduction of iron(III) and copper(II) have been                      grey sample. For chalcocite, the digenite sample was kept at 800 °C for
+calculated so that they intersect (i.e. are in equilibrium) at a potential                  48 h to obtain the dark grey sample. The products were ground in a
+of 580 mV at a chloride concentration of 20 g L− 1. At equilibrium this                     ring mill for 20 s and then wet screened to obtain the +20 − 38 μm
+requires that the ratios of the concentrations are Fe(III)/Fe(II) = 0.005                   size fraction. XRD and chemical analysis for copper revealed that the
+and Cu(II)/Cu(I) = 50.                                                                      covellite sample contained only CuS, the chalcocite sample contained
+    The requirement for spontaneous oxidation of covellite is that the                      mostly Cu2S with traces of djureleite (Cu1.97S) while the digenite
+potential for the oxidant couple be greater than that for the oxidation of                  sample contained only Cu1.8S.
+covellite. Thus, at 580 mV, this is satisﬁed at chloride concentrations
+greater than 20 g L− 1 although this would not be true at a potential of                    3.2. Leaching experiments
+500 mV. However, there are no such restrictions on the oxidation of
+chalcocite to covellite. It is apparent, therefore that the oxidation of                        Agitated leaching experiments at controlled potential were carried out
+covellite becomes more favourable with increasing chloride concen-                          as described in a previous publication (Velásquez-Yévenes et al., 2010a)
+tration for both copper(II) and iron(III) as the oxidants. Thus, in                         on the dissolution of chalcopyrite. The experiments were conducted using
+solutions of low chloride concentration, complete oxidation of                              5 g (covellite) or 3 g (chalcocite and digenite) in 900 cm3 of solution at a
+chalcocite to soluble copper will only be possible at relatively high                       ﬁxed temperature with a stirring speed of 1200 rpm. At regular intervals,
+potentials such as above 580 mV for a solution of 20 g L− 1 chloride. At                    2 ml samples of ﬁltered solution were withdrawn and analyzed for
+lower potentials under these conditions, any secondary covellite                            copper using atomic absorption spectroscopy.
+formed would be stable. There is no reliable thermodynamic data                                 The solution potentials were monitored using a platinum ring
+available for the intermediate sulphides such as geerite and yarrowite                      electrode with a combined Ag/AgCl reference electrode (3 M KCl). All
+and the reaction would cease after approximately 50% of the copper                          potentials are quoted with reference to the standard hydrogen
+from chalcocite is dissolved.                                                               electrode. The potential was controlled by injection of air or oxygen as
+                                                                                            described in a previous publication (Velásquez-Yévenes et al., 2010a).
+
+            0.90
+                                                                                            4. Results and discussion
+            0.80
+                                                                                                Leaching experiments were carried out at various potentials,
+            0.70                                                                            chloride and acid concentrations and temperatures. Unless otherwise
+            0.60                                                                            stated, the normal conditions involved the use of a solution of 0.2 M
+                                                                                            HCl containing initially 0.2 g L− 1 Cu(II) and 2 g L− 1 Fe(III)/Fe(II) at
+   Eh / V
+
+
+
+
+            0.50                                                                            35 °C at a controlled potential of 600 mV. The initial solution potential
+            0.40                                                                            was regulated by the adjustment of the ferric/ferrous ion ratio. These
+                                                                                            concentrations were chosen to simulate the composition of a typical
+            0.30                                                                            rafﬁnate solution in a heap leach operation.
+            0.20
+                                                                                            4.1. Leaching of synthetic covellite
+            0.10
+                   0              20           40          60      80          100
+                                                                                            4.1.1. Effect of potential
+                                                [Cl] / g L-1                                    The effect of the potential on covellite dissolution has been
+                                                                                            investigated in 0.2 M HCl with 0.2 g L− 1 Cu and 2 g L− 1 Fe at 35 °C.
+Fig. 1. Potentials of various redox couples as a function of chloride concentration at
+25 °C. Fe(III)/Fe(II) = 0.005, Cu(II)/Cu(I) = 50. (▲) Cu(II)/Cu(I), (♦) Fe(III)/Fe(II),     The potential was controlled at 550 mV, 600 mV and 650 mV. Fig. 2
+(■) Cu(I),S/CuS, and (●) CuS,Cu(I)/Cu2S.                                                    shows the results of these leaching experiments.
+324                                                               H. Miki et al. / Hydrometallurgy 105 (2011) 321–327
+
+                        100                                                                                           100
+                        90                                                                                             90
+                        80                                                                                             80
+   Cu dissolution / %
+
+
+
+
+                                                                                                 Cu dissolution / %
+                        70                                                                                             70
+                        60                                                                                             60
+                        50                                                                                             50
+                        40                                                                                             40
+                        30                                                                                             30
+                        20                                                                                             20
+                        10                                                                                             10
+                         0                                                                                              0
+                              0   200   400     600       800        1000        1200                                       0    200         400     600    800   1000   1200   1400
+                                              Time / h                                                                                                Time / h
+
+Fig. 2. The effect of solution potential on the dissolution of copper from synthetic          Fig. 4. The effect of hydrochloric acid concentration on the dissolution of copper from
+covellite in 0.2 M HCl with 0.2 g L− 1 copper(II) and 2 g L− 1 iron at 35 °C. (■) 550 mV,     synthetic covellite in dilute HCl solutions with 0.2 g L− 1 copper(II) and 2 g L− 1 iron at
+(●) 600 mV, and (▲) 650 mV.                                                                   35 °C and 600 mV. (■) 0.1 M HCl, (●) 0.2 M HCl, and (▲) 0.5 M HCl.
+
+
+
+   The rate of copper dissolution is similar (about 80% after 1000 h) at                      4.1.4. Effect of temperature
+600 mV and 650 mV but noticeably slower at 550 mV. All subsequent                                 Again, the effect of temperature on the rate of dissolution of
+experiments were therefore conducted at 600 mV.                                               covellite was investigated in 0.2 M HCl with 0.2 g L− 1 Cu and 2 g L− 1
+                                                                                              Fe at 600 mV. Fig. 5 shows, as expected, that the rate increased rapidly
+4.1.2. Effect of chloride concentration                                                       with increasing temperature.
+    The effect of chloride ions on the rate of dissolution of covellite has                       The slopes of the approximately linear sections of the plots were
+been investigated at a controlled potential of 600 mV. The chloride                           used in the Arrhenius plot in Fig. 6 from which, an activation energy of
+concentration was adjusted by adding NaCl. The results are shown in                           72 kJ mol− 1 can be calculated. This value is similar to that obtained by
+Fig. 3 from it is appears that the rate of dissolution is largely                             Cheng and Lawson (1991a) and Dutrizac and MacDonald (1974a). It
+independent of the chloride concentration in the range investigated                           is also similar to the value of 73 kJ mol− 1 for the dissolution of
+with marginally increased rates in a solution containing 90 g L− 1                            chalcopyrite obtained by Velásquez-Yévenes (2009); Velásquez-
+chloride. This agrees with the observations of Cheng and Lawson                               Yévenes et al. (2010b) under similar conditions. This high value of the
+(1991a) who reported that the rate increased with increasing chloride                         activation energy suggests that the rate of covellite dissolution is limited
+concentration up to 0.25 M, above which the rate became indepen-                              by the rate of chemical and/or electrochemical reactions on surface of
+dent of the chloride concentration.                                                           the covellite.
+
+4.1.3. Effect of acid concentration                                                           4.1.5. Effect of dissolved oxygen
+    Leaching experiments were carried out in 0.1 M, 0.2 M and 0.5 M                               The effect of dissolved oxygen on the rate of covellite leaching was
+HCl solutions with 0.2 g L− 1 Cu and 2 g L− 1 Fe at 600 mV at 35 °C.                          investigated because the rate of dissolution of chalcopyrite was found to
+Fig. 4 shows the results which conﬁrm that the rate is essentially                            be enhanced in the presence of dissolved oxygen (Velásquez-Yévenes,
+independent of acidity in this range which is appropriate to heap                             2009; Velásquez-Yévenes et al., 2010a). Leaching experiments were
+leaching.                                                                                     carried out, with or without dissolved oxygen, at the same potential
+    Cheng and Lawson (1991a) showed that the rate of covellite                                (600 mV). In order to control the potential in the absence of dissolved
+dissolution increased with increasing sulphuric acid concentration up                         oxygen, permanganate was added using a Metrohm titrator controlled
+to 0.02 M, above which the effect became negligible. In contrast, Ghali                       by Labview software. During an experiment, the potential was
+and Dandapani (1982) reported that a high concentration of HCl                                monitored and a solution of potassium permanganate was added to
+accelerated the anodic dissolution of covellite because of the                                restore the potential to the set point. Nitrogen was bubbled through the
+formation of a CuCl−   2 complex ion.                                                         slurry throughout the experiments. As shown in Fig. 7, the rate of copper
+
+                        100                                                                                           100
+                         90                                                                                           90
+                         80                                                                                           80
+   Cu dissolution / %
+
+
+
+
+                                                                                                 Cu dissolution / %
+
+
+
+
+                         70                                                                                           70
+                         60                                                                                           60
+                         50                                                                                           50
+                         40                                                                                           40
+                         30                                                                                           30
+                         20                                                                                           20
+                         10                                                                                           10
+                          0                                                                                            0
+                              0   200   400     600       800        1000        1200                                       0   200    400     600   800   1000 1200 1400 1600 1800
+                                              Time / h                                                                                                Time / h
+
+Fig. 3. The effect of chloride concentration (added as NaCl) on the dissolution of copper     Fig. 5. The effect of temperature on the dissolution of copper from synthetic covellite in
+from synthetic covellite in 0.2 M HCl with 0.2 g L− 1 copper(II) and 2 g L− 1 iron at 35 °C   0.2 M HCl with 0.2 g L− 1 copper(II) and 2 g L− 1 iron at 600 mV. (■) 25 °C, (●) 35 °C,
+and 600 mV. (●) 7 g L− 1, (▲) 20 g L− 1, (♦) 50 g L− 1, and (■) 90 g L− 1.                    and (▲) 45 °C.
+                                                                                H. Miki et al. / Hydrometallurgy 105 (2011) 321–327                                                                 325
+
+                          -9                                                                                                        100
+                                                                                                                                    90
+                                                                                                                                    80
+                         -10
+
+
+
+
+                                                                                                               Cu dissolution / %
+       Ln k / % Cu s-1
+
+
+
+                                                                                                                                    70
+                                                                                                                                    60
+                         -11                                                                                                        50
+                                                                                                                                    40
+
+                         -12                                                                                                        30
+                                                                                                                                    20
+                                                                                                                                    10
+                         -13
+                            3.1     3.15         3.2        3.25         3.3          3.35      3.4                                  0
+                                                                                                                                          0   200   400     600        800         1000        1200
+                                                       T-1 x 103 / K-1
+                                                                                                                                                          Time / h
+Fig. 6. Arrhenius plot for the dissolution of covellite using linear slopes of the curves in
+                                                                                                            Fig. 8. Effect of ﬁne pyrite on the rate of dissolution of copper from synthetic covellite in
+Fig. 5.
+                                                                                                            0.2 M HCl with 0.2 g L− 1 copper(II) and 2 g L− 1 iron at 35 °C at 580 mV. Also shown are
+                                                                                                            the data for the dissolution of copper from a chalcopyrite concentrate under similar
+                                                                                                            conditions. (●) covellite without pyrite addition, (▲) covellite with ﬁne pyrite addition,
+dissolution is not signiﬁcantly higher in the presence of oxygen. After
+                                                                                                            and (■) chalcopyrite.
+700 h, nitrogen bubbling was stopped in the reactor controlled by
+permanganate addition and air allowed to enter the reactor. The rate did
+not show any noticeable change in the presence of dissolved oxygen.                                         the deportment of elemental sulphur in the residue occurs as isolated
+Thus, unlike chalcopyrite, the effect of dissolved oxygen on the rate of                                    particles presumably from completely leached covellite particles or as
+covellite leaching is negligible.                                                                           “globules” on the surface of incompletely leached particles (see Fig. 9).
+                                                                                                            There is no evidence of sulphur covering the surface of the mineral
+4.1.6. Effect of pyrite                                                                                     and the MLA analysis shows that more than 90% of the remaining
+    Addition of ﬁne pyrite has been shown to catalyse the leaching of                                       covellite surface is free of sulphur. Thus, it appears that sulphur is not
+chalcopyrite under similar conditions and Fig. 8 shows the result of an                                     formed by direct oxidation of the mineral but, as in the case of
+experiment in which ﬁne (− 25 μm) pyrite at a mass ratio of 4:1 to the                                      chalcopyrite, it crystallizes in a secondary form or is produced by a
+covellite was added to the reactor. These experiments used a different                                      reaction involving a soluble intermediate such as hydrogen sulphide.
+sample of covellite and the potential was controlled at 580 mV which                                            The mineral map obtained on the residue after dissolution for 1500 h
+explains the slightly lower rates. It is apparent that the rate does show                                   in the presence of pyrite showed little evidence of signiﬁcant amounts
+an increase initially but that the slope of the leach curve appears to                                      of sulphur associated with ﬁne pyrite particles, unlike chalcopyrite.
+decline to that observed in the absence of pyrite after about 500 h.                                            A detailed discussion of the mechanism involved in the deport-
+Addition of coarse (−38 + 25 μm) pyrite had no effect on the rate.                                          ment of elemental sulphur in the case of chalcopyrite dissolution has
+    Also shown in Fig. 8 is the result of a similar experiment carried out                                  recently been presented (Nicol et al., 2010) and this mechanism
+with a chalcopyrite concentrate of the same particle size range in the                                      possibly also applies in the case of covellite.
+absence of pyrite. The remarkably similar rates of dissolution of
+covellite and chalcopyrite and the similar activation energies could be
+an indication of similar mechanisms of dissolution of these two                                             4.2. Leaching of synthetic chalcocite
+mineral sulphides, or that covellite may be an intermediate in the
+dissolution of chalcopyrite.                                                                                   Leaching experiments were carried out with synthetic chalcocite at
+                                                                                                            various potentials, 500 mV, 550 mV and 600 mV. The results in terms of
+4.1.7. Mineralogy of the residue                                                                            copper dissolution at the three potentials are shown in Fig. 10.
+    The mineralogy of the residue from the dissolution of covellite
+under normal conditions after 1500 h (580 mV, 80% dissolution) was
+investigated by mineral liberation analysis (MLA) which showed that
+
+                        100
+                         90
+                         80
+   Cu dissolution / %
+
+
+
+
+                         70
+                         60
+                         50
+                         40
+                         30
+                         20
+                         10
+                          0
+                              0   200      400    600      800      1000       1200    1400   1600
+                                                         Time / h
+
+Fig. 7. Dissolution of copper from synthetic covellite in 0.2 M HCl with 0.2 g L− 1 copper                  Fig. 9. Partial mineral map of the residue from the dissolution of covellite in 0.2 M HCl at
+(II) and 2 g L− 1 iron at 35 °C at a controlled potential of 600 mV using (●) air–nitrogen                  35 °C for 1500 h. Covellite particles are shown as red (on-line) or dark grey and sulphur
+and (▲) permanganate.                                                                                       as light grey.
+326                                                             H. Miki et al. / Hydrometallurgy 105 (2011) 321–327
+
+                        100                                                                                         100
+                        90                                                                                          90
+                        80                                                                                          80
+   Cu dissolution / %
+
+
+
+
+                                                                                               Cu dissolution / %
+                        70                                                                                          70
+                        60                                                                                          60
+                        50                                                                                          50                                 Eh to 550mV
+                        40                                                                                          40
+                                        Eh to
+                        30              550mV                                                                       30
+                        20                                                                                          20
+                        10
+                                                                                                                    10
+                         0
+                              0   200   400     600    800   1000   1200      1400                                   0
+                                                                                                                          0   200   400   600    800      1000       1200   1400
+                                                 Time / h                                                                                  Time / h
+Fig. 10. Copper dissolution from synthetic chalcocite in 0.2 M HCl with 0.2 g L− 1          Fig. 11. Copper dissolution from synthetic digenite in 0.2 M HCl with 0.2 g L− 1
+copper(II) and 2 g L− 1 iron at 35 °C. (▲) 550 mV, (■) 600 mV, and (●) 500 mV with          copper(II) and 2 g L− 1 iron at 35 °C. (▲) 550 mV, (■) 600 mV, and (●) 500 mV with
+potential increased to 550 mV after 400 h.                                                  potential increased to 550 mV after 800 h.
+
+
+    It is apparent that the rate of copper dissolution from chalcocite is                      covellite will require potentials close to the mineral surface of
+rapid compared with that of covellite and that the rate of copper                              at least 600 mV. This requires that the rate of regeneration of
+dissolution increased with increasing potential up to 600 mV. At a                             copper(II) ions by oxidation with dissolved oxygen in the heap
+potential of 500 mV, copper dissolution ceased after about 50% of the                          must be such that the solution potential is maintained above
+copper had been dissolved but then increased at a slower rate when                             600 mV.
+the potential was increased to 550 mV after about 400 h.                                    3. The absence of any strong dependence of the rate of covellite
+    This result conﬁrms the thermodynamic prediction that oxidation                            dissolution on the chloride concentration suggests that it is not
+of chalcocite to covellite is possible under these conditions but that                         necessary to increase the chloride concentration in the rafﬁnate
+500 mV is too low for the subsequent oxidation of the secondary                                solutions to concentrations above 20 g L− 1 provided that the rate
+covellite which can be at least partially dissolved by an increase to                          of oxidation of copper(I) is adequate.
+550 mV. Comparison of the rates of dissolution of chalcocite from 50                        4. Similarly, the lack of dependence of the rate of covellite dissolution
+to 100% dissolution in Fig. 10 with that for synthetic (primary)                               on pH shows that acid consumption could be reduced by operation
+covellite in Fig. 2, shows that the secondary material dissolves very                          of the heaps at pH values about 1.5 and possibly as high as 2.
+much more rapidly (at least an order of magnitude) than the primary                         5. The high activation energy for the dissolution of covellite indicates
+covellite. This supports the results of authors such as Cheng and                              that, as in the case of chalcopyrite, even small increases in heap
+Lawson (1991b) who indicated that the intermediate secondary                                   temperatures could provide signiﬁcant beneﬁts in terms of
+covellite is more amenable to leaching than primary covellite. This                            increased rates of copper recovery.
+effect has been ascribed to the signiﬁcantly increased surface area of
+the secondary covellite formed by dissolution of approximately 50% of                       6. Conclusions
+the copper from chalcocite.
+                                                                                               The results of an experimental program to study the comparative
+4.3. Leaching of synthetic digenite                                                         kinetics of dissolution of sized synthetic covellite, chalcocite and
+                                                                                            digenite particles in dilute acidic chloride solutions at controlled
+    Leaching experiments were also carried out with synthetic digenite                      potentials has shown that:
+at various potentials, 500 mV, 550 mV and 600 mV and the results are
+shown in Fig. 11. It is apparent that the rate of copper dissolution                        • The rate of covellite dissolution is similar at potentials of 600 and
+appears to be slightly lower than that from chalcocite. The rate                              650 mV while the rate is noticeably less at a lower potential of
+increases with increasing potential and, as in the case of chalcocite, it                     550 mV as predicted from the thermodynamics of this system. This
+ceases after about 45% dissolution at 500 mV. An increase of the                              is remarkably similar to that of chalcopyrite under similar condi-
+potential to 550 mV results in resumption of leaching at about the same                       tions. However, it does not appear to be signiﬁcantly inﬂuenced by
+rate observed in the experiment at 550 mV. Again, this result is                              the presence of dissolved oxygen or ﬁne pyrite.
+predicted from the thermodynamics of the oxidation of covellite.                            • The rate of covellite dissolution is largely independent of the
+                                                                                              chloride and HCl concentration in the range of 0.2 to 2.5 M and 0.1
+5. Implications for the heap leaching of secondary copper                                     to 1 M respectively. An activation energy of 71.5 kJ mol− 1 was
+sulphide minerals                                                                             derived which is similar to literature values and conﬁrms a chemical
+                                                                                              and/or electrochemical rate-determining reaction on the mineral
+   The results of this study have provided some useful pointers to the                        surface.
+optimization of the heap leaching of secondary copper sulphide                              • The rates of leaching of chalcocite and digenite are rapid compared
+minerals.                                                                                     with that of covellite. At low potentials, chalcocite and digenite
+                                                                                              convert to secondary covellite which can only be dissolved at
+1. The slow rate of leaching of primary covellite relative to that of                         potentials of about 550 mV and above as predicted. The interme-
+   secondary material produced by oxidation of chalcocite or digenite                         diate, secondary covellite dissolves at a rate which is signiﬁcantly
+   indicates that recovery of at least 50% copper from chalcocite is                          greater than that of primary covellite.
+   likely to be rapid while copper recovery from covellite in the ore                       • A mineralogical study of the residue after leaching of covellite has
+   will be slow.                                                                              shown that most of the sulphur is associated with unreacted
+2. Although low potentials (below 550 mV) are suitable for ﬁrst stage                         covellite as isolated globules on the surface with over 90% of the
+   leaching of chalcocite, oxidation of either primary or secondary                           unreacted covellite surface free of sulphur.
+                                                                 H. Miki et al. / Hydrometallurgy 105 (2011) 321–327                                                                327
+
+
+Acknowledgements                                                                             McDonald, G.W., Langer, S.H., 1983. Cupric chloride leaching of model sulfur
+                                                                                                  compounds for simple copper ore concentrates. Metallurgical Transactions 14B,
+                                                                                                  559–570.
+   The authors would like to acknowledge the ﬁnancial support from                           Miki, H., Nicol, M.J., 2008. The kinetics of the copper-catalysed oxidation of iron(II) in
+BHP Billiton and the Parker Centre. Thanks also to Dr Puru Shrestha                               chloride solutions. In: Young, C., Anderson, C., Taylor, P., Choi, Y. (Eds.),
+                                                                                                  Hydrometallurgy 2008. The Minerals, Metals and Materials Society, Warrendale,
+and his mineralogy team at BHP Billiton for their excellent                                       PA, USA, pp. 971–979.
+mineralogical support of this project.                                                       Miki, H., Nicol, M.J., 2011. The dissolution of chalcopyrite in chloride solutions. IV. The
+                                                                                                  kinetics of the auto-oxidation of copper(I). Hydrometallurgy 105, 246–250.
+                                                                                             Mulak, W., 1971. Kinetics of dissolving polydispersed covellite in acidic solutions of
+References                                                                                        ferric sulphate. Roczniki Chemii 45, 1417–1424.
+                                                                                             Nicol, M.J., Miki, H., Velásquez-Yévenes, L., 2010. The dissolution of chalcopyrite in
+Arce, E., González, I., 2002. A comparative study of electrochemical behaviour of
+                                                                                                  chloride solutions: Part 3. Mechanism. Hydrometallurgy 103, 86–95.
+    chalcopyrite, chalcocite and bornite in sulfuric acid solution. International Journal
+                                                                                             Rademan, J.A.M., Lorenzen, L., Van Deventer, J.S.J., 1999. The leaching characteristics of
+    of Mineral Processing 67, 17–28.
+                                                                                                  Ni–Cu matte in the acid–oxygen pressure leach process at Impala Platinum.
+Aroca, F., 1999. Plant description and operation of heap leaching, solvent extraction,
+                                                                                                  Hydrometallurgy 52, 231–252.
+    and electrowinning of copper at Minera Michilla. In: Jergensen, G.V. (Ed.), Copper
+                                                                                             Ruiz, M.C., Honores, S., Padilla, R., 1998. Leaching kinetics of digenite concentrate in
+    Leaching, Solvent Extraction, and Electrowinning Technology. Society for Mining,
+                                                                                                  oxygenated chloride media at ambient pressure. Metallurgical and Materials
+    Metallurgy and Exploration, Littleton, Co., pp. 279–294.
+                                                                                                  Transactions B 29, 961–969.
+Cheng, C.Y., Lawson, F., 1991a. The kinetics of leaching covellite in acidic oxygenated
+                                                                                             Senanayake, G., 2007. Chloride assisted leaching of chalcocite by oxygenated sulphuric
+    sulphate–chloride solutions. Hydrometallurgy 27, 269–284.
+                                                                                                  acid via Cu(II)–OH–Cl. Minerals Engineering 20, 1075–1088.
+Cheng, C.Y., Lawson, F., 1991b. The kinetics of leaching chalcocite in acidic oxygenated
+                                                                                             Sullivan, J.D., 1930a. Chemistry of Leaching Covellite. U.S. Bureau of Mines, Washington,
+    sulphate–chloride solutions. Hydrometallurgy 27, 249–268.
+                                                                                                  DC, USA. TP 487.
+Dutrizac, J.E., MacDonald, R.J.C., 1974a. The kinetics of dissolution of covellite in
+                                                                                             Sullivan, J.D., 1930b. Chemistry of Leaching Chalcocite. U.S. Bureau of Mines,
+    acidiﬁed ferric sulphate solutions. Canadian Metallurgical Quarterly 13, 423–433.
+                                                                                                  Washington, DC, USA. TP 473.
+Dutrizac, J.E., MacDonald, R.J.C., 1974b. Ferric ion as a leaching medium. Minerals
+                                                                                             Thomas, G., Ingrahan, T.R., 1967. Kinetics of dissolution of synthetic covellite in aqueous
+    Science and Engineering 6, 59–100.
+                                                                                                  acidic ferric sulphate solutions. Canadian Metallurgical Quarterly 6, 153–165.
+Elsherief, E.E., Saba, A.E., Aﬁﬁ, S.E., 1995. Anodic leaching of chalcocite with periodic
+                                                                                             Velásquez-Yévenes, L., 2009. The Kinetics of the Dissolution of Chalcopyrite in Chloride
+    cathodic reduction. Minerals Engineering 8, 967–978.
+                                                                                                  Media. Ph.D. Thesis, Murdoch University, Perth Australia.
+Fisher, W.W., Flores, F.A., Henderson, J.A., 1992. Comparison of chalcocite dissolution in
+                                                                                             Velásquez-Yévenes, L., Nicol, M.J., Miki, H., 2010a. The dissolution of chalcopyrite in
+    the oxygenated, aqueous sulfate and chloride systems. Minerals Engineering 5,
+                                                                                                  chloride solutions: Part 1. The effect of solution potential. Hydrometallurgy 103,
+    817–834.
+                                                                                                  108–113.
+Ghali, E., Dandapani, B., 1982. Electrodissolution of synthetic covellite in hydrochloric
+                                                                                             Velásquez-Yévenes, L., Miki, H., Nicol, M.J., 2010b. The dissolution of chalcopyrite in
+    acid. Journal of Applied Electrochemistry 12, 369–376.
+                                                                                                  chloride solutions: Part 2. The effect of various parameters on the rate.
+Goh, S.W., Buckley, A.N., Lamb, R.N., 2006. Copper(II) sulﬁde? Minerals Engineering 19,
+                                                                                                  Hydrometallurgy 103, 80–85.
+    204–208.
+                                                                                             Whiteside, L.S., Goble, R.J., 1986. Structural and compositional changes in copper
+Lee, M.S., Nicol, M.J., Basson, P., 2008. Cathodic processes in the leaching and
+                                                                                                  sulﬁdes during leaching and dissolution. Canadian Mineralogist 24 (2), 247–258.
+    electrochemistry of covellite in mixed sulfate–chloride media. Journal of Applied
+                                                                                             Woods, R., Yoon, R.H., Young, C.A., 1987. Eh–pH diagrams for stable and metastable
+    Electrochemistry 38, 363–369.
+                                                                                                  phases in the copper–sulfur–water system. International Journal of Mineral
+Martell, A.E., Smith, R.M., 2004. NIST Standard Reference Database 46, Ver 8. National
+                                                                                                  Processing 20, 109–120.
+    Institute of Standards and Technology, Gaithersburg, MD, USA.
+

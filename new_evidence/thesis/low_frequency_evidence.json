@@ -1,0 +1,100 @@
+{
+  "checked_on": "2026-11-27",
+  "kind": "archival_source_verification",
+  "low_frequency_observation": {
+    "frequency_interval_MHz": [
+      1.5,
+      2.2
+    ],
+    "temperature_K": 4.2,
+    "nominal_mixed_sample": "Cu1.1S",
+    "thesis_text_page": 22,
+    "thesis_figure_number": 8,
+    "thesis_figure_page": 23,
+    "thesis_discussion_page": 33,
+    "separate_anilite_line_frequency_established": false,
+    "anilite_Cu3_isotope_pair_established": false,
+    "phase_separation_established": false,
+    "individual_site_count_established": false
+  },
+  "instrumentation_documented": {
+    "thesis_pages": [
+      18,
+      19
+    ],
+    "high_frequency_spectrometer_MHz": [
+      10,
+      120
+    ],
+    "low_frequency_spectrometer_MHz": [
+      1,
+      32
+    ],
+    "documented_failure_to_resolve": "Line width and overlap of the component called geerite with covellite"
+  },
+  "late_author_recollection": {
+    "date": "2026-11-27",
+    "source": "user message in the current collaboration",
+    "text": "Equipment and resonant circuits were not sufficiently optimized in this frequency range for detailed study.",
+    "present_as_reason_in_checked_thesis_text": false
+  },
+  "published_corollary": {
+    "source": "Gainov et al. (2010), Superconductor, chapter 17, Table I",
+    "printed_page": 332,
+    "pdf_page": 6,
+    "entry": "Cu1.6S (geerite): Site ? / Below 2 MHz?",
+    "question_marks_are_original": true,
+    "covellite_63Cu_NQR_MHz": 1.87,
+    "covellite_65Cu_NQR_MHz": 1.73,
+    "temperature_K": 4.2
+  },
+  "source_manifest": [
+    {
+      "path": "upload/diploma_magister_geerite_2009_5.doc",
+      "bytes": 3439616,
+      "sha256": "d2968a6c4bcbe5180a4891747737465e93642a4dec9ffed23ed1f138f1a401ee"
+    },
+    {
+      "path": "new_evidence/thesis/diploma_magister_geerite_2009_5.pdf",
+      "bytes": 1996913,
+      "sha256": "7dd66ccaf54894ca1f73d886196aa3dfded5d6b6c267739be9718575c25a75b3"
+    },
+    {
+      "path": "new_evidence/thesis/diploma_magister_geerite_2009_5.txt",
+      "bytes": 96639,
+      "sha256": "c4733c7c057326a4a8b179ee3d828717826326a7200754bfedc1037bf8154e18"
+    },
+    {
+      "path": "new_evidence/papers/raw/diploma_magister_geerite_2009_10.rtf",
+      "bytes": 89825757,
+      "sha256": "d5c8c75c52524cd1cbcb0f25d8fa01845f1881931153812d85b39d6223963609"
+    },
+    {
+      "path": "new_evidence/thesis/diploma_magister_geerite_2009_10.pdf",
+      "bytes": 1437242,
+      "sha256": "14b9858c42fe0e8f5c0b1d35da62fe24dbe600d0eae50f4d66ccd98059a3bf78"
+    },
+    {
+      "path": "research_literature/2010_intech.pdf",
+      "bytes": 589269,
+      "sha256": "cf5253e722af4e28a8a8d5a117d4def517b6b4d7cf08a5c703d60acd05a5cfab"
+    }
+  ],
+  "published_instrument_limit": {
+    "source": "Gainov et al., Physical Review B79,075115 (2009), DOI10.1103/PhysRevB.79.075115, arXiv0809.0560",
+    "pdf_page": 7,
+    "section": "V.2",
+    "approximate_lower_frequency_limit_MHz": 1.5,
+    "covellite_temperature_followed_to_K": 30,
+    "is_exact_confirmation_of_late_circuit_tuning_recollection": false
+  },
+  "embedded_numeric_data_audit": {
+    "project_count": 14,
+    "distinct_numeric_table_sets": 5,
+    "low_frequency_1_5_to_2_2_MHz_numeric_spectrum_identified": false,
+    "image_digitization_performed": false,
+    "manifest": "data_analysis/thesis_embedded/embedded_origin_manifest.json",
+    "numeric_inventory": "data_analysis/thesis_embedded/numeric_inventory.json",
+    "measurement_inventory": "provenance/measurement_inventory.json"
+  }
+}

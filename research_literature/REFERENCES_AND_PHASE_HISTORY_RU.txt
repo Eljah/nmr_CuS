@@ -1,0 +1,235 @@
+ЛИТЕРАТУРА И ИСТОРИЯ ФАЗОВОЙ ИДЕНТИФИКАЦИИ
+Для подготовки статьи о ЯМР анилита Cu7S4
+Проверено 26 ноября 2026 г.
+
+1. ИСТОРИЯ ФАЗОВОГО ОТНЕСЕНИЯ
+
+2013. В работе Gainov et al. [1] опубликован спектр ЯКР смеси ковеллина CuS и компоненты, обозначенной как дигенит Cu1.78S. Авторы сообщают о рентгенографическом определении состава смеси. На рисунке 2 при 4.2 K четыре изотопных дублета отнесены к дигениту; отдельный дублет — к CuS. Это не спектр однофазного дигенита.
+
+Опубликованные частоты, МГц (с. 572):
+
+Компонента по отнесению 2013 г.       63Cu       65Cu
+«Digenite», A                        11.90      11.02
+«Digenite», B                        15.21      14.10
+«Digenite», C                        16.26      15.05
+«Digenite», D                        16.81      15.55
+Covellite CuS                       14.89      13.78
+
+Метки A–D введены только для сопоставления частот. Они не обозначают кристаллографические позиции Cu1–Cu5 анилита.
+
+2014. Конференционная аннотация Gainov et al. [2] повторяет отнесение синтетического Cu1.8S к дигениту по рентгенографии при комнатной температуре. В ней описаны четыре линии 63Cu при температурах ниже 200 K и дана ссылка на статью 2013 г. [1].
+
+Последующие ЯМР-измерения. По сообщению автора настоящего исследования, к выполнению ЯМР-экспериментов образец повторно исследовали рентгенографически; повторный анализ показал анилит Cu7S4. Это сообщение об истории образца следует отличать от содержания публикаций [1, 2]: найденные тексты не документируют такую повторную идентификацию.
+
+Для окончательной переатрибуции необходима документированная связь образца прежних ЯКР-измерений с образцами повторного XRD и ЯМР. Если установлено только сходство спектров разных образцов, вывод должен быть сформулирован как сопоставление, а не как доказанное исправление фазового отнесения конкретного прежнего образца.
+
+Нейтральная формулировка для рабочей рукописи:
+
+«В работе Gainov et al. [1] четыре изотопных дублета 63,65Cu в диапазоне 11–17 МГц были отнесены к дигенитовой компоненте образца, содержащего также ковеллин. Согласно сведениям об истории исследуемого материала, повторная рентгенография, выполненная к последующим ЯМР-измерениям, установила присутствие анилита Cu7S4. Это уточнение фазовой идентификации учитывается при сопоставлении прежних данных ЯКР с результатами ЯМР».
+
+После проверки протокола повторного XRD и идентичности образцов формулировку можно сделать прямой, указав соответствующий рисунок, дату или протокол рентгенографии.
+
+2. СТРУКТУРНЫЕ ОГРАНИЧЕНИЯ И ТЕМПЕРАТУРНАЯ ИСТОРИЯ
+
+Структура анилита по Koto и Morimoto [3] содержит пять неэквивалентных позиций Cu. Для модели Pnma, a = 7.89, b = 7.84, c = 11.01 Å, Z = 4, координаты AMCSD 0009376 дают кратности Cu1–Cu5: 4, 4, 4, 8, 8. Отношение населенностей равно 1:1:1:2:2. Оно относится к кристаллографическим позициям и не совпадает автоматически с отношением экспериментальных площадей импульсных ЯМР-линий.
+
+Четыре прежних дублета не доказывают полноту спектра анилита. Нельзя без дополнительного анализа перенести на него предложенное в [1] отнесение четырех дублетов к четырем треугольным позициям дигенита. Необходимо учитывать перекрытие, экспериментальную видимость линий, квадрупольные параметры и многофазность.
+
+Первоописание анилита [4] сообщает о его превращении при растирании в метастабильную дигенитоподобную фазу. Это возможный источник неоднозначности порошковой идентификации, но не установленная причина расхождения в данном образце. Эталонные порошковые данные представлены в [5].
+
+Температурная устойчивость требует отдельной проверки. В исследовании соответствующих равновесий [6] переход anilite → low-digenite определен при 312 K, а low-digenite → high-digenite — при 352 K. Для исследованного в [7] материала Cu9S5 описан гистерезисный переход anilite ↔ low-digenite в области 260–320 K и переход к high-digenite около 352 K. Эти результаты не доказывают переход в конкретном ЯМР-образце, но показывают, почему единственный комнатный XRD нельзя автоматически распространить на весь температурный маршрут.
+
+Открытые структурные данные AMCSD 0009376:
+https://www.mindat.org/show.php?clearcache=1&id=236&ld=
+
+3. ОТДЕЛЬНАЯ ЗАМЕТКА О GEERITE В ПУБЛИКАЦИИ 2010 Г.
+
+В главе Gainov et al. [8] похожий четырехдублетный спектр приписан geerite Cu1.6S в смеси с CuS. На с. 334 указаны следующие пары 63Cu/65Cu при 4.2 K, МГц:
+
+16.95 / 15.67
+16.20 / 14.98
+15.25 / 14.11
+11.95 / 11.06
+
+Эти значения близки к данным 2013 г., но не идентичны им. Глава также ссылается на более ранние результаты Anashkin et al. (1994).
+
+Не установлено, относится ли глава 2010 г. к тому же образцу, той же серии синтезов или материалу из нынешнего экспериментального архива. Поэтому данные geerite следует сохранять как отдельный исторический факт. Одного сходства частот недостаточно для их переатрибуции анилиту или для объединения истории образцов.
+
+4. ПРОВЕРЕННАЯ БИБЛИОГРАФИЯ: ИСТОЧНИКИ РУКОПИСИ И ДОПОЛНИТЕЛЬНАЯ ЛИТЕРАТУРА
+
+[1] Gainov R. R., Dooglav A. V., Vagizov F. G., Pen’kov I. N., Golovanevskiy V. A., Orlova A. Yu., Evlampiev I. A., Klekovkina V. V., Klingelhöfer G., Ksenofontov V., Mozgova N. N. NQR/NMR and Mössbauer spectroscopy of sulfides: potential and versatility. European Journal of Mineralogy. 2013. Vol. 25, no. 4. P. 569–578.
+DOI: 10.1127/0935-1221/2013/0025-2325
+https://doi.org/10.1127/0935-1221/2013/0025-2325
+https://pubs.geoscienceworld.org/ejm/eurjmin/article-abstract/25/4/569/69738/NQR-NMR-and-Mossbauer-spectroscopy-of-sulfides
+Проверен полный опубликованный текст; ключевые данные находятся на с. 572–573.
+
+[2] Gainov R. R., Klekovkina V. V., Evlampiev I. A., Dooglav A. V., Pen’kov I. N., Shumilova T. G., Khassanov R. R. Structural aspects in NQR studies of covellite CuS and digenite Cu1.8S. Magnetic Resonance: Fundamental Research and Pioneering Applications (MR-70), Kazan, 23–27 June 2014. Book of Abstracts. 2014. P. 104. ISBN 978-5-00019-221-4.
+https://kpfu.ru/staff_files/F1809284490/MR_70_Abstracts.pdf
+Институциональное зеркало:
+https://csl.isc.irk.ru/BD/Books/MR-70_Abstracts.pdf
+DOI не установлен. Проверен текст конференционной аннотации.
+
+[3] Koto K., Morimoto N. The crystal structure of anilite. Acta Crystallographica Section B. 1970. Vol. 26. P. 915–924.
+DOI: 10.1107/S0567740870003370
+https://doi.org/10.1107/S0567740870003370
+https://journals.iucr.org/paper?a07483=
+Открытая первая страница:
+https://scripts.iucr.org/cgi-bin/sendimage?image=b%2F1970%2Fa07483%2Ffirstpage.gif
+Проверены первая страница и опубликованный структурный набор AMCSD 0009376. Полный текст статьи не был доступен.
+
+[4] Morimoto N., Koto K., Shimazaki Y. Anilite, Cu7S4, a new mineral. American Mineralogist. 1969. Vol. 54, no. 9–10. P. 1256–1268.
+https://pubs.geoscienceworld.org/msa/ammin/article-abstract/54/9-10/1256/540561/Anilite-Cu7S4-a-new-mineral
+DOI не установлен. Проверена аннотация первичной публикации; полный текст не был доступен.
+
+[5] Potter R. W., Evans H. T. Definitive X-ray powder data for covellite, anilite, djurleite, and chalcocite. Journal of Research of the U.S. Geological Survey. 1976. Vol. 4. P. 205–212.
+https://www.usgs.gov/publications/definitive-x-ray-powder-data-covellite-anilite-djurleite-and-chalcocite
+https://pubs.usgs.gov/publication/70232237
+DOI не установлен. Проверена официальная карточка и описание исследования.
+
+[6] Schmidt J. A., Sagua A. E., Lescano G. Electrochemical investigation of equilibria (covellite + anilite) and (covellite + digenite). Journal of Chemical Thermodynamics. 1998. Vol. 30, no. 3. P. 283–290.
+DOI: 10.1006/jcht.1997.0287
+https://doi.org/10.1006/jcht.1997.0287
+https://www.sciencedirect.com/science/article/abs/pii/S0021961497902871
+Проверена аннотация первичной публикации.
+
+[7] Setzer A., Esquinazi P. D., Botsch L., Baehre O., Teblum E., Itzhak A., Girshevitz O., Nessim G. D. Magnetic phase transitions around room temperature in Cu9S5. Phase Transitions. 2019. Vol. 92. P. 385–395.
+DOI: 10.1080/01411594.2019.1586901
+https://doi.org/10.1080/01411594.2019.1586901
+Авторская институциональная страница:
+https://research.uni-leipzig.de/sum/wp/2019/06/magnetic-phase-transitions-around-room-temperature-in-cu9s5/
+Проверены издательская аннотация и авторское институциональное описание.
+
+[8] Gainov R. R., Dooglav A. V., Pen’kov I. N., Orlova A. Yu., Evlampiev I. A., Mozgova N. N., Khasanov R. R. Determination of the Local Crystal-Chemical Features of Complex Chalcogenides by Copper, Antimony, and Arsenic NQR. In: Superconductor. Ed. A. M. Luiz. InTech, 2010. Chapter 17. P. 327–344. ISBN 978-953-307-107-7.
+https://www.intechopen.com/chapters/11877
+Открытый полный текст издателя:
+https://cdn.intechopen.com/pdfs/11877.pdf
+Текущая карточка издателя указывает DOI: 10.5772/intechopen.83952
+https://doi.org/10.5772/intechopen.83952
+Проверен полный текст. DOI в исходном PDF не указан; приведен по текущей карточке издателя.
+
+[9] Locher P. R. Ratio of the magnetic dipole moments of 63Cu and 65Cu and the hyperfine-structure anomalies 63Δ65. Physical Review B. 1974. Vol. 10. P. 801.
+DOI: 10.1103/PhysRevB.10.801
+https://doi.org/10.1103/PhysRevB.10.801
+https://journals.aps.org/prb/abstract/10.1103/PhysRevB.10.801
+Проверена аннотация первичной публикации. Экспериментально определенное отношение γ63/γ65 = 0.9335232(6) приведено для измерений непрерывного ЯМР в CuCl, CuI и CuRh2Se4.
+
+[10] Harris R. K., Becker E. D., Cabral de Menezes S. M., Goodfellow R., Granger P. NMR nomenclature. Nuclear spin properties and conventions for chemical shifts (IUPAC Recommendations 2001). Pure and Applied Chemistry. 2001. Vol. 73, no. 11. P. 1795–1818.
+DOI: 10.1351/pac200173111795
+https://doi.org/10.1351/pac200173111795
+https://publications.iupac.org/publications/pac/2001/pdf/7311x1795.pdf
+Академическое зеркало:
+https://nmr.chem.ucsb.edu/protocols/IUPAC_2001.pdf
+Источник рекомендаций по ЯМР-номенклатуре, ядерным свойствам и частотным стандартам. При точном сопоставлении изотопов следует различать табличные абсолютные гиромагнитные отношения, экспериментальное отношение γ63/γ65 [9] и частотную шкалу Ξ для названного химического стандарта.
+
+5. BIBTEX: ИСТОЧНИКИ РУКОПИСИ И ДОПОЛНИТЕЛЬНАЯ ЛИТЕРАТУРА
+
+@article{Gainov2013Sulfides,
+  author = {Gainov, Ramil R. and Dooglav, Alexander V. and Vagizov, Farit G. and Pen'kov, Ivan N. and Golovanevskiy, Vladimir A. and Orlova, Anna Yu. and Evlampiev, Il'ya A. and Klekovkina, Vera V. and Klingelh{\"o}fer, G{\"o}star and Ksenofontov, Vadim and Mozgova, N. N.},
+  title = {{NQR/NMR} and {M{\"o}ssbauer} spectroscopy of sulfides: potential and versatility},
+  journal = {European Journal of Mineralogy},
+  year = {2013},
+  volume = {25},
+  number = {4},
+  pages = {569--578},
+  doi = {10.1127/0935-1221/2013/0025-2325}
+}
+
+@inproceedings{Gainov2014MR70,
+  author = {Gainov, R. R. and Klekovkina, V. V. and Evlampiev, I. A. and Dooglav, A. V. and Pen'kov, I. N. and Shumilova, T. G. and Khassanov, R. R.},
+  title = {Structural aspects in {NQR} studies of covellite {CuS} and digenite {Cu1.8S}},
+  booktitle = {Magnetic Resonance: Fundamental Research and Pioneering Applications ({MR-70}), Book of Abstracts},
+  year = {2014},
+  pages = {104},
+  address = {Kazan},
+  isbn = {978-5-00019-221-4},
+  note = {23--27 June 2014},
+  url = {https://csl.isc.irk.ru/BD/Books/MR-70_Abstracts.pdf}
+}
+
+@article{Koto1970Anilite,
+  author = {Koto, K. and Morimoto, N.},
+  title = {The crystal structure of anilite},
+  journal = {Acta Crystallographica Section B},
+  year = {1970},
+  volume = {26},
+  pages = {915--924},
+  doi = {10.1107/S0567740870003370}
+}
+
+@article{Morimoto1969Anilite,
+  author = {Morimoto, N. and Koto, K. and Shimazaki, Y.},
+  title = {Anilite, {Cu7S4}, a new mineral},
+  journal = {American Mineralogist},
+  year = {1969},
+  volume = {54},
+  number = {9--10},
+  pages = {1256--1268},
+  url = {https://pubs.geoscienceworld.org/msa/ammin/article-abstract/54/9-10/1256/540561/Anilite-Cu7S4-a-new-mineral}
+}
+
+@article{PotterEvans1976PowderData,
+  author = {Potter, R. W. and Evans, H. T.},
+  title = {Definitive {X-ray} powder data for covellite, anilite, djurleite, and chalcocite},
+  journal = {Journal of Research of the U.S. Geological Survey},
+  year = {1976},
+  volume = {4},
+  pages = {205--212},
+  url = {https://pubs.usgs.gov/publication/70232237}
+}
+
+@article{Schmidt1998Equilibria,
+  author = {Schmidt, J. A. and Sagua, A. E. and Lescano, G.},
+  title = {Electrochemical investigation of equilibria (covellite + anilite) and (covellite + digenite)},
+  journal = {Journal of Chemical Thermodynamics},
+  year = {1998},
+  volume = {30},
+  number = {3},
+  pages = {283--290},
+  doi = {10.1006/jcht.1997.0287}
+}
+
+@article{Setzer2019Cu9S5,
+  author = {Setzer, A. and Esquinazi, P. D. and Botsch, L. and Baehre, O. and Teblum, E. and Itzhak, A. and Girshevitz, O. and Nessim, G. D.},
+  title = {Magnetic phase transitions around room temperature in {Cu9S5}},
+  journal = {Phase Transitions},
+  year = {2019},
+  volume = {92},
+  pages = {385--395},
+  doi = {10.1080/01411594.2019.1586901}
+}
+
+@incollection{Gainov2010ChalcogenidesNQR,
+  author = {Gainov, R. R. and Dooglav, A. V. and Pen'kov, I. N. and Orlova, A. Yu. and Evlampiev, I. A. and Mozgova, N. N. and Khasanov, R. R.},
+  title = {Determination of the Local Crystal-Chemical Features of Complex Chalcogenides by Copper, Antimony, and Arsenic {NQR}},
+  booktitle = {Superconductor},
+  editor = {Luiz, Adir Moys{\'e}s},
+  publisher = {InTech},
+  year = {2010},
+  chapter = {17},
+  pages = {327--344},
+  isbn = {978-953-307-107-7},
+  url = {https://www.intechopen.com/chapters/11877},
+  doi = {10.5772/intechopen.83952},
+  note = {DOI as displayed in the current publisher record}
+}
+
+@article{Locher1974CuMomentRatio,
+  author = {Locher, P. R.},
+  title = {Ratio of the magnetic dipole moments of {$^{63}$Cu} and {$^{65}$Cu} and the hyperfine-structure anomalies {$^{63}\Delta^{65}$}},
+  journal = {Physical Review B},
+  year = {1974},
+  volume = {10},
+  pages = {801},
+  doi = {10.1103/PhysRevB.10.801}
+}
+
+@article{Harris2001IUPACNMR,
+  author = {Harris, R. K. and Becker, E. D. and {Cabral de Menezes}, S. M. and Goodfellow, R. and Granger, P.},
+  title = {{NMR} nomenclature. Nuclear spin properties and conventions for chemical shifts ({IUPAC} Recommendations 2001)},
+  journal = {Pure and Applied Chemistry},
+  year = {2001},
+  volume = {73},
+  number = {11},
+  pages = {1795--1818},
+  doi = {10.1351/pac200173111795}
+}

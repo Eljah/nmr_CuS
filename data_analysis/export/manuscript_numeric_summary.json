@@ -1,0 +1,139 @@
+{
+  "window_ratios": {
+    "source": "opj_Spec05122016.csv",
+    "source_sha256": "671431b3339f41f26840d9f9a8a1b2a62b3f86ecf446e167d2ea2c0c27e5be69",
+    "definition": "sum(I500 over included grid points) / sum(I20 over the same points)",
+    "bounds": "inclusive, membership checked on nominal integer-kHz grid",
+    "excluded_conflict_origin_rows": [
+      188,
+      189
+    ],
+    "baseline_subtracted": false,
+    "amplitude_normalization": false,
+    "windows": [
+      {
+        "window": "broad_lower",
+        "lower_MHz_inclusive": 75.2,
+        "upper_MHz_inclusive": 75.7,
+        "number_of_points": 11,
+        "sum_I20": 12714.844385,
+        "sum_I500": 72830.199793,
+        "ratio_sum_I500_over_sum_I20": 5.727966272156622
+      },
+      {
+        "window": "broad_upper",
+        "lower_MHz_inclusive": 76.1,
+        "upper_MHz_inclusive": 76.4,
+        "number_of_points": 7,
+        "sum_I20": 8516.862229999999,
+        "sum_I500": 40099.158296,
+        "ratio_sum_I500_over_sum_I20": 4.708207930704076
+      },
+      {
+        "window": "narrow_lower",
+        "lower_MHz_inclusive": 75.85,
+        "upper_MHz_inclusive": 75.95,
+        "number_of_points": 3,
+        "sum_I20": 13933.040291,
+        "sum_I500": 119989.97508999999,
+        "ratio_sum_I500_over_sum_I20": 8.611901823574508
+      },
+      {
+        "window": "narrow_upper",
+        "lower_MHz_inclusive": 81.25,
+        "upper_MHz_inclusive": 81.35,
+        "number_of_points": 3,
+        "sum_I20": 4260.819589,
+        "sum_I500": 38056.474338,
+        "ratio_sum_I500_over_sum_I20": 8.931726289526313
+      }
+    ]
+  },
+  "processed_peak_coordinates": {
+    "method": "maximum stored Real value in each stated search interval; no fit",
+    "source_sha256": {
+      "opj_spec20ms.csv": "1b26dde6043fb16e6d56665a0127ae3830e3cacc0df8582e419f089f7e45251b",
+      "opj_spec500ms.csv": "9d86738beecc688f776fc3c4c47aef20f5b19cd01e2639baca71e282cc03437c"
+    },
+    "results": [
+      {
+        "repetition_ms": 20,
+        "source": "opj_spec20ms.csv",
+        "lower_group_search_from_MHz": 74.0,
+        "lower_group_search_to_MHz": 78.0,
+        "higher_group_search_from_MHz": 80.0,
+        "higher_group_search_to_MHz": 83.0,
+        "lower_peak_origin_row": 2716,
+        "lower_peak_MHz": 75.942517,
+        "lower_peak_real_amplitude": 60709.14953,
+        "higher_peak_origin_row": 6257,
+        "higher_peak_MHz": 81.345654,
+        "higher_peak_real_amplitude": 19289.171807,
+        "higher_over_lower_frequency_ratio": 1.071147720847862
+      },
+      {
+        "repetition_ms": 500,
+        "source": "opj_spec500ms.csv",
+        "lower_group_search_from_MHz": 74.0,
+        "lower_group_search_to_MHz": 78.0,
+        "higher_group_search_from_MHz": 80.0,
+        "higher_group_search_to_MHz": 83.0,
+        "lower_peak_origin_row": 2715,
+        "lower_peak_MHz": 75.940991,
+        "lower_peak_real_amplitude": 460070.382378,
+        "higher_peak_origin_row": 6257,
+        "higher_peak_MHz": 81.345654,
+        "higher_peak_real_amplitude": 147917.986349,
+        "higher_over_lower_frequency_ratio": 1.0711692450787218
+      }
+    ],
+    "warning": "Grid coordinates are not peak-fit uncertainty estimates; isotope consistency does not identify the material producing a peak."
+  },
+  "nqr_coupling_bounds": {
+    "source": "Gainov et al. (2013), European Journal of Mineralogy 25, 569-578, p. 572",
+    "source_doi": "10.1127/0935-1221/2013/0025-2325",
+    "spin_I": 1.5,
+    "nuQ_definition": "3 e Q Vzz / [2 I (2 I - 1) h]",
+    "relation": "nu_NQR = abs(nuQ) * sqrt(1 + eta^2/3)",
+    "eta_range_inclusive": [
+      0,
+      1
+    ],
+    "lower_factor": 0.8660254037844386,
+    "results": [
+      {
+        "pair_label": "A",
+        "nu_NQR_63_MHz": 11.9,
+        "nu_NQR_65_MHz": 11.02,
+        "temperature_K": 4.2,
+        "abs_nuQ_63_min_MHz_eta_1": 10.305702305034819,
+        "abs_nuQ_63_max_MHz_eta_0": 11.9
+      },
+      {
+        "pair_label": "B",
+        "nu_NQR_63_MHz": 15.21,
+        "nu_NQR_65_MHz": 14.1,
+        "temperature_K": 4.2,
+        "abs_nuQ_63_min_MHz_eta_1": 13.172246391561313,
+        "abs_nuQ_63_max_MHz_eta_0": 15.21
+      },
+      {
+        "pair_label": "C",
+        "nu_NQR_63_MHz": 16.26,
+        "nu_NQR_65_MHz": 15.05,
+        "temperature_K": 4.2,
+        "abs_nuQ_63_min_MHz_eta_1": 14.081573065534974,
+        "abs_nuQ_63_max_MHz_eta_0": 16.26
+      },
+      {
+        "pair_label": "D",
+        "nu_NQR_63_MHz": 16.81,
+        "nu_NQR_65_MHz": 15.55,
+        "temperature_K": 4.2,
+        "abs_nuQ_63_min_MHz_eta_1": 14.557887037616412,
+        "abs_nuQ_63_max_MHz_eta_0": 16.81
+      }
+    ],
+    "warning": "Bounds are due to unknown EFG asymmetry, not confidence intervals. No temperature correction from 4.2 K to 5 K has been applied."
+  }
+}

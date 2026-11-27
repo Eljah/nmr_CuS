@@ -1,0 +1,367 @@
+                                                                           Hydrometallurgy 103 (2010) 80–85
+
+
+
+                                                                    Contents lists available at ScienceDirect
+
+
+                                                                           Hydrometallurgy
+                                                  j o u r n a l h o m e p a g e : w w w. e l s ev i e r. c o m / l o c a t e / h yd r o m e t
+
+
+
+
+The dissolution of chalcopyrite in chloride solutions
+Part 2: Effect of various parameters on the rate
+Lilian Velásquez Yévenes a, Hajime Miki b, Michael Nicol b,⁎
+a
+    Department of Metallurgical Engineering, Universidad Católica del Norte, Antofagasta, Chile
+b
+    Parker Centre, Faculty of Minerals and Energy, Murdoch University, Perth, WA 6150, Australia
+
+
+
+
+a r t i c l e            i n f o                           a b s t r a c t
+
+Article history:                                           In Part 1 of this series, which describes the results of a study of the dissolution of chalcopyrite under
+Received 26 January 2010                                   conditions that could be expected in a heap leaching process for primary copper minerals, it was shown that
+Received in revised form 2 March 2010                      enhanced leaching of chalcopyrite from several copper concentrates in dilute acidic chloride solutions can be
+Accepted 3 March 2010
+                                                           achieved by controlling the potential in a range of 560–600 mV (SHE) in the presence of dissolved oxygen.
+Available online 11 March 2010
+                                                           Based on the results of these experiments, this paper reports on an extensive study of the kinetics of the
+                                                           dissolution of several chalcopyrite concentrates in chloride solutions under various conditions in especially
+Keywords:
+Chalcopyrite
+                                                           designed reactors.
+Heap leaching                                              It will be demonstrated that the rates of dissolution at constant potential in the range of 580–600 mV by
+Chloride                                                   control of the oxygen supplied to the reactor are approximately constant for up to 80% dissolution for sized
+Kinetics                                                   fractions of the concentrates. The rate of dissolution of chalcopyrite under these conditions is largely
+Controlled potential                                       independent of the pulp density, iron and copper ion concentrations which could be expected in a heap leach
+Passivation                                                operation, the acidity and the chloride ion concentration. Variation of the temperature in the range 25 to
+                                                           75 °C under otherwise constant conditions resulted in an activation energy for dissolution of two different
+                                                           concentrates of 72 kJ mol− 1.
+                                                                                                                                © 2010 Elsevier B.V. All rights reserved.
+
+
+
+
+1. Introduction                                                                                   limitations involving an un-sintered disk containing both very ﬁne
+                                                                                                  and very coarse particles.
+    A number of investigations have been conducted to elucidate the                                   According to Dutrizac (1981), the surface area is one of the
+reaction kinetics and delineate the important variables for the                                   principal variables and any kinetic study must adequately character-
+leaching of chalcopyrite in both chloride and sulfate systems.                                    ize the area. He suggested that the ideal method for producing a sized
+Although many researchers have reported relevant work, some                                       feed for kinetic studies is wet cyclo-sizing of small batches, but wet
+ambiguities remain. Despite the considerable literature on the kinetics                           screening is acceptable if carried out thoroughly enough to remove all
+of leaching in ferric and more recently cupric solutions containing                               ﬁne particles.
+chloride ions, there is no general agreement among the various                                        Concerning the rate-limiting step, the reported data are very
+authors about the rate-determining step, activation energy, the form                              controversial in that some authors have concluded that it is mass
+of the leaching curves and the dependence of the rate on the solution                             transport controlled while others have suggested chemical control.
+composition. Most studies have been conducted at elevated tempera-                                Some of the studies reporting mass transport control are questionable
+tures because of the very low rates of dissolution under ambient                                  given that the activation energies are too high to be indicative of mass
+conditions which would be appropriate under heap leaching                                         transport control while in other studies the rates are slower and
+conditions.                                                                                       independent of rotation speed. For example, Havlik and Kammel
+    Most of the studies agree that rate of leaching of chalcopyrite in                            (1995) suggested chemical control at higher temperatures (45–80 °C)
+chloride media is linear with the time, but some authors have                                     and diffusion control at lower temperatures (35–45 °C) based on
+suggested that parabolic or para-linear kinetics is appropriate. In this                          values of the activation energy.
+context Dutrizac (1981) suggested that the para-linear kinetics                                       Another controversial aspect that has appeared in published
+obtained by Ammou-Chokroum et al. (1981) was due to experimental                                  kinetic studies of the chloride system is the effect of the nature and
+                                                                                                  concentration of the reactants on the rate of dissolution. The presence
+                                                                                                  of ferrous ions even at high concentrations has a negligible effect on
+                                                                                                  the rate at high temperatures (Dutrizac, 1978; Hirato et al., 1986;
+    ⁎ Corresponding author.                                                                       Jones and Peters, 1976; Majima et al., 1985). The latter authors also
+      E-mail address: M.Nicol@murdoch.edu.au (M. Nicol).                                          found that the presence of ferrous chloride does not affect the mixed
+
+0304-386X/$ – see front matter © 2010 Elsevier B.V. All rights reserved.
+doi:10.1016/j.hydromet.2010.03.004
+                                                     L.V. Yévenes et al. / Hydrometallurgy 103 (2010) 80–85                                                         81
+
+
+potential of chalcopyrite suggesting that the anodic reaction of ferrous          Table 2
+ions on the chalcopyrite surface is slow.                                         Mineralogical composition of concentrates (mass %).
+
+    Chalcopyrite has been successfully leached in the presence of                   Mineral                             Conc. 1                             Conc. 3
+cupric ions (Bonan et al., 1981; Dutrizac, 1978; Guy et al., 1983; Hirato                                               + 25–38 µm                          − 38 µm
+et al., 1986, 1987; Wilson and Fisher, 1981). Jones and Peters (1976)               Chalcocite                           0.00                                2.49
+proposed that the fast kinetics for the ferric chloride system was a                Chalcopyrite                        82.5                                33.0
+result of catalysis of the reaction by cupric ions and that ferric chloride         Covellite                            0.16                                5.65
+                                                                                    Bornite                              3.40                                2.68
+leaching is in reality cupric chloride leaching.
+                                                                                    Enargite                             1.70                                0.73
+    Even though temperature is one of the most important parameters                 Brochantite                          0.00                                0.23
+in the kinetics of the leaching of chalcopyrite in chloride media, it has           Chrysocolla                          0.00                                0.04
+been difﬁcult to determine its effect accurately (Dutrizac, 1981).                  Other Cu                             0.00                                0.05
+According to this author, the difﬁculty is due in part to the presence of           Pyrite                               2.70                               34.3
+                                                                                    Quartz                               5.00                                5.33
+even small amounts of secondary copper mineralization that can
+                                                                                    Galena                               0.47                                0.1
+seriously affect the interpretation of leaching data, especially at low             Gangue                               4.03                               15.4
+temperatures where the total dissolution of copper is small. However,
+the agreement among the various authors is that an increase in
+temperature produces a substantial increase in the rate of dissolution.           copper was present as chalcopyrite with a very small amount of
+Researchers claim that the activation energy is dependent on the                  bornite as the only other copper mineral. Most of the studies were
+range of temperature studied and on the value of the ratio of Cu(II)/Cu           conducted with Concentrate 1.
+(I) present in the system (Bonan et al., 1981) and most of the reported
+values have been obtained under different leaching conditions and in              2.2. Leaching experiments
+different ranges of temperature.
+    This paper presents the results of a study of the dissolution of                  Leaching experiments were carried out in mechanically agitated
+chalcopyrite under conditions typical of those that could be expected             instrumented reactors constructed at Murdoch University using the
+in a heap leach process. Although the leach times are long in order to            method described in Part 1 of this series. Most experiments were
+achieve appreciable extents of dissolution of copper, it has been                 conducted under standard conditions of 35 °C using a solution which
+considered important to ensure that the observed effects are                      initially contained 0.2 M HCl and 0.5 g/L copper(II) ions as these
+unambiguously due to the dissolution of chalcopyrite and not to the               concentrations were considered typical of those that could be
+dissolution of small amounts of copper oxides or secondary sulﬁdes.               expected in the rafﬁnate from a solvent extraction circuit as part of
+As can be appreciated, control of the leach conditions in an                      a heap leach process using chloride on hypogene ore.
+experimental run at constant potential over several months can be
+difﬁcult and subject to many external constraints. For this reason, the           3. Results and discussion
+use of a temperature of 35 °C was selected as a baseline condition as a
+compromise between actual heap leach conditions which are unlikely                3.1. The effect of the dissolution of secondary copper sulﬁde minerals
+to be above 25 °C and the length of the experimental runs.
+    Part 3 of this series will discuss the experimental results obtained             In order to establish the extent to which the dissolution of other
+in Parts 1 and 2 and will present additional experimental data relevant           copper minerals can affect or mask the dissolution of chalcopyrite,
+to the mechanism of the dissolution process. Finally, alternative                 Concentrate 3 was leached over an extended period under standard
+mechanisms will be presented which are consistent with the data                   conditions. At intervals of approximately 100 h, solid samples were
+presented in all three parts.                                                     taken, ﬁltered, washed and dried before being subjected to mineral-
+                                                                                  ogical analysis using MLA.
+2. Experimental                                                                      Mineralogical data from the feed and intermediate samples was
+                                                                                  used to estimate the extent of dissolution of each copper mineral
+2.1. Materials                                                                    using the quartz content as an indicator of mass loss during leaching
+                                                                                  and the results are shown in Fig. 1. It is apparent that the small
+    As described in the previous paper of this series chalcopyrite                amount of chalcocite leaches very rapidly, followed by covellite and
+concentrates were obtained by ﬂotation from operations in Chile and               bornite, while chalcopyrite leaching is slow, as expected. However, of
+the USA. Most experiments were carried out with the −38+ 25 μm                    signiﬁcance is the observation that chalcopyrite is leaching during the
+for Concentrate 1 and the −38 μm size fractions for Concentrates 3
+and 4. The numbering of these materials is consistent with that used
+in Part 1. The chemical analyses of the screened samples are shown in
+Table 1 and mineralogical data obtained from mineral liberation
+analyses (MLA) are presented in Table 2. Concentrate 1 contained
+chalcopyrite as the major sulﬁde mineral, with only small amounts of
+bornite and enargite; while Concentrate 3 contained a signiﬁcant
+quantity of pyrite and some minor secondary copper sulﬁdes. The
+mineralogy of Concentrate 4 was not quantitatively determined but a
+previous sample of concentrate from the same ore had shown that
+
+
+Table 1
+Chemical composition (element, mass %).
+
+ Sample              Size (µm)       Cu     Fe        S          Ag (ppm)
+
+ Concentrate 1       + 25–38         30.8   28.3      32.4       50
+                                                                                  Fig. 1. Dissolution of copper sulﬁde minerals from Concentrate 3 under standard
+ Concentrate 3          −38          13.2   21.8      23.3       30
+                                                                                  conditions at a controlled potential of 580 mV as obtained by MLA analysis. (■) Cu2S,
+ Concentrate 4          −38          28.0   27.3      NA         NA
+                                                                                  (▲) Cu5FeS4, (●) CuS, and (♦) CuFeS2.
+82                                                          L.V. Yévenes et al. / Hydrometallurgy 103 (2010) 80–85
+
+
+period of dissolution of other minerals with about 50% chalcopyrite
+dissolved in the time required to leach 90% of the other sulﬁdes.
+   The results of dissolution of copper and iron obtained using
+chemical analysis of copper and iron in each solid sample from the
+MLA data were compared with results of dissolution obtained from
+AAS analyses of solution samples. The comparative results for copper
+presented in Fig. 2 show that the MLA technique used provides
+reasonably accurate estimates of the extent of dissolution of copper as
+calculated from that of the individual minerals. Results obtained with
+Concentrate 3 were therefore not used to quantitatively assess
+chalcopyrite dissolution as the costs of MLA analyses for every
+experimental run would have been prohibitive.
+
+
+                                                                                         Fig. 3. Effect of the type of agitation on the rate of copper dissolution from Concentrate
+3.2. The effect of the type of agitation                                                 1. a) Instrumented reactor with Ti impellor (♦) and b) magnetically stirred reactor (▲).
+
+    There is a common agreement (Burkin, 2001) that the rate of
+dissolution of chalcopyrite in either chloride or sulfate solutions is not               3.4. The effect of pulp density
+promoted by increased agitation. This is expected because the rate of
+dissolution is not controlled by mass transfer to the mineral surface                        The effect of pulp density was studied using three different
+(Dutrizac, 1981). Simple calculations of the rate of mass transport of                   amounts of Concentrate 1 under standard conditions of 0.2 M HCl and
+typical reagents to suspended chalcopyrite particles show that these                     0.5 g/L-1 Cu(II) at 35 °C under controlled potential using either oxygen
+rates are several orders of magnitude less than actually observed                        or nitrogen sparging for control. Fig. 5 summarizes the leaching curves
+under ambient conditions. Adequate agitation must simply be                              obtained. The curves at all pulp densities studied are essentially linear
+provided to keep the particles in suspension and prevent agglomer-                       and there is no clear trend with increasing pulp density. Control of the
+ation and inhomogeneity in solution.                                                     potential was found to be considerably easier at the higher pulp
+    The type of agitation can affect the kinetics as shown by the data in                densities due to the increased rate of consumption of dissolved
+Fig. 3 which summarizes the results obtained with two different types                    oxygen.
+of agitation during the leaching of Concentrate 1. It is obvious that
+under the same leaching conditions, the rate is noticeably higher                        3.5. The effect of the concentration of chloride
+when the leach reactor is magnetically agitated than when it is
+mechanically agitated with a titanium impellor. These results conﬁrm                         The leaching rate of copper from both Concentrate 1 and
+that signiﬁcant abrasion of the chalcopyrite mineral particles can                       Concentrate 3 was studied by using solutions containing 0.2 M HCl,
+occur in a magnetically stirred reactor with a resulting greater rate of                 0.5 g/L copper ions and increasing sodium chloride concentrations at
+dissolution. For this reason, all experiments were conducted in                          35 °C at controlled potential. Figs. 6 and 7 show that the rate of
+mechanically stirred reactors in which this effect is minimal.                           dissolution does not appear to be signiﬁcantly affected by the total
+                                                                                         chloride ion concentration under these conditions. These results
+                                                                                         conﬁrm preliminary observations that the presence of chloride ions is
+3.3. The effect of particle size                                                         necessary to improve the leaching kinetics, but that high concentra-
+                                                                                         tions of chloride are not essential under the conditions studied.
+   It is generally accepted that ﬁne grinding promotes more rapid                            Although a high chloride concentration does not increase the rate
+dissolution of chalcopyrite and that the rate of chalcopyrite leaching                   of dissolution of chalcopyrite under the present conditions, chloride
+increases in direct proportion to the initial surface area. However, as                  ions play a very important role in that the rate of oxidation of copper
+pointed out, (Dutrizac, 1981) problems with obtaining a well                             (I) and iron(II) by dissolved oxygen is enhanced at high chloride
+characterized surface area have resulted in erroneously reported                         concentrations (Miki and Nicol, 2008). In the absence of bacterial
+results that the rate of dissolution is independent of surface area. In                  oxidation, this is a most important component of any possible
+order to conﬁrm this effect, two size fractions of Concentrate 1 were                    chloride-based heap leaching operation. It should be noted that
+leached under standard conditions at controlled potential. Fig. 4                        much of the published data showing the effect of chloride on the rate
+shows clearly that the rate increases as the particle size decreases.                    of leaching of chalcopyrite were obtained under different conditions
+
+
+
+
+Fig. 2. Dissolution of copper from Concentrate 3 as measured by analysis of solution     Fig. 4. Leaching curves for the dissolution of (♦) +25–38 μm and (▲) − 25 μm size
+samples by AAS (▲) and intermediate solid samples by MLA (♦). Data from Fig. 1.          fractions of Concentrate 1 under standard conditions.
+                                                                L.V. Yévenes et al. / Hydrometallurgy 103 (2010) 80–85                                                                83
+
+
+
+
+                                                                                             Fig. 7. Effect of chloride concentration (■) 7 g/L, (▲) 20 g/L, and (♦) 50 g/L on the rate
+                                                                                             of copper dissolution from Concentrate 3 under otherwise standard conditions.
+Fig. 5. Effect of increasing pulp density on the rate of copper dissolution from
+Concentrate 1 under standard conditions (■) 1% solids, (▲) 2% solids and (♦) 3% solids.
+
+
+of higher temperature, different acid media and in the absence of                            3.7. Effect of iron(II) concentration
+controlled potential. Therefore, a comparison between many pub-
+lished observations and the present study is difﬁcult. However, most                             The effect of the iron(II) concentration (added as ferrous sulfate)
+studies agree that higher concentrations of chloride ions do not result                      on the leaching rate of copper from Concentrate 1 was examined
+in greater rates of copper extraction (Dutrizac, 1978; Hirato et al.,                        under otherwise standard conditions under controlled potential at
+1987; Lu et al., 2000; Wilson and Fisher, 1981).                                             35 °C. The results obtained are shown in Fig. 9. For reference, the
+    Some authors have observed that the presence of sodium chloride                          result obtained under standard conditions without addition of ferrous
+during leaching resulted in the precipitation of iron as natrojarosite;                      ions is included. It is obvious that the addition of ferrous ions
+and thus a lower iron recovery can be expected under these                                   apparently causes the rate to fall appreciably. However, it was difﬁcult
+conditions. In the present study, the extent of iron dissolution is                          to control the potential and the higher potentials in the runs with
+similar to that of copper except at higher pH values. Thus, the use of a                     ferrous ions may at least partially explain the lower reactivity in the
+low potential during the leach results in a low iron(III) concentration                      presence of ferrous ions.
+which minimizes jarosite formation in the present study.                                         The present ﬁndings support the results of Dutrizac (1978, 1981)
+                                                                                             and Jones and Peters (1976) in sulfate media but not the results
+3.6. The effect of cupric ion concentration                                                  obtained by the same authors in chloride media for which they
+                                                                                             reported that the rate of leaching of chalcopyrite was unaffected by
+   To examine the effect of the initial cupric ion concentration on the                      increasing amounts of ferrous ions at elevated temperatures under
+rate of leaching, experiments were carried out with Concentrate 1                            more strongly oxidizing conditions. In addition, the present results do
+using 0.2 M HCl solution with various initial concentrations of cupric                       not support the Japanese model (Hiroyoshi et al., 2000) in which an
+ions at controlled potential. Fig. 8 summarizes the leaching curves                          intermediate copper sulﬁde, suggested as Cu2S, is formed in the low
+obtained at 35 °C. Complete dissolution of the copper under these                            potential region by reduction of chalcopyrite by ferrous ions in the
+conditions would result in a ﬁnal cupric ion concentration of 3 g/L. All                     presence of copper ions.
+the curves are essentially linear and the leaching rate does not
+increase with increasing initial cupric ion concentration. However, the                                       2þ          2þ                  3þ
+presence of a small amount of cupric ion is important in order to                            CuFeS2 þ 2Fe          þ Cu        ¼ 2Cu2 S þ 2Fe
+achieve an acceptable chalcopyrite leaching rate, but concentrations
+above about 0.1 g/L do not increase the rate of dissolution. These                              In terms of this mechanism, the intermediate Cu2S is more rapidly
+results differ from those found in literature, but again, conditions are                     oxidized than chalcopyrite and this promotes enhanced copper
+very different in the current experiments. At higher temperatures and                        extraction in the presence of cupric and ferrous ions.
+chloride concentrations the rate could be affected by increasing cupric
+ion concentrations.
+
+
+
+
+Fig. 6. Effect of chloride concentration (■) 7 g/L, (▲) 20 g/L, and (♦) 70 g/L on the rate   Fig. 8. Effect of initial cupric ion concentration (□) 0.1 g/L, (▲) 0.5 g/L, and (♦) 1.0 g/L
+of copper dissolution from Concentrate 1 under otherwise standard conditions.                on copper dissolution from Concentrate 1 under otherwise standard conditions.
+84                                                             L.V. Yévenes et al. / Hydrometallurgy 103 (2010) 80–85
+
+
+
+
+                                                                                            Fig. 11. Effect of pH (■) 1.2, (▲) 1.5, and (●) 2.0 on the rate of copper dissolution from
+                                                                                            Concentrate 3 in 0.4 M chloride containing 0.2 M HCl. Also shown is the rate of iron
+                                                                                            dissolution (□) at pH 2.0.
+
+Fig. 9. Effect of initial ferrous ion concentration (♦) zero, (▲) 0.1 M, and (■) 1.0 M on
+copper dissolution from Concentrate 1 under otherwise standard conditions. Also             precipitation which is presumably not occurring on the surface of the
+shown are the solution potentials (open symbols).                                           mineral even at the highest pH tested.
+
+3.8. Effect of pH                                                                           3.9. Effect of temperature
+
+    To investigate the effect of pH on the rate of dissolution, leaching                        Fig. 12 summarizes the effect of various temperatures on the rate
+tests were carried out with both Concentrate 1 and Concentrate 3 at                         of copper dissolution from Concentrate 1 and Fig. 13 shows the data
+35 °C at potentials within the potential window. The pH was adjusted                        for Concentrate 4 under otherwise standard conditions at controlled
+with hydrochloric acid and sodium chloride was added to maintain an                         potential. Estimates of the rates of dissolution were obtained from the
+approximately constant chloride concentration. As is obvious from                           slopes of the linear sections at each temperature. In the case of
+Figs. 10 and 11, linear rates were obtained with Concentrate 1 which                        Concentrate 4, the initial slopes were used because of curvature of the
+increase somewhat with increasing pH although the effect is not great.                      plots due to the fact that a closely sized fraction was not used for this
+In the early stages of the dissolution at the low pH values it was very                     material. The Arrhenius plots obtained using these rates are shown in
+difﬁcult to control the potential at the desired value and it was                           Fig. 14 from which very similar activation energies of 72 kJ mol− 1 for
+necessary to introduce nitrogen gas into the reactors to reduce the                         Concentrate 1 and 73 kJ mol− 1 for Concentrate 4 are obtained. These
+potential. This is shown by a comparison of the potentials for two                          high values of the activation energy are not unexpected given the very
+experiments at high and low pH values. Thus, as shown for the data at                       slow rates of dissolution which are due to slow chemical or
+pH 0.34, the rate decreased during periods of high potential and                            electrochemical processes occurring on the surface of the mineral.
+increased during periods of low potential.                                                  The somewhat higher rates for Concentrate 4 are due to the ﬁner
+    This sensitivity to small changes in dissolved oxygen concentration                     mean particle size used for this material.
+makes the control of potential more difﬁcult and is due to the
+enhanced rates of oxidation of copper(I) by dissolved oxygen at low                         4. Conclusions
+pH (Nicol 1984). On the other hand, according to Dutrizac (1981), low
+acidity must be avoided due to iron hydrolysis and precipitation                                An increase in concentration of chloride ions in solution does not
+which can affect the leaching process. In the current leaching                              increase the leaching rate of chalcopyrite concentrates. The presence
+experiments, visible precipitation products were observed at pH 2.1                         of chloride ions is fundamental for enhanced leaching kinetics, but
+and the dissolution of iron was considerably lower than that of copper                      high concentrations are not essential. It should be noted that although
+as shown by the results in Fig. 12 for the experimental conditions of                       an increase in the concentration of chloride ions does not increase the
+Fig. 11.                                                                                    leaching rate, previous paper Part 1 of this series has shown that high
+    Preliminary X-ray diffraction analysis showed that the iron                             chloride concentrations can extend the potential window to higher
+precipitate was a very poorly crystalline akaganite. However, it                            values.
+appears that the dissolution of copper was not affected by this
+
+
+
+
+Fig. 10. Effect of pH (■) 0.34, (♦) 0.7, (▲) 1.3 and (●) 2.1 on copper dissolution from
+Concentrate 1 in 1 M chloride containing 0.2 M HCl. Also shown are the solution             Fig. 12. Effect of temperature (■) 25 °C, (♦) 35 °C, (▲) 50 °C, (×) 65 °C, and (●) 75 °C on
+potentials (open symbols) for the experiments at pH 0.34 and pH 2.1.                        the dissolution of copper from Concentrate 1 under otherwise standard conditions.
+                                                            L.V. Yévenes et al. / Hydrometallurgy 103 (2010) 80–85                                                                85
+
+
+
+
+Fig. 13. Effect of temperature (■) 25 °C, (♦) 35 °C, (▲) 50 °C, and (●) 75 °C on the
+dissolution of copper from Concentrate 4 under otherwise standard conditions.            Fig. 14. Arrhenius plots for the dissolution of copper from Concentrate 1 (▲) and
+                                                                                         Concentrate 4 (■) under standard conditions.
+
+
+   Arrhenius plots are approximately linear over the range of                            Puru Shrestha and his mineralogy team at BHP Billiton for their
+temperature employed with an apparent activation of energy of                            excellent mineralogical support of this project.
+73 kJ mol− 1 for Concentrate 1 and 71 kJ mol− 1 for Concentrate 3.
+   Although the presence of cupric ions is essential for enhanced
+dissolution rates increased concentrations do not improve the                            References
+leaching rate in the optimum potential window. Addition of ferrous
+                                                                                         Ammou-Chokroum, M., Sen, P.K., Fouques, F., 1981. Electro-oxidation of chalcopyrite in
+ions appears to decrease the rate of dissolution but this may be due to                      acid chloride medium: kinetics, stoichiometry and reaction mechanism. Develop-
+the presence of ferric ions and somewhat higher potentials. This                             ments in Mineral Processing 2, 759–809.
+observation is in contrast to that claimed in the Japanese model which                   Bonan, M., Demarthe, J.M., Renon, H., Baratin, F., 1981. Chalcopyrite leaching by CuCl2.
+                                                                                             Metallurgical Transactions B 12B, 269–273.
+requires the presence of both ferrous and cupric ions for enhanced                       Burkin, A.R., 2001. Chemical Hydrometallurgy: Theory and Principles. Imperial College
+leaching rates at low potentials.                                                            Press, London. 414 pp.
+   It was conﬁrmed that the rate of dissolution of chalcopyrite is                       Dutrizac, J.E., 1978. The kinetics of dissolution of chalcopyrite in ferric ion media.
+                                                                                             Metallurgical Transactions B 9B, 431–439.
+proportional to the surface area under the conditions of the present                     Dutrizac, J.E., 1981. The dissolution of chalcopyrite in ferric sulphate and ferric chloride
+experiments. Attention should be paid to the type of agitation used in                       media. Metallurgical Transactions B 12B, 371–378.
+leaching experiments in that it was found that magnetically agitated                     Guy, S., Broadbent, C.P., Lawson, G.J., 1983. Cupric chloride leaching of a complex
+                                                                                             copper/zinc/lead ore. Hydrometallurgy 10, 243–255.
+slurries leached at a higher rate due to abrasion/breakdown of the
+                                                                                         Havlik, T., Kammel, R., 1995. Leaching of chalcopyrite with acidiﬁed ferric chloride and
+concentrate particles. Although an increase in the pulp density does                         carbon tetrachloride addition. Minerals Engineering 8 (10), 1125–1134.
+not increase the leach rate appreciably, it assists in that control of the               Hirato, T., Kinoshita, M., Awakura, Y., Majima, H., 1986. The leaching of chalcopyrite
+potential is facilitated in the presence of adequate dissolved oxygen in                     with ferric chloride. Metallurgical Transactions B 17B, 19–28.
+                                                                                         Hirato, T., Majima, H., Awakura, Y., 1987. The leaching of chalcopyrite with cupric
+the system.                                                                                  chloride. Metallurgical Transactions B 18B, 31–39.
+   The rate is essentially independent of acid concentration in the pH                   Hiroyoshi, N., Miki, H., Hirajima, T., Tsunekawa, M., 2000. A model for ferrous promoted
+range of 0.5 to 2, but a fairly low pH is necessary to keep iron(III) in                     chalcopyrite leaching. Hydrometallurgy 57, 31–38.
+                                                                                         Jones, D.L., Peters, E., 1976. The leaching of chalcopyrite with ferric sulphate and ferric
+solution. There is no obvious evidence that precipitation of iron(III)                       chloride. In: Yannopoulos, Agarwa, J.C. (Eds.), Extractive Metallurgy of Copper.
+oxides or jarosite inhibits the rate of dissolution.                                         AIME, New York, pp. 633–653.
+   Mineralogical studies of samples taken at various times during an                     Lu, Z.Y., Jeffrey, M.I., Lawson, F., 2000. The effect of chloride ions on the dissolution of
+                                                                                             chalcopyrite in acidic solutions. Hydrometallurgy 56, 189–202.
+experiment have demonstrated that copper dissolves preferentially                        Majima, H., Awakura, Y., Hirato, T., Tanaka, T., 1985. The leaching of chalcopyrite in
+from chalcocite followed by covellite and bornite. Chalcopyrite                              ferric chloride and ferric sulphate solutions. Canadian Metallurgical Quarterly 24,
+appears to dissolve at a slower rate during dissolution of the other                         283–291.
+                                                                                         Miki, H., Nicol, M.J., 2008. The kinetics of the copper-catalysed oxidation of iron(II) in
+secondary sulﬁde minerals.                                                                   chloride solutions. In: Young, C., et al. (Ed.), Hydrometallurgy 2008, the Minerals,
+                                                                                             Metals and Materials Society, Warrendale, Pennsylvania, pp. 971–979.
+Acknowledgements                                                                         Nicol, M.J., 1984. The kinetics of the oxidation of copper(I) by oxygen in acidic chloride
+                                                                                             solutions. South African Journal of Chemistry 37, 77–80.
+                                                                                         Wilson, J.P., Fisher, W.W., 1981. Cupric chloride leaching of chalcopyrite. Journal of
+   The authors of this paper would like to acknowledge the ﬁnancial                          Metals 33 (2), 52–57.
+support from BHP Billiton and the Parker Centre. Thanks also to Dr
+
