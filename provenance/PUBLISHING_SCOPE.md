@@ -1,6 +1,6 @@
 # Publication scope and source rights
 
-The master-branch archive preserves all ten original user-supplied attachments byte for byte, their extracted measurement files, embedded Origin projects, numerical exports, analysis code, fit intermediates, mathematical derivations, manuscript sources, compiled deliverables, and earlier research drafts.
+The archive published on main and master preserves all ten original user-supplied attachments byte for byte, their extracted measurement files, embedded Origin projects, numerical exports, analysis code, fit intermediates, mathematical derivations, manuscript sources, compiled deliverables, and earlier research drafts.
 
 The source-to-repository inventory and SHA-256 hashes are recorded in `SNAPSHOT_MANIFEST.json`. Original binary inputs are not rewritten during publication. Earlier manuscript and rendering versions are kept under `archive/`; current PDFs are under `papers/`.
 

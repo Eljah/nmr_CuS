@@ -1,6 +1,6 @@
 # Copper NMR/NQR: anilite Cu7S4 and the historical CuS mixtures
 
-Research archive and working manuscript, 27 November 2026. The maintained research files are on the **`master` branch**.
+Research archive and working manuscript, 27 November 2026. The same complete research snapshot is published on **`main` and `master`**.
 
 ## Read the current work
 
@@ -8,6 +8,7 @@ Research archive and working manuscript, 27 November 2026. The maintained resear
 |---|---|---|
 | English NMR manuscript | [Anilite_NMR_en.pdf](papers/Anilite_NMR_en.pdf) | [LaTeX](latex_article/main.tex), [bibliography](latex_article/references.bib) |
 | Model EFG: complete theoretical derivation | [Anilite_EFG_theory.pdf](papers/Anilite_EFG_theory.pdf) | [LaTeX](theory/efg_derivation.tex), [Russian guide](theory/README_RU.md) |
+| Temperature of the structural input | — | [Why the reference structure is not a 4.2–5 K refinement](provenance/STRUCTURAL_TEMPERATURE_RU.md) |
 | Archival 1.5–2.2 MHz NQR signal | — | [Source audit with exact pages and quotations](new_evidence/thesis/LOW_FREQUENCY_SIGNAL_RU.md) |
 | Original measurements and recovered embedded tables | — | [Measurement inventory](provenance/MEASUREMENT_INVENTORY_RU.md), [raw attachments](upload/), [Origin extraction](data_analysis/thesis_embedded/) |
 
@@ -27,7 +28,7 @@ Four high-frequency NQR-labeled groups constrain the powder NMR calculation. Lab
 
 The thesis explicitly reports a broad, overlapping low-frequency NQR response at **1.5–2.2 MHz, 4.2 K**, for a nominal **Cu1.1S mixed sample**. Covellite has a known response in this interval. Cu3 in the reference anilite structure is a candidate for a possible additional contribution because it has the smallest EFG proxy in all six tested charge models. This is a hypothesis, not a phase-resolved resonance assignment.
 
-The model EFG is an **unscreened periodic point-charge calculation**. It omits the on-site electronic charge density, covalency, screening, and antishielding. Its numerical convergence does not validate those physical assumptions. A conditional common frequency scale puts Cu3 at about 1.503 MHz in the baseline model, while the six scenario minima span 1.40–3.52 MHz and the models do not jointly reproduce the measured frequencies and NMR asymmetries.
+The model EFG is an **unscreened periodic point-charge calculation of the near-room-temperature reference structure**, not a 4.2–5 K structural calculation. The source catalogue labels the structural entry 293 K; the transcribed CIF itself has no temperature field. The temperature of the experimenter's repeat X-ray measurement is not specified in the supplied files. It omits the on-site electronic charge density, covalency, screening, and antishielding. Its numerical convergence does not validate those physical assumptions. A conditional common frequency scale puts Cu3 at about 1.503 MHz in the baseline model, while the six scenario minima span 1.40–3.52 MHz and the models do not jointly reproduce the measured frequencies and NMR asymmetries.
 
 ## Repository map
 

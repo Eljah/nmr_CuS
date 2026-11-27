@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2026.11.26)  27 NOV 2026 06:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2026.11.26)  27 NOV 2026 07:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -686,13 +686,13 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 96BCC94C4AB0F8AB99C0F2FFA71DD287;4284.
  ) 
 Here is how much of TeX's memory you used:
- 13478 strings out of 475192
- 207670 string characters out of 5766868
+ 13470 strings out of 475192
+ 207590 string characters out of 5766868
  656557 words of memory out of 5000000
  35971 multiletter control sequences out of 15000+600000
- 654280 words of font info for 214 fonts, out of 8000000 for 9000
+ 653927 words of font info for 210 fonts, out of 8000000 for 9000
  18 hyphenation exceptions out of 8191
- 75i,14n,79p,1695b,464s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,14n,79p,1710b,464s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/ty
 pe1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx9.pfb></us
 r/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/pu
@@ -706,7 +706,7 @@ r/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/publ
 ic/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share
 /texmf/fonts/type1/public/lm/lmsy7.pfb></usr/share/texmf/fonts/type1/public/lm/
 lmsy9.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb>
-Output written on build/main.pdf (9 pages, 419156 bytes).
+Output written on build/main.pdf (9 pages, 419172 bytes).
 PDF statistics:
  475 PDF objects out of 1000 (max. 8388607)
  303 compressed objects within 4 object streams

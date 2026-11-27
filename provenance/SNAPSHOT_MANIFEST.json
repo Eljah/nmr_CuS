@@ -2,11 +2,11 @@
   "schema_version": 1,
   "snapshot_date": "2026-11-27",
   "destination_repository": "https://github.com/Eljah/nmr_CuS",
-  "destination_branch": "master",
+  "destination_branch": "main",
   "manifest_self_hash_policy": "This manifest is excluded from its own list. Its exact bytes are identified by the Git commit.",
   "scope": "All original user attachments and research files present in the source workspace; downloaded-publication and runtime exclusions are enumerated separately.",
-  "file_count": 1305,
-  "total_bytes": 445739949,
+  "file_count": 1308,
+  "total_bytes": 445767853,
   "files": [
     {
       "source_relative_path": ".gitignore",
@@ -18,8 +18,8 @@
     {
       "source_relative_path": "README.md",
       "repository_path": "README.md",
-      "bytes": 6206,
-      "sha256": "51966b107b801eaa48a4b15cdaf5e19ba32881cdeac94936616527ede5e6e0ae",
+      "bytes": 6671,
+      "sha256": "0c24e1bd4c74fe4058f22b63b474a8dc65567fcfa827acd9110b3e8e09beb22e",
       "category": "README.md"
     },
     {
@@ -6228,7 +6228,7 @@
       "source_relative_path": "latex_article/build/main.log",
       "repository_path": "latex_article/build/main.log",
       "bytes": 27149,
-      "sha256": "5de6f5543a9ad5969e5c33b1fc2e89a8655e452c49f164ea80ce0db68c730edd",
+      "sha256": "fda279faf7de3d620ed441783976d953de11cec96b5ce582bcdc81565705ae82",
       "category": "latex_article"
     },
     {
@@ -6241,8 +6241,8 @@
     {
       "source_relative_path": "latex_article/build/main.pdf",
       "repository_path": "latex_article/build/main.pdf",
-      "bytes": 419156,
-      "sha256": "d60c7c13eb675fcb95b1dc39c9e2b40af59bfa3ecb14e474f0c9efae017f8b98",
+      "bytes": 419172,
+      "sha256": "36c13c91bc589153f5674e148fb0b56cf79493f2eeba08b7d537dfe2f78f236a",
       "category": "latex_article"
     },
     {
@@ -6316,6 +6316,20 @@
       "category": "latex_article"
     },
     {
+      "source_relative_path": "latex_article/build/temperature_qualification_1.txt",
+      "repository_path": "latex_article/build/temperature_qualification_1.txt",
+      "bytes": 7702,
+      "sha256": "607d3b7025bb0d34ad16df8f2bc1823e36dd574d2f22293ead7a051158f378ce",
+      "category": "latex_article"
+    },
+    {
+      "source_relative_path": "latex_article/build/temperature_qualification_2.txt",
+      "repository_path": "latex_article/build/temperature_qualification_2.txt",
+      "bytes": 7702,
+      "sha256": "607d3b7025bb0d34ad16df8f2bc1823e36dd574d2f22293ead7a051158f378ce",
+      "category": "latex_article"
+    },
+    {
       "source_relative_path": "latex_article/figures/figure_t2_reanalysis.pdf",
       "repository_path": "latex_article/figures/figure_t2_reanalysis.pdf",
       "bytes": 25723,
@@ -6339,8 +6353,8 @@
     {
       "source_relative_path": "latex_article/main.tex",
       "repository_path": "latex_article/main.tex",
-      "bytes": 32280,
-      "sha256": "6462cf57f8e7466da505dbde94350a816b83c5e7770db1bfc92bd9ef4e8c02e4",
+      "bytes": 32295,
+      "sha256": "d890953f11c06d9d3fa9a42d2c7e69b25e596a00975c60fe99c31889795c6103",
       "category": "latex_article"
     },
     {
@@ -7368,15 +7382,15 @@
     {
       "source_relative_path": "papers/Anilite_NMR_en.pdf",
       "repository_path": "papers/Anilite_NMR_en.pdf",
-      "bytes": 419156,
-      "sha256": "d60c7c13eb675fcb95b1dc39c9e2b40af59bfa3ecb14e474f0c9efae017f8b98",
+      "bytes": 419172,
+      "sha256": "36c13c91bc589153f5674e148fb0b56cf79493f2eeba08b7d537dfe2f78f236a",
       "category": "papers"
     },
     {
       "source_relative_path": "papers/previews/article/page-1.png",
       "repository_path": "papers/previews/article/page-1.png",
-      "bytes": 638074,
-      "sha256": "8bbe22803f30434646162a5b5c55e5b82d1c9324ecf10b122085b5e6d7524528",
+      "bytes": 638972,
+      "sha256": "9dc73c63530b06c3098708c82685dbf9237225f5eb512513f50c69e7afa40300",
       "category": "papers"
     },
     {
@@ -8621,8 +8635,15 @@
     {
       "source_relative_path": "provenance/PUBLISHING_SCOPE.md",
       "repository_path": "provenance/PUBLISHING_SCOPE.md",
-      "bytes": 3136,
-      "sha256": "fed1cc83f59bf6e9504915d1ab2a445ddd7ef39c19dd6f37e88d057960e4dda0",
+      "bytes": 3151,
+      "sha256": "587c78cb6702bc5be477f0bdbe0847b42d19fae0366b0f14fbd382ef12a73bea",
+      "category": "provenance"
+    },
+    {
+      "source_relative_path": "provenance/STRUCTURAL_TEMPERATURE_RU.md",
+      "repository_path": "provenance/STRUCTURAL_TEMPERATURE_RU.md",
+      "bytes": 11075,
+      "sha256": "6ee4f5e464914d3512f9598b0af2585f1f1e3aa4fec9173f8b29d2154a876a26",
       "category": "provenance"
     },
     {
@@ -9206,5 +9227,9 @@
       "powder_model/__pycache__/validate_and_plot.cpython-312.pyc",
       "research_literature/__pycache__/reproduce_anilite_sites.cpython-312.pyc"
     ]
-  }
+  },
+  "destination_branches": [
+    "main",
+    "master"
+  ]
 }
