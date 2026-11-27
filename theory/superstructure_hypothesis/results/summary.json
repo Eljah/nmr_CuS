@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "frequency_unit": "MHz",
+  "input_frequencies_MHz": [11.9700000000000, 15.2700000000000, 16.1800000000000, 16.9600000000000],
+  "input_provenance": "User-provided line centres; no uncertainties or covariance supplied.",
+  "weights": "equal",
+  "theta_m": "pi*m/2, m=0,1,2,3",
+  "scalar_model": "nu0+b*cos(theta)+c*sin(theta)+d2*cos(2*theta)",
+  "first_harmonic_phase_convention": "A1*cos(theta+phi1); phi1=atan2(-c,b)",
+  "physical_spatial_order_measured": false,
+  "order_caution": "Spatial order is not measured; all 24 labelled assignments are enumerated.",
+  "labelled_orders": 24,
+  "opposite_pair_classes": 3,
+  "orders_per_pair_class": 8,
+  "best_tied_labelled_orders": 8,
+  "tie_selection": "first lexicographic input-label order within numerical tolerance",
+  "best": {
+    "input_labels_one_based": [1, 2, 4, 3],
+    "cyclic_frequencies_MHz": [11.9700000000000, 15.2700000000000, 16.9600000000000, 16.1800000000000],
+    "nu0_MHz": 15.0950000000000,
+    "b_MHz": -2.49500000000000,
+    "c_MHz": -0.455000000000000,
+    "d2_MHz": -0.629999999999999,
+    "first_harmonic_amplitude_MHz": 2.53614865494908,
+    "first_harmonic_phase_rad_cos_plus": 2.96121014661690,
+    "first_harmonic_phase_deg_cos_plus": 169.664843652464,
+    "first_harmonic_RMSE_MHz": 0.629999999999999,
+    "first_harmonic_SSE_MHz2": 1.58760000000000,
+    "abs_d2_over_first_amplitude": 0.248408151773994,
+    "first_harmonic_predicted_MHz": [12.6000000000000, 14.6400000000000, 17.5900000000000, 15.5500000000000],
+    "second_harmonic_exact_MHz": [11.9700000000000, 15.2700000000000, 16.9600000000000, 16.1800000000000],
+    "second_harmonic_exact_RMSE_MHz": 8.88178419700125e-16,
+    "second_harmonic_sine_coefficient_identifiable": false,
+    "second_harmonic_interpolation_residual_dof": 0
+  },
+  "tensor_invariant": {
+    "assumptions": "I=3/2; pure quadrupole Hamiltonian; symmetric traceless EFG",
+    "formula_SI": "nu_Hz^2=(e*Q)^2*Tr(V^2)/(6*h^2)",
+    "principal_values_identity": "Tr(V^2)=(3/2)*Vzz^2*(1+eta^2/3)",
+    "normalized_tensor": "W=(eQ/h)*V expressed in MHz",
+    "normalized_identity": "Tr(W^2)=6*nu_NQR_MHz^2",
+    "normalization_uses_no_selected_nuclear_Q_value": true,
+    "full_EFG_tensor_identified": false
+  },
+  "eta_only_test": {
+    "assumptions": "same isotope; fixed abs(Vzz); 0<=eta<=1; pure quadrupole frequencies",
+    "maximum_possible_frequency_ratio": 1.15470053837925,
+    "observed_maximum_to_minimum_frequency_ratio": 1.41687552213868,
+    "observed_Tr_V_squared_maximum_to_minimum_ratio": 2.00753624523576,
+    "fixed_abs_Vzz_compatible": false,
+    "minimum_required_abs_Vzz_maximum_to_minimum_ratio": 1.22705019617244,
+    "bound_is_not_a_charge_or_displacement_estimate": true
+  },
+  "interpretation_cautions": [
+    "Four coefficients interpolate four samples exactly; zero residual degrees of freedom. No structure, propagation vector or charge-density-wave mechanism is identified.",
+    "The scalar first-harmonic check does not exclude a first harmonic of the EFG tensor.",
+    "No statistical rejection level is inferred without experimental frequency uncertainties.",
+    "The fitted nu0 at the input temperature is not a predicted high-temperature resonance."
+  ],
+  "validation": {"passed": 22, "failed": 0}
+}

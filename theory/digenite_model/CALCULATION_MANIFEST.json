@@ -15,9 +15,14 @@
       "sha256": "29b8d834b49bb530899defc02f5f20d7f57ed3e142bb8750440c30c75fcb79af"
     },
     {
+      "path": "theory/digenite_model/ANALYTIC_DERIVATION_RU.md",
+      "bytes": 33477,
+      "sha256": "88df1ec42de67a63066e669d6044fd6139ec00e7d74ff28c0c5bba6bb93bf74f"
+    },
+    {
       "path": "theory/digenite_model/README_RU.md",
-      "bytes": 33596,
-      "sha256": "12a77edb1dd0f135b4e897fbe386ff12e0976dfe95da467a6c2f9e829d1bd084"
+      "bytes": 34139,
+      "sha256": "0d9a0be5e7f5bc1e3d6d8f91affc1676c7f7080130ee2a2d318dbc5f3c4ff20c"
     },
     {
       "path": "theory/digenite_model/analysis/continuous_charge_nnls.py",
@@ -346,5 +351,8 @@
       "bytes": 3366,
       "sha256": "f3c17ecde2820982edb9654dd0570b1a925467cb452b20074bead88ad615e322"
     }
-  ]
+  ],
+  "documentation_update_utc": "2026-11-27T17:38:05.522464+00:00",
+  "documentation_update_base_commit": "cdbbda92a2d924daff508f912fb23d116fd70728",
+  "documentation_update": "Added explicit intermediate derivations; numerical Ewald and NMR outputs unchanged."
 }

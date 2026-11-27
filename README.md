@@ -1,6 +1,6 @@
 # Copper NMR/NQR: anilite Cu7S4 and the historical CuS mixtures
 
-Research archive and working manuscript, 27 November 2026. The baseline research snapshot is published on **`main` and `master`**; the new digenite model calculation and axial-EFG NMR control below are added on **`master`**.
+Research archive and working manuscript, 27 November 2026. The baseline research snapshot is published on **`main` and `master`**; the digenite model, axial-EFG NMR control, complete analytic steps, and superstructure hypothesis below are added on **`master`**.
 
 ## Read the current work
 
@@ -9,6 +9,9 @@ Research archive and working manuscript, 27 November 2026. The baseline research
 | English NMR manuscript | [Anilite_NMR_en.pdf](papers/Anilite_NMR_en.pdf) | [LaTeX](latex_article/main.tex), [bibliography](latex_article/references.bib) |
 | Model EFG: complete theoretical derivation | [Anilite_EFG_theory.pdf](papers/Anilite_EFG_theory.pdf) | [LaTeX](theory/efg_derivation.tex), [Russian guide](theory/README_RU.md) |
 | Digenite alternative: calculated EFG/NQR and structure discrimination | — | [Russian calculation report](theory/digenite_model/README_RU.md), [Java/Maven module](theory/digenite_model/), [joint NMR control with all eta=0](theory/digenite_nmr_control/README_RU.md) |
+| Digenite calculation: formulas and intermediate analytic steps | — | [Full derivation](theory/digenite_model/ANALYTIC_DERIVATION_RU.md): Ewald Hessian and self term, spin-3/2 matrix, charge optimization, thermal variations |
+| One parent Cu site split by a superstructure | — | [Java/Maven calculation and guide](theory/superstructure_hypothesis/README_RU.md), [analytic notes](theory/superstructure_hypothesis/ANALYTIC_NOTES_RU.md), [cuprate frequencies, CDW, and superconductivity literature](theory/superstructure_hypothesis/LITERATURE_AND_INTERPRETATION_RU.md) |
+| Temperature dependence of the four archived NQR branches | — | [Numeric analysis](theory/superstructure_hypothesis/TEMPERATURE_ANALYSIS_RU.md), [original-table provenance](theory/superstructure_hypothesis/TEMPERATURE_DATA_PROVENANCE_RU.md), [Java-generated metrics](theory/superstructure_hypothesis/results/temperature_metrics.csv) |
 | Temperature of the structural input | — | [Why the reference structure is not a 4.2–5 K refinement](provenance/STRUCTURAL_TEMPERATURE_RU.md) |
 | Archival 1.5–2.2 MHz NQR signal | — | [Source audit with exact pages and quotations](new_evidence/thesis/LOW_FREQUENCY_SIGNAL_RU.md) |
 | Original measurements and recovered embedded tables | — | [Measurement inventory](provenance/MEASUREMENT_INVENTORY_RU.md), [raw attachments](upload/), [Origin extraction](data_analysis/thesis_embedded/) |
@@ -30,6 +33,10 @@ Four high-frequency NQR-labeled groups constrain the powder NMR calculation. Lab
 The thesis explicitly reports a broad, overlapping low-frequency NQR response at **1.5–2.2 MHz, 4.2 K**, for a nominal **Cu1.1S mixed sample**. Covellite has a known response in this interval. Cu3 in the reference anilite structure is a candidate for a possible additional contribution because it has the smallest EFG proxy in all six tested charge models. This is a hypothesis, not a phase-resolved resonance assignment.
 
 The model EFG is an **unscreened periodic point-charge calculation of the near-room-temperature reference structure**, not a 4.2–5 K structural calculation. The source catalogue labels the structural entry 293 K; the transcribed CIF itself has no temperature field. The temperature of the experimenter's repeat X-ray measurement is not specified in the supplied files. It omits the on-site electronic charge density, covalency, screening, and antishielding. Its numerical convergence does not validate those physical assumptions. A conditional common frequency scale puts Cu3 at about 1.503 MHz in the baseline model, while the six scenario minima span 1.40–3.52 MHz and the models do not jointly reproduce the measured frequencies and NMR asymmetries.
+
+The new four-subcell exercise tests whether the four observed frequencies can be represented by a scalar first harmonic with period four. Its global minimum over all assignments is RMSE = 0.630 MHz. A second harmonic interpolates the four numbers, with four coefficients for four observations; it does not identify a structure. A general first-harmonic **EFG tensor** need not produce a first-harmonic **frequency**, so this scalar result does not exclude the parent-site splitting hypothesis. Neither a superstructure nor a similar NQR frequency establishes electronic CDW order or superconductivity in anilite/digenite.
+
+The archived Origin table contains 24 temperatures and 18 complete four-line sets. The four lines remain distinct at the highest complete temperature, 270 K, with a 4.16 MHz span. Missing entries are preserved, and the branch labels are not reassigned around the unresolved s3/s4 approach. The table's 65Cu columns are calculated from 63Cu/1.081, not independent isotope measurements.
 
 ## Repository map
 

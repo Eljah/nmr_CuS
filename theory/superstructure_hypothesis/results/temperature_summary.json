@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "input_csv": "inputs/temperature_series.csv",
+  "input_sha256": "6b735e3026e15b680811b126e0ea22fd5f38b2c78f1fb3d942626162e1a9f415",
+  "input_rows": 24,
+  "complete_quartets": 18,
+  "incomplete_rows": 6,
+  "rows_sorted_by_temperature_for_display": true,
+  "all_recorded_temperature_min_K": 4.20000000000000,
+  "all_recorded_temperature_max_K": 290.000000000000,
+  "metrics_use_only_complete_quartets": true,
+  "missing_values_imputed": false,
+  "fixed_cyclic_order": ["s1", "s2", "s4", "s3"],
+  "cyclic_order_optimized_at_each_temperature": false,
+  "spatial_order_measured": false,
+  "coefficient_formulas": {"nu0": "(s1+s2+s3+s4)/4", "b": "(s1-s4)/2", "c": "(s2-s3)/2", "d2": "(s1-s2+s4-s3)/4", "first_harmonic_RMSE": "abs(d2)"},
+  "rms_splitting_definition": "sqrt(sum_i((nu_i-mean)^2)/4); population RMS",
+  "normalized_rms_definition": "rms_splitting/mean; dimensionless fraction",
+  "incomplete_quartet_temperatures_K": [180.000000000000, 200.000000000000, 210.000000000000, 220.000000000000, 280.000000000000, 290.000000000000],
+  "branches": {
+    "s1": {"observed_points": 22, "missing_temperatures_K": [280.000000000000, 290.000000000000]},
+    "s2": {"observed_points": 24, "missing_temperatures_K": []},
+    "s3": {"observed_points": 23, "missing_temperatures_K": [290.000000000000]},
+    "s4": {"observed_points": 20, "missing_temperatures_K": [180.000000000000, 200.000000000000, 210.000000000000, 220.000000000000]}
+  },
+  "first_complete_quartet": {"T_K": 4.20000000000000, "source_row": "1", "mean_MHz": 15.0950000000000, "span_MHz": 4.99000000000000, "rms_splitting_MHz": 1.90076958098555, "normalized_rms": 0.125920475719480, "max_to_min_ratio": 1.41687552213868, "nu0_MHz": 15.0950000000000, "b_MHz": -2.49500000000000, "c_MHz": -0.455000000000000, "d2_MHz": -0.629999999999999, "first_harmonic_RMSE_MHz": 0.629999999999999},
+  "last_complete_quartet": {"T_K": 270.000000000000, "source_row": "22", "mean_MHz": 14.1850000000000, "span_MHz": 4.16000000000000, "rms_splitting_MHz": 1.63091232137108, "normalized_rms": 0.114974432243291, "max_to_min_ratio": 1.36363636363636, "nu0_MHz": 14.1850000000000, "b_MHz": -1.87000000000000, "c_MHz": -0.540000000000000, "d2_MHz": -0.875000000000000, "first_harmonic_RMSE_MHz": 0.875000000000000},
+  "endpoint_comparison": {
+    "last_minus_first_mean_MHz": -0.910000000000002,
+    "last_minus_first_span_MHz": -0.830000000000000,
+    "last_minus_first_rms_splitting_MHz": -0.269857259614476,
+    "last_minus_first_normalized_rms": -0.0109460434761895,
+    "last_over_first_span": 0.833667334669339,
+    "last_over_first_rms_splitting": 0.858027368328068,
+    "last_over_first_normalized_rms": 0.913071774755882,
+    "last_minus_first_fixed_order_RMSE_MHz": 0.245000000000001
+  },
+  "graph": {"all_input_temperatures_retained": true, "segments_break_at_missing_cells": true, "maximum_connection_gap_K": 40.0000000000000, "curves_are_guides_to_eye_not_fits": true},
+  "interpretation_cautions": [
+    "The mean is the average of a complete quartet at that temperature, not a predicted high-temperature line.",
+    "Missing frequencies are not evidence of coalescence; their cause is not inferred.",
+    "Branch labels are retained from the source; no branch exchange is made near crossings.",
+    "The fixed cyclic assignment is hypothetical and does not determine a crystal structure or a propagation vector.",
+    "No statistical significance is assigned without frequency uncertainties and their covariance."
+  ],
+  "validation": {"passed": 8, "failed": 0},
+  "validation_checks": [
+    {"name": "metrics_count_equals_complete_input_rows", "absolute_error": 0, "absolute_tolerance": 0, "passed": true},
+    {"name": "max_variance_vs_fixed_order_Parseval_MHz2", "absolute_error": 8.88178419700125e-16, "absolute_tolerance": 5.75283200000000e-10, "passed": true},
+    {"name": "max_direct_first_harmonic_RMSE_vs_abs_d2_MHz", "absolute_error": 4.44089209850063e-16, "absolute_tolerance": 3.39200000000000e-11, "passed": true},
+    {"name": "max_two_harmonic_reconstruction_error_MHz", "absolute_error": 3.55271367880050e-15, "absolute_tolerance": 3.39200000000000e-11, "passed": true},
+    {"name": "max_mean_vs_nu0_MHz", "absolute_error": 1.77635683940025e-15, "absolute_tolerance": 3.39200000000000e-11, "passed": true},
+    {"name": "max_normalized_rms_reconstruction_error_MHz", "absolute_error": 2.22044604925031e-16, "absolute_tolerance": 3.39200000000000e-11, "passed": true},
+    {"name": "CSV_empty_frequency_cell_remains_empty", "absolute_error": 0, "absolute_tolerance": 0, "passed": true},
+    {"name": "CSV_quoted_source_fields_are_preserved", "absolute_error": 0, "absolute_tolerance": 0, "passed": true}
+  ]
+}

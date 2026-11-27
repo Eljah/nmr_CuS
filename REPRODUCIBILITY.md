@@ -1,5 +1,38 @@
 # Reproducing the anilite analysis
 
+## Java/Maven additions: digenite and the superstructure hypothesis
+
+The additions on `master` use Java 17+ with Maven project files and no
+external Java libraries:
+
+```bash
+cd theory/digenite_model
+mvn package
+java -jar target/digenite-efg-1.0.0.jar --config=model.properties
+```
+
+For the independent four-subcell frequency exercise, open
+`theory/superstructure_hypothesis/pom.xml` in IntelliJ or run the commands
+in its [guide](theory/superstructure_hypothesis/README_RU.md).
+It enumerates all 24 assignments of the four measured frequencies,
+exports analytic Fourier coefficients and residuals, and documents
+the difference between a frequency modulation and a tensor modulation.
+
+The host has OpenJDK 21.0.13.1 and its compiler module but no Maven binary.
+Compilation and execution were verified using the included `run.sh`
+fallback. The Maven commands are provided for a normal JDK/Maven setup;
+they were not executed on this host.
+
+The digenite Ewald sums, all 30 tensors, 720 frequency assignments,
+convergence subtotals, and individual retained real/reciprocal terms
+are saved in `theory/digenite_model/results/`. The independent continuous
+charge audit and the existing NMR-control scripts use Python/NumPy/SciPy;
+their code and outputs are retained alongside the Java calculation.
+See [the full analytic derivation](theory/digenite_model/ANALYTIC_DERIVATION_RU.md)
+and [the NMR control report](theory/digenite_nmr_control/README_RU.md).
+
+The existing anilite calculation and manuscript workflow follows below.
+
 ## Environment
 
 The calculations were run with Python 3.12, NumPy 2.3.5, SciPy 1.17.0, Matplotlib 3.10.8, and SymPy 1.14.0. `requirements.txt` pins these versions and the optional Word-generation dependency. Use a separate virtual environment if installing them.

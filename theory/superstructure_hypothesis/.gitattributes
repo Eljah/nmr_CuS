@@ -1,0 +1,2 @@
+# Keep the archived source byte-identical, including its original CRLF endings.
+inputs/temperature_source_Data1.csv -text whitespace=cr-at-eol
