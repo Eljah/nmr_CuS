@@ -1,0 +1,194 @@
+{
+  "purpose": "Local axial-EFG control with measured NQR; not a full Donnay structural prediction",
+  "criterion": "E = sum_r sum_i_in_mask [(pred_ri - observed_ri)/Y_r]^2, Y_r = maximum unmasked observed intensity in series r",
+  "baseline": "b0_r + b1_r*(frequency_MHz-78)/6; both coefficients unrestricted in sign",
+  "linear_parameters": "Four nonnegative group amplitudes and two signed baseline coefficients per series; re-solved at every nonlinear evaluation",
+  "bounds": {
+    "eta_free": [
+      0,
+      1
+    ],
+    "eta_axial": [
+      0,
+      0
+    ],
+    "nuZ63_MHz": [
+      74.8,
+      76.8
+    ],
+    "sigma_MHz": [
+      0.025,
+      0.25
+    ],
+    "rho65_per_series": [
+      0.05,
+      0.8
+    ]
+  },
+  "parameter_count_note": "Nominal counts: four eta are fixed in the axial model. NNLS activity and identifiability are not converted into statistical degrees of freedom.",
+  "NQR63_MHz": [
+    11.97,
+    15.27,
+    16.18,
+    16.96
+  ],
+  "NQR65_MHz": [
+    11.07,
+    14.13,
+    14.97,
+    15.69
+  ],
+  "NQR_constraint": "Hard constraint nuQ = nuNQR/sqrt(1+eta^2/3); no NQR-error penalty term",
+  "isotope_Zeeman_ratio": 1.071210656566704,
+  "masks": {
+    "coil_centres_MHz": [
+      75.941,
+      81.346
+    ],
+    "halfwidth_MHz": 0.12,
+    "excluded_duplicate_frequency_MHz": 81.4
+  },
+  "models": [
+    {
+      "model": "free_eta_archived_seed67",
+      "nonlinear_parameters": 11,
+      "linear_parameters": 12,
+      "nominal_total_parameters": 23,
+      "n_500ms": 245,
+      "n_20ms": 245,
+      "n_joint": 490,
+      "SSE_500ms": 0.24748599196544774,
+      "SSE_20ms": 0.29248415154894064,
+      "SSE_joint": 0.5399701435143884,
+      "normalized_RMS_500ms": 0.0317828083400668,
+      "normalized_RMS_20ms": 0.034551597118875184,
+      "normalized_RMS_joint": 0.033196082370111714,
+      "raw_RMS_500ms_au": 327.0884472497182,
+      "raw_RMS_20ms_au": 77.66233847278265,
+      "sigma_MHz": 0.06602179594965352,
+      "rho500": 0.20848718383636852,
+      "rho20": 0.20365089233052366,
+      "evaluation_grid": "160x320 octant; archived parameters, amplitudes and baseline re-solved",
+      "eta": [
+        0.8135470599039044,
+        0.05314748107334257,
+        0.2239730481235354,
+        0.33488102650627016
+      ],
+      "nuZ63_MHz": [
+        76.32437945203921,
+        75.95036230383305,
+        75.54389788851356,
+        76.51383064314089
+      ],
+      "nuQ63_MHz": [
+        10.834377901340961,
+        15.262816326127176,
+        16.04639779945264,
+        16.65162195941077
+      ],
+      "normalization500_au": 10291.363927,
+      "normalization20_au": 2247.720654,
+      "amplitudes500": [
+        370.14259724939336,
+        4657.982669679518,
+        4087.414292559023,
+        4106.699286162757
+      ],
+      "amplitudes20": [
+        234.23675248767384,
+        1094.3782661654777,
+        610.2950222778776,
+        381.3103960564751
+      ],
+      "linear_correction500": [
+        -448.6464223606085,
+        -203.41831552412503
+      ],
+      "linear_correction20": [
+        -57.88645779844296,
+        -37.905588704707704
+      ]
+    },
+    {
+      "model": "all_eta_zero",
+      "nonlinear_parameters": 7,
+      "linear_parameters": 12,
+      "nominal_total_parameters": 19,
+      "n_500ms": 245,
+      "n_20ms": 245,
+      "n_joint": 490,
+      "SSE_500ms": 0.3728528143496143,
+      "SSE_20ms": 0.44803441379060266,
+      "SSE_joint": 0.820887228140217,
+      "normalized_RMS_500ms": 0.03901087312320964,
+      "normalized_RMS_20ms": 0.04276344108023661,
+      "normalized_RMS_joint": 0.04093018516240812,
+      "raw_RMS_500ms_au": 401.4750924209735,
+      "raw_RMS_20ms_au": 96.1202697521599,
+      "sigma_MHz": 0.1315068534878115,
+      "rho500": 0.2220072457700945,
+      "rho20": 0.2319700465527018,
+      "evaluation_grid": "1280 cos(theta) midpoints; one azimuth by axial symmetry",
+      "eta": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "nuZ63_MHz": [
+        75.65214159609945,
+        75.94859222020317,
+        76.72366669579588,
+        75.71256039335148
+      ],
+      "nuQ63_MHz": [
+        11.97,
+        15.27,
+        16.18,
+        16.96
+      ],
+      "normalization500_au": 10291.363927,
+      "normalization20_au": 2247.720654,
+      "amplitudes500": [
+        1818.2403758270489,
+        4757.221639878458,
+        2853.479003845658,
+        3255.3538450155474
+      ],
+      "amplitudes20": [
+        68.00242719322299,
+        1298.7325181844103,
+        398.5653767196271,
+        539.1289008796964
+      ],
+      "linear_correction500": [
+        -418.0897533027217,
+        -350.3703790533782
+      ],
+      "linear_correction20": [
+        -64.79267654252824,
+        -67.7947399484884
+      ]
+    }
+  ],
+  "SSE_increase_percent": 52.024558764950136,
+  "RMS_increase_percent": 23.29823955148349,
+  "axial_global_search_success": true,
+  "archived_inputs_unchanged": true,
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "limits": [
+    "No fitted noise model or statistical confidence/p-value",
+    "Only a test of simultaneous eta=0, not separate confidence intervals for eta_s3 or eta_s4",
+    "Shift anisotropy, pulse excitation, texture, additional phases and group-specific broadening remain unmodelled",
+    "Free-reference parameters are archived exact 80x160 optima, evaluated here on the same dense grid without reoptimization",
+    "Signed linear correction may compensate for response-model deficiencies",
+    "A direct numerical global optimizer and several starts do not prove a mathematical global minimum",
+    "The joint all-eta-zero test does not establish separate nonzero eta for s3 or s4",
+    "NQR frequencies are observed anchors, not frequencies predicted from a digenite atomic structure"
+  ]
+}

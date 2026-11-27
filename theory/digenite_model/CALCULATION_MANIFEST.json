@@ -1,0 +1,350 @@
+{
+  "created_utc": "2026-11-27T16:31:16.979191+00:00",
+  "base_repository_commit": "c0c470b3b5447362128a4f3bb3f751a7ca742975",
+  "branch": "master",
+  "purpose": "Donnay digenite point-charge EFG/NQR and independent joint axial NMR control",
+  "main_runtime": "Java 17+; tested with OpenJDK 21.0.13.1 using run.sh",
+  "maven_status": "pom provided; Maven unavailable on calculation host",
+  "validation_checks": 197,
+  "failed_checks": 0,
+  "continuous_charge_NNLS_problems": 1920,
+  "files": [
+    {
+      "path": "theory/digenite_model/.gitignore",
+      "bytes": 27,
+      "sha256": "29b8d834b49bb530899defc02f5f20d7f57ed3e142bb8750440c30c75fcb79af"
+    },
+    {
+      "path": "theory/digenite_model/README_RU.md",
+      "bytes": 33596,
+      "sha256": "12a77edb1dd0f135b4e897fbe386ff12e0976dfe95da467a6c2f9e829d1bd084"
+    },
+    {
+      "path": "theory/digenite_model/analysis/continuous_charge_nnls.py",
+      "bytes": 7239,
+      "sha256": "e47f88d8271076e2ba5e7ee8bd789613196f2beab1b243ef401a98eeecd7264f"
+    },
+    {
+      "path": "theory/digenite_model/analysis/plot_results.py",
+      "bytes": 8496,
+      "sha256": "37e39b03db4dfee221c00903186f714fb135b32eb3121978acc5f2d71730c41a"
+    },
+    {
+      "path": "theory/digenite_model/figures/frequency_model_comparison.pdf",
+      "bytes": 25041,
+      "sha256": "7b6cc3a7d5a6df47eef529d734d876d478f0fa26933c38fd9dc5179fa6b9f4cf"
+    },
+    {
+      "path": "theory/digenite_model/figures/frequency_model_comparison.png",
+      "bytes": 173075,
+      "sha256": "d9f622c9c928be9c6a7bfb510e4fb75fe5bce6efdb0add5e9745f7e8d62f50bd"
+    },
+    {
+      "path": "theory/digenite_model/figures/frequency_model_comparison.svg",
+      "bytes": 16323,
+      "sha256": "a1e2b020409504f59fadb02894c396624e4fba66878c7bd8463aeef841f248f5"
+    },
+    {
+      "path": "theory/digenite_model/figures/geometry_sensitivity.pdf",
+      "bytes": 25417,
+      "sha256": "3d025431245e30c2ca06b6ae6d5feef1e5135b5f9ae996371d6ae65a9a10a8e1"
+    },
+    {
+      "path": "theory/digenite_model/figures/geometry_sensitivity.png",
+      "bytes": 144611,
+      "sha256": "604d65b248e31af0fd1adbf1ce81b6205ee3e03974f77524efee5bb8516bc1e9"
+    },
+    {
+      "path": "theory/digenite_model/figures/geometry_sensitivity.svg",
+      "bytes": 21578,
+      "sha256": "18d7c9d6c3fd351a4e273584ffed69b181b17cc25dd5f5b2a772e102f5f76455"
+    },
+    {
+      "path": "theory/digenite_model/figures/nmr_axial_control.pdf",
+      "bytes": 46298,
+      "sha256": "1925a424ede0bc88f66384d307063c1a9739c63ac0c91ebc4e96ba2b166927b0"
+    },
+    {
+      "path": "theory/digenite_model/figures/nmr_axial_control.png",
+      "bytes": 263797,
+      "sha256": "5a67eb5391235a4a9cc98058d62a45745425cacce32d9d882eb6749c77f35fbb"
+    },
+    {
+      "path": "theory/digenite_model/figures/nmr_axial_control.svg",
+      "bytes": 118189,
+      "sha256": "d6d4249065c6802104f555100e4af115c7262e409c75b89e6dfa22666f2d2ee1"
+    },
+    {
+      "path": "theory/digenite_model/inputs/COD_9000079_original.cif",
+      "bytes": 3505,
+      "sha256": "dbba101beb32b46ab35978bb006a4f228916d6b402f7696e16d387d6d924780b"
+    },
+    {
+      "path": "theory/digenite_model/inputs/PROVENANCE.md",
+      "bytes": 3462,
+      "sha256": "416b3e795496ef6293cd562493e80432615ba8f5fe9787f48a32863e79a55e8b"
+    },
+    {
+      "path": "theory/digenite_model/inputs/donnay1958_unique_orbits_R-3m.cif",
+      "bytes": 1541,
+      "sha256": "23806980f814e48e700f78b42a8a74a12207a25165e510aa0f19fdf2616ee643"
+    },
+    {
+      "path": "theory/digenite_model/model.properties",
+      "bytes": 851,
+      "sha256": "4ee7baeb2f9caa90d1d04cdb3c34cb71c4e741c845d1a2c6e1c901606b01e081"
+    },
+    {
+      "path": "theory/digenite_model/pom.xml",
+      "bytes": 1215,
+      "sha256": "f02dabea62f0bf3a2a7ae4a26421a014ce47e54ccfbcabef860f049f1044d302"
+    },
+    {
+      "path": "theory/digenite_model/results/alpha_convergence_subtotals.csv",
+      "bytes": 67054,
+      "sha256": "4581210d7bca28de7491dd74cdebb6f11d7d7919b0709be01e8b20b3057e4e81"
+    },
+    {
+      "path": "theory/digenite_model/results/assignments_all720.csv",
+      "bytes": 303894,
+      "sha256": "a3cda95e2d16ce580269dc7d18eecf6d4c4e4ff43e1f03d86acd08f35f038d8f"
+    },
+    {
+      "path": "theory/digenite_model/results/assignments_best6.csv",
+      "bytes": 3110,
+      "sha256": "b342e631c34bbb266e47d5c88341b76b74864b8d75463f90e5358dac8cce3d3f"
+    },
+    {
+      "path": "theory/digenite_model/results/cell_vectors.csv",
+      "bytes": 597,
+      "sha256": "7a60268f0deeb2045ab1cd48a7009fb82b8eac4545fb39e99d745d8d3a2949ed"
+    },
+    {
+      "path": "theory/digenite_model/results/charges.csv",
+      "bytes": 3471,
+      "sha256": "d6a8352bbc61b0553ae14312e3a6840afba124225411cc54d4150fdae4ae3f34"
+    },
+    {
+      "path": "theory/digenite_model/results/continuous_charge_best_by_omitted_site.csv",
+      "bytes": 1469,
+      "sha256": "099bfbe79865d7e9e1ee686d36047be0aed9df8d5f55de43add160dc66853664"
+    },
+    {
+      "path": "theory/digenite_model/results/continuous_charge_optimum.json",
+      "bytes": 11465,
+      "sha256": "08d3734eed26632cf5682b2e738732a154e0238ae449f3203095ce8d2c757423"
+    },
+    {
+      "path": "theory/digenite_model/results/direct_spherical_crosscheck.csv",
+      "bytes": 4266,
+      "sha256": "ea14a599c87d67c4041c315ea7dd6c67f7d058c8801c8044042d482b91594c16"
+    },
+    {
+      "path": "theory/digenite_model/results/effective.properties",
+      "bytes": 545,
+      "sha256": "79585870e8841f028b3f7078e22705ff475e9fcff83ac2b7f8cbb1a583a5c11b"
+    },
+    {
+      "path": "theory/digenite_model/results/expanded_atoms.csv",
+      "bytes": 881,
+      "sha256": "4af8ac17a8bd9f8d2d84658c32b0663dcc95d17d78b12d0cfc5513a41aaf0715"
+    },
+    {
+      "path": "theory/digenite_model/results/near_neighbors_lt5A.csv",
+      "bytes": 15722,
+      "sha256": "8b956a5c61dbd0cb18043e6fa786901df68162fa8867cb869f9d1380ca0dde5d"
+    },
+    {
+      "path": "theory/digenite_model/results/raw_real_uniform_mainalpha.csv.gz",
+      "bytes": 934093,
+      "sha256": "d8d07353a3c75d58c92177687399b6e67e09ede5b25ed4e3eac0172e480ac172"
+    },
+    {
+      "path": "theory/digenite_model/results/raw_reciprocal_uniform_mainalpha.csv.gz",
+      "bytes": 238659,
+      "sha256": "ca0905b35f8d3cdf0ef76b8993747427c6ae7f2b07bffd5bfe9190ace7e5655e"
+    },
+    {
+      "path": "theory/digenite_model/results/sensitivities_uniform_charges.csv",
+      "bytes": 22261,
+      "sha256": "48da3a88e124d268432c5d2240dd6dd9f325f3c650ee37c86c3de463b624b0e2"
+    },
+    {
+      "path": "theory/digenite_model/results/tensors_and_frequencies_30.csv",
+      "bytes": 13001,
+      "sha256": "71bb66a6f68337b4f7033f3fa559a8f1dffff54f8a22737c60f1f9909209b125"
+    },
+    {
+      "path": "theory/digenite_model/results/validation_checks.csv",
+      "bytes": 12519,
+      "sha256": "11a46fcc6eaaa753d7c9db19c7d1a69f0c67b5bcb675530607441cceb807be37"
+    },
+    {
+      "path": "theory/digenite_model/run.sh",
+      "bytes": 1273,
+      "sha256": "d4a126ff94a1bd84828a24d9ab8966e0b4e82036b7412b9fce383aa1f122c7b6"
+    },
+    {
+      "path": "theory/digenite_model/src/main/java/org/eljah/nmr/DigeniteEfg.java",
+      "bytes": 36920,
+      "sha256": "161d4de324620243bbb38fbdffb603228d0d1b052fd8da11471087789a1a2326"
+    },
+    {
+      "path": "theory/digenite_model/validation/README.md",
+      "bytes": 1419,
+      "sha256": "63cb8a77b93cf66a6827030c4aa35ac70dfe98a7c7085e7bad91c7cc5438a702"
+    },
+    {
+      "path": "theory/digenite_model/validation/independent_ewald.py",
+      "bytes": 4805,
+      "sha256": "7ca176d93ef4ba2a0d76aec7366770b74e1c8e5f10abafacdc98dc3a29c503a0"
+    },
+    {
+      "path": "theory/digenite_model/validation/independent_ewald_saved.json",
+      "bytes": 42015,
+      "sha256": "891eb4350ebe22aa41a2c236582e6673da32e1b685017760bb1634ca55e766fc"
+    },
+    {
+      "path": "theory/digenite_model/validation/independent_six_charges_saved.json",
+      "bytes": 8449,
+      "sha256": "c265883c2224c74fd6165277c72723f951658753d5fa0b5d1bf3c076926a4826"
+    },
+    {
+      "path": "theory/digenite_nmr_control/.gitignore",
+      "bytes": 19,
+      "sha256": "862263fa1f46c20f0d1e4dac5ffcc75abd55c08211b2c3864c5f8764b9d87793"
+    },
+    {
+      "path": "theory/digenite_nmr_control/FINAL_CONTROL.json",
+      "bytes": 10005,
+      "sha256": "4e8dd9c2adbcbdab0ca891831b4f6b9f9f3ba5ba6fa87e62bad39276544f6fea"
+    },
+    {
+      "path": "theory/digenite_nmr_control/README_RU.md",
+      "bytes": 7462,
+      "sha256": "a44f7d24062f7e9b37d1ab347461c33b31a54fc0b84e0920277d74d26062ede9"
+    },
+    {
+      "path": "theory/digenite_nmr_control/RESULTS.json",
+      "bytes": 10804,
+      "sha256": "46df25fdaeca3dec6da111fee5e9646892312b65d07fa63632a89140955271ad"
+    },
+    {
+      "path": "theory/digenite_nmr_control/archived_free_eta_seed29_exact160_20ms.csv",
+      "bytes": 31926,
+      "sha256": "54b14decc4524284e282e4abf486fb422cbc9e4995cffb71b6f56143c2097647"
+    },
+    {
+      "path": "theory/digenite_nmr_control/archived_free_eta_seed29_exact160_500ms.csv",
+      "bytes": 31916,
+      "sha256": "00de820dce79fa79e08dceaaaf12e0bf5aa7982392d7165cfa1fabf560cc0ed4"
+    },
+    {
+      "path": "theory/digenite_nmr_control/archived_free_eta_seed67_exact160_20ms.csv",
+      "bytes": 31935,
+      "sha256": "39af595c4df3de5ac7d2a7ef57c91632d3d1a023f14dda5927cec15c56599788"
+    },
+    {
+      "path": "theory/digenite_nmr_control/archived_free_eta_seed67_exact160_500ms.csv",
+      "bytes": 31919,
+      "sha256": "5c4d36c2cefe1b92a961196bc979126080a7617cfaf0d2c0aad783e654133c31"
+    },
+    {
+      "path": "theory/digenite_nmr_control/axial_control.py",
+      "bytes": 10157,
+      "sha256": "e3d2884ee7b689ad5db1a669bd550eac8564d4653824672dd57292d02ebc3af0"
+    },
+    {
+      "path": "theory/digenite_nmr_control/axial_exact1280_20ms.csv",
+      "bytes": 31952,
+      "sha256": "2316e7ffdd9b630d67d16e80d1fa7941d9d317f8de597ac846b9ed17abc0604b"
+    },
+    {
+      "path": "theory/digenite_nmr_control/axial_exact1280_500ms.csv",
+      "bytes": 31924,
+      "sha256": "b7d6ec1d11e1bc38aee1318aea3edced6eb7790413f13571fcc09a24679853a2"
+    },
+    {
+      "path": "theory/digenite_nmr_control/axial_exact160_20ms.csv",
+      "bytes": 31951,
+      "sha256": "9e54b46e784e0392b02e2293b5dda04bb1867049c1f8368ab57e08bfd0b59d5f"
+    },
+    {
+      "path": "theory/digenite_nmr_control/axial_exact160_500ms.csv",
+      "bytes": 31925,
+      "sha256": "961a90b36d4019f14124cc296d273cf9cc082e4438eba7cd6c58f21a86f5fc9d"
+    },
+    {
+      "path": "theory/digenite_nmr_control/axial_polar_convergence.json",
+      "bytes": 428,
+      "sha256": "ec78556ee19ff3d8aa6a8c2fc9dd4e9a31345230cfb395d0fff2c1e013daaf49"
+    },
+    {
+      "path": "theory/digenite_nmr_control/comparison.csv",
+      "bytes": 890,
+      "sha256": "5d2ba91671ed547dac69daca9ea81fa9aedb93f776ea2ffdf8c2aa77dc374244"
+    },
+    {
+      "path": "theory/digenite_nmr_control/exact_refinements_80x160.json",
+      "bytes": 5581,
+      "sha256": "9ae17b4fd55aede2bb94d7274359ca86281d56e021034241cbef9ae41e30e81c"
+    },
+    {
+      "path": "theory/digenite_nmr_control/library_trials.json",
+      "bytes": 1489,
+      "sha256": "5099e3ba80d4945baeb9a22f176b2386103746cff76ba94465b6b91dcb528a5f"
+    },
+    {
+      "path": "theory/digenite_nmr_control/parameters.csv",
+      "bytes": 867,
+      "sha256": "e5b949a8f4475e3e5afbef011f1e337dc9b09cfdc8f118846551e8b67ef58541"
+    },
+    {
+      "path": "theory/digenite_nmr_control/refine_axial_convergence.py",
+      "bytes": 4024,
+      "sha256": "b4cace771277471d531f3855d7458c5162d2f2fbc96a3de350a80f937cbccc19"
+    },
+    {
+      "path": "theory/digenite_nmr_control/summarize_control.py",
+      "bytes": 4731,
+      "sha256": "81717441a3ec7efd11e695893d26acb6ed55066b5163474073f2a8e69127ba86"
+    },
+    {
+      "path": "theory/digenite_nmr_control/summary.json",
+      "bytes": 5783,
+      "sha256": "fdab6cc3b3cf53c04cf4c1a4747cac6bfd443469d5a6694135facf7d8b81a4bf"
+    }
+  ],
+  "unchanged_reference_inputs": [
+    {
+      "path": "theory/results/efg/frequency_scaling_best_by_scenario.csv",
+      "bytes": 3970,
+      "sha256": "da228fec8b84f70de3efbfe1500f121f49dd73d6b7be59b8a336b6d53660ec4b"
+    },
+    {
+      "path": "theory/results/efg/tensor_summary.csv",
+      "bytes": 7157,
+      "sha256": "1b060076a8e1039c4704c06102239f321629503c10b16085d76efa51f25011c4"
+    },
+    {
+      "path": "data_analysis/export/opj_Spec05122016.csv",
+      "bytes": 19368,
+      "sha256": "671431b3339f41f26840d9f9a8a1b2a62b3f86ecf446e167d2ea2c0c27e5be69"
+    },
+    {
+      "path": "powder_model/powder_fit.py",
+      "bytes": 8894,
+      "sha256": "8fd297d4cc98ef8c93ec1787c10f5678b6f7378fdefd8fc7a3455ee7a0942382"
+    },
+    {
+      "path": "powder_model/joint_fit.py",
+      "bytes": 1117,
+      "sha256": "24a5885dbbfea6a33a5415395bf6214a8093ec81d9c4258ee848b89a13f95cf9"
+    },
+    {
+      "path": "powder_model/exact_joint_refinements.json",
+      "bytes": 3366,
+      "sha256": "f3c17ecde2820982edb9654dd0570b1a925467cb452b20074bead88ad615e322"
+    }
+  ]
+}

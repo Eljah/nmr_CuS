@@ -1,0 +1,111 @@
+#------------------------------------------------------------------------------
+#$Date: 2024-08-07 20:09:39 +0300 (Wed, 07 Aug 2024) $
+#$Revision: 294031 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/9/00/00/9000079.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9000079
+loop_
+_publ_author_name
+'Donnay, G.'
+'Donnay, J. D. H.'
+'Kullerud, G.'
+_publ_section_title
+;
+ Crystal and twin structure of digenite, Cu9S5
+;
+_journal_name_full               'American Mineralogist'
+_journal_page_first              228
+_journal_page_last               242
+_journal_volume                  43
+_journal_year                    1958
+_chemical_formula_sum            'Cu17 S9'
+_chemical_name_mineral           Digenite
+_space_group_IT_number           166
+_symmetry_space_group_name_Hall  '-P 3* 2'
+_symmetry_space_group_name_H-M   'R -3 m :R'
+_cell_angle_alpha                13.93
+_cell_angle_beta                 13.93
+_cell_angle_gamma                13.93
+_cell_formula_units_Z            1
+_cell_length_a                   16.16
+_cell_length_b                   16.16
+_cell_length_c                   16.16
+_cell_volume                     212.849
+_database_code_amcsd             0000082
+_exptl_crystal_density_diffrn    10.679
+_cod_original_sg_symbol_H-M      'R -3 m'
+_cod_database_code               9000079
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+-x,-z,-y
+-z,-x,-y
+y,x,z
+y,z,x
+-z,-y,-x
+-x,-y,-z
+x,z,y
+z,x,y
+-y,-x,-z
+-y,-z,-x
+z,y,x
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Cu1 0.50000 0.50000 0.50000
+Cu2 0.06000 0.06000 0.06000
+Cu3 -0.06000 -0.06000 -0.06000
+Cu4 0.13300 0.13300 0.13300
+Cu5 -0.13300 -0.13300 -0.13300
+Cu6 0.25000 0.25000 0.25000
+Cu7 -0.25000 -0.25000 -0.25000
+Cu8 0.35000 0.35000 0.35000
+Cu9 -0.35000 -0.35000 -0.35000
+S1 0.00000 0.00000 0.00000
+S2 0.20000 0.20000 0.20000
+S3 -0.20000 -0.20000 -0.20000
+S4 0.40000 0.40000 0.40000
+S5 -0.40000 -0.40000 -0.40000
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1
+;cod-tools version 3.10.1
+Id: cif_fix_AMCSD_atom_labels 10224 2024-08-07 11:09:31Z saulius
+;
+2024-08-07T19:38:01+03:00
+;Changed the following '_atom_site_label' values:
+the first duplicated label 'Cu'  converted to 'Cu1'
+duplicated label 'Cu' at index 1 converted to 'Cu2'
+duplicated label 'Cu' at index 2 converted to 'Cu3'
+duplicated label 'Cu' at index 3 converted to 'Cu4'
+duplicated label 'Cu' at index 4 converted to 'Cu5'
+duplicated label 'Cu' at index 5 converted to 'Cu6'
+duplicated label 'Cu' at index 6 converted to 'Cu7'
+duplicated label 'Cu' at index 7 converted to 'Cu8'
+duplicated label 'Cu' at index 8 converted to 'Cu9'
+the first duplicated label 'S'  converted to 'S1'
+duplicated label 'S' at index 10 converted to 'S2'
+duplicated label 'S' at index 11 converted to 'S3'
+duplicated label 'S' at index 12 converted to 'S4'
+duplicated label 'S' at index 13 converted to 'S5'
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0000082

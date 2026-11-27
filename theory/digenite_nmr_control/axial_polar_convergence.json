@@ -1,0 +1,27 @@
+[
+  {
+    "n_cos_theta": 80,
+    "n_phi": 1,
+    "SSE_joint": 0.8297771816827022
+  },
+  {
+    "n_cos_theta": 160,
+    "n_phi": 1,
+    "SSE_joint": 0.8226079728020981
+  },
+  {
+    "n_cos_theta": 320,
+    "n_phi": 1,
+    "SSE_joint": 0.8224996358566297
+  },
+  {
+    "n_cos_theta": 640,
+    "n_phi": 1,
+    "SSE_joint": 0.8224840770911498
+  },
+  {
+    "n_cos_theta": 1280,
+    "n_phi": 1,
+    "SSE_joint": 0.8224734267333753
+  }
+]

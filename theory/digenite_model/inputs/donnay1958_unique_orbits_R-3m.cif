@@ -1,0 +1,51 @@
+# Derived input for a model calculation; NOT a new experimental refinement.
+# Source: Donnay G., Donnay J.D.H., Kullerud G. (1958), American Mineralogist
+# 43, 228-242, Crystal and twin structure of digenite, Cu9S5.
+# Coordinate transcription checked against COD 9000079 / AMCSD 0000082.
+# Each inversion orbit is listed ONCE here. The downloaded COD file lists
+# both +/- partners as independent rows and also supplies inversion symmetry.
+# The angle below is the original 13 degrees 56 minutes, not rounded 13.93.
+# No measured 4.2-5 K geometry or thermal displacement model is supplied.
+data_donnay1958_unique_orbits_model
+_chemical_name_mineral 'Digenite'
+_chemical_formula_sum 'Cu9 S5'
+_space_group_IT_number 166
+_symmetry_space_group_name_Hall '-P 3* 2'
+_symmetry_space_group_name_H-M 'R -3 m :R'
+_cell_length_a 16.16
+_cell_length_b 16.16
+_cell_length_c 16.16
+_cell_angle_alpha 13.933333333333334
+_cell_angle_beta 13.933333333333334
+_cell_angle_gamma 13.933333333333334
+_cell_volume 212.949369199442
+_cell_formula_units_Z 1
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+-x,-z,-y
+-z,-x,-y
+y,x,z
+y,z,x
+-z,-y,-x
+-x,-y,-z
+x,z,y
+z,x,y
+-y,-x,-z
+-y,-z,-x
+z,y,x
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+DgA Cu 0.50000 0.50000 0.50000 1
+DgB Cu 0.06000 0.06000 0.06000 1
+DgC Cu 0.13300 0.13300 0.13300 1
+DgD Cu 0.25000 0.25000 0.25000 1
+DgE Cu 0.35000 0.35000 0.35000 1
+S0 S 0.00000 0.00000 0.00000 1
+S1 S 0.20000 0.20000 0.20000 1
+S2 S 0.40000 0.40000 0.40000 1

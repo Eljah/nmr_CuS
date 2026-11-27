@@ -1,6 +1,6 @@
 # Copper NMR/NQR: anilite Cu7S4 and the historical CuS mixtures
 
-Research archive and working manuscript, 27 November 2026. The same complete research snapshot is published on **`main` and `master`**.
+Research archive and working manuscript, 27 November 2026. The baseline research snapshot is published on **`main` and `master`**; the new digenite model calculation and axial-EFG NMR control below are added on **`master`**.
 
 ## Read the current work
 
@@ -8,6 +8,7 @@ Research archive and working manuscript, 27 November 2026. The same complete res
 |---|---|---|
 | English NMR manuscript | [Anilite_NMR_en.pdf](papers/Anilite_NMR_en.pdf) | [LaTeX](latex_article/main.tex), [bibliography](latex_article/references.bib) |
 | Model EFG: complete theoretical derivation | [Anilite_EFG_theory.pdf](papers/Anilite_EFG_theory.pdf) | [LaTeX](theory/efg_derivation.tex), [Russian guide](theory/README_RU.md) |
+| Digenite alternative: calculated EFG/NQR and structure discrimination | — | [Russian calculation report](theory/digenite_model/README_RU.md), [Java/Maven module](theory/digenite_model/), [joint NMR control with all eta=0](theory/digenite_nmr_control/README_RU.md) |
 | Temperature of the structural input | — | [Why the reference structure is not a 4.2–5 K refinement](provenance/STRUCTURAL_TEMPERATURE_RU.md) |
 | Archival 1.5–2.2 MHz NQR signal | — | [Source audit with exact pages and quotations](new_evidence/thesis/LOW_FREQUENCY_SIGNAL_RU.md) |
 | Original measurements and recovered embedded tables | — | [Measurement inventory](provenance/MEASUREMENT_INVENTORY_RU.md), [raw attachments](upload/), [Origin extraction](data_analysis/thesis_embedded/) |
