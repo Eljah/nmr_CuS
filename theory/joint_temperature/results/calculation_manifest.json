@@ -1,0 +1,20 @@
+{
+  "module": "joint-temperature",
+  "source_language": "Java 17",
+  "runtime": "17.0.17+10",
+  "input_sha256": "6b735e3026e15b680811b126e0ea22fd5f38b2c78f1fb3d942626162e1a9f415",
+  "source_Data1_sha256": "cd331631cb3f904dfa38ef6f61e403f39c021678019a1103763cad36851855ec",
+  "source_commit": "cdbbda92a2d924daff508f912fb23d116fd70728",
+  "n_temperatures": 24,
+  "n_finite_observations": 89,
+  "n_complete_quartets": 18,
+  "bose_theta_bounds_K": [1, 3000],
+  "physical_E_bounds": [1.0000000001, 1000000],
+  "scalar_optimizer_grid_intervals": 400,
+  "label_scenarios": ["original", "swap_s3_s4_T_ge_230K"],
+  "period4_global_classes": 3,
+  "experimental_sigma_supplied": false,
+  "formal_significance_calculated": false,
+  "random_sampling": false,
+  "physical_construction": "conditional TLS direction plus Gram-constrained identity; observed D retained; not global tensor least squares"
+}

@@ -1,0 +1,26 @@
+{
+  "generator": "Java 17 / XChart 3.8.8",
+  "fit_performed": false,
+  "source_files": [
+    {"path": "theory/superstructure_hypothesis/inputs/temperature_series.csv", "sha256": "6b735e3026e15b680811b126e0ea22fd5f38b2c78f1fb3d942626162e1a9f415"},
+    {"path": "theory/joint_temperature/results/thermal_predictions.csv", "sha256": "137d3f1c0ec9339bb5c1cc9987511b1983201acb4cd9b7be16530643e1773536"},
+    {"path": "theory/joint_temperature/results/tensor_coefficients.csv", "sha256": "93d8e6272d63701d76fef5048030e914d72426932698c94465d2344882579ab8"},
+    {"path": "theory/relaxation_dynamics/outputs/r1_normalized.csv", "sha256": "5dfe41c508c13b547625566e3abcda82d4900cb498ba2a8b844f96069135d2a4"},
+    {"path": "theory/relaxation_dynamics/outputs/bpp_tau0_profile.csv", "sha256": "d09e37639cc72b6329db48c39351e5cd12abc3863d591052e7cb852867a56945"},
+    {"path": "theory/nmr_shift_anisotropy/results/final_free_eta_isotropic_k_500ms.csv", "sha256": "3eefc3b175187d02e933b94e99e2b875a1d970a79ca0025586ff5b26e6c7d40d"},
+    {"path": "theory/nmr_shift_anisotropy/results/final_axial_eta_axial_k_500ms.csv", "sha256": "712d4c0b90c92baf87e124590d65160de394902482f14800601fc7c65bbc2a27"},
+    {"path": "theory/nmr_shift_anisotropy/results/final_free_eta_axial_k_500ms.csv", "sha256": "f788b92e648650c358ea946a4f983ab417cb31c5eca991530dc36ee246525780"},
+    {"path": "theory/nmr_shift_anisotropy/results/final_free_eta_isotropic_k_20ms.csv", "sha256": "0e832ea8e6ef37cca0833cd13dc4caa2b651c4ee9ea27241e3df3da276575eab"},
+    {"path": "theory/nmr_shift_anisotropy/results/final_axial_eta_axial_k_20ms.csv", "sha256": "bc589db3d7b8c148defc780fe9769430b864e1372d6b1b5ba0791c99729fb7b4"},
+    {"path": "theory/nmr_shift_anisotropy/results/final_free_eta_axial_k_20ms.csv", "sha256": "e9a9714cf8af40bb1e68f2531262c1bd96e060939a28781569265681fd12425a"}
+  ],
+  "notes": [
+    "NQR points are archived measurements; optional lines are the shared-Bose fit, not additional measurements.",
+    "The tensor-direction angle is in the (B,F) Fourier-coefficient plane; it is not an atomic or EFG-axis rotation angle.",
+    "R1 error bars preserve archived error scales; their confidence convention is unknown.",
+    "Lines joining R1 points are visual guides, not fitted models.",
+    "BPP one-percent tolerance is descriptive, not a confidence interval.",
+    "NMR data and predictions use the maximum retained observed intensity of each repetition dataset; masked points remain marked.",
+    "NMR comparison panels zoom to normalized intensity -0.02 to 1.06; fullscale panels retain the taller masked instrumental peaks."
+  ]
+}

@@ -1,0 +1,368 @@
+{
+  "purpose": "Local axial-EFG control with measured NQR; not a full Donnay structural prediction",
+  "axial_quadrature": "1280 uniform cos(theta) midpoints, one azimuth; symmetry equivalent for axial EFG and isotropic shift",
+  "azimuth_equivalence_abs_SSE_error_at80": 2.0872192862952943e-14,
+  "azimuth_equivalence_abs_SSE_error_at160": 6.217248937900877e-15,
+  "polar_convergence_at_fixed_80grid_parameters": [
+    {
+      "n_cos_theta": 80,
+      "n_phi": 1,
+      "SSE_joint": 0.8297771816827022
+    },
+    {
+      "n_cos_theta": 160,
+      "n_phi": 1,
+      "SSE_joint": 0.8226079728020981
+    },
+    {
+      "n_cos_theta": 320,
+      "n_phi": 1,
+      "SSE_joint": 0.8224996358566297
+    },
+    {
+      "n_cos_theta": 640,
+      "n_phi": 1,
+      "SSE_joint": 0.8224840770911498
+    },
+    {
+      "n_cos_theta": 1280,
+      "n_phi": 1,
+      "SSE_joint": 0.8224734267333753
+    }
+  ],
+  "local_refinements_640x1": [
+    {
+      "parameters": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        75.65214408638589,
+        75.94859312644424,
+        76.72366865275109,
+        75.7125548709781,
+        0.1315143510613737,
+        0.22200901295250067,
+        0.2319698653523718
+      ],
+      "eta": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "nuZ63_MHz": [
+        75.65214408638589,
+        75.94859312644424,
+        76.72366865275109,
+        75.7125548709781
+      ],
+      "sigma_MHz": 0.1315143510613737,
+      "rho500": 0.22200901295250067,
+      "rho20": 0.2319698653523718,
+      "nuQ63_MHz": [
+        11.97,
+        15.27,
+        16.18,
+        16.96
+      ],
+      "500ms": {
+        "normalized_SSE": 0.37285043821525693,
+        "n": 245,
+        "normalized_RMS": 0.03901074881782685,
+        "raw_RMS_au": 401.4738131490412,
+        "normalization_au": 10291.363927,
+        "amplitudes": [
+          1818.1814590558058,
+          4757.34666295707,
+          2853.484108613392,
+          3255.3308504171546
+        ],
+        "linear_correction": [
+          -418.10108989511957,
+          -350.37076156011057
+        ]
+      },
+      "20ms": {
+        "normalized_SSE": 0.4480480907064453,
+        "n": 245,
+        "normalized_RMS": 0.04276409378402826,
+        "raw_RMS_au": 96.12173684795334,
+        "normalization_au": 2247.720654,
+        "amplitudes": [
+          67.98954204343194,
+          1298.7599165812096,
+          398.56363953372863,
+          539.123880129162
+        ],
+        "linear_correction": [
+          -64.79392322553468,
+          -67.79431581614533
+        ]
+      },
+      "SSE_joint": 0.8208985289217022,
+      "n_joint": 490,
+      "normalized_RMS_joint": 0.0409304668950694,
+      "label": "best_library_then_80x160",
+      "success": true,
+      "message": "`ftol` termination condition is satisfied.",
+      "nfev": 10,
+      "boundaries": [],
+      "elapsed_seconds": 1.1975319385528564
+    },
+    {
+      "parameters": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        75.65214159609945,
+        75.94859222020317,
+        76.72366669579588,
+        75.71256039335148,
+        0.1315068534878115,
+        0.2220072457700945,
+        0.2319700465527018
+      ],
+      "eta": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "nuZ63_MHz": [
+        75.65214159609945,
+        75.94859222020317,
+        76.72366669579588,
+        75.71256039335148
+      ],
+      "sigma_MHz": 0.1315068534878115,
+      "rho500": 0.2220072457700945,
+      "rho20": 0.2319700465527018,
+      "nuQ63_MHz": [
+        11.97,
+        15.27,
+        16.18,
+        16.96
+      ],
+      "500ms": {
+        "normalized_SSE": 0.37285889178722825,
+        "n": 245,
+        "normalized_RMS": 0.03901119105722065,
+        "raw_RMS_au": 401.47836439558563,
+        "normalization_au": 10291.363927,
+        "amplitudes": [
+          1818.2283221860614,
+          4757.228435043349,
+          2853.4623232254617,
+          3255.349523704112
+        ],
+        "linear_correction": [
+          -418.08567457909356,
+          -350.3701872224754
+        ]
+      },
+      "20ms": {
+        "normalized_SSE": 0.4480395879600522,
+        "n": 245,
+        "normalized_RMS": 0.04276368800842423,
+        "raw_RMS_au": 96.12082477774727,
+        "normalization_au": 2247.720654,
+        "amplitudes": [
+          67.9999300609614,
+          1298.7323740081245,
+          398.5616579801973,
+          539.1310408195719
+        ],
+        "linear_correction": [
+          -64.79201094324637,
+          -67.79446187899721
+        ]
+      },
+      "SSE_joint": 0.8208984797472805,
+      "n_joint": 490,
+      "normalized_RMS_joint": 0.04093046566913708,
+      "label": "direct_global_seed101",
+      "success": true,
+      "message": "Both `ftol` and `xtol` termination conditions are satisfied.",
+      "nfev": 2,
+      "boundaries": [],
+      "elapsed_seconds": 0.20883870124816895
+    }
+  ],
+  "direct_global_search": {
+    "seed": 101,
+    "SSE_joint": 0.8208985289217022,
+    "nfev": 2303,
+    "success": true,
+    "message": "Optimization terminated successfully.",
+    "elapsed_seconds": 49.77769231796265
+  },
+  "axial_final_1280x1": {
+    "parameters": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      75.65214159609945,
+      75.94859222020317,
+      76.72366669579588,
+      75.71256039335148,
+      0.1315068534878115,
+      0.2220072457700945,
+      0.2319700465527018
+    ],
+    "eta": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "nuZ63_MHz": [
+      75.65214159609945,
+      75.94859222020317,
+      76.72366669579588,
+      75.71256039335148
+    ],
+    "sigma_MHz": 0.1315068534878115,
+    "rho500": 0.2220072457700945,
+    "rho20": 0.2319700465527018,
+    "nuQ63_MHz": [
+      11.97,
+      15.27,
+      16.18,
+      16.96
+    ],
+    "500ms": {
+      "normalized_SSE": 0.3728528143496143,
+      "n": 245,
+      "normalized_RMS": 0.03901087312320964,
+      "raw_RMS_au": 401.4750924209735,
+      "normalization_au": 10291.363927,
+      "amplitudes": [
+        1818.2403758270489,
+        4757.221639878458,
+        2853.479003845658,
+        3255.3538450155474
+      ],
+      "linear_correction": [
+        -418.0897533027217,
+        -350.3703790533782
+      ]
+    },
+    "20ms": {
+      "normalized_SSE": 0.44803441379060266,
+      "n": 245,
+      "normalized_RMS": 0.04276344108023661,
+      "raw_RMS_au": 96.1202697521599,
+      "normalization_au": 2247.720654,
+      "amplitudes": [
+        68.00242719322299,
+        1298.7325181844103,
+        398.5653767196271,
+        539.1289008796964
+      ],
+      "linear_correction": [
+        -64.79267654252824,
+        -67.7947399484884
+      ]
+    },
+    "SSE_joint": 0.820887228140217,
+    "n_joint": 490,
+    "normalized_RMS_joint": 0.04093018516240812
+  },
+  "archived_free_eta_best_160x320": {
+    "parameters": [
+      0.8135470599039044,
+      0.05314748107334257,
+      0.2239730481235354,
+      0.33488102650627016,
+      76.32437945203921,
+      75.95036230383305,
+      75.54389788851356,
+      76.51383064314089,
+      0.06602179594965352,
+      0.20848718383636852,
+      0.20365089233052366
+    ],
+    "eta": [
+      0.8135470599039044,
+      0.05314748107334257,
+      0.2239730481235354,
+      0.33488102650627016
+    ],
+    "nuZ63_MHz": [
+      76.32437945203921,
+      75.95036230383305,
+      75.54389788851356,
+      76.51383064314089
+    ],
+    "sigma_MHz": 0.06602179594965352,
+    "rho500": 0.20848718383636852,
+    "rho20": 0.20365089233052366,
+    "nuQ63_MHz": [
+      10.834377901340961,
+      15.262816326127176,
+      16.04639779945264,
+      16.65162195941077
+    ],
+    "500ms": {
+      "normalized_SSE": 0.24748599196544774,
+      "n": 245,
+      "normalized_RMS": 0.0317828083400668,
+      "raw_RMS_au": 327.0884472497182,
+      "normalization_au": 10291.363927,
+      "amplitudes": [
+        370.14259724939336,
+        4657.982669679518,
+        4087.414292559023,
+        4106.699286162757
+      ],
+      "linear_correction": [
+        -448.6464223606085,
+        -203.41831552412503
+      ]
+    },
+    "20ms": {
+      "normalized_SSE": 0.29248415154894064,
+      "n": 245,
+      "normalized_RMS": 0.034551597118875184,
+      "raw_RMS_au": 77.66233847278265,
+      "normalization_au": 2247.720654,
+      "amplitudes": [
+        234.23675248767384,
+        1094.3782661654777,
+        610.2950222778776,
+        381.3103960564751
+      ],
+      "linear_correction": [
+        -57.88645779844296,
+        -37.905588704707704
+      ]
+    },
+    "SSE_joint": 0.5399701435143884,
+    "n_joint": 490,
+    "normalized_RMS_joint": 0.033196082370111714,
+    "archived_source_seed": 67,
+    "archived_80x160_SSE": 0.541878438121488
+  },
+  "SSE_ratio_axial_over_best_free": 1.5202455876495014,
+  "RMS_ratio_axial_over_best_free": 1.232982395514835,
+  "caveats": [
+    "No fitted noise model or statistical confidence/p-value",
+    "Only a test of simultaneous eta=0, not separate confidence intervals for eta_s3 or eta_s4",
+    "Shift anisotropy, pulse excitation, texture, additional phases and group-specific broadening remain unmodelled",
+    "Free-reference parameters are archived exact 80x160 optima, evaluated here on the same dense grid without reoptimization",
+    "Signed linear correction may compensate for response-model deficiencies"
+  ],
+  "input_sha256_after": {
+    "powder_model/powder_fit.py": "8fd297d4cc98ef8c93ec1787c10f5678b6f7378fdefd8fc7a3455ee7a0942382",
+    "powder_model/joint_fit.py": "24a5885dbbfea6a33a5415395bf6214a8093ec81d9c4258ee848b89a13f95cf9",
+    "powder_model/refine_exact_joint.py": "bfd671814d7e9491f0b5165a943ee7308259dc5b65d136113ccd97dbe08b39ae",
+    "powder_model/joint_results.json": "d6a681502a28e3598d63aa09a2191563b77240ba3234c39dde8724ff3264ac0c",
+    "powder_model/exact_joint_refinements.json": "f3c17ecde2820982edb9654dd0570b1a925467cb452b20074bead88ad615e322",
+    "data_analysis/export/opj_Spec05122016.csv": "671431b3339f41f26840d9f9a8a1b2a62b3f86ecf446e167d2ea2c0c27e5be69"
+  },
+  "archived_inputs_unchanged": true,
+  "elapsed_seconds": 51.44159817695618
+}

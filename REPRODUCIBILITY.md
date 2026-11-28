@@ -1,9 +1,35 @@
 # Reproducing the anilite analysis
 
-## Java/Maven additions: digenite and the superstructure hypothesis
+## Java/Maven calculations: the complete six-module project
 
-The additions on `master` use Java 17+ with Maven project files and no
-external Java libraries:
+Open `theory/pom.xml` in IntelliJ with a full JDK 17 or newer. All new
+calculation code uses Java, with Maven project files. Build every module:
+
+```bash
+mvn -B -f theory/pom.xml package
+```
+
+The five physics modules do not need external numerical libraries. The
+`combined_review` figure module uses the pinned XChart 3.8.8 library and
+packages its dependencies in an executable JAR. Maven needs network access
+for the initial dependency/plugin download; the numerical runs use the
+saved local inputs. Gradle is not used.
+
+For the new results, follow these self-contained module guides:
+
+- [Joint temperature/tensor tests](theory/joint_temperature/README_RU.md).
+- [Relaxation and dynamic-model tests](theory/relaxation_dynamics/README_RU.md).
+- [Exact NMR with anisotropic shift](theory/nmr_shift_anisotropy/README_RU.md).
+- [Figures and combined interpretation](theory/combined_review/README_RU.md).
+
+The 28 November additions were built and executed with Temurin JDK
+17.0.17+10 and Maven 3.9.11. A Maven build compiles/packages the modules;
+the explicit numerical checks and calculation commands are described in
+each guide. A completed build is not a claim of physical model validity.
+
+### Earlier digenite and superstructure modules
+
+The earlier digenite module remains independently runnable:
 
 ```bash
 cd theory/digenite_model
@@ -18,10 +44,10 @@ It enumerates all 24 assignments of the four measured frequencies,
 exports analytic Fourier coefficients and residuals, and documents
 the difference between a frequency modulation and a tensor modulation.
 
-The host has OpenJDK 21.0.13.1 and its compiler module but no Maven binary.
-Compilation and execution were verified using the included `run.sh`
-fallback. The Maven commands are provided for a normal JDK/Maven setup;
-they were not executed on this host.
+The earlier 27 November calculation originally used the included `run.sh`
+fallback on the host's OpenJDK 21 compiler module. The newer build above
+uses a full JDK 17 and actual Maven; the historical validation record is
+preserved in the earlier module documentation.
 
 The digenite Ewald sums, all 30 tensors, 720 frequency assignments,
 convergence subtotals, and individual retained real/reciprocal terms

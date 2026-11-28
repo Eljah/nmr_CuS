@@ -1,0 +1,3 @@
+source,site,T_K,quantity,value,reason
+raw/object_03/T1S4F1696.csv,s4,290.0,R1_over_T,156.61393103448276,No matching obj04 rate or error; implied R1=45418.04
+raw/object_02/Data1.csv,unknown,,si,12.44218316373728,No temperature; not an independent resonance observation

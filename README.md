@@ -1,6 +1,18 @@
 # Copper NMR/NQR: anilite Cu7S4 and the historical CuS mixtures
 
-Research archive and working manuscript, 27 November 2026. The baseline research snapshot is published on **`main` and `master`**; the digenite model, axial-EFG NMR control, complete analytic steps, and superstructure hypothesis below are added on **`master`**.
+Research archive and working manuscript, updated 28 November 2026. The baseline research snapshot is published on **`main` and `master`**; the subsequent calculations and source audits below are added on **`master`**.
+
+## Latest calculation block: temperature, dynamics, and anisotropic NMR shift
+
+The [combined Russian report](theory/combined_review/REPORT_RU.md) brings together three new Java 17/Maven calculations, with all input tables, intermediate numerical results, formula derivations, and checks retained. The [six-module Maven project](theory/pom.xml) also includes the earlier digenite and superstructure modules. The scientific figures are generated in Java by [combined_review](theory/combined_review/README_RU.md).
+
+| Question | Calculation and evidence |
+|---|---|
+| Can one temperature-dependent parent tensor explain four NQR groups? | [Joint temperature analysis](theory/joint_temperature/ANALYSIS_RU.md): ranks of frequency and squared frequency, shared/individual thermal scales, all three global period-four assignments, and Gram constraints |
+| Do the relaxation data identify an activation barrier or correlation time? | [Relaxation and dynamics](theory/relaxation_dynamics/outputs/ANALYSIS_RU.md): equal-parameter activated/power alternatives, withheld temperature ranges, isotope ratios, BPP identifiability, and an audit of duplicated/conflicting R2 entries |
+| How robust is the inferred EFG asymmetry to anisotropic magnetic shift? | [Exact powder NMR extension](theory/nmr_shift_anisotropy/README_RU.md): archived-model reproduction, three constrained model families, angular-grid and radio-frequency-weight controls |
+
+These additions refine the interpretation; the earlier manuscript PDFs retain their original model assumptions. Use the combined report for the current model comparisons. No new structural refinement or electronic-structure calculation is claimed.
 
 ## Read the current work
 

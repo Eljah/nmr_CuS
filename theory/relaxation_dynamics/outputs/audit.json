@@ -1,0 +1,52 @@
+{
+  "input_integrity": {
+    "sha256_files_checked": 24,
+    "status": "all exact bytes match the materialized manifest"
+  },
+  "T1T": {
+    "meaning": "R1/T, not T1*T",
+    "matching_points": 144,
+    "max_abs_difference": 0.0,
+    "independent_measurements": false,
+    "extra_s4_290K": "quarantined"
+  },
+  "R1": {
+    "isotope": 63,
+    "rate_unit": "s^-1",
+    "stored_errors": "Graph17 paired error bars; statistical interpretation unknown",
+    "recovery_fit_in_thesis": "A*(1-B*exp(-t/T1)), thesis p.16; no individual delay/intensity samples in these tables"
+  },
+  "unassigned_T1S1": "Copied for provenance but not assigned to spectral group s1; the worksheet name is not a site identification.",
+  "phase_labels": "Thesis uses the historical name geerite for s1-s4. This module preserves spectral labels and does not independently verify the later anilite phase reassignment.",
+  "legacy_activation_sign": {
+    "source_page": 28,
+    "printed": "R1=alpha*T+beta*exp(+Ea/T)",
+    "decision": "For positive Ea and beta, this term decreases when heated, contrary to the data; likely missing minus. Implemented negative sign, not literal transcription."
+  },
+  "frequency_table": {
+    "temperature_column_named": "freq",
+    "unit_T": "K",
+    "unit_nu": "MHz",
+    "65Cu_columns": "exactly 63Cu/1.081; predictions, not independent measurements",
+    "checked_pairs": 113,
+    "max_abs_difference_MHz": 0.0,
+    "default_interpolation": "linear only inside <=30 K bracketing interval; never extrapolate",
+    "s4_gap": "160 to 230 K; 75 K bridge is labelled sensitivity only"
+  },
+  "R2": {
+    "unit": "ms^-1 (multiply by 1000 for s^-1)",
+    "primary_source": "Graph6 legend points to T2s1-T2s4; CuS from T2datd",
+    "identical_s3_s4_temperatures_K": [180.0, 200.0, 210.0, 220.0, 230.0],
+    "s2_260K_individual": 18.076,
+    "s2_260K_summary": 12.55667,
+    "sensitivity_policy": "Exclude both ambiguous branches or retain s3 only; no test treats them as independent",
+    "no_low_T_s1_s2_s4_series": true
+  },
+  "R1_counts": {
+    "s1": 29,
+    "s2": 30,
+    "s3": 31,
+    "s4": 25,
+    "c": 29
+  }
+}

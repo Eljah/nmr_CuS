@@ -1,0 +1,5 @@
+{
+  "passed": 11,
+  "checks": ["NNLS recovers an exact nonnegative affine model.", "NNLS respects a physically nonnegative boundary.", "Independent active-set enumeration agrees with the two-column solver.", "Grid plus local refinement recovers a known continuous minimum.", "Variable projection recovers a shared activation scale from noise-free synthetic rates.", "The equal-parameter power alternative recovers its independent synthetic truth.", "BPP implementation has the correct fast/slow limits without overflow.", "Observed isotope ratios preserve numerator/denominator orientation.", "R2 ms^-1 to s^-1 conversion preserves the factor 1000.", "Primary interpolation refuses the missing 70 K interval and all extrapolation.", "Contiguous folds are monotone in temperature and distinct from interleaved folds."],
+  "randomness": "none"
+}

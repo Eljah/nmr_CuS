@@ -1,0 +1,212 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO]
+[INFO] Digenite point-charge EFG model                                    [jar]
+[INFO] Four-site scalar NQR harmonic check                                [jar]
+[INFO] Joint temperature and period-four tensor constraints for NQR       [jar]
+[INFO] Provenance-aware copper NQR relaxation analysis                    [jar]
+[INFO] Exact Cu powder NMR with axial magnetic shift                      [jar]
+[INFO] Scientific figures for the joint NQR and NMR analysis              [jar]
+[INFO] Copper NQR and NMR calculation modules                             [pom]
+[INFO]
+[INFO] ---------------------< org.eljah.nmr:digenite-efg >---------------------
+[INFO] Building Digenite point-charge EFG model 1.0.0                     [1/7]
+[INFO]   from digenite_model/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- resources:3.3.1:resources (default-resources) @ digenite-efg ---
+[INFO] skip non existing resourceDirectory <repository>/theory/digenite_model/src/main/resources
+[INFO]
+[INFO] --- compiler:3.13.0:compile (default-compile) @ digenite-efg ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 1 source file with javac [debug release 17] to target/classes
+[INFO]
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ digenite-efg ---
+[INFO] skip non existing resourceDirectory <repository>/theory/digenite_model/src/test/resources
+[INFO]
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ digenite-efg ---
+[INFO] No sources to compile
+[INFO]
+[INFO] --- surefire:3.2.5:test (default-test) @ digenite-efg ---
+[INFO] No tests to run.
+[INFO]
+[INFO] --- jar:3.4.2:jar (default-jar) @ digenite-efg ---
+[INFO] Building jar: <repository>/theory/digenite_model/target/digenite-efg-1.0.0.jar
+[INFO]
+[INFO] --------------< org.eljah.nmr:superstructure-hypothesis >---------------
+[INFO] Building Four-site scalar NQR harmonic check 1.0.0                 [2/7]
+[INFO]   from superstructure_hypothesis/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- resources:3.3.1:resources (default-resources) @ superstructure-hypothesis ---
+[INFO] skip non existing resourceDirectory <repository>/theory/superstructure_hypothesis/src/main/resources
+[INFO]
+[INFO] --- compiler:3.13.0:compile (default-compile) @ superstructure-hypothesis ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 2 source files with javac [debug release 17] to target/classes
+[INFO]
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ superstructure-hypothesis ---
+[INFO] skip non existing resourceDirectory <repository>/theory/superstructure_hypothesis/src/test/resources
+[INFO]
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ superstructure-hypothesis ---
+[INFO] No sources to compile
+[INFO]
+[INFO] --- surefire:3.2.5:test (default-test) @ superstructure-hypothesis ---
+[INFO] No tests to run.
+[INFO]
+[INFO] --- jar:3.4.2:jar (default-jar) @ superstructure-hypothesis ---
+[INFO] Building jar: <repository>/theory/superstructure_hypothesis/target/superstructure-hypothesis-1.0.0.jar
+[INFO]
+[INFO] ------------------< org.eljah.nmr:joint-temperature >-------------------
+[INFO] Building Joint temperature and period-four tensor constraints for NQR 1.0.0 [3/7]
+[INFO]   from joint_temperature/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- resources:3.3.1:resources (default-resources) @ joint-temperature ---
+[INFO] skip non existing resourceDirectory <repository>/theory/joint_temperature/src/main/resources
+[INFO]
+[INFO] --- compiler:3.13.0:compile (default-compile) @ joint-temperature ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO]
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ joint-temperature ---
+[INFO] skip non existing resourceDirectory <repository>/theory/joint_temperature/src/test/resources
+[INFO]
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ joint-temperature ---
+[INFO] No sources to compile
+[INFO]
+[INFO] --- surefire:3.2.5:test (default-test) @ joint-temperature ---
+[INFO] No tests to run.
+[INFO]
+[INFO] --- jar:3.4.2:jar (default-jar) @ joint-temperature ---
+[INFO]
+[INFO] -----------------< org.eljah.nmr:relaxation-dynamics >------------------
+[INFO] Building Provenance-aware copper NQR relaxation analysis 1.0.0     [4/7]
+[INFO]   from relaxation_dynamics/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- resources:3.3.1:resources (default-resources) @ relaxation-dynamics ---
+[INFO] skip non existing resourceDirectory <repository>/theory/relaxation_dynamics/src/main/resources
+[INFO]
+[INFO] --- compiler:3.13.0:compile (default-compile) @ relaxation-dynamics ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO]
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ relaxation-dynamics ---
+[INFO] skip non existing resourceDirectory <repository>/theory/relaxation_dynamics/src/test/resources
+[INFO]
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ relaxation-dynamics ---
+[INFO] No sources to compile
+[INFO]
+[INFO] --- surefire:3.2.5:test (default-test) @ relaxation-dynamics ---
+[INFO] No tests to run.
+[INFO]
+[INFO] --- jar:3.4.2:jar (default-jar) @ relaxation-dynamics ---
+[INFO]
+[INFO] -----------------< org.eljah.nmr:nmr-shift-anisotropy >-----------------
+[INFO] Building Exact Cu powder NMR with axial magnetic shift 1.0.0       [5/7]
+[INFO]   from nmr_shift_anisotropy/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- resources:3.3.1:resources (default-resources) @ nmr-shift-anisotropy ---
+[INFO] skip non existing resourceDirectory <repository>/theory/nmr_shift_anisotropy/src/main/resources
+[INFO]
+[INFO] --- compiler:3.13.0:compile (default-compile) @ nmr-shift-anisotropy ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO]
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ nmr-shift-anisotropy ---
+[INFO] skip non existing resourceDirectory <repository>/theory/nmr_shift_anisotropy/src/test/resources
+[INFO]
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ nmr-shift-anisotropy ---
+[INFO] No sources to compile
+[INFO]
+[INFO] --- surefire:3.2.5:test (default-test) @ nmr-shift-anisotropy ---
+[INFO] No tests to run.
+[INFO]
+[INFO] --- jar:3.4.2:jar (default-jar) @ nmr-shift-anisotropy ---
+[INFO] Building jar: <repository>/theory/nmr_shift_anisotropy/target/nmr-shift-anisotropy-1.0.0.jar
+[INFO]
+[INFO] -------------------< org.eljah.nmr:combined-review >--------------------
+[INFO] Building Scientific figures for the joint NQR and NMR analysis 1.0.0 [6/7]
+[INFO]   from combined_review/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- resources:3.3.1:resources (default-resources) @ combined-review ---
+[INFO] skip non existing resourceDirectory <repository>/theory/combined_review/src/main/resources
+[INFO]
+[INFO] --- compiler:3.13.0:compile (default-compile) @ combined-review ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 1 source file with javac [debug release 17] to target/classes
+[INFO]
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ combined-review ---
+[INFO] skip non existing resourceDirectory <repository>/theory/combined_review/src/test/resources
+[INFO]
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ combined-review ---
+[INFO] No sources to compile
+[INFO]
+[INFO] --- surefire:3.2.5:test (default-test) @ combined-review ---
+[INFO] No tests to run.
+[INFO]
+[INFO] --- jar:3.4.1:jar (default-jar) @ combined-review ---
+[INFO] Building jar: <repository>/theory/combined_review/target/combined-review-1.0.0.jar
+[INFO]
+[INFO] --- shade:3.6.0:shade (default) @ combined-review ---
+[INFO] Including org.knowm.xchart:xchart:jar:3.8.8 in the shaded jar.
+[INFO] Including de.erichseifert.vectorgraphics2d:VectorGraphics2D:jar:0.13 in the shaded jar.
+[INFO] Including de.rototor.pdfbox:graphics2d:jar:3.0.1 in the shaded jar.
+[INFO] Including org.apache.pdfbox:pdfbox:jar:3.0.1 in the shaded jar.
+[INFO] Including org.apache.pdfbox:pdfbox-io:jar:3.0.1 in the shaded jar.
+[INFO] Including org.apache.pdfbox:fontbox:jar:3.0.1 in the shaded jar.
+[INFO] Including commons-logging:commons-logging:jar:1.2 in the shaded jar.
+[INFO] Including org.junit.jupiter:junit-jupiter:jar:5.10.1 in the shaded jar.
+[INFO] Including org.junit.jupiter:junit-jupiter-api:jar:5.10.1 in the shaded jar.
+[INFO] Including org.opentest4j:opentest4j:jar:1.3.0 in the shaded jar.
+[INFO] Including org.junit.platform:junit-platform-commons:jar:1.10.1 in the shaded jar.
+[INFO] Including org.apiguardian:apiguardian-api:jar:1.1.2 in the shaded jar.
+[INFO] Including org.junit.jupiter:junit-jupiter-params:jar:5.10.1 in the shaded jar.
+[INFO] Including org.junit.jupiter:junit-jupiter-engine:jar:5.10.1 in the shaded jar.
+[INFO] Including org.junit.platform:junit-platform-engine:jar:1.10.1 in the shaded jar.
+[INFO] Including com.madgag:animated-gif-lib:jar:1.4 in the shaded jar.
+[WARNING] Discovered module-info.class. Shading will break its strong encapsulation.
+[WARNING] Discovered module-info.class. Shading will break its strong encapsulation.
+[WARNING] Discovered module-info.class. Shading will break its strong encapsulation.
+[WARNING] Discovered module-info.class. Shading will break its strong encapsulation.
+[WARNING] Discovered module-info.class. Shading will break its strong encapsulation.
+[WARNING] Discovered module-info.class. Shading will break its strong encapsulation.
+[WARNING] Discovered module-info.class. Shading will break its strong encapsulation.
+[WARNING] Discovered module-info.class. Shading will break its strong encapsulation.
+[WARNING] VectorGraphics2D-0.13.jar, animated-gif-lib-1.4.jar, apiguardian-api-1.1.2.jar, combined-review-1.0.0.jar, commons-logging-1.2.jar, fontbox-3.0.1.jar, graphics2d-3.0.1.jar, junit-jupiter-5.10.1.jar, junit-jupiter-api-5.10.1.jar, junit-jupiter-engine-5.10.1.jar, junit-jupiter-params-5.10.1.jar, junit-platform-commons-1.10.1.jar, junit-platform-engine-1.10.1.jar, opentest4j-1.3.0.jar, pdfbox-3.0.1.jar, pdfbox-io-3.0.1.jar, xchart-3.8.8.jar define 1 overlapping resource:
+[WARNING]   - META-INF/MANIFEST.MF
+[WARNING] junit-jupiter-5.10.1.jar, junit-jupiter-api-5.10.1.jar, junit-jupiter-engine-5.10.1.jar, junit-jupiter-params-5.10.1.jar, junit-platform-commons-1.10.1.jar, junit-platform-engine-1.10.1.jar define 1 overlapping resource:
+[WARNING]   - META-INF/LICENSE-notice.md
+[WARNING] fontbox-3.0.1.jar, pdfbox-3.0.1.jar, pdfbox-io-3.0.1.jar define 1 overlapping resource:
+[WARNING]   - META-INF/DEPENDENCIES
+[WARNING] maven-shade-plugin has detected that some files are
+[WARNING] present in two or more JARs. When this happens, only one
+[WARNING] single version of the file is copied to the uber jar.
+[WARNING] Usually this is not harmful and you can skip these warnings,
+[WARNING] otherwise try to manually exclude artifacts based on
+[WARNING] mvn dependency:tree -Ddetail=true and the above output.
+[WARNING] See https://maven.apache.org/plugins/maven-shade-plugin/
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing <repository>/theory/combined_review/target/combined-review-1.0.0.jar with <repository>/theory/combined_review/target/combined-review-1.0.0-shaded.jar
+[INFO]
+[INFO] ---------------< org.eljah.nmr:copper-nqr-calculations >----------------
+[INFO] Building Copper NQR and NMR calculation modules 1.0.0              [7/7]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for Copper NQR and NMR calculation modules 1.0.0:
+[INFO]
+[INFO] Digenite point-charge EFG model .................... SUCCESS [  2.340 s]
+[INFO] Four-site scalar NQR harmonic check ................ SUCCESS [  0.397 s]
+[INFO] Joint temperature and period-four tensor constraints for NQR SUCCESS [  0.035 s]
+[INFO] Provenance-aware copper NQR relaxation analysis .... SUCCESS [  0.040 s]
+[INFO] Exact Cu powder NMR with axial magnetic shift ...... SUCCESS [  0.044 s]
+[INFO] Scientific figures for the joint NQR and NMR analysis SUCCESS [  1.679 s]
+[INFO] Copper NQR and NMR calculation modules ............. SUCCESS [  0.000 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  4.639 s
+[INFO] Finished at: 2026-11-28T12:23:40+01:00
+[INFO] ------------------------------------------------------------------------

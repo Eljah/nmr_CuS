@@ -1,0 +1,4 @@
+model,n_u,n_phi,initial_SSE,final_SSE,iterations,evaluations,local_converged,termination,elapsed_seconds
+free_eta_isotropic_k,160,320,0.5399605845412486,0.5353354828605126,15,370,false,no_decreasing_step_at_finite_difference_resolution,73.49132596700000
+axial_eta_axial_k,2560,1,0.7061878857450009,0.7061878857450009,1,35,false,no_decreasing_step_at_finite_difference_resolution,0.6817067400000000
+free_eta_axial_k,160,320,0.3462424101624958,0.3269279419607949,24,775,false,no_decreasing_step_at_finite_difference_resolution,145.5626769040000

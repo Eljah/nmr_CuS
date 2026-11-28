@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "snapshot_date": "2026-11-27",
+  "snapshot_date": "2026-11-28",
   "destination_repository": "https://github.com/Eljah/nmr_CuS",
   "destination_branch": "master",
   "manifest_self_hash_policy": "This manifest is excluded from its own list. Its exact bytes are identified by the Git commit.",
-  "scope": "Original archived attachments and research files plus the digenite and superstructure calculation additions. Original unchanged entries retained; present tracked files and new additions rehashed for this update.",
-  "file_count": 1398,
-  "total_bytes": 449231382,
+  "scope": "Original archived attachments and research files plus digenite, superstructure, joint temperature/tensor, relaxation dynamics, exact anisotropic-shift NMR, and combined scientific figures. Present tracked files and all new additions rehashed; unchanged sparse-absent baseline entries retained.",
+  "file_count": 1615,
+  "total_bytes": 468664765,
   "files": [
     {
       "source_relative_path": ".gitignore",
@@ -18,15 +18,15 @@
     {
       "source_relative_path": "README.md",
       "repository_path": "README.md",
-      "bytes": 8987,
-      "sha256": "24d3200173a4e6290b57ba86f5e6599f89bd72f46b465f5ec1e538c7d534cd62",
+      "bytes": 10623,
+      "sha256": "9aca9c36aec10b719ed1071ecb51df3ae970b7b852e708ab29ac757cfa97bc88",
       "category": "README.md"
     },
     {
       "source_relative_path": "REPRODUCIBILITY.md",
       "repository_path": "REPRODUCIBILITY.md",
-      "bytes": 7225,
-      "sha256": "235a819859d4beab061968a7c768726fa21e397639caa6bee2ea5ff1ab74916f",
+      "bytes": 8434,
+      "sha256": "9b212dddd736f7340338ed2c65ec68dd8dcbcab834af5bc871396b5ec395c2ad",
       "category": "REPRODUCIBILITY.md"
     },
     {
@@ -8803,8 +8803,8 @@
     {
       "source_relative_path": "theory/README_RU.md",
       "repository_path": "theory/README_RU.md",
-      "bytes": 16730,
-      "sha256": "c5060eaab0cd1b760ae845d2eccedf7efc327d130f0448b7cc92c32214dc98cb",
+      "bytes": 18170,
+      "sha256": "c1246b8952b1f2210920b1e907e54a2dd89663293d550e3befface764c27abe0",
       "category": "theory"
     },
     {
@@ -8889,6 +8889,230 @@
       "repository_path": "theory/build/publication_pass_3.txt",
       "bytes": 6760,
       "sha256": "fe72db40d8fbed6843716ac9fe65e7db08f782edc7f5cad6df7fcf341e8084eb",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/combined_review/.gitignore",
+      "repository_path": "theory/combined_review/.gitignore",
+      "bytes": 9,
+      "sha256": "306fd52e74fca6746e12acc750f232de15e71da917756a1270d74c91f5eb7368",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/combined_review/README_RU.md",
+      "repository_path": "theory/combined_review/README_RU.md",
+      "bytes": 8103,
+      "sha256": "0db6dbbf2d84abc597914c60acf49c5180e4daa658351b47dfaeceacab65727e",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/combined_review/REPORT_RU.md",
+      "repository_path": "theory/combined_review/REPORT_RU.md",
+      "bytes": 39571,
+      "sha256": "869064beba653addfd4f887f2c5b2751154190fee741db5b0a5ad48e76543b6d",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/combined_review/figures/PROVENANCE.json",
+      "repository_path": "theory/combined_review/figures/PROVENANCE.json",
+      "bytes": 2608,
+      "sha256": "7a328f8ce0c15201e678459e32b2eb99778b432f260565f1ab201705384937b3",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/combined_review/figures/bpp_parameter_profile.png",
+      "repository_path": "theory/combined_review/figures/bpp_parameter_profile.png",
+      "bytes": 62453,
+      "sha256": "5ed5f86fe524222113fe5111653a71b0a45c34900eb71e98d29b552a388d7cf6",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/combined_review/figures/bpp_parameter_profile.svg",
+      "repository_path": "theory/combined_review/figures/bpp_parameter_profile.svg",
+      "bytes": 736620,
+      "sha256": "a1c8285ff91b36a241ece0ad5dfab5d59be4d3a8b63f746fb589a7e0bb3049d0",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/combined_review/figures/nmr_comparison_20ms.png",
+      "repository_path": "theory/combined_review/figures/nmr_comparison_20ms.png",
+      "bytes": 92325,
+      "sha256": "39ebc793e17550fb7a8bf33f2127c2f466ee26c5662598e6ff96cc978ef49a47",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/combined_review/figures/nmr_comparison_20ms.svg",
+      "repository_path": "theory/combined_review/figures/nmr_comparison_20ms.svg",
+      "bytes": 768521,
+      "sha256": "32fbfbac8eef60b96ea9a733628094a638ef590513bab4d8d734aa2d764c8460",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/combined_review/figures/nmr_comparison_500ms.png",
+      "repository_path": "theory/combined_review/figures/nmr_comparison_500ms.png",
+      "bytes": 96314,
+      "sha256": "09da5dce4f729c18b07dcca82a27a960326c44ca713a920e949148e5051204ec",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/combined_review/figures/nmr_comparison_500ms.svg",
+      "repository_path": "theory/combined_review/figures/nmr_comparison_500ms.svg",
+      "bytes": 769603,
+      "sha256": "55253a34d069a111ca21b4d9b6db2e9cb2fd545abe853de804fd112bb5b03d8d",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/combined_review/figures/nmr_comparison_fullscale_20ms.png",
+      "repository_path": "theory/combined_review/figures/nmr_comparison_fullscale_20ms.png",
+      "bytes": 70757,
+      "sha256": "b36e92e6b369ac4dfaa8f8870e86c00d36e97025f4243f108aa2672bc79f5ba2",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/combined_review/figures/nmr_comparison_fullscale_20ms.svg",
+      "repository_path": "theory/combined_review/figures/nmr_comparison_fullscale_20ms.svg",
+      "bytes": 842448,
+      "sha256": "47d117bd7a636b1665cb4164f31552815978789e5e0ff11f19b1cdfac35d2f56",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/combined_review/figures/nmr_comparison_fullscale_500ms.png",
+      "repository_path": "theory/combined_review/figures/nmr_comparison_fullscale_500ms.png",
+      "bytes": 62410,
+      "sha256": "8b2206fe4415430d16d0400fd9db7cdc01a9e2232dba963f3740597e03c2dc31",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/combined_review/figures/nmr_comparison_fullscale_500ms.svg",
+      "repository_path": "theory/combined_review/figures/nmr_comparison_fullscale_500ms.svg",
+      "bytes": 749490,
+      "sha256": "485c0403e48cc5e03d0f8ea7c346c7547d593c21324f4b6a5aa9eb6c3f1eab1a",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/combined_review/figures/nmr_residuals_20ms.png",
+      "repository_path": "theory/combined_review/figures/nmr_residuals_20ms.png",
+      "bytes": 123333,
+      "sha256": "0a2ec98a1c2fbe746d821ae1416a80429579318d686063090d663962b8ae2845",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/combined_review/figures/nmr_residuals_20ms.svg",
+      "repository_path": "theory/combined_review/figures/nmr_residuals_20ms.svg",
+      "bytes": 712855,
+      "sha256": "bfc99e09b7b35c0fed40face03c7093e6810e167b5c1181548a2d14fcbc608ed",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/combined_review/figures/nmr_residuals_500ms.png",
+      "repository_path": "theory/combined_review/figures/nmr_residuals_500ms.png",
+      "bytes": 154266,
+      "sha256": "1f7fb431e1ea8c47aec7bbd129f12897ffd0c988d42c75067c5a748535e2a16d",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/combined_review/figures/nmr_residuals_500ms.svg",
+      "repository_path": "theory/combined_review/figures/nmr_residuals_500ms.svg",
+      "bytes": 875164,
+      "sha256": "c449309a5a31b8fe12528efc5e6362a841d7df4e9fee4c31e7f29020e2f784d5",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/combined_review/figures/nqr_temperature.png",
+      "repository_path": "theory/combined_review/figures/nqr_temperature.png",
+      "bytes": 59117,
+      "sha256": "917155ba5c28a05d12920e8bc21db83befa589d86375297723fc5e42ad3ab7c2",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/combined_review/figures/nqr_temperature.svg",
+      "repository_path": "theory/combined_review/figures/nqr_temperature.svg",
+      "bytes": 696012,
+      "sha256": "7c94a78647ea4a3ae24dfe41413e16178473c9b22e38be873aed1e5e4c4ea8cc",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/combined_review/figures/r1_over_t.png",
+      "repository_path": "theory/combined_review/figures/r1_over_t.png",
+      "bytes": 86144,
+      "sha256": "d80b373c177bb65afea412628738f69e510f3c81cbdb3b2477495ffc147caf02",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/combined_review/figures/r1_over_t.svg",
+      "repository_path": "theory/combined_review/figures/r1_over_t.svg",
+      "bytes": 714091,
+      "sha256": "0f6254e059a91f9e786b050f227c672b9b76609121e3e9a86a8bb58fe4369f12",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/combined_review/figures/r1_over_t_low_temperature.png",
+      "repository_path": "theory/combined_review/figures/r1_over_t_low_temperature.png",
+      "bytes": 68957,
+      "sha256": "948bf3334a97fa7372346ba6ea0e1eb4cfbbe2f7d7068b25948f68fb8420a212",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/combined_review/figures/r1_over_t_low_temperature.svg",
+      "repository_path": "theory/combined_review/figures/r1_over_t_low_temperature.svg",
+      "bytes": 778645,
+      "sha256": "65532030599f22031e9427a5d3b442d2141507cc4b1f1fe8b640ae0f58c9b471",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/combined_review/figures/tensor_harmonic_direction.png",
+      "repository_path": "theory/combined_review/figures/tensor_harmonic_direction.png",
+      "bytes": 69592,
+      "sha256": "a33617af6dede7abec95d18690546baaab7e4db5125d1e166447504668c2afb1",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/combined_review/figures/tensor_harmonic_direction.svg",
+      "repository_path": "theory/combined_review/figures/tensor_harmonic_direction.svg",
+      "bytes": 744825,
+      "sha256": "d26138deb0590004c013828aa84e326bfe45856e6753c278be2dafc2d77fb914",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/combined_review/pom.xml",
+      "repository_path": "theory/combined_review/pom.xml",
+      "bytes": 2059,
+      "sha256": "17ebbee64562529f9f3feb2c99e5ddbbf1afdedf1feb471b434759309ae2c290",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/combined_review/run.cmd",
+      "repository_path": "theory/combined_review/run.cmd",
+      "bytes": 200,
+      "sha256": "5f3cf01cb2a1286d02a0d0c877320b0b8b517db185557394764695cf3b1b6f17",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/combined_review/run.sh",
+      "repository_path": "theory/combined_review/run.sh",
+      "bytes": 185,
+      "sha256": "7905ef8fdc77cd3935ab5f604423bd42d1d10b9980f8bad64043aea145d7b555",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/combined_review/src/main/java/org/eljah/nmr/review/ReviewFigures.java",
+      "repository_path": "theory/combined_review/src/main/java/org/eljah/nmr/review/ReviewFigures.java",
+      "bytes": 20170,
+      "sha256": "570701ef347030d8bceea28636de9312b42820166831595c64f2232ddeb77079",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/combined_review/verification/BUILD_VALIDATION.json",
+      "repository_path": "theory/combined_review/verification/BUILD_VALIDATION.json",
+      "bytes": 1908,
+      "sha256": "11d57fdf2753fdd2453c127d5735e8075ff20c8469a213c4c2795790e0a45f60",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/combined_review/verification/maven_build.log",
+      "repository_path": "theory/combined_review/verification/maven_build.log",
+      "bytes": 12993,
+      "sha256": "cc03826e6e3737390a40e9f826ca551b8a1cee6c19a8fa411e5ea766f16cac93",
       "category": "theory"
     },
     {
@@ -9344,6 +9568,1301 @@
       "repository_path": "theory/export_efg_intermediates.py",
       "bytes": 34586,
       "sha256": "90346f115b95adfa5fd42501d3f7a0c2d2975e95dd79c054ea5905ad8bd5d477",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/joint_temperature/.gitignore",
+      "repository_path": "theory/joint_temperature/.gitignore",
+      "bytes": 9,
+      "sha256": "306fd52e74fca6746e12acc750f232de15e71da917756a1270d74c91f5eb7368",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/joint_temperature/ANALYSIS_RU.md",
+      "repository_path": "theory/joint_temperature/ANALYSIS_RU.md",
+      "bytes": 36272,
+      "sha256": "6f35d5f45ba11f9d34acc48b1e83cbd49a6fd99126eb3d04e6c227bd128e2193",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/joint_temperature/INPUT_PROVENANCE_RU.md",
+      "repository_path": "theory/joint_temperature/INPUT_PROVENANCE_RU.md",
+      "bytes": 6266,
+      "sha256": "6910dfb5302de4899795c3c9cc3cc61128a7edd94afb208ae6e4e45ef52dda96",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/joint_temperature/README_RU.md",
+      "repository_path": "theory/joint_temperature/README_RU.md",
+      "bytes": 8889,
+      "sha256": "de3ae45d2cec13a47136a03c93d5da15b00d169e209f04959cbe54b454e4e654",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/joint_temperature/inputs/temperature_series.csv",
+      "repository_path": "theory/joint_temperature/inputs/temperature_series.csv",
+      "bytes": 1276,
+      "sha256": "6b735e3026e15b680811b126e0ea22fd5f38b2c78f1fb3d942626162e1a9f415",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/joint_temperature/inputs/temperature_source_Data1.csv",
+      "repository_path": "theory/joint_temperature/inputs/temperature_source_Data1.csv",
+      "bytes": 3755,
+      "sha256": "cd331631cb3f904dfa38ef6f61e403f39c021678019a1103763cad36851855ec",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/joint_temperature/pom.xml",
+      "repository_path": "theory/joint_temperature/pom.xml",
+      "bytes": 1112,
+      "sha256": "e6cbd8aa731badad281543c61e87e34cac096d43fd98075fcef203132daa0d6f",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/joint_temperature/results/calculation_manifest.json",
+      "repository_path": "theory/joint_temperature/results/calculation_manifest.json",
+      "bytes": 889,
+      "sha256": "bf800dd17ce03ec9e15eecc7fe32f848bcb325f6684dc8af00fc7207576bd96a",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/joint_temperature/results/rank_modes.csv",
+      "repository_path": "theory/joint_temperature/results/rank_modes.csv",
+      "bytes": 14444,
+      "sha256": "d0569271448ded39bdafbda19c1210d74a731c0dd8708a75aacc9bcc45fa95ff",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/joint_temperature/results/rank_omit_one.csv",
+      "repository_path": "theory/joint_temperature/results/rank_omit_one.csv",
+      "bytes": 2967,
+      "sha256": "fbf7701f4cdff7dc2c0cbb6a71aef7ca71ceeeb983fa7b266814383105c960f5",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/joint_temperature/results/rank_reconstructions.csv",
+      "repository_path": "theory/joint_temperature/results/rank_reconstructions.csv",
+      "bytes": 194907,
+      "sha256": "6058cff06a2bdac323e31d2113d6deb3f9062aa5cd71f89868b8476c42b28c00",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/joint_temperature/results/rank_summary.csv",
+      "repository_path": "theory/joint_temperature/results/rank_summary.csv",
+      "bytes": 21811,
+      "sha256": "c91247c16b01c063fb42d6741bc93a4e1c437cc5c5cfaa02b4dcaf6874df30e2",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/joint_temperature/results/tensor_block_validation.csv",
+      "repository_path": "theory/joint_temperature/results/tensor_block_validation.csv",
+      "bytes": 3838,
+      "sha256": "da727a9630b0cde0b2735250e435ca3a4487444a936c79b3ff2da6c087f5eaba",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/joint_temperature/results/tensor_coefficients.csv",
+      "repository_path": "theory/joint_temperature/results/tensor_coefficients.csv",
+      "bytes": 16775,
+      "sha256": "93d8e6272d63701d76fef5048030e914d72426932698c94465d2344882579ab8",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/joint_temperature/results/tensor_omit_one.csv",
+      "repository_path": "theory/joint_temperature/results/tensor_omit_one.csv",
+      "bytes": 26924,
+      "sha256": "d7935ac1da6fe0632db455c9d8acffe315b7122c7fcd90f628460f04f797c759",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/joint_temperature/results/tensor_predictions.csv",
+      "repository_path": "theory/joint_temperature/results/tensor_predictions.csv",
+      "bytes": 174591,
+      "sha256": "e72ca6ae58f11cb50c5e3ad018b167a7dd9d2eb08afca03db65bb6ced3266f73",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/joint_temperature/results/tensor_summary.csv",
+      "repository_path": "theory/joint_temperature/results/tensor_summary.csv",
+      "bytes": 8981,
+      "sha256": "689c73d6c46e90b5ed59d3a5f196f63a444f5de5be953a6d5d46d2e1639aec41",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/joint_temperature/results/thermal_parameters.csv",
+      "repository_path": "theory/joint_temperature/results/thermal_parameters.csv",
+      "bytes": 12800,
+      "sha256": "0fec4413fa605d0d7f5bf441c760fc1384bce906fdf1cc311c04442403fe872c",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/joint_temperature/results/thermal_predictions.csv",
+      "repository_path": "theory/joint_temperature/results/thermal_predictions.csv",
+      "bytes": 281365,
+      "sha256": "137d3f1c0ec9339bb5c1cc9987511b1983201acb4cd9b7be16530643e1773536",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/joint_temperature/results/thermal_scores.csv",
+      "repository_path": "theory/joint_temperature/results/thermal_scores.csv",
+      "bytes": 4404,
+      "sha256": "1366542566f9dde1f6d8100324434e326c200deada2edec60b6f59e71481b555",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/joint_temperature/results/transformed_series.csv",
+      "repository_path": "theory/joint_temperature/results/transformed_series.csv",
+      "bytes": 14810,
+      "sha256": "32ec40bb5493eed79b3437a93d3144f4f2abbffc24dacfd9e56fbc4be6f8ecf9",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/joint_temperature/results/validation_checks.csv",
+      "repository_path": "theory/joint_temperature/results/validation_checks.csv",
+      "bytes": 2204,
+      "sha256": "47d135195b607f6de173429049e230c2f5967311f2a1ae22cfc2096b7a11a693",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/joint_temperature/run.cmd",
+      "repository_path": "theory/joint_temperature/run.cmd",
+      "bytes": 680,
+      "sha256": "2c258de5ec4d70f04ddf70df883cf57eee2a940ca1c80eb9ccd4b2890060d3a6",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/joint_temperature/run.sh",
+      "repository_path": "theory/joint_temperature/run.sh",
+      "bytes": 947,
+      "sha256": "f8b1e7f968185402c42b8298003f247905236b22997faeb71eb8de4f6d39a838",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/joint_temperature/src/main/java/org/eljah/nmr/joint/JointTemperature.java",
+      "repository_path": "theory/joint_temperature/src/main/java/org/eljah/nmr/joint/JointTemperature.java",
+      "bytes": 33746,
+      "sha256": "68a1d8e7bbf4c27ae5a1a0b1112f695b91920c517ad914c849ec08963c07ae0c",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/joint_temperature/src/main/java/org/eljah/nmr/joint/Numerics.java",
+      "repository_path": "theory/joint_temperature/src/main/java/org/eljah/nmr/joint/Numerics.java",
+      "bytes": 6406,
+      "sha256": "d2943c2eaf4cc7dc40c5acab2338bed7f83f7e9dbdaf1bd963e0d881d09a76f2",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/nmr_shift_anisotropy/.gitignore",
+      "repository_path": "theory/nmr_shift_anisotropy/.gitignore",
+      "bytes": 9,
+      "sha256": "306fd52e74fca6746e12acc750f232de15e71da917756a1270d74c91f5eb7368",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/nmr_shift_anisotropy/README_RU.md",
+      "repository_path": "theory/nmr_shift_anisotropy/README_RU.md",
+      "bytes": 19083,
+      "sha256": "28aa0a4a72d99993b2b18e6462dedda0214c787010a66f0db7fd7b072ecddb5d",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/nmr_shift_anisotropy/REPORT_RU.md",
+      "repository_path": "theory/nmr_shift_anisotropy/REPORT_RU.md",
+      "bytes": 21476,
+      "sha256": "609e834ff985112cb6c5309d7c21b10a1989ae8366671da072db7dbb3c70fc4c",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/nmr_shift_anisotropy/inputs/archive_FINAL_CONTROL.json",
+      "repository_path": "theory/nmr_shift_anisotropy/inputs/archive_FINAL_CONTROL.json",
+      "bytes": 10005,
+      "sha256": "4e8dd9c2adbcbdab0ca891831b4f6b9f9f3ba5ba6fa87e62bad39276544f6fea",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/nmr_shift_anisotropy/inputs/archive_axial1280_20ms.csv",
+      "repository_path": "theory/nmr_shift_anisotropy/inputs/archive_axial1280_20ms.csv",
+      "bytes": 31952,
+      "sha256": "2316e7ffdd9b630d67d16e80d1fa7941d9d317f8de597ac846b9ed17abc0604b",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/nmr_shift_anisotropy/inputs/archive_axial1280_500ms.csv",
+      "repository_path": "theory/nmr_shift_anisotropy/inputs/archive_axial1280_500ms.csv",
+      "bytes": 31924,
+      "sha256": "b7d6ec1d11e1bc38aee1318aea3edced6eb7790413f13571fcc09a24679853a2",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/nmr_shift_anisotropy/inputs/archive_exact_joint_refinements.json",
+      "repository_path": "theory/nmr_shift_anisotropy/inputs/archive_exact_joint_refinements.json",
+      "bytes": 3366,
+      "sha256": "f3c17ecde2820982edb9654dd0570b1a925467cb452b20074bead88ad615e322",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/nmr_shift_anisotropy/inputs/archive_free67_160x320_20ms.csv",
+      "repository_path": "theory/nmr_shift_anisotropy/inputs/archive_free67_160x320_20ms.csv",
+      "bytes": 31935,
+      "sha256": "39af595c4df3de5ac7d2a7ef57c91632d3d1a023f14dda5927cec15c56599788",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/nmr_shift_anisotropy/inputs/archive_free67_160x320_500ms.csv",
+      "repository_path": "theory/nmr_shift_anisotropy/inputs/archive_free67_160x320_500ms.csv",
+      "bytes": 31919,
+      "sha256": "5c4d36c2cefe1b92a961196bc979126080a7617cfaf0d2c0aad783e654133c31",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/nmr_shift_anisotropy/inputs/archive_joint_fit.py.txt",
+      "repository_path": "theory/nmr_shift_anisotropy/inputs/archive_joint_fit.py.txt",
+      "bytes": 1117,
+      "sha256": "24a5885dbbfea6a33a5415395bf6214a8093ec81d9c4258ee848b89a13f95cf9",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/nmr_shift_anisotropy/inputs/archive_joint_results.json",
+      "repository_path": "theory/nmr_shift_anisotropy/inputs/archive_joint_results.json",
+      "bytes": 10731,
+      "sha256": "d6a681502a28e3598d63aa09a2191563b77240ba3234c39dde8724ff3264ac0c",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/nmr_shift_anisotropy/inputs/archive_powder_fit.py.txt",
+      "repository_path": "theory/nmr_shift_anisotropy/inputs/archive_powder_fit.py.txt",
+      "bytes": 8894,
+      "sha256": "8fd297d4cc98ef8c93ec1787c10f5678b6f7378fdefd8fc7a3455ee7a0942382",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/nmr_shift_anisotropy/inputs/archive_refine_exact_joint.py.txt",
+      "repository_path": "theory/nmr_shift_anisotropy/inputs/archive_refine_exact_joint.py.txt",
+      "bytes": 3073,
+      "sha256": "bfd671814d7e9491f0b5165a943ee7308259dc5b65d136113ccd97dbe08b39ae",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/nmr_shift_anisotropy/inputs/fixture_provenance.json",
+      "repository_path": "theory/nmr_shift_anisotropy/inputs/fixture_provenance.json",
+      "bytes": 562,
+      "sha256": "b5ad956dd6fd24d1f2be45478c21ff89fbdd6e4a266551bb21ba5ad565cd980f",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/nmr_shift_anisotropy/inputs/hamiltonian_reference_numpy.csv",
+      "repository_path": "theory/nmr_shift_anisotropy/inputs/hamiltonian_reference_numpy.csv",
+      "bytes": 18518,
+      "sha256": "bbbbfd3ea15b6ff36ab4d9b82e9fe5f829c188e8849c373b62a644aeac7edfc4",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/nmr_shift_anisotropy/inputs/provenance.json",
+      "repository_path": "theory/nmr_shift_anisotropy/inputs/provenance.json",
+      "bytes": 2668,
+      "sha256": "68c29a636daa1bf5f589ad75e21e4cf1dac3c916199903c70e60c878b019de3c",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/nmr_shift_anisotropy/inputs/reference_solutions.csv",
+      "repository_path": "theory/nmr_shift_anisotropy/inputs/reference_solutions.csv",
+      "bytes": 1069,
+      "sha256": "69d283bc6913cf3045abeaf3597ca3330ec4b65b637e5d6fe7d0f67c87571a78",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/nmr_shift_anisotropy/inputs/spectrum_integrals.csv",
+      "repository_path": "theory/nmr_shift_anisotropy/inputs/spectrum_integrals.csv",
+      "bytes": 19368,
+      "sha256": "671431b3339f41f26840d9f9a8a1b2a62b3f86ecf446e167d2ea2c0c27e5be69",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/nmr_shift_anisotropy/pom.xml",
+      "repository_path": "theory/nmr_shift_anisotropy/pom.xml",
+      "bytes": 1124,
+      "sha256": "1eddf9e16cde2fb9642aeaadddcfe8fb3bdd1ef530d0818b5bb4020f980c6d95",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/nmr_shift_anisotropy/results/analysis_metadata.json",
+      "repository_path": "theory/nmr_shift_anisotropy/results/analysis_metadata.json",
+      "bytes": 2497,
+      "sha256": "c7cafa7c746cf98ec19a47a897aa81188b2713729a811d96ae1de0d29756559b",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/nmr_shift_anisotropy/results/angular_convergence.csv",
+      "repository_path": "theory/nmr_shift_anisotropy/results/angular_convergence.csv",
+      "bytes": 1539,
+      "sha256": "77ec4e08ee573fce0bf2c8d4b00bd31464dee7d5115d1ac8c6f8133b76e392e9",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/nmr_shift_anisotropy/results/artifact_validation.json",
+      "repository_path": "theory/nmr_shift_anisotropy/results/artifact_validation.json",
+      "bytes": 4379,
+      "sha256": "2e61e4a164899ae5ecf30aabab75aa74f42f357209369f225bdefeb5bb59a05d",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/nmr_shift_anisotropy/results/baseline_axial_isotropic_control_20ms.csv",
+      "repository_path": "theory/nmr_shift_anisotropy/results/baseline_axial_isotropic_control_20ms.csv",
+      "bytes": 48881,
+      "sha256": "f8a4a191d9ce175f5f10e03705a8d90bb3b27e4e715fb4387312d603e6f816ce",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/nmr_shift_anisotropy/results/baseline_axial_isotropic_control_500ms.csv",
+      "repository_path": "theory/nmr_shift_anisotropy/results/baseline_axial_isotropic_control_500ms.csv",
+      "bytes": 48834,
+      "sha256": "dc0a500166e9e9b6d2ca79286edf9c9b2cc572406aa241132b3c4426e39867d8",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/nmr_shift_anisotropy/results/baseline_free_seed29_20ms.csv",
+      "repository_path": "theory/nmr_shift_anisotropy/results/baseline_free_seed29_20ms.csv",
+      "bytes": 48841,
+      "sha256": "05226175a4caf3391729ba36363293494d14a5b0d3e9ed5d5ee7b0180109325c",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/nmr_shift_anisotropy/results/baseline_free_seed29_500ms.csv",
+      "repository_path": "theory/nmr_shift_anisotropy/results/baseline_free_seed29_500ms.csv",
+      "bytes": 48827,
+      "sha256": "e9ecc0d4cafcd069a50d43630d24ccb5b8eefc797ad75b5e14788cb69f506119",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/nmr_shift_anisotropy/results/baseline_free_seed67_20ms.csv",
+      "repository_path": "theory/nmr_shift_anisotropy/results/baseline_free_seed67_20ms.csv",
+      "bytes": 48857,
+      "sha256": "6c9dab450025d986a69f92642c82b1a21a288779f5c1e83b7fe7bbd2118bb41e",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/nmr_shift_anisotropy/results/baseline_free_seed67_500ms.csv",
+      "repository_path": "theory/nmr_shift_anisotropy/results/baseline_free_seed67_500ms.csv",
+      "bytes": 48826,
+      "sha256": "87cc6786385cd8779e36f24ba4f19cd8107a09c9b4b78a5812beddf3bb2b717d",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/nmr_shift_anisotropy/results/baseline_free_seed67_dense_20ms.csv",
+      "repository_path": "theory/nmr_shift_anisotropy/results/baseline_free_seed67_dense_20ms.csv",
+      "bytes": 48859,
+      "sha256": "17d86d11990093e82521d50566051448d03c9f0f6ba3324fcf2e1fd3de131bac",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/nmr_shift_anisotropy/results/baseline_free_seed67_dense_500ms.csv",
+      "repository_path": "theory/nmr_shift_anisotropy/results/baseline_free_seed67_dense_500ms.csv",
+      "bytes": 48821,
+      "sha256": "f6cabe2cfc5f58ea918973e0b2d625f5cf26ff744e92a7718f9e14406b6217b3",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/nmr_shift_anisotropy/results/baseline_reproduction.csv",
+      "repository_path": "theory/nmr_shift_anisotropy/results/baseline_reproduction.csv",
+      "bytes": 679,
+      "sha256": "68e41aea5e401c88a4341c124bdb9e710102df74b5282de0db1d6e9115bbe0f5",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/nmr_shift_anisotropy/results/best_axial_eta_axial_k_20ms.csv",
+      "repository_path": "theory/nmr_shift_anisotropy/results/best_axial_eta_axial_k_20ms.csv",
+      "bytes": 48862,
+      "sha256": "9ac3950b6267c6bcbfd7fc2c1409a8ea471d26197650df527411c580270ad933",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/nmr_shift_anisotropy/results/best_axial_eta_axial_k_500ms.csv",
+      "repository_path": "theory/nmr_shift_anisotropy/results/best_axial_eta_axial_k_500ms.csv",
+      "bytes": 48827,
+      "sha256": "d683a427db9ea29d7207aa5fd42a1969865f1cd99b15da7aa12a4f56f821ff67",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/nmr_shift_anisotropy/results/best_free_eta_axial_k_20ms.csv",
+      "repository_path": "theory/nmr_shift_anisotropy/results/best_free_eta_axial_k_20ms.csv",
+      "bytes": 48854,
+      "sha256": "7aa216cbd4e537ae9e46228c3500cfe5ba43af738a0a26396bf834cec3cab952",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/nmr_shift_anisotropy/results/best_free_eta_axial_k_500ms.csv",
+      "repository_path": "theory/nmr_shift_anisotropy/results/best_free_eta_axial_k_500ms.csv",
+      "bytes": 48829,
+      "sha256": "60c13efb95346b17d9c6b4193b7b93779f3e447a153672328830c43a93481634",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/nmr_shift_anisotropy/results/best_free_eta_isotropic_k_20ms.csv",
+      "repository_path": "theory/nmr_shift_anisotropy/results/best_free_eta_isotropic_k_20ms.csv",
+      "bytes": 48859,
+      "sha256": "923a79a7bd9330603cab52db6cefc3bdaffa97f64379cdf35d8f1859d86b1692",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/nmr_shift_anisotropy/results/best_free_eta_isotropic_k_500ms.csv",
+      "repository_path": "theory/nmr_shift_anisotropy/results/best_free_eta_isotropic_k_500ms.csv",
+      "bytes": 48821,
+      "sha256": "db5cb4f5f889fd1f969cda40450b562b1ba09f5df48434a03dcf65c02cf6d493",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/nmr_shift_anisotropy/results/best_parameters.csv",
+      "repository_path": "theory/nmr_shift_anisotropy/results/best_parameters.csv",
+      "bytes": 1486,
+      "sha256": "61307814c96826ffcd36382131ed9d203e4d2d1441a586781910923e33b4e9b2",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/nmr_shift_anisotropy/results/conditional_kappa_scan.csv",
+      "repository_path": "theory/nmr_shift_anisotropy/results/conditional_kappa_scan.csv",
+      "bytes": 2214,
+      "sha256": "b0628befa37571281a8ae394fbea0706d08628e09cbba802a1d01dd229f91533",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/nmr_shift_anisotropy/results/dense_polish_iterations.csv",
+      "repository_path": "theory/nmr_shift_anisotropy/results/dense_polish_iterations.csv",
+      "bytes": 4470,
+      "sha256": "8a38fa1e3ad96d12f8cf7b508753758b455223a5301e29166bf782124b4cbc6e",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/nmr_shift_anisotropy/results/dense_polish_summary.csv",
+      "repository_path": "theory/nmr_shift_anisotropy/results/dense_polish_summary.csv",
+      "bytes": 543,
+      "sha256": "cc5c87782f366df1e4111f3c33c2427c48be51dcb82d55d278c8fa8cb6403ec2",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/nmr_shift_anisotropy/results/field_forecast_summary_axial_eta_axial_k.csv",
+      "repository_path": "theory/nmr_shift_anisotropy/results/field_forecast_summary_axial_eta_axial_k.csv",
+      "bytes": 1096,
+      "sha256": "d467839b8417de27e0c7a7200d07a2b5e74ff3a120774f357087232267cb9d8b",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/nmr_shift_anisotropy/results/field_forecast_summary_free_eta_axial_k.csv",
+      "repository_path": "theory/nmr_shift_anisotropy/results/field_forecast_summary_free_eta_axial_k.csv",
+      "bytes": 1096,
+      "sha256": "cd14e2dd9e4ce8cb0870124426fb86910adc961741a8e0450277781350e5332b",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/nmr_shift_anisotropy/results/field_forecast_summary_free_eta_isotropic_k.csv",
+      "repository_path": "theory/nmr_shift_anisotropy/results/field_forecast_summary_free_eta_isotropic_k.csv",
+      "bytes": 1096,
+      "sha256": "3d5fb601554cadcc98e55fba8981715cc2664e7daef88178e48d559ed23f0786",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/nmr_shift_anisotropy/results/field_forecasts_axial_eta_axial_k.csv",
+      "repository_path": "theory/nmr_shift_anisotropy/results/field_forecasts_axial_eta_axial_k.csv",
+      "bytes": 1251227,
+      "sha256": "5115fff20f43fa962137444f4d988d3d57b013c68d711425784d8d2bcf400cd2",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/nmr_shift_anisotropy/results/field_forecasts_free_eta_axial_k.csv",
+      "repository_path": "theory/nmr_shift_anisotropy/results/field_forecasts_free_eta_axial_k.csv",
+      "bytes": 1203513,
+      "sha256": "128d50bf1fc84516b34f655b58f7333139310c6f6780f4382c2e641d7cf6ee72",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/nmr_shift_anisotropy/results/field_forecasts_free_eta_isotropic_k.csv",
+      "repository_path": "theory/nmr_shift_anisotropy/results/field_forecasts_free_eta_isotropic_k.csv",
+      "bytes": 1216323,
+      "sha256": "b85cd629473faf3728f802628b4e3f0f6fa312320ddfd1eaca974039a230685c",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/nmr_shift_anisotropy/results/final_axial_eta_axial_k_20ms.csv",
+      "repository_path": "theory/nmr_shift_anisotropy/results/final_axial_eta_axial_k_20ms.csv",
+      "bytes": 48862,
+      "sha256": "bc589db3d7b8c148defc780fe9769430b864e1372d6b1b5ba0791c99729fb7b4",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/nmr_shift_anisotropy/results/final_axial_eta_axial_k_500ms.csv",
+      "repository_path": "theory/nmr_shift_anisotropy/results/final_axial_eta_axial_k_500ms.csv",
+      "bytes": 48827,
+      "sha256": "712d4c0b90c92baf87e124590d65160de394902482f14800601fc7c65bbc2a27",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/nmr_shift_anisotropy/results/final_free_eta_axial_k_20ms.csv",
+      "repository_path": "theory/nmr_shift_anisotropy/results/final_free_eta_axial_k_20ms.csv",
+      "bytes": 48858,
+      "sha256": "e9a9714cf8af40bb1e68f2531262c1bd96e060939a28781569265681fd12425a",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/nmr_shift_anisotropy/results/final_free_eta_axial_k_500ms.csv",
+      "repository_path": "theory/nmr_shift_anisotropy/results/final_free_eta_axial_k_500ms.csv",
+      "bytes": 48825,
+      "sha256": "f788b92e648650c358ea946a4f983ab417cb31c5eca991530dc36ee246525780",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/nmr_shift_anisotropy/results/final_free_eta_isotropic_k_20ms.csv",
+      "repository_path": "theory/nmr_shift_anisotropy/results/final_free_eta_isotropic_k_20ms.csv",
+      "bytes": 48855,
+      "sha256": "0e832ea8e6ef37cca0833cd13dc4caa2b651c4ee9ea27241e3df3da276575eab",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/nmr_shift_anisotropy/results/final_free_eta_isotropic_k_500ms.csv",
+      "repository_path": "theory/nmr_shift_anisotropy/results/final_free_eta_isotropic_k_500ms.csv",
+      "bytes": 48820,
+      "sha256": "3eefc3b175187d02e933b94e99e2b875a1d970a79ca0025586ff5b26e6c7d40d",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/nmr_shift_anisotropy/results/final_model_comparison.csv",
+      "repository_path": "theory/nmr_shift_anisotropy/results/final_model_comparison.csv",
+      "bytes": 923,
+      "sha256": "65fa9e075cf331cb54bb218a45c07c7bffc7272a9ba0c167ddc198187bcee295",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/nmr_shift_anisotropy/results/final_parameters.csv",
+      "repository_path": "theory/nmr_shift_anisotropy/results/final_parameters.csv",
+      "bytes": 1427,
+      "sha256": "7ed23499d0c87646f2cde44c945037dc654f2db7ee4bf5f853354935dc387082",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/nmr_shift_anisotropy/results/hamiltonian_checks.csv",
+      "repository_path": "theory/nmr_shift_anisotropy/results/hamiltonian_checks.csv",
+      "bytes": 8615,
+      "sha256": "ce1c355e8015a525fcb1d8822f36aa330506bbfb83904ccc8a2f6588696319c9",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/nmr_shift_anisotropy/results/linear_nuisance.csv",
+      "repository_path": "theory/nmr_shift_anisotropy/results/linear_nuisance.csv",
+      "bytes": 1463,
+      "sha256": "489163f7cc3620ab0a4e6e623d63852e283a4801be9a9558d9f0fdb8b1d70f89",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/nmr_shift_anisotropy/results/local_derivative_norms_axial_eta_axial_k.csv",
+      "repository_path": "theory/nmr_shift_anisotropy/results/local_derivative_norms_axial_eta_axial_k.csv",
+      "bytes": 1138,
+      "sha256": "414105e56bbe13aaa2ec9a3fdb26417d4afb8ce0962738092035ace83279942a",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/nmr_shift_anisotropy/results/local_derivative_norms_free_eta_axial_k.csv",
+      "repository_path": "theory/nmr_shift_anisotropy/results/local_derivative_norms_free_eta_axial_k.csv",
+      "bytes": 1509,
+      "sha256": "0bcd25709f448cafada6678e71005cdf35fb8c6d318029bd67a712633975d4f2",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/nmr_shift_anisotropy/results/local_derivative_norms_free_eta_isotropic_k.csv",
+      "repository_path": "theory/nmr_shift_anisotropy/results/local_derivative_norms_free_eta_isotropic_k.csv",
+      "bytes": 1131,
+      "sha256": "8f1f322960d96650c14ee9ba9a3bf0fd916edd4c2308bc5edfda25d60f92fb38",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/nmr_shift_anisotropy/results/local_identifiability_axial_eta_axial_k.csv",
+      "repository_path": "theory/nmr_shift_anisotropy/results/local_identifiability_axial_eta_axial_k.csv",
+      "bytes": 4160,
+      "sha256": "22f70280e048730c8ab8e878110cd2af4b93495a241ac9719f1dd15b2f65a1b7",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/nmr_shift_anisotropy/results/local_identifiability_free_eta_axial_k.csv",
+      "repository_path": "theory/nmr_shift_anisotropy/results/local_identifiability_free_eta_axial_k.csv",
+      "bytes": 6902,
+      "sha256": "015fcb778eaa39f2f3bc75de28f63a71f3e4940833e0293603283cf34462bf29",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/nmr_shift_anisotropy/results/local_identifiability_free_eta_isotropic_k.csv",
+      "repository_path": "theory/nmr_shift_anisotropy/results/local_identifiability_free_eta_isotropic_k.csv",
+      "bytes": 4202,
+      "sha256": "8a4e4518077b8c6e6e0b36849e1d03f20d69292c3b790acf2ff091ba68630471",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/nmr_shift_anisotropy/results/local_parameter_correlation_axial_eta_axial_k.csv",
+      "repository_path": "theory/nmr_shift_anisotropy/results/local_parameter_correlation_axial_eta_axial_k.csv",
+      "bytes": 2588,
+      "sha256": "c1b78e3500fdb3126cb3cad85f19830ffb561e542adee920ae3a126696bfc35b",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/nmr_shift_anisotropy/results/local_parameter_correlation_free_eta_axial_k.csv",
+      "repository_path": "theory/nmr_shift_anisotropy/results/local_parameter_correlation_free_eta_axial_k.csv",
+      "bytes": 4690,
+      "sha256": "056d20595291a5024e4a8643d986afbee7653ebe432c751240fd50f3424f8312",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/nmr_shift_anisotropy/results/local_parameter_correlation_free_eta_isotropic_k.csv",
+      "repository_path": "theory/nmr_shift_anisotropy/results/local_parameter_correlation_free_eta_isotropic_k.csv",
+      "bytes": 2505,
+      "sha256": "f5a9175d994a580dc870e61644a1637e661826c638abcce3c87250727f61b3ae",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/nmr_shift_anisotropy/results/optimizer_iterations.csv",
+      "repository_path": "theory/nmr_shift_anisotropy/results/optimizer_iterations.csv",
+      "bytes": 52730,
+      "sha256": "f5f088d7a6d1fe5837cdcf85d4e214687824094c3127ab745102faac0d933704",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/nmr_shift_anisotropy/results/parameter_bounds.csv",
+      "repository_path": "theory/nmr_shift_anisotropy/results/parameter_bounds.csv",
+      "bytes": 4661,
+      "sha256": "6c1470f7ab1360aaddd613ebd1dc7046c5a003ae0b38337a54021adfdc474c9c",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/nmr_shift_anisotropy/results/rf_tensor_axial_eta_axial_k_20ms.csv",
+      "repository_path": "theory/nmr_shift_anisotropy/results/rf_tensor_axial_eta_axial_k_20ms.csv",
+      "bytes": 48862,
+      "sha256": "841548e41c4d6f71b4bfe8c2011d9cdc8b3cb307152675b957a95e095cfdd600",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/nmr_shift_anisotropy/results/rf_tensor_axial_eta_axial_k_500ms.csv",
+      "repository_path": "theory/nmr_shift_anisotropy/results/rf_tensor_axial_eta_axial_k_500ms.csv",
+      "bytes": 48827,
+      "sha256": "fc85cead90529e03de3c8d5ce9b13f125e2dd74ef5fd1a2d9af85156a6b4c848",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/nmr_shift_anisotropy/results/rf_tensor_free_eta_axial_k_20ms.csv",
+      "repository_path": "theory/nmr_shift_anisotropy/results/rf_tensor_free_eta_axial_k_20ms.csv",
+      "bytes": 48858,
+      "sha256": "5a71ffdd3a7361014af96d5a2299c8d96df2dc101231c4385fef7b6b41279754",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/nmr_shift_anisotropy/results/rf_tensor_free_eta_axial_k_500ms.csv",
+      "repository_path": "theory/nmr_shift_anisotropy/results/rf_tensor_free_eta_axial_k_500ms.csv",
+      "bytes": 48824,
+      "sha256": "b4589c542e6980fda9010e5ccb0788874c3ed90835beeb05113b3abf833a1b2d",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/nmr_shift_anisotropy/results/rf_tensor_free_eta_isotropic_k_20ms.csv",
+      "repository_path": "theory/nmr_shift_anisotropy/results/rf_tensor_free_eta_isotropic_k_20ms.csv",
+      "bytes": 48855,
+      "sha256": "0e832ea8e6ef37cca0833cd13dc4caa2b651c4ee9ea27241e3df3da276575eab",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/nmr_shift_anisotropy/results/rf_tensor_free_eta_isotropic_k_500ms.csv",
+      "repository_path": "theory/nmr_shift_anisotropy/results/rf_tensor_free_eta_isotropic_k_500ms.csv",
+      "bytes": 48820,
+      "sha256": "3eefc3b175187d02e933b94e99e2b875a1d970a79ca0025586ff5b26e6c7d40d",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/nmr_shift_anisotropy/results/rf_tensor_sensitivity.csv",
+      "repository_path": "theory/nmr_shift_anisotropy/results/rf_tensor_sensitivity.csv",
+      "bytes": 537,
+      "sha256": "6096716fe380dcd78170820cac08acf20beffa9ff691b9b04d4094bce8767c43",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/nmr_shift_anisotropy/results/search_trials.csv",
+      "repository_path": "theory/nmr_shift_anisotropy/results/search_trials.csv",
+      "bytes": 7528,
+      "sha256": "5138757fc8dc22cbbf3585e98fae32ef67d7e35738dddfb40ebb9685aced77d8",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/nmr_shift_anisotropy/results/site_parameters.csv",
+      "repository_path": "theory/nmr_shift_anisotropy/results/site_parameters.csv",
+      "bytes": 2647,
+      "sha256": "6353d1fd0f9d43d5b296c155208b9a53a137da44a70d88b30d810f2cec760cb3",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/nmr_shift_anisotropy/results/ultradense_axial_eta_axial_k_20ms.csv",
+      "repository_path": "theory/nmr_shift_anisotropy/results/ultradense_axial_eta_axial_k_20ms.csv",
+      "bytes": 48862,
+      "sha256": "5fd216d51a4ae86013d56b966b9f0bcdf0a478ce3559068c02b904a6f61b5989",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/nmr_shift_anisotropy/results/ultradense_axial_eta_axial_k_500ms.csv",
+      "repository_path": "theory/nmr_shift_anisotropy/results/ultradense_axial_eta_axial_k_500ms.csv",
+      "bytes": 48827,
+      "sha256": "c690290369d721e06e720a539ee3890c535e3a55c179eb8799ee3d528f4ed53c",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/nmr_shift_anisotropy/results/ultradense_free_eta_axial_k_20ms.csv",
+      "repository_path": "theory/nmr_shift_anisotropy/results/ultradense_free_eta_axial_k_20ms.csv",
+      "bytes": 48856,
+      "sha256": "c0c5a5bb222ae13b0acb92b9acbef664d0f1dfcc328ba625d50fa95911fc62f6",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/nmr_shift_anisotropy/results/ultradense_free_eta_axial_k_500ms.csv",
+      "repository_path": "theory/nmr_shift_anisotropy/results/ultradense_free_eta_axial_k_500ms.csv",
+      "bytes": 48823,
+      "sha256": "1b7a74d840aded6403e93e31b1285fd17b312917a04887507dd5567ae017c974",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/nmr_shift_anisotropy/results/ultradense_free_eta_isotropic_k_20ms.csv",
+      "repository_path": "theory/nmr_shift_anisotropy/results/ultradense_free_eta_isotropic_k_20ms.csv",
+      "bytes": 48855,
+      "sha256": "46cde6f6b13e9c3fe7c2d3476b350803118a821119d852b5962e40b06e702d18",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/nmr_shift_anisotropy/results/ultradense_free_eta_isotropic_k_500ms.csv",
+      "repository_path": "theory/nmr_shift_anisotropy/results/ultradense_free_eta_isotropic_k_500ms.csv",
+      "bytes": 48820,
+      "sha256": "4fe09a69df5ead19b0eaa162734f5966d12098ca40be91312ab62f2a5690ce9e",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/nmr_shift_anisotropy/results/ultradense_grid_check.csv",
+      "repository_path": "theory/nmr_shift_anisotropy/results/ultradense_grid_check.csv",
+      "bytes": 657,
+      "sha256": "ad8143f4c212183e0a890e25755f2d87c8fb93b1e374f4d9eec597c7475ee735",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/nmr_shift_anisotropy/run.cmd",
+      "repository_path": "theory/nmr_shift_anisotropy/run.cmd",
+      "bytes": 623,
+      "sha256": "6f94e9f8c4eb122b44bf7b998264280e2baf87851531815b9435760b6fe028b3",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/nmr_shift_anisotropy/run.sh",
+      "repository_path": "theory/nmr_shift_anisotropy/run.sh",
+      "bytes": 661,
+      "sha256": "7215436e6af41f6d47c2ea3116fb6a78d8985f821504f88be0165d14536e37db",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/nmr_shift_anisotropy/src/main/java/org/eljah/nmr/BoundedFit.java",
+      "repository_path": "theory/nmr_shift_anisotropy/src/main/java/org/eljah/nmr/BoundedFit.java",
+      "bytes": 6345,
+      "sha256": "0ec617379a81955327db248aef092f96580e68cca8498b7d6dc4b3229790f13b",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/nmr_shift_anisotropy/src/main/java/org/eljah/nmr/NmrAnalysis.java",
+      "repository_path": "theory/nmr_shift_anisotropy/src/main/java/org/eljah/nmr/NmrAnalysis.java",
+      "bytes": 24667,
+      "sha256": "f6749ea71b81d82fd9aaad613a7f8ca3e879815edb73b412f93b3dcccb0743e7",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/nmr_shift_anisotropy/src/main/java/org/eljah/nmr/NmrFiles.java",
+      "repository_path": "theory/nmr_shift_anisotropy/src/main/java/org/eljah/nmr/NmrFiles.java",
+      "bytes": 3435,
+      "sha256": "8d5de01e59324e6bc80e3e639e43fd3d009bc9ec83ca856c932d990a77e10c74",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/nmr_shift_anisotropy/src/main/java/org/eljah/nmr/NmrShiftAnisotropy.java",
+      "repository_path": "theory/nmr_shift_anisotropy/src/main/java/org/eljah/nmr/NmrShiftAnisotropy.java",
+      "bytes": 13323,
+      "sha256": "0a7365b157313bfaf87243e38e9c71481d062ba1dbf3a3c32b14dda4cadf9195",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/nmr_shift_anisotropy/src/main/java/org/eljah/nmr/PowderModel.java",
+      "repository_path": "theory/nmr_shift_anisotropy/src/main/java/org/eljah/nmr/PowderModel.java",
+      "bytes": 14410,
+      "sha256": "ebc8319a1a69f5f582258ad70b3deecd234f69134ca197db919f3ef05753b117",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/nmr_shift_anisotropy/src/main/java/org/eljah/nmr/SpinHamiltonian.java",
+      "repository_path": "theory/nmr_shift_anisotropy/src/main/java/org/eljah/nmr/SpinHamiltonian.java",
+      "bytes": 5765,
+      "sha256": "e1df6a95e9e8029ed827c0efdbcc266f5f185e35ad1d8f16d1314ce9a5c736c7",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/pom.xml",
+      "repository_path": "theory/pom.xml",
+      "bytes": 774,
+      "sha256": "bc708ecc8118db1b6679895fb864f93a60e7949d2c452397c7bbb1c45d9b9a8f",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/relaxation_dynamics/.gitignore",
+      "repository_path": "theory/relaxation_dynamics/.gitignore",
+      "bytes": 9,
+      "sha256": "306fd52e74fca6746e12acc750f232de15e71da917756a1270d74c91f5eb7368",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/relaxation_dynamics/README_RU.md",
+      "repository_path": "theory/relaxation_dynamics/README_RU.md",
+      "bytes": 9425,
+      "sha256": "05cc60db0a3a1fb429854028e88ebdcc629531c28cb2275f9a7b518f50995a8a",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/relaxation_dynamics/inputs/isotope_observations.csv",
+      "repository_path": "theory/relaxation_dynamics/inputs/isotope_observations.csv",
+      "bytes": 446,
+      "sha256": "f92a6c0e79cdd2dbd7b2c6f311a1edfd4c790f24dbab0310598957daea8e0d2a",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/relaxation_dynamics/inputs/manifest.json",
+      "repository_path": "theory/relaxation_dynamics/inputs/manifest.json",
+      "bytes": 6337,
+      "sha256": "8c508667c64114925a51e24851f82ed222f22f78b45e6dbe44245836157a8ac4",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/relaxation_dynamics/inputs/manifest.sha256",
+      "repository_path": "theory/relaxation_dynamics/inputs/manifest.sha256",
+      "bytes": 2461,
+      "sha256": "5189434f3c9d73f3e78c10c65a59043169360848600f0c9593f4e22e9a060f6e",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/relaxation_dynamics/inputs/raw/object_02/Data1.csv",
+      "repository_path": "theory/relaxation_dynamics/inputs/raw/object_02/Data1.csv",
+      "bytes": 3755,
+      "sha256": "cd331631cb3f904dfa38ef6f61e403f39c021678019a1103763cad36851855ec",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/relaxation_dynamics/inputs/raw/object_02/column_provenance.json",
+      "repository_path": "theory/relaxation_dynamics/inputs/raw/object_02/column_provenance.json",
+      "bytes": 23154,
+      "sha256": "accb42c7d3c91fb3fa826f55ed659838222782fd53462e9cd986d42c68425b47",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/relaxation_dynamics/inputs/raw/object_03/T1S1.csv",
+      "repository_path": "theory/relaxation_dynamics/inputs/raw/object_03/T1S1.csv",
+      "bytes": 2156,
+      "sha256": "f921070ccbe95d31be5253ddf90dc315e8c05c8782adbd8ad2b76ce6ed12b223",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/relaxation_dynamics/inputs/raw/object_03/T1S4F1195.csv",
+      "repository_path": "theory/relaxation_dynamics/inputs/raw/object_03/T1S4F1195.csv",
+      "bytes": 716,
+      "sha256": "8bc0f32bf48c74a3b662fbc9e3a87eb691e7cb5479ff5379bdb93b85f99275eb",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/relaxation_dynamics/inputs/raw/object_03/T1S4F1485.csv",
+      "repository_path": "theory/relaxation_dynamics/inputs/raw/object_03/T1S4F1485.csv",
+      "bytes": 775,
+      "sha256": "2feee5772e83b29ab79ecff75b6fcb3b85c7cc648fb53b38448c71420e4b8c26",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/relaxation_dynamics/inputs/raw/object_03/T1S4F1526.csv",
+      "repository_path": "theory/relaxation_dynamics/inputs/raw/object_03/T1S4F1526.csv",
+      "bytes": 740,
+      "sha256": "28585fae92a1a227099ec2b5f91ebc70d67af0d28b019ce8ecada00781a52c4b",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/relaxation_dynamics/inputs/raw/object_03/T1S4F1620.csv",
+      "repository_path": "theory/relaxation_dynamics/inputs/raw/object_03/T1S4F1620.csv",
+      "bytes": 853,
+      "sha256": "a70b6375760857c42e3f5436f4901b830fe1b6ea5eeaedadd5485a8e60673baa",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/relaxation_dynamics/inputs/raw/object_03/T1S4F1696.csv",
+      "repository_path": "theory/relaxation_dynamics/inputs/raw/object_03/T1S4F1696.csv",
+      "bytes": 727,
+      "sha256": "20735375da1efa4c0d6074c96fdaac2dcdc6f79df2c9e4942e6ac6db1d16cbbd",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/relaxation_dynamics/inputs/raw/object_03/column_provenance.json",
+      "repository_path": "theory/relaxation_dynamics/inputs/raw/object_03/column_provenance.json",
+      "bytes": 26915,
+      "sha256": "182b08f33a39c2065450ba32499e5ec4757e4cebbd68fb2e55f5284b4b9bed65",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/relaxation_dynamics/inputs/raw/object_04/T1S4F1195.csv",
+      "repository_path": "theory/relaxation_dynamics/inputs/raw/object_04/T1S4F1195.csv",
+      "bytes": 1201,
+      "sha256": "1b17610f345b853c5903b907a84feb0205048db76e75662c17a01da5794c2700",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/relaxation_dynamics/inputs/raw/object_04/T1S4F1485.csv",
+      "repository_path": "theory/relaxation_dynamics/inputs/raw/object_04/T1S4F1485.csv",
+      "bytes": 1081,
+      "sha256": "57929f4b30c4db2e94a19130960e800bf9c252bc89233b84d0fea203bb387ec1",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/relaxation_dynamics/inputs/raw/object_04/T1S4F1526.csv",
+      "repository_path": "theory/relaxation_dynamics/inputs/raw/object_04/T1S4F1526.csv",
+      "bytes": 1213,
+      "sha256": "88404754eb12eebf82d616251553792bbe18255811f7e699ab131245b4fb5674",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/relaxation_dynamics/inputs/raw/object_04/T1S4F1620.csv",
+      "repository_path": "theory/relaxation_dynamics/inputs/raw/object_04/T1S4F1620.csv",
+      "bytes": 1251,
+      "sha256": "545340d21a0a52e29dc18469fc9535cf3d530e768d08eb88fc3c312ce9124941",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/relaxation_dynamics/inputs/raw/object_04/T1S4F1696.csv",
+      "repository_path": "theory/relaxation_dynamics/inputs/raw/object_04/T1S4F1696.csv",
+      "bytes": 1107,
+      "sha256": "de076bc230a3a262dacd817212743f548bd3f974dad3459dc41c387b8a3690ba",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/relaxation_dynamics/inputs/raw/object_04/column_provenance.json",
+      "repository_path": "theory/relaxation_dynamics/inputs/raw/object_04/column_provenance.json",
+      "bytes": 22733,
+      "sha256": "32b3a8c93b7b08537a5f00e999c529fbb6274a70e4b403f2225802353c19ed12",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/relaxation_dynamics/inputs/raw/object_05/T2datd.csv",
+      "repository_path": "theory/relaxation_dynamics/inputs/raw/object_05/T2datd.csv",
+      "bytes": 3033,
+      "sha256": "ffac3ec88a723cc580f39dffbf5f69df29800ea9179f6aebf844f9554e8a7b28",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/relaxation_dynamics/inputs/raw/object_05/T2s1.csv",
+      "repository_path": "theory/relaxation_dynamics/inputs/raw/object_05/T2s1.csv",
+      "bytes": 301,
+      "sha256": "1ba6942e1ae59713456977cd3c9f2f87f7ae1238e1f6ab196175ceb5a1a158b2",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/relaxation_dynamics/inputs/raw/object_05/T2s2.csv",
+      "repository_path": "theory/relaxation_dynamics/inputs/raw/object_05/T2s2.csv",
+      "bytes": 338,
+      "sha256": "a4957f8dd39b11846431f815d5711c5e6db2955713d3fa07ff885146e746202d",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/relaxation_dynamics/inputs/raw/object_05/T2s3.csv",
+      "repository_path": "theory/relaxation_dynamics/inputs/raw/object_05/T2s3.csv",
+      "bytes": 903,
+      "sha256": "a7b750b43e0ef302b7ea5fdcf52e70bd2ebb33ff24408f0b7e38e48f5daa4c8c",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/relaxation_dynamics/inputs/raw/object_05/T2s4.csv",
+      "repository_path": "theory/relaxation_dynamics/inputs/raw/object_05/T2s4.csv",
+      "bytes": 485,
+      "sha256": "2eb747ad492da8a6189899a052c720fb29f9fce90cdbb19e447ab992185aa80c",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/relaxation_dynamics/inputs/raw/object_05/column_provenance.json",
+      "repository_path": "theory/relaxation_dynamics/inputs/raw/object_05/column_provenance.json",
+      "bytes": 29647,
+      "sha256": "1776705d11881a999be141d980264601230d7a033a1215922d3aa35d8afe6e7e",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/relaxation_dynamics/inputs/reference/diploma_magister_geerite_2009_5.pdf",
+      "repository_path": "theory/relaxation_dynamics/inputs/reference/diploma_magister_geerite_2009_5.pdf",
+      "bytes": 1996913,
+      "sha256": "7dd66ccaf54894ca1f73d886196aa3dfded5d6b6c267739be9718575c25a75b3",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/relaxation_dynamics/inputs/reference/diploma_magister_geerite_2009_5.txt",
+      "repository_path": "theory/relaxation_dynamics/inputs/reference/diploma_magister_geerite_2009_5.txt",
+      "bytes": 96639,
+      "sha256": "c4733c7c057326a4a8b179ee3d828717826326a7200754bfedc1037bf8154e18",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/relaxation_dynamics/outputs/ANALYSIS_RU.md",
+      "repository_path": "theory/relaxation_dynamics/outputs/ANALYSIS_RU.md",
+      "bytes": 22101,
+      "sha256": "9ac5ccc981a39fcac8ef5c0ac39d09707e589f39ace29225537c81e538f08d42",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/relaxation_dynamics/outputs/README_RU.md",
+      "repository_path": "theory/relaxation_dynamics/outputs/README_RU.md",
+      "bytes": 1311,
+      "sha256": "d99dfa67f6fcf003d8d00fbe9a6361a4e85716c0559f436519202b59178811ae",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/relaxation_dynamics/outputs/SUMMARY.json",
+      "repository_path": "theory/relaxation_dynamics/outputs/SUMMARY.json",
+      "bytes": 13863,
+      "sha256": "c488cc1bbf209ae00cd22efa0f7d49b6de41381e53a4106d87f7d04d918435c9",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/relaxation_dynamics/outputs/activation_comparison.csv",
+      "repository_path": "theory/relaxation_dynamics/outputs/activation_comparison.csv",
+      "bytes": 1269,
+      "sha256": "5710f1c01cd7abad455bd12fb974539fddb368fafc8adef111d547a2196eac23",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/relaxation_dynamics/outputs/activation_contiguous_cv_comparison.csv",
+      "repository_path": "theory/relaxation_dynamics/outputs/activation_contiguous_cv_comparison.csv",
+      "bytes": 835,
+      "sha256": "7c60a9233bace1ec9e92ab1efd55c6019ee05a83884b1806927ce23576ca7a70",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/relaxation_dynamics/outputs/activation_contiguous_cv_parameters.csv",
+      "repository_path": "theory/relaxation_dynamics/outputs/activation_contiguous_cv_parameters.csv",
+      "bytes": 9772,
+      "sha256": "f12a2776546f03dfe72486e68acef7444f92a2e0e5ef73fe2658ad8a616578b7",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/relaxation_dynamics/outputs/activation_contiguous_cv_predictions.csv",
+      "repository_path": "theory/relaxation_dynamics/outputs/activation_contiguous_cv_predictions.csv",
+      "bytes": 29927,
+      "sha256": "da8cf313ee3d454f47af93f46373feb05c56164aacc1448f67933154981d8197",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/relaxation_dynamics/outputs/activation_parameters.csv",
+      "repository_path": "theory/relaxation_dynamics/outputs/activation_parameters.csv",
+      "bytes": 3254,
+      "sha256": "b64bd9aa7da697f2ecea7f9979ce26b6789768da3dc4552b843dd7b847524f22",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/relaxation_dynamics/outputs/activation_predictions.csv",
+      "repository_path": "theory/relaxation_dynamics/outputs/activation_predictions.csv",
+      "bytes": 39603,
+      "sha256": "bcd3e41c5986590f3ad0b8845a14c637118431ab4301c52422125a83e80b10f5",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/relaxation_dynamics/outputs/activation_profile.csv",
+      "repository_path": "theory/relaxation_dynamics/outputs/activation_profile.csv",
+      "bytes": 152277,
+      "sha256": "27b47bba0b07c95f323bd6b1002be65aa00cd70d00e45cb6e2ced460e5e9bd20",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/relaxation_dynamics/outputs/audit.json",
+      "repository_path": "theory/relaxation_dynamics/outputs/audit.json",
+      "bytes": 2114,
+      "sha256": "0c80aa0ff8b4840b5ae5b64fd828d29e9ea074129ec2079800d7c3a807290289",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/relaxation_dynamics/outputs/bpp_parameters.csv",
+      "repository_path": "theory/relaxation_dynamics/outputs/bpp_parameters.csv",
+      "bytes": 770,
+      "sha256": "1b1fea777584b6b2df8610c3bd42870805a67e91328ef53aa558e121ebf3286c",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/relaxation_dynamics/outputs/bpp_predictions.csv",
+      "repository_path": "theory/relaxation_dynamics/outputs/bpp_predictions.csv",
+      "bytes": 6998,
+      "sha256": "821b4450ca8b69955e706d811230682fcb839cd2b768c4af770393be0fc8c0d5",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/relaxation_dynamics/outputs/bpp_surface.csv",
+      "repository_path": "theory/relaxation_dynamics/outputs/bpp_surface.csv",
+      "bytes": 272116,
+      "sha256": "ea8e788046da8e365477c809f71e643192445f9816154d5f973722fb6303ca0c",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/relaxation_dynamics/outputs/bpp_tau0_profile.csv",
+      "repository_path": "theory/relaxation_dynamics/outputs/bpp_tau0_profile.csv",
+      "bytes": 13222,
+      "sha256": "d09e37639cc72b6329db48c39351e5cd12abc3863d591052e7cb852867a56945",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/relaxation_dynamics/outputs/checks.json",
+      "repository_path": "theory/relaxation_dynamics/outputs/checks.json",
+      "bytes": 844,
+      "sha256": "06e3bd6bdcec0bb116180061a435f2e72ab3f8319c47c7c0241cadfde14e6b89",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/relaxation_dynamics/outputs/isotope_J_sensitivity.csv",
+      "repository_path": "theory/relaxation_dynamics/outputs/isotope_J_sensitivity.csv",
+      "bytes": 2597,
+      "sha256": "a81f7063071370e1ea9b560d974dbb69578610a9666ec78f03693efc94d57a16",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/relaxation_dynamics/outputs/isotope_ratios.csv",
+      "repository_path": "theory/relaxation_dynamics/outputs/isotope_ratios.csv",
+      "bytes": 394,
+      "sha256": "4c1d515e15e265730c9939b3474f86c174601154ef25d8bf7f2a36cc9af78190",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/relaxation_dynamics/outputs/power_comparison.csv",
+      "repository_path": "theory/relaxation_dynamics/outputs/power_comparison.csv",
+      "bytes": 706,
+      "sha256": "ee0ec3ae21e1a11bba7f65eb03b71fc0f38c7545b4749150ce4ec35a42834d7a",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/relaxation_dynamics/outputs/power_cv_parameters.csv",
+      "repository_path": "theory/relaxation_dynamics/outputs/power_cv_parameters.csv",
+      "bytes": 6327,
+      "sha256": "1dd8ddf96a106595626ef0004502b6958e1add835a1244839b4a7144d2a9c4bc",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/relaxation_dynamics/outputs/power_parameters.csv",
+      "repository_path": "theory/relaxation_dynamics/outputs/power_parameters.csv",
+      "bytes": 738,
+      "sha256": "1ce50d7dfda27f6e016e1eab02a926cb5bea2e5c131d79660b8b87367e9cbdd9",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/relaxation_dynamics/outputs/power_predictions.csv",
+      "repository_path": "theory/relaxation_dynamics/outputs/power_predictions.csv",
+      "bytes": 12018,
+      "sha256": "5bbd95858290f1abd38008c520198c3f59e388a02b2678313170d99c80745226",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/relaxation_dynamics/outputs/power_profile.csv",
+      "repository_path": "theory/relaxation_dynamics/outputs/power_profile.csv",
+      "bytes": 41303,
+      "sha256": "2d482ea3cacf236de78e71a2f13914bca185ad364a282546182d5a8dec757761",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/relaxation_dynamics/outputs/provenance_conflicts.csv",
+      "repository_path": "theory/relaxation_dynamics/outputs/provenance_conflicts.csv",
+      "bytes": 1278,
+      "sha256": "24610af24484e264d60abc642e45f2ae114218dd79a5782d04ce8e12bce6e4ca",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/relaxation_dynamics/outputs/quarantine.csv",
+      "repository_path": "theory/relaxation_dynamics/outputs/quarantine.csv",
+      "bytes": 268,
+      "sha256": "038c508ee0b4b838b96122dab330c927092e8c687c92bd42197336b0b2d6de5a",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/relaxation_dynamics/outputs/r1_normalized.csv",
+      "repository_path": "theory/relaxation_dynamics/outputs/r1_normalized.csv",
+      "bytes": 15141,
+      "sha256": "5dfe41c508c13b547625566e3abcda82d4900cb498ba2a8b844f96069135d2a4",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/relaxation_dynamics/outputs/r1_t1t_audit.csv",
+      "repository_path": "theory/relaxation_dynamics/outputs/r1_t1t_audit.csv",
+      "bytes": 6144,
+      "sha256": "d58741a27007bec7eb9aba000582f80a2e747f00f97ac7638afad08baa3a381d",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/relaxation_dynamics/outputs/r2_all_line_pairs.csv",
+      "repository_path": "theory/relaxation_dynamics/outputs/r2_all_line_pairs.csv",
+      "bytes": 59792,
+      "sha256": "e1f8d0989f8b1c0f0c03b87732c8f9f969ed4c51a2f542c5d91e428a94891025",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/relaxation_dynamics/outputs/r2_model_comparison.csv",
+      "repository_path": "theory/relaxation_dynamics/outputs/r2_model_comparison.csv",
+      "bytes": 19682,
+      "sha256": "43e23d9b27ef936653d46bc2c68c4d781967e83ccbe7f6c49645b2be5ffb13b9",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/relaxation_dynamics/outputs/r2_nearest_lines.csv",
+      "repository_path": "theory/relaxation_dynamics/outputs/r2_nearest_lines.csv",
+      "bytes": 7251,
+      "sha256": "dd56e22a1779675cca1d6e93c54413cf33a95fc2d6f72d59d0a2464e357f4dc8",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/relaxation_dynamics/outputs/r2_normalized.csv",
+      "repository_path": "theory/relaxation_dynamics/outputs/r2_normalized.csv",
+      "bytes": 7203,
+      "sha256": "a78238f101a86eeebf6c750e28c40ff5581b5fbfedfc0f12c858fc11b8925023",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/relaxation_dynamics/outputs/r2_parameters.csv",
+      "repository_path": "theory/relaxation_dynamics/outputs/r2_parameters.csv",
+      "bytes": 43499,
+      "sha256": "775b40484514539c737fee61db15ed32d4f3e8b60e37c8f978183f8bdb8dbbf1",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/relaxation_dynamics/outputs/r2_predictions.csv",
+      "repository_path": "theory/relaxation_dynamics/outputs/r2_predictions.csv",
+      "bytes": 343522,
+      "sha256": "96dd2dfb3899624233d82e8bf448f14ded8181145c10a77d74ed7f9f162dfb54",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/relaxation_dynamics/pom.xml",
+      "repository_path": "theory/relaxation_dynamics/pom.xml",
+      "bytes": 1344,
+      "sha256": "e11d1ee3a957f94e00786da39782cccafbaaed148a3e8ba1fcafa93b1405d73a",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/relaxation_dynamics/src/main/java/org/eljah/nmr/relaxation/FilesIO.java",
+      "repository_path": "theory/relaxation_dynamics/src/main/java/org/eljah/nmr/relaxation/FilesIO.java",
+      "bytes": 4968,
+      "sha256": "5e2a27589e8da82e6e3084367478ce3b7052b99c4c0ce6f9d4075d551ad526c9",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/relaxation_dynamics/src/main/java/org/eljah/nmr/relaxation/Numerics.java",
+      "repository_path": "theory/relaxation_dynamics/src/main/java/org/eljah/nmr/relaxation/Numerics.java",
+      "bytes": 5913,
+      "sha256": "3e2dea1993b92fbdcb2f86d171615f43230372735b067b703eb37ee456a17894",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/relaxation_dynamics/src/main/java/org/eljah/nmr/relaxation/RelaxationDynamics.java",
+      "repository_path": "theory/relaxation_dynamics/src/main/java/org/eljah/nmr/relaxation/RelaxationDynamics.java",
+      "bytes": 52200,
+      "sha256": "5cc5bf219fc66c0074837b05ac0d99e4bfdab30c386944446802cee0764fc84e",
+      "category": "theory"
+    },
+    {
+      "source_relative_path": "theory/relaxation_dynamics/src/main/java/org/eljah/nmr/relaxation/SelfChecks.java",
+      "repository_path": "theory/relaxation_dynamics/src/main/java/org/eljah/nmr/relaxation/SelfChecks.java",
+      "bytes": 4503,
+      "sha256": "0f618c10e4d03b250618726b2a5f30762786da0ce37a755d114af66d7083dee4",
       "category": "theory"
     },
     {
@@ -9856,22 +11375,33 @@
       "powder_model/__pycache__/powder_fit.cpython-312.pyc",
       "powder_model/__pycache__/validate_and_plot.cpython-312.pyc",
       "research_literature/__pycache__/reproduce_anilite_sites.cpython-312.pyc"
+    ],
+    "additional_exclusions": [
+      "Java target/classes and packaged target/*.jar build outputs",
+      "Maven local caches, downloaded JDK/Maven runtimes, and temporary proxy configuration"
     ]
   },
   "destination_branches": [
-    "main",
     "master"
   ],
-  "updated_utc": "2026-11-27T17:39:14.427226+00:00",
-  "update_base_commit": "cdbbda92a2d924daff508f912fb23d116fd70728",
+  "updated_utc": "2026-11-28T11:29:36.436794+00:00",
+  "update_base_commit": "27b3daae5022e97bba995e20bd4e3f5a99394766",
   "update_verification": {
-    "baseline_manifest_entries": 1308,
-    "present_tracked_files_rehashed": 255,
+    "baseline_manifest_entries": 1398,
+    "present_tracked_files_rehashed": 1151,
     "baseline_entries_updated": [
       "README.md",
-      "REPRODUCIBILITY.md"
+      "REPRODUCIBILITY.md",
+      "theory/README_RU.md"
     ],
-    "new_entries_added": 90,
-    "unchanged_sparse_absent_entries": "Retained from baseline manifest; not re-downloaded or rehashed during this update."
-  }
+    "new_entries_added": 217,
+    "unchanged_sparse_absent_entry_count": 464,
+    "unchanged_sparse_absent_entries": "Retained from the baseline manifest; not re-downloaded or rehashed during this update.",
+    "numerical_build_validation": "theory/combined_review/verification/BUILD_VALIDATION.json"
+  },
+  "original_snapshot_date": "2026-11-27",
+  "baseline_destination_branches": [
+    "main",
+    "master"
+  ]
 }

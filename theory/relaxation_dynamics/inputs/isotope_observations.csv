@@ -1,0 +1,5 @@
+site,T_K,isotope,R1_s-1,error_scale_s-1,source,source_page,method
+s2,4.2,63,5.00,0.04,diploma_magister_geerite_2009_5.pdf,27,inversion_recovery_single_exponential
+s2,4.2,65,5.79,,diploma_magister_geerite_2009_5.pdf,27,inversion_recovery_single_exponential
+s4,4.2,63,2.50,0.04,diploma_magister_geerite_2009_5.pdf,27,inversion_recovery_single_exponential
+s4,4.2,65,2.92,,diploma_magister_geerite_2009_5.pdf,27,inversion_recovery_single_exponential

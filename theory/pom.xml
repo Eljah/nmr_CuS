@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.eljah.nmr</groupId>
+  <artifactId>copper-nqr-calculations</artifactId>
+  <version>1.0.0</version>
+  <packaging>pom</packaging>
+  <name>Copper NQR and NMR calculation modules</name>
+  <modules>
+    <module>digenite_model</module>
+    <module>superstructure_hypothesis</module>
+    <module>joint_temperature</module>
+    <module>relaxation_dynamics</module>
+    <module>nmr_shift_anisotropy</module>
+    <module>combined_review</module>
+  </modules>
+</project>

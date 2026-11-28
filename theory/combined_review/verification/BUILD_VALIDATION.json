@@ -1,0 +1,73 @@
+{
+  "date_utc": "2026-11-28T11:26:30.991014+00:00",
+  "base_commit": "27b3daae5022e97bba995e20bd4e3f5a99394766",
+  "runtime": "Temurin JDK 17.0.17+10",
+  "build_tool": "Maven 3.9.11",
+  "maven_command": "mvn -B -f theory/pom.xml package",
+  "reactor_success": true,
+  "modules": [
+    {
+      "module": "digenite_model",
+      "own_class_count": 13,
+      "class_major_versions": [
+        61
+      ],
+      "java_release": 17
+    },
+    {
+      "module": "superstructure_hypothesis",
+      "own_class_count": 7,
+      "class_major_versions": [
+        61
+      ],
+      "java_release": 17
+    },
+    {
+      "module": "joint_temperature",
+      "own_class_count": 16,
+      "class_major_versions": [
+        61
+      ],
+      "java_release": 17
+    },
+    {
+      "module": "relaxation_dynamics",
+      "own_class_count": 11,
+      "class_major_versions": [
+        61
+      ],
+      "java_release": 17
+    },
+    {
+      "module": "nmr_shift_anisotropy",
+      "own_class_count": 20,
+      "class_major_versions": [
+        61
+      ],
+      "java_release": 17
+    },
+    {
+      "module": "combined_review",
+      "own_class_count": 1,
+      "class_major_versions": [
+        61
+      ],
+      "java_release": 17
+    }
+  ],
+  "joint_temperature_checks_passed": 18,
+  "relaxation_checks_passed": 11,
+  "hamiltonian_transition_checks": 96,
+  "hamiltonian_maximum_errors": {
+    "transition_error_MHz": 1.70530256582424e-13,
+    "archive_RF_error": 2.55351295663786e-15,
+    "tensor_RF_error": 2.664535259100376e-15,
+    "orthogonality_error": 1.332267629550188e-15
+  },
+  "figure_source_hashes_verified": 11,
+  "notes": [
+    "The numerical calculations were executed before the aggregate packaging build.",
+    "This file audits committed result records and build compatibility; it does not claim physical-model validity.",
+    "Full unchanged sparse-absent archive files were not downloaded again."
+  ]
+}

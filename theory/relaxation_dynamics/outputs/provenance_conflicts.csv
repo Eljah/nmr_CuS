@@ -1,0 +1,10 @@
+kind,site,T_K,primary_value,alternative_value,primary_error,alternative_error,decision
+identical_s3_s4_rate_and_error,s3/s4,180.0,10.783,10.783,0.485,0.485,At most one independent unresolved/ambiguous observation; exclude both or retain s3 only
+identical_s3_s4_rate_and_error,s3/s4,200.0,12.254,12.254,0.728,0.728,At most one independent unresolved/ambiguous observation; exclude both or retain s3 only
+identical_s3_s4_rate_and_error,s3/s4,210.0,10.866,10.866,0.585,0.585,At most one independent unresolved/ambiguous observation; exclude both or retain s3 only
+identical_s3_s4_rate_and_error,s3/s4,220.0,9.92422,9.92422,0.21628,0.21628,At most one independent unresolved/ambiguous observation; exclude both or retain s3 only
+identical_s3_s4_rate_and_error,s3/s4,230.0,10.204,10.204,0.438,0.438,At most one independent unresolved/ambiguous observation; exclude both or retain s3 only
+summary_only,s2,220.0,,9.87228,,0.3051,Preserve; only summary_s2 sensitivity uses s2 alternatives
+summary_only,s2,240.0,,9.0262,,0.85659,Preserve; only summary_s2 sensitivity uses s2 alternatives
+conflicting_value,s2,260.0,18.076,12.55667,0.897,0.91578,Separate sensitivity branch; never average
+summary_only,s2,270.0,,11.43188,,0.6716,Preserve; only summary_s2 sensitivity uses s2 alternatives

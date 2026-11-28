@@ -1,0 +1,71 @@
+{
+  "git_commit": "27b3daae5022e97bba995e20bd4e3f5a99394766",
+  "inputs": [
+    {
+      "source": "data_analysis/export/opj_Spec05122016.csv",
+      "copy": "inputs/spectrum_integrals.csv",
+      "sha256": "671431b3339f41f26840d9f9a8a1b2a62b3f86ecf446e167d2ea2c0c27e5be69",
+      "bytes": 19368
+    },
+    {
+      "source": "powder_model/powder_fit.py",
+      "copy": "inputs/archive_powder_fit.py.txt",
+      "sha256": "8fd297d4cc98ef8c93ec1787c10f5678b6f7378fdefd8fc7a3455ee7a0942382",
+      "bytes": 8894
+    },
+    {
+      "source": "powder_model/refine_exact_joint.py",
+      "copy": "inputs/archive_refine_exact_joint.py.txt",
+      "sha256": "bfd671814d7e9491f0b5165a943ee7308259dc5b65d136113ccd97dbe08b39ae",
+      "bytes": 3073
+    },
+    {
+      "source": "powder_model/exact_joint_refinements.json",
+      "copy": "inputs/archive_exact_joint_refinements.json",
+      "sha256": "f3c17ecde2820982edb9654dd0570b1a925467cb452b20074bead88ad615e322",
+      "bytes": 3366
+    },
+    {
+      "source": "powder_model/joint_fit.py",
+      "copy": "inputs/archive_joint_fit.py.txt",
+      "sha256": "24a5885dbbfea6a33a5415395bf6214a8093ec81d9c4258ee848b89a13f95cf9",
+      "bytes": 1117
+    },
+    {
+      "source": "powder_model/joint_results.json",
+      "copy": "inputs/archive_joint_results.json",
+      "sha256": "d6a681502a28e3598d63aa09a2191563b77240ba3234c39dde8724ff3264ac0c",
+      "bytes": 10731
+    },
+    {
+      "source": "theory/digenite_nmr_control/FINAL_CONTROL.json",
+      "copy": "inputs/archive_FINAL_CONTROL.json",
+      "sha256": "4e8dd9c2adbcbdab0ca891831b4f6b9f9f3ba5ba6fa87e62bad39276544f6fea",
+      "bytes": 10005
+    },
+    {
+      "source": "theory/digenite_nmr_control/archived_free_eta_seed67_exact160_500ms.csv",
+      "copy": "inputs/archive_free67_160x320_500ms.csv",
+      "sha256": "5c4d36c2cefe1b92a961196bc979126080a7617cfaf0d2c0aad783e654133c31",
+      "bytes": 31919
+    },
+    {
+      "source": "theory/digenite_nmr_control/archived_free_eta_seed67_exact160_20ms.csv",
+      "copy": "inputs/archive_free67_160x320_20ms.csv",
+      "sha256": "39af595c4df3de5ac7d2a7ef57c91632d3d1a023f14dda5927cec15c56599788",
+      "bytes": 31935
+    },
+    {
+      "source": "theory/digenite_nmr_control/axial_exact1280_500ms.csv",
+      "copy": "inputs/archive_axial1280_500ms.csv",
+      "sha256": "b7d6ec1d11e1bc38aee1318aea3edced6eb7790413f13571fcc09a24679853a2",
+      "bytes": 31924
+    },
+    {
+      "source": "theory/digenite_nmr_control/axial_exact1280_20ms.csv",
+      "copy": "inputs/archive_axial1280_20ms.csv",
+      "sha256": "2316e7ffdd9b630d67d16e80d1fa7941d9d317f8de597ac846b9ed17abc0604b",
+      "bytes": 31952
+    }
+  ]
+}

@@ -1,0 +1,341 @@
+{
+  "isotope": {
+    "s2_R65_R63": 1.158,
+    "s4_R65_R63": 1.168,
+    "flat_J_magnetic": 1.1474922707420687,
+    "flat_J_quadrupolar": 0.8557533581901159,
+    "interpretation": "Compatible with predominantly magnetic relaxation under a flat-J assumption; 65Cu errors and independent J constraints are absent.",
+    "J_sensitivity": "single Lorentzian at 15 MHz is an illustration, not a fit or complete I=3/2 recovery model"
+  },
+  "activation": {
+    "T_min_K": 50,
+    "parameterization": "a_i*T + C_i*exp[-theta*(1/T-1/250)]; B_i=C_i*exp(theta/250)",
+    "theta_search_K": [0, 16000.0],
+    "a_and_C_constraints": ">=0",
+    "cross_validation": "4 folds; sorted unique temperatures assigned index modulo 4; every site at that temperature held out jointly",
+    "heldout_columns_mean": "interleaved temperature folds, not contiguous temperature blocks",
+    "fit_comparison": [{
+        "weighting": "stored_error_scale",
+        "model": "linear_T",
+        "n": 66,
+        "parameters": 4,
+        "scaled_SSE": 3022.7743536765397,
+        "relative_RMS": 0.4617139225280745,
+        "heldout_relative_RMS": 0.4614917222169336,
+        "heldout_scaled_RMS": 9.206479409815199
+      }, {
+        "weighting": "stored_error_scale",
+        "model": "shared_theta",
+        "n": 66,
+        "parameters": 9,
+        "scaled_SSE": 278.5095056042545,
+        "relative_RMS": 0.16106642586585726,
+        "heldout_relative_RMS": 0.18646935301068235,
+        "heldout_scaled_RMS": 4.28929491364442
+      }, {
+        "weighting": "stored_error_scale",
+        "model": "separate_theta",
+        "n": 66,
+        "parameters": 12,
+        "scaled_SSE": 242.48103492191882,
+        "relative_RMS": 0.16705758203925694,
+        "heldout_relative_RMS": 0.19590639996582507,
+        "heldout_scaled_RMS": 3.824306195575174
+      }, {
+        "weighting": "relative_floor_5pct",
+        "model": "linear_T",
+        "n": 66,
+        "parameters": 4,
+        "scaled_SSE": 2205.4685590594563,
+        "relative_RMS": 0.45628724669015225,
+        "heldout_relative_RMS": 0.45726484813443374,
+        "heldout_scaled_RMS": 5.8211652719733396
+      }, {
+        "weighting": "relative_floor_5pct",
+        "model": "shared_theta",
+        "n": 66,
+        "parameters": 9,
+        "scaled_SSE": 188.21035655350784,
+        "relative_RMS": 0.15107548223849582,
+        "heldout_relative_RMS": 0.1774452131569256,
+        "heldout_scaled_RMS": 2.1172750820606083
+      }, {
+        "weighting": "relative_floor_5pct",
+        "model": "separate_theta",
+        "n": 66,
+        "parameters": 12,
+        "scaled_SSE": 169.7194163294454,
+        "relative_RMS": 0.15778874780044627,
+        "heldout_relative_RMS": 0.19167211164693812,
+        "heldout_scaled_RMS": 2.1731753385248025
+      }]
+  },
+  "activation_contiguous_validation": {
+    "scheme": "sorted unique temperatures assigned floor(4*index/N); all sites at a held-out temperature excluded together",
+    "fold_ranges": [{
+        "fold": 0,
+        "heldout_min_T": 50.0,
+        "heldout_max_T": 100.0,
+        "heldout_n": 19
+      }, {
+        "fold": 1,
+        "heldout_min_T": 120.0,
+        "heldout_max_T": 200.0,
+        "heldout_n": 18
+      }, {
+        "fold": 2,
+        "heldout_min_T": 210.0,
+        "heldout_max_T": 250.0,
+        "heldout_n": 17
+      }, {
+        "fold": 3,
+        "heldout_min_T": 260.0,
+        "heldout_max_T": 290.0,
+        "heldout_n": 12
+      }],
+    "results": [{
+        "weighting": "stored_error_scale",
+        "model": "linear_T",
+        "n": 66,
+        "contiguous_heldout_scaled_SSE": 8010.620547415427,
+        "contiguous_heldout_relative_RMS": 0.47447529417341944,
+        "contiguous_heldout_scaled_RMS": 11.016943251065761,
+        "site_fold_theta_bound_count": 0
+      }, {
+        "weighting": "stored_error_scale",
+        "model": "shared_theta",
+        "n": 66,
+        "contiguous_heldout_scaled_SSE": 1236.3244431460155,
+        "contiguous_heldout_relative_RMS": 0.2218644530935314,
+        "contiguous_heldout_scaled_RMS": 4.328069839144857,
+        "site_fold_theta_bound_count": 0
+      }, {
+        "weighting": "stored_error_scale",
+        "model": "separate_theta",
+        "n": 66,
+        "contiguous_heldout_scaled_SSE": 627.7178813750292,
+        "contiguous_heldout_relative_RMS": 0.232785492133689,
+        "contiguous_heldout_scaled_RMS": 3.0839709775759476,
+        "site_fold_theta_bound_count": 0
+      }, {
+        "weighting": "relative_floor_5pct",
+        "model": "linear_T",
+        "n": 66,
+        "contiguous_heldout_scaled_SSE": 2653.5529957981416,
+        "contiguous_heldout_relative_RMS": 0.47722929167227174,
+        "contiguous_heldout_scaled_RMS": 6.340768756324738,
+        "site_fold_theta_bound_count": 0
+      }, {
+        "weighting": "relative_floor_5pct",
+        "model": "shared_theta",
+        "n": 66,
+        "contiguous_heldout_scaled_SSE": 388.55014814407355,
+        "contiguous_heldout_relative_RMS": 0.21841569853360132,
+        "contiguous_heldout_scaled_RMS": 2.426339518024711,
+        "site_fold_theta_bound_count": 0
+      }, {
+        "weighting": "relative_floor_5pct",
+        "model": "separate_theta",
+        "n": 66,
+        "contiguous_heldout_scaled_SSE": 518.5358062917153,
+        "contiguous_heldout_relative_RMS": 0.24345849745526013,
+        "contiguous_heldout_scaled_RMS": 2.8029632758265044,
+        "site_fold_theta_bound_count": 0
+      }],
+    "interpretation": "Includes extrapolation outside training-temperature support; report separately from interleaved validation."
+  },
+  "power_alternative": {
+    "model": "R1_i=a_i*T+C_i*(T/250)^p; common p in [1.2,24], a_i,C_i>=0",
+    "parameter_count": 9,
+    "interpretation": "Phenomenological curvature control, not an established Raman process",
+    "results": [{
+        "weighting": "stored_error_scale",
+        "model": "shared_power",
+        "parameters": 9,
+        "exponent": 13.534339940560738,
+        "scaled_SSE": 252.01686823976294,
+        "relative_RMS": 0.14496921686024905,
+        "interleaved_heldout_relative_RMS": 0.16815351697908684,
+        "contiguous_heldout_relative_RMS": 0.19091364480458262
+      }, {
+        "weighting": "relative_floor_5pct",
+        "model": "shared_power",
+        "parameters": 9,
+        "exponent": 13.822939653433158,
+        "scaled_SSE": 168.47533540570817,
+        "relative_RMS": 0.1397646057981634,
+        "interleaved_heldout_relative_RMS": 0.16396942874384027,
+        "contiguous_heldout_relative_RMS": 0.1949877997885636
+      }]
+  },
+  "BPP": {
+    "model": "R1_i=a_i*T+A_i*omega_ref*tau/(1+(omega_i(T)*tau)^2); tau=10^logtau0*exp(theta/T); omega_ref=2*pi*15MHz",
+    "interpretation": "One-frequency Lorentzian spectral-density phenomenology. Not an exact I=3/2 recovery model or identification of magnetic versus quadrupolar motion.",
+    "range_log10_tau0_s": [-18, -5],
+    "theta_range_K": [0, 16000.0],
+    "profiles": [{
+        "weighting": "stored_error_scale",
+        "n": 65,
+        "best_log10_tau0_s": -5.25,
+        "best_theta_K": 3147.658246817186,
+        "best_scaled_SSE": 269.70970856062377,
+        "activation_shared_same_subset_SSE": 271.7345417751111,
+        "within_1pct_objective_logtau_range": [-12.0, -5.0],
+        "one_percent_is": "arbitrary descriptive tolerance, not a confidence region",
+        "grid_touches_boundary": true
+      }, {
+        "weighting": "relative_floor_5pct",
+        "n": 65,
+        "best_log10_tau0_s": -5.5,
+        "best_theta_K": 3308.5344042175316,
+        "best_scaled_SSE": 181.16536837414327,
+        "activation_shared_same_subset_SSE": 182.8281508493284,
+        "within_1pct_objective_logtau_range": [-12.25, -5.0],
+        "one_percent_is": "arbitrary descriptive tolerance, not a confidence region",
+        "grid_touches_boundary": true
+      }],
+    "excluded_s3_290K": "No bracketing measured frequency; not extrapolated",
+    "slow_motion_degeneracy": "For omega*tau >>1, R1_fluct ~ A*omega_ref/(omega^2*tau0)*exp(-theta/T); A and tau0 cannot be separated."
+  },
+  "R2": {
+    "primary_model_domain": "T>=77K; all four host frequency branches known within a <=30 K interpolation bracket",
+    "models": "site offsets; offsets+common high-T hinge; offsets+proximity; both; site-specific hinges",
+    "hinge": "max(0,T-210)/70; phenomenological, fixed onset; no transition temperature fitted",
+    "proximity": "1/(1+(nearest within-host 63/65 detuning / width)^2), widths 0.05,0.10,0.20 MHz",
+    "cross_phase_CuS": "Listed separately, not fitted as microscopic interphase coupling",
+    "weighting": "max(stored error, 0.05*R2), used as descriptive scale",
+    "ambiguity_policies": ["exclude_both", "keep_s3"],
+    "main_results": [{
+        "ambiguity": "exclude_both",
+        "model": "site_offsets",
+        "n": 19,
+        "scaled_SSE": 209.505300521391,
+        "relative_RMS": 0.25779450238293705,
+        "heldout_relative_RMS": 0.29280171144873063
+      }, {
+        "ambiguity": "exclude_both",
+        "model": "common_hinge",
+        "n": 19,
+        "scaled_SSE": 76.53340487447379,
+        "relative_RMS": 0.1383813699905728,
+        "heldout_relative_RMS": 0.17180710542869865
+      }, {
+        "ambiguity": "exclude_both",
+        "model": "proximity",
+        "n": 19,
+        "scaled_SSE": 156.41147450333645,
+        "relative_RMS": 0.24071921847595326,
+        "heldout_relative_RMS": 0.28524804136652154
+      }, {
+        "ambiguity": "exclude_both",
+        "model": "hinge_plus_proximity",
+        "n": 19,
+        "scaled_SSE": 76.53340487447379,
+        "relative_RMS": 0.1383813699905728,
+        "heldout_relative_RMS": 0.17180710542869865
+      }, {
+        "ambiguity": "exclude_both",
+        "model": "site_hinges",
+        "n": 19,
+        "scaled_SSE": 37.797686194036174,
+        "relative_RMS": 0.09585656806464296,
+        "heldout_relative_RMS": 0.2125901096278855
+      }, {
+        "ambiguity": "keep_s3",
+        "model": "site_offsets",
+        "n": 20,
+        "scaled_SSE": 217.0396627475697,
+        "relative_RMS": 0.2528361985909951,
+        "heldout_relative_RMS": 0.2864932668658908
+      }, {
+        "ambiguity": "keep_s3",
+        "model": "common_hinge",
+        "n": 20,
+        "scaled_SSE": 77.26902007117586,
+        "relative_RMS": 0.13502187418069,
+        "heldout_relative_RMS": 0.16658360133222133
+      }, {
+        "ambiguity": "keep_s3",
+        "model": "proximity",
+        "n": 20,
+        "scaled_SSE": 172.09863147421655,
+        "relative_RMS": 0.24019312771052945,
+        "heldout_relative_RMS": 0.2988498260664002
+      }, {
+        "ambiguity": "keep_s3",
+        "model": "hinge_plus_proximity",
+        "n": 20,
+        "scaled_SSE": 77.26902007117586,
+        "relative_RMS": 0.13502187418069,
+        "heldout_relative_RMS": 0.16735683029760026
+      }, {
+        "ambiguity": "keep_s3",
+        "model": "site_hinges",
+        "n": 20,
+        "scaled_SSE": 41.19613282449788,
+        "relative_RMS": 0.09531777164759475,
+        "heldout_relative_RMS": 0.20849681613933616
+      }],
+    "covellite_control": {
+      "n": 14,
+      "offset_ms-1": 7.810567222446917,
+      "nonnegative_hinge_ms-1": 0.0,
+      "scaled_SSE": 7.564715672796769
+    },
+    "causal_limit": "Proximity is not proof of cross-relaxation; unresolved lines, static disorder and common temperature dependence remain alternatives."
+  },
+  "audit": {
+    "input_integrity": {
+      "sha256_files_checked": 24,
+      "status": "all exact bytes match the materialized manifest"
+    },
+    "T1T": {
+      "meaning": "R1/T, not T1*T",
+      "matching_points": 144,
+      "max_abs_difference": 0.0,
+      "independent_measurements": false,
+      "extra_s4_290K": "quarantined"
+    },
+    "R1": {
+      "isotope": 63,
+      "rate_unit": "s^-1",
+      "stored_errors": "Graph17 paired error bars; statistical interpretation unknown",
+      "recovery_fit_in_thesis": "A*(1-B*exp(-t/T1)), thesis p.16; no individual delay/intensity samples in these tables"
+    },
+    "unassigned_T1S1": "Copied for provenance but not assigned to spectral group s1; the worksheet name is not a site identification.",
+    "phase_labels": "Thesis uses the historical name geerite for s1-s4. This module preserves spectral labels and does not independently verify the later anilite phase reassignment.",
+    "legacy_activation_sign": {
+      "source_page": 28,
+      "printed": "R1=alpha*T+beta*exp(+Ea/T)",
+      "decision": "For positive Ea and beta, this term decreases when heated, contrary to the data; likely missing minus. Implemented negative sign, not literal transcription."
+    },
+    "frequency_table": {
+      "temperature_column_named": "freq",
+      "unit_T": "K",
+      "unit_nu": "MHz",
+      "65Cu_columns": "exactly 63Cu/1.081; predictions, not independent measurements",
+      "checked_pairs": 113,
+      "max_abs_difference_MHz": 0.0,
+      "default_interpolation": "linear only inside <=30 K bracketing interval; never extrapolate",
+      "s4_gap": "160 to 230 K; 75 K bridge is labelled sensitivity only"
+    },
+    "R2": {
+      "unit": "ms^-1 (multiply by 1000 for s^-1)",
+      "primary_source": "Graph6 legend points to T2s1-T2s4; CuS from T2datd",
+      "identical_s3_s4_temperatures_K": [180.0, 200.0, 210.0, 220.0, 230.0],
+      "s2_260K_individual": 18.076,
+      "s2_260K_summary": 12.55667,
+      "sensitivity_policy": "Exclude both ambiguous branches or retain s3 only; no test treats them as independent",
+      "no_low_T_s1_s2_s4_series": true
+    },
+    "R1_counts": {
+      "s1": 29,
+      "s2": 30,
+      "s3": 31,
+      "s4": 25,
+      "c": 29
+    }
+  },
+  "statistical_status": "Descriptive objectives and temperature-held-out prediction only. Stored errors are not established standard deviations. No p-values, confidence intervals or unique microscopic barrier claims.",
+  "raw_recovery_available": false
+}
